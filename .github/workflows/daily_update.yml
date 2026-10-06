@@ -1,0 +1,41 @@
+name: Aggiornamento Automatico Bollettino GU
+
+on:
+  schedule:
+    # Esecuzione dal lunedì al venerdì alle 19:00 UTC (21:00 italiane)
+    - cron: '0 19 * * 1-5'
+  workflow_dispatch: # Permette l'esecuzione manuale dalla scheda Actions di GitHub
+
+jobs:
+  update-bulletin:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Richiesto per fare il commit dei nuovi file JSON nella repository
+
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Configurazione ambiente Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Installazione dipendenze
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-generativeai requests
+
+      - name: Generazione del bollettino tramite Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python generate.py
+
+      - name: Commit e Push dei file aggiornati
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bollettino GU del $(date +'%Y-%m-%d')" && git push)
