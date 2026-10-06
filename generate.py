@@ -74,24 +74,37 @@ Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse, imposta "stato": "nessuna_legge_interesse", "schede": [] e "scartate": [].
 """
 
-def get_model():
-    # Gestione dinamica dei modelli per evitare errori 404
-    nomi_modelli = ["gemini-1.5-flash-latest", "gemini-2.5-flash", "gemini-1.5-pro"]
-    for nome in nomi_modelli:
+def generate_content_with_fallback(prompt):
+    # Elenco modelli supportati in ordine di preferenza
+    models_to_try = [
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro"
+    ]
+    
+    last_error = None
+    for model_name in models_to_try:
         try:
-            return genai.GenerativeModel(nome, generation_config={"response_mime_type": "application/json"})
-        except Exception:
-            continue
-    return genai.GenerativeModel("gemini-1.5-flash-latest")
+            print(f"Tentativo con modello: {model_name}...")
+            model = genai.GenerativeModel(
+                model_name,
+                generation_config={"response_mime_type": "application/json"}
+            )
+            response = model.generate_content(prompt)
+            return response.text.strip()
+        except Exception as e:
+            print(f"Modello {model_name} non disponibile o errore: {e}")
+            last_error = e
+            
+    raise RuntimeError(f"Nessun modello Gemini è riuscito a rispondere. Ultimo errore: {last_error}")
 
 def generate_daily_bulletin():
     os.makedirs("data", exist_ok=True)
     
-    model = get_model()
     prompt = f"{PROMPT_SYSTEM}\n\nGenera il report JSON per la Gazzetta Ufficiale del {today_str}."
     
-    response = model.generate_content(prompt)
-    raw_text = response.text.strip()
+    raw_text = generate_content_with_fallback(prompt)
     
     try:
         data = json.loads(raw_text)
