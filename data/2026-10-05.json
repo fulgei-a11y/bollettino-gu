@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-05",
+  "giorno": "lunedì",
+  "stato": "con_schede",
+  "numero_gu": "231",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=231",
+  "note": "Report Gazzetta Ufficiale del 2026-10-05",
+  "updatedAt": "2026-10-06T21:19:59Z",
+  "scartate": [
+    {
+      "materia": "Amministrativo",
+      "titolo": "Decreto Ministeriale 30 settembre 2026 - Nomina del Direttore Generale per i Servizi Sociali. (Atto di natura amministrativa, non rientra nelle categorie di interesse per analisi giuridico-fiscale di alto livello).",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=231"
+    }
+  ],
+  "schede": [
+    {
+      "titolo": "Decreto-Legge 5 ottobre 2026, n. 150 - Misure urgenti per il sostegno all'occupazione e la transizione digitale delle imprese.",
+      "riferimento": "Decreto-Legge 5 ottobre 2026, n. 150",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=231",
+      "categoria": "Economico",
+      "iter": "Vigente dal 5 ottobre 2026. Il presente decreto-legge sarà presentato alle Camere per la conversione in legge entro 60 giorni dalla sua pubblicazione.",
+      "contesto": "La norma interviene per contrastare il rallentamento economico previsto per il prossimo trimestre e per accelerare i processi di innovazione tecnologica nel tessuto produttivo nazionale. L'obiettivo primario è il mantenimento e l'incremento dei livelli occupazionali, con particolare attenzione ai settori strategici per la transizione digitale.",
+      "misure": [
+        "Art. 1, comma 1: Istituzione di un credito d'imposta del 25% per gli investimenti in beni strumentali 4.0 effettuati dalle PMI nel periodo 2026-2027, con un massimale di 2 milioni di euro per beneficiario.",
+        "Art. 2: Introduzione di sgravi contributivi per le assunzioni a tempo indeterminato di lavoratori under 35 o donne, a condizione che l'impresa abbia aumentato i livelli occupazionali complessivi rispetto all'anno precedente.",
+        "Art. 3: Rifinanziamento del Fondo di Garanzia per le PMI con una dotazione aggiuntiva di 500 milioni di euro per l'anno 2027, destinato a favorire l'accesso al credito per progetti di digitalizzazione ed efficienza energetica."
+      ],
+      "chi_interessato": "Imprese di ogni dimensione, con focus sulle PMI; lavoratori dipendenti, in particolare giovani e donne; Istituti di credito e intermediari finanziari; Pubblica Amministrazione per gli aspetti di gestione e monitoraggio dei fondi.",
+      "decorrenza": "5 ottobre 2026 (data di entrata in vigore del Decreto-Legge)",
+      "perche_conta": "Questo decreto-legge ha un impatto significativo sulla liquidità e capacità di investimento delle imprese, offrendo incentivi concreti per l'adozione di tecnologie avanzate e per la creazione di nuovi posti di lavoro. Le misure fiscali e contributive potranno influenzare le strategie di budgeting e HR delle aziende, mentre il rifinanziamento del Fondo di Garanzia faciliterà l'accesso a finanziamenti per progetti innovativi, cruciale per la competitività."
+    },
+    {
+      "titolo": "Legge 5 ottobre 2026, n. 151 - Disposizioni per la promozione delle energie rinnovabili e la gestione sostenibile dei rifiuti.",
+      "riferimento": "Legge 5 ottobre 2026, n. 151",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=231",
+      "categoria": "Energia e Ambiente",
+      "iter": "Legge di iniziativa governativa, approvata in via definitiva dal Parlamento in data 25 settembre 2026.",
+      "contesto": "La legge attua gli impegni assunti dall'Italia in sede europea per il raggiungimento degli obiettivi di transizione ecologica e decarbonizzazione al 2030, in particolare per quanto riguarda l'aumento della quota di energia da fonti rinnovabili e l'ottimizzazione della gestione del ciclo dei rifiuti, con un focus sull'economia circolare.",
+      "misure": [
+        "Art. 1: Introduzione di un nuovo regime di incentivi per l'installazione di impianti fotovoltaici ed eolici su aree industriali dismesse, con priorità per quelli con accumulo, attraverso tariffe fisse garantite per 15 anni.",
+        "Art. 2: Obbligo per i comuni con popolazione superiore a 10.000 abitanti di adottare piani urbani di gestione dei rifiuti che prevedano una percentuale minima di raccolta differenziata del 70% entro il 2028, con sanzioni in caso di inadempienza.",
+        "Art. 3: Istituzione di un fondo per la ricerca e lo sviluppo di nuove tecnologie per il riciclo dei materiali compositi e per la produzione di biocarburanti avanzati, con un budget di 100 milioni di euro per il triennio 2027-2029."
+      ],
+      "chi_interessato": "Imprese del settore energetico e delle rinnovabili; gestori e operatori del settore rifiuti; enti locali (Comuni, Regioni); cittadini, per gli impatti sulla tariffa rifiuti e sull'ambiente; centri di ricerca e università.",
+      "decorrenza": "20 ottobre 2026 (15° giorno successivo alla pubblicazione della legge in Gazzetta Ufficiale)",
+      "perche_conta": "Questa legge segna un passo importante verso gli obiettivi di sostenibilità energetica e ambientale del Paese. Gli incentivi per le rinnovabili stimoleranno nuovi investimenti e creeranno opportunità di business. L'obbligo per i comuni di migliorare la raccolta differenziata richiederà riorganizzazione e investimenti significativi, con impatti diretti sulla filiera del riciclo e potenziali benefici economici e ambientali a lungo termine. Il fondo per la ricerca e sviluppo è chiave per l'innovazione tecnologica nel settore."
+    }
+  ]
+}
