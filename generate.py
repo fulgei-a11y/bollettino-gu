@@ -4,7 +4,6 @@ import re
 from datetime import datetime
 import google.generativeai as genai
 
-# Recupera la chiave API dai Secrets di GitHub
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
@@ -26,37 +25,38 @@ giorni_ita = {
 }
 giorno_ita = giorni_ita.get(giorno_en, giorno_en.lower())
 
-PROMPT_SYSTEM = """
-Sei un analista ed esperto di diritto. Il tuo compito è analizzare la Gazzetta Ufficiale della Repubblica Italiana (Serie Generale) pubblicata oggi.
-Devi selezionare unicamente i testi normativi (Legge, Decreto-Legge, Decreto Legislativo, D.P.R., D.P.C.M., Decreto Ministeriale) che rientrano nelle seguenti materie d'interesse:
+PROMPT_SYSTEM = f"""
+Sei un analista ed esperto di diritto. Il tuo compito è analizzare la Gazzetta Ufficiale della Repubblica Italiana (Serie Generale) pubblicata oggi ({today_str}).
+Seleziona unicamente i testi normativi (Legge, Decreto-Legge, Decreto Legislativo, D.P.R., D.P.C.M., Decreto Ministeriale) che rientrano nelle seguenti materie d'interesse:
 1. Economico / Fiscale / Finanziario
 2. Giustizia / Reati / Procedura
 3. Energia / Ambiente / Sostenibilità
 
-Istruzioni per l'output:
-Restituisci ESCLUSIVAMENTE un oggetto JSON valido.
+REGOLE TASSATIVE PER I LINK:
+- Il campo "link_gu" DEVE essere l'URL dell'indice della Gazzetta Ufficiale di oggi, oppure l'URL generico: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+- I campi "link" nelle schede e nelle leggi scartate DEVONO puntare a un URL reale della Gazzetta Ufficiale. Se non conosci l'URL esatto del singolo atto, inserisci sempre: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
 
-Il JSON deve seguire questo schema:
-{
-  "date": "YYYY-MM-DD",
-  "giorno": "nome_giorno_minuscolo",
+Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
+{{
+  "date": "{today_str}",
+  "giorno": "{giorno_ita}",
   "stato": "con_schede",
-  "numero_gu": "Numero Edizione (es. 231)",
-  "link_gu": "https://www.gazzettaufficiale.it/...",
-  "updatedAt": "YYYY-MM-DDTHH:MM:SSZ",
+  "numero_gu": "Numero Edizione (es. 233)",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home",
+  "updatedAt": "{today_str}T19:00:00Z",
   "scartate": [
-    {
+    {{
       "materia": "Materia scartata",
       "titolo": "Titolo o indicazione dell'atto scartato",
-      "link": "https://www.gazzettaufficiale.it/..."
-    }
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+    }}
   ],
   "schede": [
-    {
+    {{
       "titolo": "Titolo sintetico ed esplicativo",
-      "categoria": "Economico | Giustizia | Energia e Ambiente",
-      "riferimento": "Riferimento normativo ufficiale",
-      "iter": "In vigore / In corso di conversione",
+      "categoria": "Economico",
+      "riferimento": "DECRETO-LEGGE 5 ottobre 2026, n. 150",
+      "iter": "In vigore",
       "contesto": "Sintesi chiara del contesto normativo.",
       "misure": [
         "Punto chiave 1",
@@ -65,46 +65,39 @@ Il JSON deve seguire questo schema:
       "chi_interessato": "Soggetti interessati",
       "decorrenza": "Data di entrata in vigore",
       "perche_conta": "Impatto della misura",
-      "link": "https://www.gazzettaufficiale.it/..."
-    }
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+    }}
   ]
-}
+}}
 
-Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse, imposta:
-"stato": "nessuna_legge_interesse", "schede": [] e "scartate": [].
+Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse, imposta "stato": "nessuna_legge_interesse", "schede": [] e "scartate": [].
 """
 
 def generate_daily_bulletin():
     os.makedirs("data", exist_ok=True)
     
-    # Utilizzo di gemini-2.5-flash (o fallback su gemini-1.5-flash-latest)
     try:
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-1.5-flash", generation_config={"response_mime_type": "application/json"})
     except Exception:
-        model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        model = genai.GenerativeModel("gemini-2.5-flash", generation_config={"response_mime_type": "application/json"})
         
-    prompt = f"{PROMPT_SYSTEM}\n\nOggi è {giorno_ita} {today_str}. Genera il report per la Gazzetta Ufficiale odierna."
+    prompt = f"{PROMPT_SYSTEM}\n\nGenera il report JSON per la Gazzetta Ufficiale del {today_str}."
     
     response = model.generate_content(prompt)
     raw_text = response.text.strip()
     
-    # Pulizia tramite Regex per estrarre solo il blocco JSON
-    match = re.search(r'\{.*\}', raw_text, re.DOTALL)
-    if match:
-        raw_text = match.group(0)
-
     try:
         data = json.loads(raw_text)
     except json.JSONDecodeError as e:
         print("Errore nella decodifica del JSON da Gemini:", e)
-        print("Risposta ricevuta:\n", response.text)
+        print("Risposta ricevuta:\n", raw_text)
         return
 
-    # 1. Salva il file del giorno
+    # 1. Salva il file della giornata
     file_path = f"data/{today_str}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"File {file_path} creato/aggiornato.")
+    print(f"File {file_path} salvato.")
 
     # 2. Aggiorna data/index.json
     index_path = "data/index.json"
@@ -130,6 +123,7 @@ def generate_daily_bulletin():
 
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
-    print(f"File {index_path} aggiornato con successo.")
+    print(f"File {index_path} aggiornato.")
+
 if __name__ == "__main__":
     generate_daily_bulletin()
