@@ -4,6 +4,7 @@ import re
 from datetime import datetime
 import google.generativeai as genai
 
+# Recupera la chiave API dai Secrets di GitHub
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
@@ -33,8 +34,8 @@ Seleziona unicamente i testi normativi (Legge, Decreto-Legge, Decreto Legislativ
 3. Energia / Ambiente / Sostenibilità
 
 REGOLE TASSATIVE PER I LINK:
-- Il campo "link_gu" DEVE essere l'URL dell'indice della Gazzetta Ufficiale di oggi, oppure l'URL generico: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-- I campi "link" nelle schede e nelle leggi scartate DEVONO puntare a un URL reale della Gazzetta Ufficiale. Se non conosci l'URL esatto del singolo atto, inserisci sempre: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+- Il campo "link_gu" DEVE essere l'URL dell'indice della Gazzetta Ufficiale di oggi, oppure: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+- I campi "link" nelle schede e nelle leggi scartate DEVONO puntare a un URL valido della Gazzetta Ufficiale. Se non conosci l'URL esatto del singolo atto, inserisci sempre: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
 
 Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 {{
@@ -73,14 +74,20 @@ Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse, imposta "stato": "nessuna_legge_interesse", "schede": [] e "scartate": [].
 """
 
+def get_model():
+    # Gestione dinamica dei modelli per evitare errori 404
+    nomi_modelli = ["gemini-1.5-flash-latest", "gemini-2.5-flash", "gemini-1.5-pro"]
+    for nome in nomi_modelli:
+        try:
+            return genai.GenerativeModel(nome, generation_config={"response_mime_type": "application/json"})
+        except Exception:
+            continue
+    return genai.GenerativeModel("gemini-1.5-flash-latest")
+
 def generate_daily_bulletin():
     os.makedirs("data", exist_ok=True)
     
-    try:
-        model = genai.GenerativeModel("gemini-1.5-flash", generation_config={"response_mime_type": "application/json"})
-    except Exception:
-        model = genai.GenerativeModel("gemini-2.5-flash", generation_config={"response_mime_type": "application/json"})
-        
+    model = get_model()
     prompt = f"{PROMPT_SYSTEM}\n\nGenera il report JSON per la Gazzetta Ufficiale del {today_str}."
     
     response = model.generate_content(prompt)
@@ -97,7 +104,7 @@ def generate_daily_bulletin():
     file_path = f"data/{today_str}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"File {file_path} salvato.")
+    print(f"File {file_path} salvato con successo.")
 
     # 2. Aggiorna data/index.json
     index_path = "data/index.json"
@@ -123,7 +130,6 @@ def generate_daily_bulletin():
 
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
-    print(f"File {index_path} aggiornato.")
-
+    print(f"File {index_path} aggiornato con successo.")
 if __name__ == "__main__":
     generate_daily_bulletin()
