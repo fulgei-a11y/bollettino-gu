@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-10-03",
+    "giorno": "sabato",
+    "numero_gu": "230",
+    "stato": "non_disponibile"
+  },
+  {
+    "date": "2026-10-02",
+    "giorno": "venerdì",
+    "numero_gu": "229",
+    "stato": "nessuna_legge_interesse"
+  },
+  {
+    "date": "2026-10-01",
+    "giorno": "giovedì",
+    "numero_gu": "228",
+    "stato": "nessuna_legge_interesse"
+  }
+]

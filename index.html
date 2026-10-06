@@ -1,0 +1,468 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Bollettino GU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout concept: a single-column "ledger sheet" styled as an official bulletin,
+   sticky masthead with edition switch, player and PDF export, entries stamped
+   with category tags like registry seals down the margin. */
+:root{
+  --bg:#EDEEF2; --surface:#FFFFFF; --surface-2:#F6F7F9;
+  --ink:#1C2541; --ink-soft:#4A5173; --ink-faint:#7A8099;
+  --accent:#9C7A2E; --accent-ink:#5C4615;
+  --line:#D7D9E0; --line-strong:#B9BCC9;
+  --econ:#9C7A2E; --econ-bg:#F3ECDA;
+  --giust:#7A3030; --giust-bg:#F6E6E4;
+  --energy:#2F5D3A; --energy-bg:#E3EDE3;
+  --ok:#2F5D3A; --ok-bg:#E3EDE3;
+  --pending:#8A6417; --pending-bg:#F3ECDA;
+  --none:#5B5F72; --none-bg:#E7E8EE;
+  --shadow: 0 1px 2px rgba(28,37,65,.06), 0 6px 20px rgba(28,37,65,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141826; --surface:#1B2036; --surface-2:#20263F;
+    --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#7E84A3;
+    --accent:#D8B65B; --accent-ink:#F3DFA2;
+    --line:#2C3150; --line-strong:#3B4068;
+    --econ:#D8B65B; --econ-bg:#352C16;
+    --giust:#D98888; --giust-bg:#3A2020;
+    --energy:#7FCB93; --energy-bg:#1E3324;
+    --ok:#7FCB93; --ok-bg:#1E3324;
+    --pending:#E4C56B; --pending-bg:#352C16;
+    --none:#9DA2BC; --none-bg:#242A46;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141826; --surface:#1B2036; --surface-2:#20263F;
+  --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#7E84A3;
+  --accent:#D8B65B; --accent-ink:#F3DFA2;
+  --line:#2C3150; --line-strong:#3B4068;
+  --econ:#D8B65B; --econ-bg:#352C16;
+  --giust:#D98888; --giust-bg:#3A2020;
+  --energy:#7FCB93; --energy-bg:#1E3324;
+  --ok:#7FCB93; --ok-bg:#1E3324;
+  --pending:#E4C56B; --pending-bg:#352C16;
+  --none:#9DA2BC; --none-bg:#242A46;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:"Public Sans",system-ui,-apple-system,sans-serif; padding-inline:16px;}
+.wrap{max-width:720px; margin:0 auto;}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif; text-wrap:balance; margin:0;}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;}
+a{color:var(--accent);}
+
+.masthead{
+  position:sticky; top:env(safe-area-inset-top,0px); z-index:5;
+  background:var(--bg); padding-block:14px 10px;
+  border-bottom:1px solid var(--line);
+}
+.masthead-row{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.masthead h1{font-size:1.5rem; font-weight:700; letter-spacing:.2px;}
+.masthead .kicker{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:2px;}
+.sub{color:var(--ink-soft); font-size:.85rem; margin-top:4px; max-width:60ch;}
+
+.controls{display:flex; gap:8px; margin-top:12px; flex-wrap:wrap;}
+select#editionSelect{
+  flex:1 1 220px; min-width:0; appearance:none; background:var(--surface);
+  color:var(--ink); border:1px solid var(--line-strong); border-radius:8px;
+  padding:9px 12px; font:inherit; font-size:.9rem;
+}
+button{
+  font:inherit; font-size:.85rem; font-weight:600; border-radius:8px; border:1px solid transparent;
+  padding:9px 14px; cursor:pointer;
+}
+#pdfBtn{background:var(--ink); color:var(--bg); white-space:nowrap;}
+#pdfBtn:disabled{opacity:.45; cursor:default;}
+#pdfBtn:active{transform:translateY(1px);}
+
+.player{
+  display:flex; align-items:center; gap:10px; margin-top:10px; padding:10px 12px;
+  background:var(--surface); border:1px solid var(--line); border-radius:10px;
+}
+.player audio{flex:1; min-width:0; height:32px;}
+.player .ptitle{font-size:.72rem; color:var(--ink-faint); white-space:nowrap; font-family:"IBM Plex Mono",monospace;}
+
+main{padding-block:18px 40px;}
+
+.status-banner{
+  display:flex; gap:10px; align-items:flex-start; border-radius:10px; padding:12px 14px;
+  margin-bottom:18px; font-size:.88rem; line-height:1.45;
+}
+.status-banner.ok{background:var(--ok-bg); color:var(--ok);}
+.status-banner.pending{background:var(--pending-bg); color:var(--pending);}
+.status-banner.none{background:var(--none-bg); color:var(--none);}
+.status-banner b{color:inherit;}
+.status-banner .dot{width:8px; height:8px; border-radius:50%; background:currentColor; margin-top:6px; flex:none;}
+
+.edition-meta{display:flex; gap:16px; flex-wrap:wrap; align-items:baseline; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-faint); margin-bottom:14px; letter-spacing:.02em;}
+.edition-meta a{color:var(--accent); text-decoration:none; font-weight:500;}
+.edition-meta a:hover{text-decoration:underline;}
+
+.discard-list{border:1px dashed var(--line-strong); border-radius:10px; padding:12px 14px; margin-bottom:20px;}
+.discard-list h3{font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; font-family:"Public Sans",sans-serif; font-weight:700; color:var(--ink-soft); margin-bottom:8px;}
+.discard-item{display:flex; gap:8px; flex-wrap:wrap; align-items:baseline; padding-block:6px; border-top:1px solid var(--line); font-size:.85rem;}
+.discard-item:first-child{border-top:none;}
+.discard-item .tag{flex:none;}
+.discard-item .linkout{font-size:.72rem; white-space:nowrap;}
+
+.tag{
+  display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em;
+  text-transform:uppercase; padding:3px 7px; border-radius:5px; font-weight:500;
+}
+.tag.econ{background:var(--econ-bg); color:var(--econ);}
+.tag.giust{background:var(--giust-bg); color:var(--giust);}
+.tag.energy{background:var(--energy-bg); color:var(--energy);}
+
+.card{
+  background:var(--surface); border:1px solid var(--line); border-radius:14px;
+  padding:18px 18px 20px; margin-bottom:18px; box-shadow:var(--shadow);
+  border-left:4px solid var(--accent);
+}
+.card.econ{border-left-color:var(--econ);}
+.card.giust{border-left-color:var(--giust);}
+.card.energy{border-left-color:var(--energy);}
+.card h3{font-size:1.15rem; line-height:1.3; margin-bottom:8px;}
+.card .ref{font-family:"IBM Plex Mono",monospace; font-size:.75rem; color:var(--ink-faint); margin-bottom:10px;}
+.card .field{margin-top:12px;}
+.card .field-label{font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; font-weight:700; color:var(--ink-faint); margin-bottom:4px;}
+.card .field-body{font-size:.9rem; line-height:1.55; color:var(--ink);}
+.card ul.misure{margin:4px 0 0; padding-left:1.1em;}
+.card ul.misure li{margin-bottom:5px; font-size:.9rem; line-height:1.5;}
+.card .dl-link{
+  display:inline-flex; align-items:center; gap:6px; margin-top:14px;
+  font-size:.82rem; font-weight:600; color:var(--accent); text-decoration:none;
+}
+.card .dl-link:hover{text-decoration:underline;}
+
+.empty-state{text-align:center; padding-block:50px; color:var(--ink-faint);}
+.empty-state .big{font-family:"Source Serif 4",serif; font-size:1.4rem; color:var(--ink-soft); margin-bottom:6px;}
+
+footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe-area-inset-bottom,0px)); font-size:.75rem; color:var(--ink-faint); line-height:1.6;}
+
+[hidden]{display:none!important;}
+</style>
+
+<div class="wrap">
+  <div class="masthead">
+    <div class="masthead-row">
+      <div>
+        <div class="kicker">Gazzetta Ufficiale · Serie Generale</div>
+        <h1>Bollettino GU</h1>
+      </div>
+    </div>
+    <div class="sub">Leggi e decreti-legge in materia economica, di giustizia, energia e ambiente — schede complete per ogni edizione controllata.</div>
+    <div class="controls">
+      <select id="editionSelect" aria-label="Scegli edizione"></select>
+      <button id="pdfBtn" disabled>Scarica PDF</button>
+    </div>
+    <div class="player" id="player" hidden>
+      <audio id="audioEl" controls preload="none"></audio>
+      <span class="ptitle" id="playerDur"></span>
+    </div>
+  </div>
+
+  <main id="content">
+    <div class="empty-state"><div class="big">Caricamento archivio…</div>Se questa app è appena stata pubblicata, l'archivio verrà popolato dal prossimo controllo automatico.</div>
+  </main>
+
+  <footer id="footer">
+    Il controllo gira nei giorni feriali. Ogni edizione riporta solo leggi e decreti-legge; i decreti ministeriali, le nomine e i comunicati non vengono schedati. “Scartate per trasparenza” elenca le leggi individuate ma fuori dalle tre materie monitorate (economica, giustizia, energia e ambiente).
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var state = { list: [], current: null, cache: {} };
+
+  var editionSelect = document.getElementById('editionSelect');
+  var pdfBtn = document.getElementById('pdfBtn');
+  var content = document.getElementById('content');
+  var playerBox = document.getElementById('player');
+  var audioEl = document.getElementById('audioEl');
+  var playerDur = document.getElementById('playerDur');
+
+  var CAT_LABEL = { economico:'Economico', giustizia:'Giustizia', energia:'Energia e Ambiente' };
+  var CAT_CLASS = { economico:'econ', giustizia:'giust', energia:'energy' };
+
+  function escapeHtml(s){
+    return String(s==null?'':s).replace(/[&<>"']/g, function(c){
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+    });
+  }
+
+  function dateLabel(doc){
+    var d = doc.date || doc.id;
+    var giorno = doc.giorno ? (doc.giorno.charAt(0).toUpperCase()+doc.giorno.slice(1)) : '';
+    return giorno ? (giorno + ' ' + d) : d;
+  }
+
+  function statusInfo(doc){
+    if (doc.stato === 'con_schede') return {cls:'ok', text:'Trovate leggi di interesse — '+(doc.schede||[]).length+' scheda/e'};
+    if (doc.stato === 'nessuna_legge_interesse') return {cls:'none', text:'Nessuna legge di interesse economico, giudiziario o energetico/ambientale in questa edizione'};
+    if (doc.stato === 'nessuna_edizione') return {cls:'none', text:'Nessuna edizione della Gazzetta Ufficiale pubblicata in questa data'};
+    if (doc.stato === 'non_disponibile') return {cls:'pending', text:'Edizione non ancora disponibile al momento del controllo — verrà ricontrollata automaticamente'};
+    return {cls:'none', text:'Stato sconosciuto'};
+  }
+
+  function safeUrl(u){
+    if (!u) return '';
+    u = String(u);
+    return /^https?:\/\//i.test(u) ? u : '';
+  }
+
+  function renderDiscardList(scartate){
+    if (!scartate || !scartate.length) return '';
+    var rows = scartate.map(function(s){
+      var link = safeUrl(s.link);
+      return '<div class="discard-item"><span class="tag" style="background:var(--none-bg); color:var(--none);">'+escapeHtml(s.materia||'n.d.')+'</span><span>'+escapeHtml(s.titolo||'')+'</span>'+
+        (link ? ' <a class="linkout" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo integrale ↗</a>' : '')+
+        '</div>';
+    }).join('');
+    return '<div class="discard-list"><h3>Individuate e scartate per trasparenza</h3>'+rows+'</div>';
+  }
+
+  function renderCard(s){
+    var catKey = (s.categoria||'').toLowerCase().indexOf('giust')>=0 ? 'giustizia' : ((s.categoria||'').toLowerCase().indexOf('energ')>=0 ? 'energia' : 'economico');
+    var cls = CAT_CLASS[catKey] || 'econ';
+    var label = CAT_LABEL[catKey] || escapeHtml(s.categoria||'');
+    function field(l,v){ return v ? '<div class="field"><div class="field-label">'+l+'</div><div class="field-body">'+escapeHtml(v)+'</div></div>' : ''; }
+    var misure = '';
+    if (s.misure && s.misure.length){
+      misure = '<div class="field"><div class="field-label">Misure principali</div><ul class="misure">'+
+        s.misure.map(function(m){return '<li>'+escapeHtml(m)+'</li>';}).join('')+'</ul></div>';
+    }
+    var link = safeUrl(s.link);
+    return '<div class="card '+cls+'">'+
+      '<span class="tag '+cls+'">'+label+'</span>'+
+      '<h3 style="margin-top:8px;">'+escapeHtml(s.titolo||'')+'</h3>'+
+      (s.riferimento ? '<div class="ref">'+escapeHtml(s.riferimento)+'</div>' : '')+
+      field('Iter', s.iter)+
+      field('Contesto', s.contesto)+
+      misure+
+      field('Chi è interessato', s.chi_interessato)+
+      field('Decorrenza', s.decorrenza)+
+      field('Perché conta', s.perche_conta)+
+      (link ? '<a class="dl-link" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Scarica il testo integrale ↗</a>' : '')+
+      '</div>';
+  }
+
+  function fmtDuration(sec){
+    sec = Math.round(sec||0);
+    var m = Math.floor(sec/60), s = sec%60;
+    return m+':'+(s<10?'0':'')+s;
+  }
+
+  function render(doc){
+    if (!doc){
+      content.innerHTML = '<div class="empty-state"><div class="big">Nessuna edizione in archivio</div>L\'archivio si popola automaticamente a ogni controllo.</div>';
+      pdfBtn.disabled = true;
+      playerBox.hidden = true;
+      return;
+    }
+    var st = statusInfo(doc);
+    var html = '';
+    html += '<div class="status-banner '+st.cls+'"><span class="dot"></span><div><b>'+dateLabel(doc)+'</b><br>'+escapeHtml(st.text)+'</div></div>';
+    html += '<div class="edition-meta">';
+    if (doc.numero_gu) html += '<span>GU Serie Generale n. '+escapeHtml(doc.numero_gu)+'</span>';
+    if (doc.updatedAt) html += '<span>Ultimo controllo: '+escapeHtml(String(doc.updatedAt).replace('T',' ').slice(0,16))+'</span>';
+    var guLink = safeUrl(doc.link_gu);
+    if (guLink) html += '<a href="'+escapeHtml(guLink)+'" target="_blank" rel="noopener">Apri l\'edizione sulla Gazzetta Ufficiale ↗</a>';
+    html += '</div>';
+    if (doc.note && doc.stato !== 'con_schede') html += '<p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px;">'+escapeHtml(doc.note)+'</p>';
+    html += renderDiscardList(doc.scartate);
+    if (doc.schede && doc.schede.length){
+      html += doc.schede.map(renderCard).join('');
+    }
+    content.innerHTML = html;
+    pdfBtn.disabled = false;
+
+    if (doc.audio){
+      audioEl.pause();
+      audioEl.setAttribute('src', doc.audio);
+      audioEl.load();
+      playerDur.textContent = doc.duration ? fmtDuration(doc.duration) : '';
+      playerBox.hidden = false;
+      if ('mediaSession' in navigator){
+        try{
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: 'Bollettino GU — ' + dateLabel(doc),
+            artist: 'Gazzetta Ufficiale, Serie Generale' + (doc.numero_gu ? (' n. '+doc.numero_gu) : '')
+          });
+        }catch(e){}
+      }
+    } else {
+      audioEl.pause();
+      audioEl.removeAttribute('src');
+      playerBox.hidden = true;
+    }
+  }
+
+  function buildOptions(){
+    editionSelect.innerHTML = state.list.map(function(d,i){
+      var st = statusInfo(d);
+      var badge = st.cls==='ok' ? '●' : (st.cls==='pending' ? '…' : '–');
+      return '<option value="'+i+'">'+badge+' '+dateLabel(d)+(d.numero_gu?(' · n. '+d.numero_gu):'')+'</option>';
+    }).join('');
+  }
+
+  function loadEdition(i){
+    var meta = state.list[i];
+    if (!meta) return;
+    if (state.cache[meta.date]){
+      state.current = state.cache[meta.date];
+      render(state.current);
+      return;
+    }
+    content.innerHTML = '<div class="empty-state"><div class="big">Carico '+escapeHtml(dateLabel(meta))+'…</div></div>';
+    fetch('data/' + meta.date + '.json', {cache:'no-store'}).then(function(r){
+      if (!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    }).then(function(doc){
+      state.cache[meta.date] = doc;
+      state.current = doc;
+      render(doc);
+    }).catch(function(){
+      content.innerHTML = '<div class="empty-state"><div class="big">Impossibile caricare questa edizione</div>Riprova più tardi o riapri la pagina.</div>';
+      pdfBtn.disabled = true;
+    });
+  }
+
+  editionSelect.addEventListener('change', function(){
+    loadEdition(parseInt(editionSelect.value,10));
+  });
+
+  pdfBtn.addEventListener('click', function(){
+    if (!state.current) return;
+    pdfBtn.disabled = true;
+    var prevLabel = pdfBtn.textContent;
+    pdfBtn.textContent = 'Genero…';
+    function restore(){ pdfBtn.disabled = false; pdfBtn.textContent = prevLabel; }
+    try {
+      generatePdf(state.current).then(restore).catch(restore);
+    } catch(e){
+      restore();
+    }
+  });
+
+  function generatePdf(doc){
+    var jsPDFlib = window.jspdf && window.jspdf.jsPDF;
+    if (!jsPDFlib) return Promise.resolve();
+    var pdf = new jsPDFlib({unit:'pt', format:'a4'});
+    var marginL = 48, width = 595 - marginL - 48;
+    var y = 56;
+    var pageH = 842 - 56;
+
+    function ensureSpace(extra){
+      if (y + extra > pageH){ pdf.addPage(); y = 56; }
+    }
+    function text(str, opts){
+      opts = opts || {};
+      var size = opts.size || 10.5;
+      var style = opts.style || 'normal';
+      var gap = opts.gap != null ? opts.gap : 14;
+      pdf.setFont('helvetica', style);
+      pdf.setFontSize(size);
+      var lines = pdf.splitTextToSize(String(str), width);
+      lines.forEach(function(line){
+        ensureSpace(gap);
+        pdf.text(line, marginL, y);
+        y += gap;
+      });
+      y += (opts.after || 0);
+    }
+    function linkLine(label, url, opts){
+      if (!url) return;
+      opts = opts || {};
+      var size = opts.size || 9.5;
+      var gap = opts.gap != null ? opts.gap : 12.5;
+      ensureSpace(gap);
+      pdf.setFont('helvetica', 'normal');
+      pdf.setFontSize(size);
+      pdf.setTextColor(60,90,170);
+      var full = pdf.splitTextToSize(label + ': ' + url, width)[0] || (label+': '+url);
+      pdf.textWithLink(full, marginL, y, {url: url});
+      pdf.setTextColor(0,0,0);
+      y += gap + (opts.after || 0);
+    }
+
+    text('BOLLETTINO GU', {size:16, style:'bold', gap:20, after:2});
+    text('Leggi e decreti-legge — economia, giustizia, energia e ambiente', {size:9.5, style:'italic', gap:13, after:10});
+
+    text(dateLabel(doc).toUpperCase(), {size:13, style:'bold', gap:17, after:2});
+    var st = statusInfo(doc);
+    var metaLine = (doc.numero_gu ? 'GU Serie Generale n. '+doc.numero_gu+'  —  ' : '') + st.text;
+    text(metaLine, {size:9.5, style:'normal', gap:13, after:4});
+    linkLine('Edizione GU', doc.link_gu, {after:4});
+    if (doc.note && doc.stato !== 'con_schede') text(doc.note, {size:9.5, gap:13, after:10});
+
+    if (doc.scartate && doc.scartate.length){
+      text('Individuate e scartate per trasparenza:', {size:10, style:'bold', gap:14, after:2});
+      doc.scartate.forEach(function(s){
+        text('- ['+ (s.materia||'n.d.') +'] ' + (s.titolo||''), {size:9.5, gap:12.5});
+        if (s.link) linkLine('  Testo integrale', s.link, {size:9, gap:11.5});
+      });
+      y += 8;
+    }
+
+    (doc.schede||[]).forEach(function(s, idx){
+      ensureSpace(30);
+      pdf.setDrawColor(190,190,190);
+      pdf.line(marginL, y-10, marginL+width, y-10);
+      text((idx+1)+'. '+(s.titolo||''), {size:12, style:'bold', gap:15, after:1});
+      if (s.riferimento) text(s.riferimento, {size:9, style:'italic', gap:12, after:4});
+      if (s.categoria) text('Categoria: '+s.categoria, {size:9.5, gap:12.5});
+      if (s.iter) text('Iter: '+s.iter, {size:9.5, gap:12.5});
+      if (s.contesto) text('Contesto: '+s.contesto, {size:9.5, gap:12.5});
+      if (s.misure && s.misure.length){
+        text('Misure principali:', {size:9.5, style:'bold', gap:12.5});
+        s.misure.forEach(function(m){ text('  • '+m, {size:9.5, gap:12.5}); });
+      }
+      if (s.chi_interessato) text('Chi è interessato: '+s.chi_interessato, {size:9.5, gap:12.5});
+      if (s.decorrenza) text('Decorrenza: '+s.decorrenza, {size:9.5, gap:12.5});
+      if (s.perche_conta) text('Perché conta: '+s.perche_conta, {size:9.5, gap:12.5, after:4});
+      linkLine('Testo integrale', s.link, {after:8});
+    });
+
+    var blob = pdf.output('blob');
+    var fname = 'bollettino-gu-' + (doc.date||doc.id) + '.pdf';
+
+    var use = (window.claude && window.claude.use) ? window.claude.use('downloads') : Promise.resolve(null);
+    return use.then(function(downloads){
+      if (!downloads) return;
+      return downloads.save({filename: fname, data: blob}).catch(function(){});
+    });
+  }
+
+  function loadIndex(){
+    fetch('data/index.json', {cache:'no-store'}).then(function(r){
+      if (!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    }).then(function(list){
+      state.list = Array.isArray(list) ? list : [];
+      if (!state.list.length){
+        content.innerHTML = '<div class="empty-state"><div class="big">Archivio vuoto</div>Il prossimo controllo automatico popolerà questa pagina.</div>';
+        return;
+      }
+      buildOptions();
+      editionSelect.value = '0';
+      loadEdition(0);
+    }).catch(function(){
+      content.innerHTML = '<div class="empty-state"><div class="big">Archivio non raggiungibile</div>Riprova riaprendo la pagina tra qualche istante.</div>';
+    });
+  }
+
+  loadIndex();
+})();
+</script>
+
+
+</body></html>
