@@ -4,7 +4,6 @@ import re
 from datetime import datetime
 import google.generativeai as genai
 
-# Recupera la chiave API dai Secrets di GitHub
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
@@ -33,9 +32,9 @@ Seleziona unicamente i testi normativi (Legge, Decreto-Legge, Decreto Legislativ
 2. Giustizia / Reati / Procedura
 3. Energia / Ambiente / Sostenibilità
 
-REGOLE TASSATIVE PER I LINK:
-- Il campo "link_gu" DEVE essere l'URL dell'indice della Gazzetta Ufficiale di oggi, oppure: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-- I campi "link" nelle schede e nelle leggi scartate DEVONO puntare a un URL valido della Gazzetta Ufficiale. Se non conosci l'URL esatto del singolo atto, inserisci sempre: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+REGOLE PER I LINK:
+- Il campo "link_gu" DEVE essere: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+- I campi "link" nelle schede e nelle leggi scartate DEVONO essere sempre URL validi di ricerca o consultazione della Gazzetta Ufficiale. Usa come fallback l'URL principale "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home" se non hai il link specifico al singolo articolo.
 
 Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 {{
@@ -75,7 +74,6 @@ Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse
 """
 
 def generate_content_with_fallback(prompt):
-    # Elenco modelli supportati in ordine di preferenza
     models_to_try = [
         "gemini-2.5-flash",
         "gemini-2.0-flash",
