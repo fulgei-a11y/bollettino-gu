@@ -1,45 +1,11 @@
 {
   "date": "2026-10-05",
   "giorno": "lunedì",
-  "stato": "con_schede",
-  "numero_gu": "232",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=232",
+  "stato": "nessuna_legge_interesse",
+  "numero_gu": "78",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=78",
   "note": "Report Gazzetta Ufficiale del 2026-10-05",
-  "updatedAt": "2026-10-06T09:00:00Z",
-  "scartate": [
-    {
-      "materia": "Pubblica Amministrazione",
-      "titolo": "Decreto del Presidente del Consiglio dei Ministri 5 ottobre 2026 - Nomina del Direttore Generale dell'Agenzia Nazionale per i Servizi Digitali. (Motivo: Si tratta di una nomina, non di una Legge o Decreto-Legge)",
-      "link": "https://www.gazzettaufficiale.it/"
-    },
-    {
-      "materia": "Ambiente",
-      "titolo": "Decreto Ministeriale del Ministero dell'Ambiente e della Sicurezza Energetica 5 ottobre 2026, n. 180 - Adozione del Piano di monitoraggio delle acque costiere. (Motivo: Si tratta di un decreto ministeriale minore, non di una Legge o Decreto-Legge)",
-      "link": "https://www.gazzettaufficiale.it/"
-    },
-    {
-      "materia": "Giustizia",
-      "titolo": "Comunicato del Ministero della Giustizia - Riapertura termini concorso per cancellieri. (Motivo: Si tratta di un comunicato, non di una Legge o Decreto-Legge)",
-      "link": "https://www.gazzettaufficiale.it/"
-    }
-  ],
-  "schede": [
-    {
-      "titolo": "Decreto-Legge 5 ottobre 2026, n. 150 - Misure urgenti in materia economica e fiscale a sostegno delle imprese e del lavoro e per la transizione energetica.",
-      "riferimento": "Decreto-Legge 5 ottobre 2026, n. 150",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26G00150/sg",
-      "categoria": "Economico",
-      "iter": "Pubblicato in Gazzetta Ufficiale il 5 ottobre 2026. Entra in vigore il giorno stesso della pubblicazione. Sarà sottoposto a conversione in legge da parte del Parlamento entro 60 giorni dalla data di pubblicazione.",
-      "contesto": "Il presente Decreto-Legge è stato emanato con urgenza per affrontare una congiuntura economica sfavorevole, fornendo liquidità alle imprese, agevolando nuove assunzioni e semplificando procedure amministrative, oltre a promuovere investimenti nel settore delle energie rinnovabili. L'obiettivo è stimolare la ripresa e l'adeguamento del sistema produttivo alle nuove sfide globali, con particolare attenzione alla sostenibilità ambientale.",
-      "misure": [
-        "Art. 1, comma 1: Istituzione di un Fondo di Garanzia straordinario per le Piccole e Medie Imprese (PMI), con una dotazione iniziale di 5 miliardi di euro, per l'accesso al credito bancario a condizioni agevolate, esteso anche alle start-up innovative.",
-        "Art. 3, comma 2: Introduzione di un credito d'imposta per le assunzioni a tempo indeterminato di giovani under 30 e donne, pari al 50% dei contributi previdenziali a carico del datore di lavoro per i primi due anni, con un massimale annuo per dipendente.",
-        "Art. 5: Semplificazione delle procedure amministrative e autorizzative per l'installazione di impianti fotovoltaici ed eolici di piccola e media taglia, inclusi quelli su edifici e aree industriali dismesse, al fine di accelerare la transizione energetica.",
-        "Art. 7: Proroga e potenziamento degli incentivi fiscali per interventi di efficientamento energetico degli edifici (Ecobonus) e di ristrutturazione edilizia (Bonus Ristrutturazioni), con l'introduzione di un tetto di spesa aggiornato."
-      ],
-      "chi_interessato": "Piccole e medie imprese, lavoratori autonomi, banche, giovani disoccupati, donne in cerca di occupazione, imprese operanti nel settore delle energie rinnovabili, proprietari di immobili, pubbliche amministrazioni locali e centrali.",
-      "decorrenza": "Il Decreto-Legge entra in vigore il 5 ottobre 2026, data della sua pubblicazione nella Gazzetta Ufficiale.",
-      "perche_conta": "Il provvedimento è di rilevante importanza per la strategia di ripartenza economica e di sostenibilità del Paese. Offre incentivi concreti alle imprese per investire, assumere e innovare, ponendo particolare attenzione al sostegno del tessuto produttivo e alla creazione di nuova occupazione, in particolare per le categorie più fragili. La semplificazione delle procedure e gli incentivi per l'energia rinnovabile rappresentano un passo significativo verso gli obiettivi climatici ed energetici. Tuttavia, sarà fondamentale monitorare l'efficacia del Fondo di Garanzia e l'effettiva capacità di assorbimento del credito d'imposta da parte delle imprese, oltre alla reale accelerazione degli investimenti green."
-    }
-  ]
+  "updatedAt": "2026-10-06T21:33:27Z",
+  "scartate": [],
+  "schede": []
 }

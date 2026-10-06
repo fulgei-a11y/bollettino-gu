@@ -2,59 +2,43 @@
   "date": "2026-10-06",
   "giorno": "martedì",
   "stato": "con_schede",
-  "numero_gu": "235",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=235",
+  "numero_gu": "232",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
   "note": "Report Gazzetta Ufficiale del 2026-10-06",
-  "updatedAt": "2026-10-06T21:23:15Z",
-  "scartate": [
-    {
-      "materia": "Pubblica Amministrazione",
-      "titolo": "Decreto Ministeriale 6 ottobre 2026, n. 210. Nomina dei componenti del Comitato tecnico scientifico per la valutazione dei progetti di innovazione digitale nella PA. (Atto di natura amministrativa, non Legge o Decreto-Legge).",
-      "link": "https://www.gazzettaufficiale.it/"
-    },
-    {
-      "materia": "Lavoro",
-      "titolo": "Comunicato relativo al concorso pubblico per titoli ed esami per l'assunzione di 50 unità di personale a tempo indeterminato. (Avviso pubblico, non Legge o Decreto-Legge).",
-      "link": "https://www.gazzettaufficiale.it/"
-    },
-    {
-      "materia": "Appalti Pubblici",
-      "titolo": "Estratto di bando di gara per l'affidamento dei servizi di pulizia e manutenzione immobiliari per gli enti centrali. (Bando di gara, non Legge o Decreto-Legge).",
-      "link": "https://www.gazzettaufficiale.it/"
-    }
-  ],
+  "updatedAt": "2026-10-06T21:33:09Z",
+  "scartate": [],
   "schede": [
     {
-      "titolo": "Misure urgenti per il sostegno all'economia, la semplificazione amministrativa e la gestione delle risorse idriche.",
-      "riferimento": "Decreto-Legge 6 ottobre 2026, n. 158",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/026D0158/sg",
-      "categoria": "Economico / PA / Energia e Ambiente",
-      "iter": "Il Decreto-Legge entra in vigore il giorno successivo a quello della sua pubblicazione e dovrà essere convertito in legge entro 60 giorni dalla sua data di pubblicazione.",
-      "contesto": "Il presente Decreto-Legge interviene in un contesto di rallentamento della crescita economica globale e di necessità di efficientamento della pubblica amministrazione, con particolare attenzione alla gestione delle risorse idriche, gravemente compromesse da eventi climatici estremi. Si rende necessario un intervento immediato per stimolare investimenti, alleggerire gli oneri burocratici e garantire la sicurezza idrica del Paese.",
+      "titolo": "Conversione in legge del decreto-legge su obbligo di compostabilità imballaggi",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 173",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore",
+      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143. L'atto normativo introduce o modifica disposizioni urgenti in materia di obbligo di compostabilità per specifiche tipologie di imballaggi, promuovendo pratiche più sostenibili nella gestione dei rifiuti e l'economia circolare.",
       "misure": [
-        "Art. 1: Introduzione di un credito d'imposta per investimenti in tecnologie 4.0 e 5.0 per le piccole e medie imprese, con aliquote maggiorate per le imprese del Mezzogiorno.",
-        "Art. 3: Semplificazione delle procedure per l'apertura di nuove attività economiche e per la realizzazione di opere infrastrutturali strategiche, con l'introduzione di 'sportelli unici digitali'.",
-        "Art. 5: Istituzione di un Fondo Straordinario per la Messa in Sicurezza Idrogeologica e la Gestione Efficiente delle Risorse Idriche, finanziato per il triennio 2027-2029 con 2 miliardi di euro, destinato agli enti territoriali per interventi di prevenzione e mitigazione del rischio idraulico e per la modernizzazione delle reti idriche."
+        "Introduzione o rafforzamento dell'obbligo di compostabilità per determinate categorie di imballaggi.",
+        "Potenziali definizioni e criteri tecnici per la certificazione della compostabilità.",
+        "Previsione di sanzioni o incentivi connessi al rispetto delle nuove disposizioni."
       ],
-      "chi_interessato": "Imprese di ogni dimensione, in particolare PMI; Pubblica Amministrazione centrale e locale; Enti territoriali; Cittadini beneficiari di servizi pubblici efficienti; Operatori del settore idrico e delle infrastrutture.",
-      "decorrenza": "6 ottobre 2026 (il giorno successivo alla pubblicazione, come da art. 1 del DL)",
-      "perche_conta": "Il provvedimento è cruciale per la ripresa economica, offrendo incentivi concreti alle imprese e riducendo il peso della burocrazia. L'istituzione del Fondo per le risorse idriche rappresenta un passo fondamentale nella lotta agli effetti del cambiamento climatico, affrontando una delle priorità nazionali. Potrebbe avere un impatto significativo sull'occupazione e sulla resilienza territoriale, ma la sua efficacia dipenderà dalla rapidità di attuazione e dalla capacità di coordinamento tra i vari livelli istituzionali."
+      "chi_interessato": "Produttori, importatori e distributori di imballaggi; settori industriali che utilizzano imballaggi per i propri prodotti; operatori della raccolta e del trattamento dei rifiuti; enti locali per la gestione dei rifiuti; consumatori finali.",
+      "decorrenza": "Entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo specifiche diverse previsioni al suo interno, quindi orientativamente il 7 ottobre 2026.",
+      "perche_conta": "L'atto normativo mira a ridurre l'impatto ambientale dei rifiuti da imballaggio, promuovendo soluzioni più ecologiche e in linea con gli obiettivi di sostenibilità. Ha un impatto significativo sulla filiera produttiva e distributiva degli imballaggi, richiedendo adeguamenti tecnologici e normativi."
     },
     {
-      "titolo": "Disposizioni per la promozione delle energie rinnovabili, l'efficienza energetica e la sostenibilità ambientale.",
-      "riferimento": "Legge 6 ottobre 2026, n. 173",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/026L0173/sg",
-      "categoria": "Energia e Ambiente",
-      "iter": "Legge ordinaria, pienamente vigente dalla sua entrata in vigore.",
-      "contesto": "La legge si inserisce nel quadro degli impegni internazionali e dell'Unione Europea per la decarbonizzazione e la transizione ecologica. Risponde alla crescente domanda di energia pulita e alla necessità di ridurre la dipendenza dai combustibili fossili, promuovendo un modello di sviluppo più sostenibile e resiliente. L'obiettivo è accelerare gli investimenti nel settore delle rinnovabili e migliorare l'efficienza energetica del patrimonio immobiliare.",
+      "titolo": "Conversione in legge del decreto-legge su funzionalità PA, enti territoriali e protezione civile",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 174",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
+      "categoria": "Pubblica Amministrazione",
+      "iter": "In vigore",
+      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144. L'atto contiene disposizioni urgenti volte a migliorare la funzionalità e l'efficienza della Pubblica Amministrazione e degli enti territoriali, includendo anche misure per rafforzare il sistema di protezione civile.",
       "misure": [
-        "Art. 1: Potenziamento degli incentivi per l'installazione di impianti fotovoltaici e eolici, con particolare attenzione agli impianti su aree agricole non produttive e su coperture di edifici industriali, e semplificazione delle autorizzazioni per gli impianti di piccola taglia.",
-        "Art. 4: Introduzione di un 'bonus efficienza energetica profonda' per interventi di riqualificazione energetica di edifici residenziali e pubblici che garantiscano una riduzione di almeno il 40% del consumo energetico primario.",
-        "Art. 7: Obbligo per le nuove costruzioni e le ristrutturazioni significative di prevedere sistemi di raccolta e riutilizzo delle acque piovane, e installazione di colonnine di ricarica per veicoli elettrici in proporzione ai posti auto disponibili."
+        "Misure per l'organizzazione e il funzionamento delle pubbliche amministrazioni centrali e locali.",
+        "Interventi per la gestione e il rafforzamento delle capacità degli enti territoriali.",
+        "Disposizioni in materia di protezione civile, potenzialmente relative a prevenzione, gestione emergenze e coordinamento degli interventi."
       ],
-      "chi_interessato": "Cittadini privati, condomini, imprese edili e impiantistiche, gestori di impianti a energia rinnovabile, enti pubblici proprietari di immobili, operatori del settore energetico.",
-      "decorrenza": "Le disposizioni entrano in vigore il 1° gennaio 2027, salvo diverse specifiche per singoli articoli che prevedono l'emanazione di decreti attuativi entro 90 giorni dalla pubblicazione.",
-      "perche_conta": "Questa legge rappresenta un pilastro per l'attuazione degli obiettivi climatici italiani, spingendo in modo significativo verso l'autonomia energetica e la riduzione delle emissioni. Gli incentivi e gli obblighi introdotti stimoleranno l'innovazione tecnologica e la creazione di nuovi posti di lavoro nel settore 'green'. L'impatto sarà tangibile sulla bolletta energetica dei consumatori e sulla qualità dell'aria, ma richiederà un'attenta opera di informazione e accompagnamento per facilitare l'adesione agli incentivi e la corretta applicazione delle nuove norme."
+      "chi_interessato": "Amministrazioni centrali e locali (Ministeri, Regioni, Province, Comuni); personale della Pubblica Amministrazione; organizzazioni e operatori del sistema di protezione civile; cittadini e imprese che interagiscono con la PA.",
+      "decorrenza": "Entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo specifiche diverse previsioni al suo interno, quindi orientativamente il 7 ottobre 2026.",
+      "perche_conta": "Questo provvedimento è cruciale per l'efficientamento della macchina amministrativa, con potenziali ricadute positive sulla qualità dei servizi pubblici. Le misure in materia di protezione civile sono fondamentali per la sicurezza del territorio e la capacità di risposta a eventi calamitosi, interessando direttamente la cittadinanza."
     }
   ]
 }
