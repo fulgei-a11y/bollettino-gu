@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 import google.generativeai as genai
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -10,9 +10,6 @@ if not GEMINI_API_KEY:
     raise ValueError("Errore: GEMINI_API_KEY non trovata nelle variabili d'ambiente.")
 
 genai.configure(api_key=GEMINI_API_KEY)
-
-today_str = datetime.now().strftime("%Y-%m-%d")
-giorno_en = datetime.now().strftime("%A")
 
 giorni_ita = {
     "Monday": "lunedì",
@@ -23,54 +20,83 @@ giorni_ita = {
     "Saturday": "sabato",
     "Sunday": "domenica"
 }
-giorno_ita = giorni_ita.get(giorno_en, giorno_en.lower())
 
-PROMPT_SYSTEM = f"""
-Sei un analista ed esperto di diritto. Il tuo compito è analizzare la Gazzetta Ufficiale della Repubblica Italiana (Serie Generale) pubblicata oggi ({today_str}).
-Seleziona unicamente i testi normativi (Legge, Decreto-Legge, Decreto Legislativo, D.P.R., D.P.C.M., Decreto Ministeriale) che rientrano nelle seguenti materie d'interesse:
-1. Economico / Fiscale / Finanziario
-2. Giustizia / Reati / Procedura
-3. Energia / Ambiente / Sostenibilità
+def get_target_dates():
+    today = datetime.now()
+    # Calcolo data di oggi
+    today_str = today.strftime("%Y-%m-%d")
+    today_giorno = giorni_ita.get(today.strftime("%A"), today.strftime("%A").lower())
+    
+    # Calcolo data precedente (se oggi è lunedì, il giorno precedente di GU è sabato)
+    if today.weekday() == 0:  # Lunedì
+        prev_date = today - timedelta(days=2)
+    else:
+        prev_date = today - timedelta(days=1)
+        
+    prev_str = prev_date.strftime("%Y-%m-%d")
+    prev_giorno = giorni_ita.get(prev_date.strftime("%A"), prev_date.strftime("%A").lower())
+    
+    return [(today_str, today_giorno), (prev_str, prev_giorno)]
 
-REGOLE PER I LINK:
-- Il campo "link_gu" DEVE essere: "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-- I campi "link" nelle schede e nelle leggi scartate DEVONO essere sempre URL validi di ricerca o consultazione della Gazzetta Ufficiale. Usa come fallback l'URL principale "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home" se non hai il link specifico al singolo articolo.
+def build_system_prompt(date_str, giorno_str):
+    return f"""
+IMPORTANTE: Questo è un lavoro di analisi giuridico-fiscale di livello professionale.
+
+Analizza la Gazzetta Ufficiale della Repubblica Italiana (Serie Generale) per la data: {date_str} ({giorno_str}).
+
+PASSO 1 - INDIVIDUAZIONE ED
+Esamina le Leggi e i Decreti-Legge pubblicati in questa edizione. Ignora decreti ministeriali minori, nomine, comunicati ed estratti.
+
+PASSO 2 - MATERIE D'INTERESSE:
+1. ECONOMICO / FISCALE / PA: Fisco, bilancio, finanza pubblica, lavoro, imprese, pubblica amministrazione, enti territoriali, protezione civile.
+2. GIUSTIZIA: Ordinamento giudiziario, codice penale/civile, procedura, sistema carcerario.
+3. ENERGIA E AMBIENTE: Energia, fonti rinnovabili, tutela del territorio, gestione dei rifiuti, imballaggi e compostabilità.
+
+REGOLE SUI LINK ED ENDPOINT:
+- L'URL principale della Gazzetta deve essere nel formato corretto: 
+  "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta={date_str}&numeroGazzetta=<NUMERO>"
+- Per i singoli atti usa il link ELI ufficiale: "https://www.gazzettaufficiale.it/eli/id/{date_str.replace('-','/')}/<CODICE>/sg" oppure l'URL di consultazione valido.
 
 Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 {{
-  "date": "{today_str}",
-  "giorno": "{giorno_ita}",
+  "date": "{date_str}",
+  "giorno": "{giorno_str}",
   "stato": "con_schede",
-  "numero_gu": "Numero Edizione (es. 233)",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home",
-  "updatedAt": "{today_str}T19:00:00Z",
+  "numero_gu": "<Numero edizione, es. 234>",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta={date_str}&numeroGazzetta=<NUMERO>",
+  "note": "Report Gazzetta Ufficiale del {date_str}",
+  "updatedAt": "{datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}",
   "scartate": [
     {{
-      "materia": "Materia scartata",
-      "titolo": "Titolo o indicazione dell'atto scartato",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+      "materia": "<Materia dell'atto scartato>",
+      "titolo": "<Titolo completo e motivo dello scarto>",
+      "link": "https://www.gazzettaufficiale.it/"
     }}
   ],
   "schede": [
     {{
-      "titolo": "Titolo sintetico ed esplicativo",
+      "titolo": "<Titolo della legge/decreto>",
+      "riferimento": "<Es. Legge 6 ottobre 2026, n. 173>",
+      "link": "https://www.gazzettaufficiale.it/",
       "categoria": "Economico",
-      "riferimento": "DECRETO-LEGGE 5 ottobre 2026, n. 150",
-      "iter": "In vigore",
-      "contesto": "Sintesi chiara del contesto normativo.",
+      "iter": "<Iter di conversione o vigenza>",
+      "contesto": "<Spiegazione del contesto e motivi della norma>",
       "misure": [
-        "Punto chiave 1",
-        "Punto chiave 2"
+        "Art. 1, comma 1: Spiegazione dettagliata della misura...",
+        "Art. 2: Spiegazione dettagliata..."
       ],
-      "chi_interessato": "Soggetti interessati",
-      "decorrenza": "Data di entrata in vigore",
-      "perche_conta": "Impatto della misura",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
+      "chi_interessato": "<Soggetti e categorie coinvolte>",
+      "decorrenza": "<Data di entrata in vigore>",
+      "perche_conta": "<Analisi dell'impatto pratico e criticità>"
     }}
   ]
 }}
 
-Se oggi non sono stati pubblicati atti rilevanti nelle tre categorie d'interesse, imposta "stato": "nessuna_legge_interesse", "schede": [] e "scartate": [].
+Se per la data {date_str} non risulta pubblicata alcuna edizione della Gazzetta Ufficiale (es. domenica/festivo), imposta:
+"stato": "nessuna_edizione", "schede": [], "scartate": []
+
+Se l'edizione esiste ma non contiene Leggi o Decreti-Legge nelle materie d'interesse, imposta:
+"stato": "nessuna_legge_interesse", "schede": []
 """
 
 def generate_content_with_fallback(prompt):
@@ -97,27 +123,43 @@ def generate_content_with_fallback(prompt):
             
     raise RuntimeError(f"Nessun modello Gemini è riuscito a rispondere. Ultimo errore: {last_error}")
 
-def generate_daily_bulletin():
-    os.makedirs("data", exist_ok=True)
-    
-    prompt = f"{PROMPT_SYSTEM}\n\nGenera il report JSON per la Gazzetta Ufficiale del {today_str}."
+def sanitize_json_data(data, date_str):
+    # Sanificazione link_gu da eventuali refusi tipo 'Meteo'
+    if "link_gu" in data and isinstance(data["link_gu"], str):
+        data["link_gu"] = data["link_gu"].replace("caricaDettaglioMeteo", "caricaDettaglio")
+        data["link_gu"] = data["link_gu"].replace("carica Dettaglio", "caricaDettaglio")
+
+    # Sanificazione schede e link
+    if "schede" in data:
+        for scheda in data["schede"]:
+            if "link" in scheda and isinstance(scheda["link"], str):
+                scheda["link"] = scheda["link"].replace("caricaDettaglioMeteo", "caricaDettaglio")
+                
+    return data
+
+def process_date(date_str, giorno_str):
+    print(f"\n--- ELABORAZIONE DATA: {date_str} ({giorno_str}) ---")
+    prompt_system = build_system_prompt(date_str, giorno_str)
+    prompt = f"{prompt_system}\n\nGenera il report JSON per la Gazzetta Ufficiale del {date_str}."
     
     raw_text = generate_content_with_fallback(prompt)
     
     try:
         data = json.loads(raw_text)
     except json.JSONDecodeError as e:
-        print("Errore nella decodifica del JSON da Gemini:", e)
-        print("Risposta ricevuta:\n", raw_text)
-        return
+        print(f"Errore nella decodifica del JSON da Gemini per {date_str}:", e)
+        return None
+
+    data = sanitize_json_data(data, date_str)
 
     # 1. Salva il file della giornata
-    file_path = f"data/{today_str}.json"
+    file_path = f"data/{date_str}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"File {file_path} salvato con successo.")
+    return data
 
-    # 2. Aggiorna data/index.json
+def update_index(processed_results):
     index_path = "data/index.json"
     index_data = []
     
@@ -128,19 +170,37 @@ def generate_daily_bulletin():
         except Exception:
             index_data = []
 
-    index_data = [item for item in index_data if item.get("date") != today_str]
+    # Aggiorna o sostituisce le entrate per le date appena elaborate
+    for data in processed_results:
+        date_str = data.get("date")
+        index_data = [item for item in index_data if item.get("date") != date_str]
+        
+        new_entry = {
+            "date": date_str,
+            "giorno": data.get("giorno", ""),
+            "numero_gu": str(data.get("numero_gu", "")),
+            "stato": data.get("stato", "nessuna_legge_interesse")
+        }
+        index_data.append(new_entry)
 
-    new_entry = {
-        "date": data.get("date", today_str),
-        "giorno": data.get("giorno", giorno_ita),
-        "numero_gu": str(data.get("numero_gu", "")),
-        "stato": data.get("stato", "nessuna_legge_interesse")
-    }
-
-    index_data.insert(0, new_entry)
+    # Ordina l'indice per data decrescente
+    index_data.sort(key=lambda x: x.get("date", ""), reverse=True)
 
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
-    print(f"File {index_path} aggiornato con successo.")
+    print(f"File {index_path} aggiornato e ordinato con successo.")
+
+def generate_daily_bulletin():
+    os.makedirs("data", exist_ok=True)
+    target_dates = get_target_dates()
+    
+    processed_results = []
+    for date_str, giorno_str in target_dates:
+        result = process_date(date_str, giorno_str)
+        if result:
+            processed_results.append(result)
+            
+    if processed_results:
+        update_index(processed_results)
 if __name__ == "__main__":
-    generate_daily_bulletin()
+    generate_daily_bulletin(
