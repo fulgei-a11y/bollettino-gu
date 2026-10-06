@@ -2,7 +2,11 @@ name: Aggiornamento Automatico Bollettino GU
 
 on:
   schedule:
-    - cron: '0 19 * * 1-5'
+    # Esecuzione alle 13:00 italiane (11:00 UTC)
+    - cron: '0 11 * * *'
+    # Esecuzione alle 20:00 italiane (18:00 UTC con ora legale / 19:00 UTC con ora solare)
+    - cron: '0 18 * * *'
+    - cron: '0 19 * * *'
   workflow_dispatch:
 
 jobs:
