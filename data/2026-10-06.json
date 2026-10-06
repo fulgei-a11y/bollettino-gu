@@ -1,70 +1,10 @@
 {
   "date": "2026-10-06",
   "giorno": "martedì",
-  "stato": "con_schede",
+  "stato": "nessuna_legge_interesse",
   "numero_gu": "233",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home",
   "updatedAt": "2026-10-06T19:00:00Z",
-  "scartate": [
-    {
-      "materia": "Cultura",
-      "titolo": "DECRETO MINISTERIALE 2 ottobre 2026 - Approvazione del bando per l'assegnazione di contributi alle associazioni culturali.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-    },
-    {
-      "materia": "Sanità / Politiche Sociali",
-      "titolo": "LEGGE 1 ottobre 2026, n. 149 - Disposizioni in materia di sanità e politiche sociali.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-    }
-  ],
-  "schede": [
-    {
-      "titolo": "Misure urgenti per il sostegno economico e fiscale delle attività produttive",
-      "categoria": "Economico",
-      "riferimento": "DECRETO-LEGGE 5 ottobre 2026, n. 150",
-      "iter": "In vigore",
-      "contesto": "Il Decreto-Legge introduce interventi urgenti volti a stimolare la ripresa economica nazionale, fornendo liquidità e alleggerimento fiscale per le imprese colpite da recenti congiunture sfavorevoli.",
-      "misure": [
-        "Sospensione temporanea di alcuni adempimenti fiscali per le PMI.",
-        "Fondo di garanzia potenziato per l'accesso al credito bancario.",
-        "Crediti d'imposta per investimenti in digitalizzazione e transizione ecologica."
-      ],
-      "chi_interessato": "Piccole e medie imprese, professionisti, banche, intermediari finanziari.",
-      "decorrenza": "6 ottobre 2026",
-      "perche_conta": "Favorisce la liquidità delle imprese, incentiva gli investimenti e mitiga gli impatti economici negativi, contribuendo alla stabilità del sistema produttivo.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-    },
-    {
-      "titolo": "Attuazione Direttiva UE su energie rinnovabili e sostenibilità",
-      "categoria": "Energia / Ambiente / Sostenibilità",
-      "riferimento": "DECRETO LEGISLATIVO 4 ottobre 2026, n. 151",
-      "iter": "In vigore",
-      "contesto": "Il decreto attua la direttiva europea (UE) 2025/XYZ, aggiornando la normativa nazionale per accelerare la transizione energetica e aumentare la quota di energia prodotta da fonti rinnovabili, in linea con gli obiettivi climatici europei.",
-      "misure": [
-        "Semplificazione delle procedure autorizzative per impianti fotovoltaici ed eolici.",
-        "Incentivi per la produzione e l'autoconsumo di energia da fonti rinnovabili.",
-        "Introduzione di nuovi standard di efficienza energetica per edifici pubblici e privati."
-      ],
-      "chi_interessato": "Produttori di energia, aziende del settore energetico, proprietari di immobili, pubbliche amministrazioni, cittadini.",
-      "decorrenza": "6 ottobre 2026",
-      "perche_conta": "Contribuisce significativamente al raggiungimento degli obiettivi di decarbonizzazione, promuove l'innovazione tecnologica nel settore energetico e riduce la dipendenza energetica del paese.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-    },
-    {
-      "titolo": "Modifiche al codice di procedura penale in materia di giustizia riparativa",
-      "categoria": "Giustizia / Reati / Procedura",
-      "riferimento": "DECRETO del Presidente della Repubblica 3 ottobre 2026, n. 152",
-      "iter": "In vigore",
-      "contesto": "Il regolamento introduce significative modifiche al codice di procedura penale, recependo i principi della giustizia riparativa e ampliando le opportunità di mediazione tra vittima e autore del reato, in linea con le raccomandazioni internazionali.",
-      "misure": [
-        "Estensione dell'ambito di applicazione della giustizia riparativa a nuovi reati.",
-        "Previsione di percorsi riparativi strutturati in diverse fasi del processo penale.",
-        "Definizione dei requisiti e della formazione per gli operatori della giustizia riparativa."
-      ],
-      "chi_interessato": "Magistrati, avvocati, vittime di reato, autori di reato, operatori della giustizia riparativa.",
-      "decorrenza": "6 ottobre 2026",
-      "perche_conta": "Modernizza il sistema penale italiano, promuovendo una maggiore attenzione alla riparazione del danno e alla riabilitazione, con potenziali benefici in termini di deflazione del contenzioso e maggiore soddisfazione per le vittime.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
-    }
-  ]
+  "scartate": [],
+  "schede": []
 }
