@@ -24,17 +24,14 @@ giorni_ita = {
 
 def get_gu_details_for_date(date_str):
     """
-    1. Scarica l'homepage o la pagina 30giorni per trovare il numero di GU associato alla data.
+    1. Legge la pagina della Gazzetta per identificare il numero di edizione associato alla data.
     2. Scarica la pagina caricaDettaglio con il sommario reale delle leggi.
     """
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     
-    # Prove per recuperare il sommario diretto
-    # Converti YYYY-MM-DD in formato IT
     dt = datetime.strptime(date_str, "%Y-%m-%d")
     date_it = dt.strftime("%d-%m-%Y")
     
-    # 1. Tenta il recupero dal listato 30 giorni o homepage
     home_url = "https://www.gazzettaufficiale.it/"
     num_gu = None
     
@@ -42,14 +39,13 @@ def get_gu_details_for_date(date_str):
         req = urllib.request.Request(home_url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as resp:
             html_home = resp.read().decode('utf-8', errors='ignore')
-            # Cerca il pattern '232 del 06-10-2026'
+            # Cerca il pattern es. '232 del 06-10-2026'
             match = re.search(r'(\d+)\s+del\s+' + date_it, html_home)
             if match:
                 num_gu = match.group(1)
     except Exception as e:
         print(f"Errore lettura homepage: {e}")
 
-    # Se trovato il numero o se fallback su tentativi
     if num_gu:
         dettaglio_url = f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}&numeroGazzetta={num_gu}"
         try:
@@ -58,37 +54,45 @@ def get_gu_details_for_date(date_str):
                 html_det = resp_det.read().decode('utf-8', errors='ignore')
                 text_clean = re.sub('<[^<]+?>', ' ', html_det)
                 text_clean = re.sub(r'\s+', ' ', text_clean)
-                return num_gu, dettaglio_url, text_clean[:20000]
+                return num_gu, dettaglio_url, text_clean[:25000]
         except Exception as e:
             print(f"Errore scaricamento dettaglio GU {num_gu}: {e}")
 
-    return num_gu, f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}", None
+    fallback_url = f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}"
+    return num_gu, fallback_url, None
 
 def build_prompt(date_str, giorno_str, num_gu, link_gu, summary_text):
+    date_formatted_eli = date_str.replace("-", "/")
+    
     return f"""
-Sei un analista ed esperto di diritto.
-Analizza il seguente sommario estratto dalla pagina ufficiale di dettaglio della Gazzetta Ufficiale (Serie Generale) per la data {date_str} ({giorno_str}).
+Sei un analista ed esperto di diritto italiano.
+Analizza il seguente sommario estratto dalla pagina ufficiale di dettaglio della Gazzetta Ufficiale (Serie Generale) del {date_str} ({giorno_str}).
 
 DATI EDIZIONE:
 - Data: {date_str}
 - Numero GU: {num_gu if num_gu else 'Da individuare nel testo'}
-- Link Ufficiale: {link_gu}
+- Link Ufficiale Sommario: {link_gu}
 
 SOMMARIO ESTRATTO DALLA PAGINA:
 ---
-{summary_text if summary_text else 'Sommario non raggiungibile.'}
+{summary_text if summary_text else 'Sommario non raggiungibile direttamente.'}
 ---
 
-ISTRUZIONI:
-1. Seleziona ed estrai SOLO i testi normativi (Leggi e Decreti-Legge) afferenti a:
+ISTRUZIONI PER L'ANALISI:
+1. Seleziona ed estrai SOLO i testi normativi (Leggi e Decreti-Legge) afferenti a queste 3 materie:
    - Economico / Fiscale / Finanziario / Pubblica Amministrazione / Enti Territoriali
    - Giustizia / Procedura / Reati
    - Energia / Ambiente / Sostenibilità / Imballaggi / Compostabilità / Rifiuti
 
-2. Compila la scheda per ciascun provvedimento idoneo (es. Legge 173, Legge 174).
-3. Se non vi sono leggi d'interesse nel sommario, imposta "stato": "nessuna_legge_interesse".
+2. Individua per ciascun atto il relativo CODICE REDAZIONALE (es. 26G00185 o 26A05123) presente nel sommario accanto al titolo/riferimento.
+3. Se trovi il codice redazionale, componi il campo "link" nel formato ELI specifico per quell'atto:
+   "https://www.gazzettaufficiale.it/eli/id/{date_formatted_eli}/<CODICE_REDAZIONALE>/sg"
+   Se non riesci a individuare il codice redazionale singolo, imposta "link": "{link_gu}".
 
-Restituisci ESCLUSIVAMENTE un JSON con questa struttura esatta:
+4. Se un'altra legge/decreto viene individuato ma appartiene a materie escluse, inseriscilo nell'array "scartate".
+5. Se non vi sono leggi di interesse nel sommario, imposta "stato": "nessuna_legge_interesse", "schede": [].
+
+Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 {{
   "date": "{date_str}",
   "giorno": "{giorno_str}",
@@ -97,21 +101,28 @@ Restituisci ESCLUSIVAMENTE un JSON con questa struttura esatta:
   "link_gu": "{link_gu}",
   "note": "Report Gazzetta Ufficiale del {date_str}",
   "updatedAt": "{datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}",
-  "scartate": [],
+  "scartate": [
+    {{
+      "materia": "<Materia>",
+      "titolo": "<Titolo atto scartato>",
+      "link": "{link_gu}"
+    }}
+  ],
   "schede": [
     {{
-      "titolo": "<Titolo sintetico>",
-      "riferimento": "<Es. LEGGE 6 ottobre 2026, n. 173>",
-      "link": "{link_gu}",
+      "titolo": "<Titolo esplicativo del provvedimento>",
+      "riferimento": "<Es. LEGGE 5 ottobre 2026, n. 173>",
+      "codice_atto": "<Es. 26G00185>",
+      "link": "https://www.gazzettaufficiale.it/eli/id/{date_formatted_eli}/<CODICE_REDAZIONALE>/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "<Contesto normativo>",
+      "contesto": "<Spiegazione del contesto e del decreto convertito>",
       "misure": [
-        "Art. 1: Disposizione..."
+        "Art. 1: Dettaglio della misura..."
       ],
-      "chi_interessato": "<Soggetti interessati>",
-      "decorrenza": "<Data entrata in vigore>",
-      "perche_conta": "<Impatto pratico>"
+      "chi_interessato": "<Soggetti e categorie coinvolte>",
+      "decorrenza": "<Data di entrata in vigore>",
+      "perche_conta": "<Analisi dell'impatto pratico>"
     }}
   ]
 }}
@@ -119,17 +130,53 @@ Restituisci ESCLUSIVAMENTE un JSON con questa struttura esatta:
 
 def generate_content_with_fallback(prompt):
     models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]
-    for m in models:
+    last_error = None
+    for model_name in models:
         try:
-            model = genai.GenerativeModel(m, generation_config={"response_mime_type": "application/json"})
+            print(f"Tentativo di generazione con modello: {model_name}...")
+            model = genai.GenerativeModel(model_name, generation_config={"response_mime_type": "application/json"})
             res = model.generate_content(prompt)
             return res.text.strip()
         except Exception as e:
-            print(f"Modello {m} fallito: {e}")
-    raise RuntimeError("Tutti i modelli Gemini hanno fallito.")
+            print(f"Modello {model_name} non disponibile o errore: {e}")
+            last_error = e
+    raise RuntimeError(f"Tutti i modelli Gemini hanno fallito. Ultimo errore: {last_error}")
+
+def sanitize_data(data, date_str):
+    """ Rimuove spazi, andate a capo e assicura che i link ELI siano formattati correttamente """
+    num_gu = str(data.get("numero_gu", "")).strip()
+    date_formatted_eli = date_str.replace("-", "/")
+    
+    clean_base_url = f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}&numeroGazzetta={num_gu}" if num_gu else f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}"
+    
+    data["link_gu"] = clean_base_url.replace(" ", "").replace("\n", "")
+
+    if "schede" in data:
+        for s in data["schede"]:
+            link_val = s.get("link", "")
+            codice = s.get("codice_atto", "").strip()
+            
+            # Se abbiamo un codice redazionale valido, costruiamo il link ELI diretto
+            if codice and re.match(r'^[0-9A-Za-z]+$', codice):
+                s["link"] = f"https://www.gazzettaufficiale.it/eli/id/{date_formatted_eli}/{codice}/sg"
+            elif isinstance(link_val, str) and link_val.strip():
+                s["link"] = re.sub(r'\s+', '', link_val)
+                if not s["link"].startswith("http"):
+                    s["link"] = data["link_gu"]
+            else:
+                s["link"] = data["link_gu"]
+                
+    if "scartate" in data:
+        for sc in data["scartate"]:
+            if "link" in sc and isinstance(sc["link"], str):
+                sc["link"] = re.sub(r'\s+', '', sc["link"])
+                if not sc["link"].startswith("http"):
+                    sc["link"] = data["link_gu"]
+
+    return data
 
 def process_date(date_str, giorno_str):
-    print(f"Elaborazione per la data {date_str}...")
+    print(f"\n--- ELABORAZIONE DATA: {date_str} ({giorno_str}) ---")
     num_gu, link_gu, summary_text = get_gu_details_for_date(date_str)
     
     prompt = build_prompt(date_str, giorno_str, num_gu, link_gu, summary_text)
@@ -137,18 +184,15 @@ def process_date(date_str, giorno_str):
     
     try:
         data = json.loads(raw_text)
-        # Forza l'URL pulito
-        if num_gu:
-            data["link_gu"] = f"https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta={date_str}&numeroGazzetta={num_gu}"
-            data["numero_gu"] = str(num_gu)
+        data = sanitize_data(data, date_str)
     except Exception as e:
-        print(f"Errore parsing JSON: {e}")
+        print(f"Errore nella decodifica del JSON per {date_str}: {e}")
         return None
 
     file_path = f"data/{date_str}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"File salvato: {file_path}")
+    print(f"File {file_path} salvato con successo.")
     return data
 
 def get_target_dates():
@@ -156,7 +200,7 @@ def get_target_dates():
     today_str = today.strftime("%Y-%m-%d")
     today_giorno = giorni_ita.get(today.strftime("%A"), today.strftime("%A").lower())
     
-    if today.weekday() == 0:  # Lunedì -> cerca sabato
+    if today.weekday() == 0:
         prev_date = today - timedelta(days=2)
     else:
         prev_date = today - timedelta(days=1)
@@ -169,6 +213,7 @@ def get_target_dates():
 def update_index(results):
     index_path = "data/index.json"
     index_data = []
+    
     if os.path.exists(index_path):
         try:
             with open(index_path, "r", encoding="utf-8") as f:
@@ -187,8 +232,10 @@ def update_index(results):
         })
 
     index_data.sort(key=lambda x: x.get("date", ""), reverse=True)
+    
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
+    print(f"File {index_path} aggiornato e ordinato con successo.")
 
 def generate_daily_bulletin():
     os.makedirs("data", exist_ok=True)
