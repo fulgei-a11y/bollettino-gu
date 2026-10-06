@@ -2,7 +2,11 @@ name: Aggiornamento Automatico Bollettino GU
 
 on:
   schedule:
-    - cron: '0 19 * * 1-5'
+    # Esecuzione alle 13:00 italiane (11:00 UTC)
+    - cron: '0 11 * * *'
+    # Esecuzione alle 20:00 italiane (18:00 UTC con ora legale / 19:00 UTC con ora solare)
+    - cron: '0 18 * * *'
+    - cron: '0 19 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,12 +18,12 @@ jobs:
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4[cite: 3]
 
       - name: Configurazione Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5[cite: 3]
         with:
-          python-version: '3.10'
+          python-version: '3.10'[cite: 3]
 
       - name: Installazione dipendenze
         run: |
@@ -28,13 +32,13 @@ jobs:
 
       - name: Esecuzione script di analisi
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}[cite: 3]
         run: |
-          python generate.py
+          python generate.py[cite: 3]
 
       - name: Commit e Push dei file aggiornati
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]"
-          git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bollettino GU del $(date +'%Y-%m-%d')" && git push)
+          git config --global user.name "github-actions[bot]"[cite: 3]
+          git config --global user.email "github-actions[bot]"[cite: 3]
+          git add data/[cite: 3]
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bollettino GU del $(date +'%Y-%m-%d')" && git push)[cite: 3]
