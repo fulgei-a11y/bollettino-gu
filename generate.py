@@ -203,4 +203,4 @@ def generate_daily_bulletin():
     if processed_results:
         update_index(processed_results)
 if __name__ == "__main__":
-    generate_daily_bulletin(
+    generate_daily_bulletin()
