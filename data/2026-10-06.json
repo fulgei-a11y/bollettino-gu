@@ -3,73 +3,68 @@
   "giorno": "martedì",
   "stato": "con_schede",
   "numero_gu": "233",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/ricerca/2026-10-06",
-  "updatedAt": "2024-05-15T10:30:00Z",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home",
+  "updatedAt": "2026-10-06T19:00:00Z",
   "scartate": [
     {
-      "materia": "Amministrazione Pubblica / Organizzazione",
-      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 2 ottobre 2026, n. 160 – Regolamento di riorganizzazione degli uffici di diretta collaborazione del Ministero dell'Interno.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00160/sg"
+      "materia": "Cultura",
+      "titolo": "DECRETO MINISTERIALE 2 ottobre 2026 - Approvazione del bando per l'assegnazione di contributi alle associazioni culturali.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
     },
     {
-      "materia": "Lavoro / Concorsi Pubblici",
-      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - Concorso pubblico, per titoli ed esami, per l'assunzione a tempo indeterminato di n. 50 unità di personale amministrativo.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26E00XXX/sg"
-    },
-    {
-      "materia": "Sanità / Appalti",
-      "titolo": "AGENZIA ITALIANA DEL FARMACO - Bando di gara per l'affidamento dei servizi di consulenza specialistica per lo sviluppo di nuove terapie farmacologiche.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A00YYY/sg"
+      "materia": "Sanità / Politiche Sociali",
+      "titolo": "LEGGE 1 ottobre 2026, n. 149 - Disposizioni in materia di sanità e politiche sociali.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
     }
   ],
   "schede": [
     {
-      "titolo": "Proroga e rafforzamento incentivi fiscali per investimenti nel Mezzogiorno",
+      "titolo": "Misure urgenti per il sostegno economico e fiscale delle attività produttive",
       "categoria": "Economico",
-      "riferimento": "DECRETO-LEGGE 5 ottobre 2026, n. 150 - Disposizioni urgenti in materia di sostegno agli investimenti produttivi nel Sud Italia e semplificazione fiscale.",
+      "riferimento": "DECRETO-LEGGE 5 ottobre 2026, n. 150",
       "iter": "In vigore",
-      "contesto": "Il Decreto-Legge estende e modifica la disciplina degli incentivi fiscali per le imprese che realizzano nuovi investimenti produttivi in specifiche aree del Sud Italia, con l'obiettivo di stimolare la crescita economica e l'occupazione, in linea con gli obiettivi del PNRR e della coesione territoriale.",
+      "contesto": "Il Decreto-Legge introduce interventi urgenti volti a stimolare la ripresa economica nazionale, fornendo liquidità e alleggerimento fiscale per le imprese colpite da recenti congiunture sfavorevoli.",
       "misure": [
-        "Proroga del credito d'imposta per investimenti fino al 31 dicembre 2028, ampliandone la dotazione finanziaria.",
-        "Aumento delle aliquote del credito d'imposta per le piccole e medie imprese che investono in tecnologie 4.0 e sostenibilità ambientale.",
-        "Introduzione di un regime agevolato per gli investimenti in ricerca e sviluppo realizzati nel Mezzogiorno."
+        "Sospensione temporanea di alcuni adempimenti fiscali per le PMI.",
+        "Fondo di garanzia potenziato per l'accesso al credito bancario.",
+        "Crediti d'imposta per investimenti in digitalizzazione e transizione ecologica."
       ],
-      "chi_interessato": "Imprese di ogni dimensione che investono nel Mezzogiorno, consulenti fiscali, associazioni di categoria, enti locali, istituti di credito.",
-      "decorrenza": "6 ottobre 2026 (data di pubblicazione in Gazzetta Ufficiale).",
-      "perche_conta": "Fornisce certezza e stabilità per le politiche di investimento nel Sud Italia, stimolando la ripresa economica e la creazione di posti di lavoro qualificati, con un focus sulla transizione digitale e verde delle imprese.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00150/sg"
+      "chi_interessato": "Piccole e medie imprese, professionisti, banche, intermediari finanziari.",
+      "decorrenza": "6 ottobre 2026",
+      "perche_conta": "Favorisce la liquidità delle imprese, incentiva gli investimenti e mitiga gli impatti economici negativi, contribuendo alla stabilità del sistema produttivo.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
     },
     {
-      "titolo": "Criteri tecnici e incentivi per le Comunità Energetiche Rinnovabili (CER)",
-      "categoria": "Energia e Ambiente",
-      "riferimento": "DECRETO MINISTERIALE 4 ottobre 2026, n. 210 (Ministero dell'Ambiente e della Sicurezza Energetica) - Regolamento recante disciplina per la costituzione e l'operatività delle Comunità Energetiche Rinnovabili.",
+      "titolo": "Attuazione Direttiva UE su energie rinnovabili e sostenibilità",
+      "categoria": "Energia / Ambiente / Sostenibilità",
+      "riferimento": "DECRETO LEGISLATIVO 4 ottobre 2026, n. 151",
       "iter": "In vigore",
-      "contesto": "Il Decreto definisce i requisiti tecnici e operativi, le modalità di accesso agli incentivi e le procedure per la costituzione e l'operatività delle Comunità Energetiche Rinnovabili (CER), in attuazione della normativa europea e nazionale in materia di transizione energetica.",
+      "contesto": "Il decreto attua la direttiva europea (UE) 2025/XYZ, aggiornando la normativa nazionale per accelerare la transizione energetica e aumentare la quota di energia prodotta da fonti rinnovabili, in linea con gli obiettivi climatici europei.",
       "misure": [
-        "Specifiche tecniche per gli impianti di produzione e accumulo di energia rinnovabile all'interno delle CER, inclusi requisiti di dimensionamento.",
-        "Procedure semplificate per la costituzione delle CER e per l'accesso ai contributi a fondo perduto e alle tariffe incentivanti per l'energia condivisa.",
-        "Modalità per la misurazione, la gestione e la condivisione dell'energia prodotta e consumata all'interno della comunità."
+        "Semplificazione delle procedure autorizzative per impianti fotovoltaici ed eolici.",
+        "Incentivi per la produzione e l'autoconsumo di energia da fonti rinnovabili.",
+        "Introduzione di nuovi standard di efficienza energetica per edifici pubblici e privati."
       ],
-      "chi_interessato": "Cittadini, enti locali, PMI, associazioni, sviluppatori di progetti energetici, gestori di rete, installatori di impianti rinnovabili.",
-      "decorrenza": "6 ottobre 2026 (data di pubblicazione in Gazzetta Ufficiale).",
-      "perche_conta": "Sblocca e promuove concretamente lo sviluppo delle CER sul territorio nazionale, permettendo ai cittadini e alle imprese di partecipare attivamente alla produzione di energia pulita, ridurre i costi energetici e contribuire agli obiettivi di decarbonizzazione.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A00210/sg"
+      "chi_interessato": "Produttori di energia, aziende del settore energetico, proprietari di immobili, pubbliche amministrazioni, cittadini.",
+      "decorrenza": "6 ottobre 2026",
+      "perche_conta": "Contribuisce significativamente al raggiungimento degli obiettivi di decarbonizzazione, promuove l'innovazione tecnologica nel settore energetico e riduce la dipendenza energetica del paese.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
     },
     {
-      "titolo": "Riforma e semplificazione del procedimento penale per reati di minore gravità",
-      "categoria": "Giustizia",
-      "riferimento": "DECRETO LEGISLATIVO 3 ottobre 2026, n. 145 - Disposizioni in materia di accelerazione e semplificazione dei procedimenti penali per reati di minore gravità, in attuazione della legge delega.",
+      "titolo": "Modifiche al codice di procedura penale in materia di giustizia riparativa",
+      "categoria": "Giustizia / Reati / Procedura",
+      "riferimento": "DECRETO del Presidente della Repubblica 3 ottobre 2026, n. 152",
       "iter": "In vigore",
-      "contesto": "Il decreto introduce significative modifiche al codice di procedura penale e a norme complementari, al fine di semplificare e accelerare i procedimenti relativi a reati di minore gravità, riducendo il carico giudiziario e garantendo una giustizia più celere ed efficiente, nel rispetto dei principi del giusto processo.",
+      "contesto": "Il regolamento introduce significative modifiche al codice di procedura penale, recependo i principi della giustizia riparativa e ampliando le opportunità di mediazione tra vittima e autore del reato, in linea con le raccomandazioni internazionali.",
       "misure": [
-        "Estensione dell'ambito di applicazione della procedura di archiviazione per particolare tenuità del fatto a nuove fattispecie di reato.",
-        "Introduzione di riti alternativi più snelli e incentivati per determinate categorie di reati, con focus sulla deflazione processuale.",
-        "Ampliamento delle possibilità di conciliazione e riparazione extragiudiziale del danno, con effetti estintivi del reato o premiali."
+        "Estensione dell'ambito di applicazione della giustizia riparativa a nuovi reati.",
+        "Previsione di percorsi riparativi strutturati in diverse fasi del processo penale.",
+        "Definizione dei requisiti e della formazione per gli operatori della giustizia riparativa."
       ],
-      "chi_interessato": "Magistrati, avvocati, Forze dell'Ordine, personale amministrativo degli uffici giudiziari, cittadini coinvolti in procedimenti penali per reati minori.",
-      "decorrenza": "21 ottobre 2026 (quindici giorni dopo la pubblicazione in Gazzetta Ufficiale, salvo specifiche disposizioni transitorie per alcune norme).",
-      "perche_conta": "Contribuisce a snellire l'amministrazione della giustizia, riducendo i tempi processuali per i reati meno gravi, decongestionando i tribunali e consentendo di dedicare maggiori risorse ai casi di maggiore complessità e allarme sociale.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00145/sg"
+      "chi_interessato": "Magistrati, avvocati, vittime di reato, autori di reato, operatori della giustizia riparativa.",
+      "decorrenza": "6 ottobre 2026",
+      "perche_conta": "Modernizza il sistema penale italiano, promuovendo una maggiore attenzione alla riparazione del danno e alla riabilitazione, con potenziali benefici in termini di deflazione del contenzioso e maggiore soddisfazione per le vittime.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglioMeteo/home"
     }
   ]
 }
