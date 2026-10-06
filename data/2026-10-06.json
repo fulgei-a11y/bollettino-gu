@@ -5,40 +5,41 @@
   "numero_gu": "232",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
   "note": "Report Gazzetta Ufficiale del 2026-10-06",
-  "updatedAt": "2026-10-06T21:33:09Z",
+  "updatedAt": "2026-10-06T21:46:35Z",
   "scartate": [],
   "schede": [
     {
-      "titolo": "Conversione in legge del decreto-legge su obbligo di compostabilità imballaggi",
+      "titolo": "Legge di conversione del Decreto-Legge sull'obbligo di compostabilità degli imballaggi.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 173",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
+      "codice_atto": "26G00193",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143. L'atto normativo introduce o modifica disposizioni urgenti in materia di obbligo di compostabilità per specifiche tipologie di imballaggi, promuovendo pratiche più sostenibili nella gestione dei rifiuti e l'economia circolare.",
+      "contesto": "La Legge n. 173 del 2026 converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143. Il decreto-legge, e ora la legge di conversione, introducono disposizioni urgenti relative all'obbligo di compostabilità per specifiche tipologie di imballaggi, mirando a ridurre l'impatto ambientale e a promuovere l'economia circolare nel settore. Il testo coordinato del decreto-legge 143/2026 con la legge di conversione 173/2026 è pubblicato nella stessa GU al codice 26A05306.",
       "misure": [
-        "Introduzione o rafforzamento dell'obbligo di compostabilità per determinate categorie di imballaggi.",
-        "Potenziali definizioni e criteri tecnici per la certificazione della compostabilità.",
-        "Previsione di sanzioni o incentivi connessi al rispetto delle nuove disposizioni."
+        "Introduce l'obbligo di compostabilità per determinate tipologie di imballaggi, specificando i criteri tecnici e le tempistiche di attuazione.",
+        "Prevede modifiche alla normativa vigente in materia di gestione dei rifiuti e di etichettatura degli imballaggi per garantire la tracciabilità e la corretta raccolta differenziata."
       ],
-      "chi_interessato": "Produttori, importatori e distributori di imballaggi; settori industriali che utilizzano imballaggi per i propri prodotti; operatori della raccolta e del trattamento dei rifiuti; enti locali per la gestione dei rifiuti; consumatori finali.",
-      "decorrenza": "Entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo specifiche diverse previsioni al suo interno, quindi orientativamente il 7 ottobre 2026.",
-      "perche_conta": "L'atto normativo mira a ridurre l'impatto ambientale dei rifiuti da imballaggio, promuovendo soluzioni più ecologiche e in linea con gli obiettivi di sostenibilità. Ha un impatto significativo sulla filiera produttiva e distributiva degli imballaggi, richiedendo adeguamenti tecnologici e normativi."
+      "chi_interessato": "Produttori e importatori di imballaggi, catene di distribuzione e vendita, aziende di gestione dei rifiuti, enti locali e consorzi per la raccolta, consumatori finali, associazioni ambientaliste. Interessa l'intera filiera produttiva e del consumo legata al packaging.",
+      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione, ovvero il 7 ottobre 2026. Le disposizioni specifiche sull'obbligo di compostabilità potrebbero prevedere tempistiche di attuazione differenziate per consentire l'adeguamento delle imprese.",
+      "perche_conta": "Questo provvedimento rappresenta un passo significativo verso una gestione più sostenibile degli imballaggi in Italia. L'introduzione dell'obbligo di compostabilità per specifici materiali non solo ridurrà la quantità di rifiuti destinati allo smaltimento, ma incentiverà anche l'innovazione tecnologica nel settore degli imballaggi biodegradabili e compostabili, allineando l'Italia agli obiettivi europei di economia circolare. Avrà un impatto diretto sui costi di produzione, sulle filiere di approvvigionamento e sulle pratiche di smaltimento a livello locale."
     },
     {
-      "titolo": "Conversione in legge del decreto-legge su funzionalità PA, enti territoriali e protezione civile",
+      "titolo": "Legge di conversione del Decreto-Legge su funzionalità della pubblica amministrazione, enti territoriali e protezione civile.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 174",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
-      "categoria": "Pubblica Amministrazione",
+      "codice_atto": "26G00194",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg",
+      "categoria": "Economico / Pubblica Amministrazione",
       "iter": "In vigore",
-      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144. L'atto contiene disposizioni urgenti volte a migliorare la funzionalità e l'efficienza della Pubblica Amministrazione e degli enti territoriali, includendo anche misure per rafforzare il sistema di protezione civile.",
+      "contesto": "La Legge n. 174 del 2026 converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144. Il decreto-legge, e ora la legge di conversione, introduce disposizioni urgenti volte a migliorare la funzionalità della pubblica amministrazione e degli enti territoriali, affrontando anche tematiche cruciali in materia di protezione civile. Il testo coordinato del decreto-legge 144/2026 con la legge di conversione 174/2026 è pubblicato nella stessa GU al codice 26A05288.",
       "misure": [
-        "Misure per l'organizzazione e il funzionamento delle pubbliche amministrazioni centrali e locali.",
-        "Interventi per la gestione e il rafforzamento delle capacità degli enti territoriali.",
-        "Disposizioni in materia di protezione civile, potenzialmente relative a prevenzione, gestione emergenze e coordinamento degli interventi."
+        "Prevede misure per l'efficientamento e la semplificazione delle procedure amministrative, per accelerare l'azione della PA e ridurre i tempi di risposta ai cittadini e alle imprese.",
+        "Introduce o modifica norme relative al personale degli enti territoriali e della pubblica amministrazione, potenzialmente riguardanti assunzioni, progressioni di carriera o mobilità.",
+        "Dispone interventi urgenti per rafforzare le capacità operative e di risposta del sistema di protezione civile, anche in previsione di eventi calamitosi o situazioni di emergenza."
       ],
-      "chi_interessato": "Amministrazioni centrali e locali (Ministeri, Regioni, Province, Comuni); personale della Pubblica Amministrazione; organizzazioni e operatori del sistema di protezione civile; cittadini e imprese che interagiscono con la PA.",
-      "decorrenza": "Entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo specifiche diverse previsioni al suo interno, quindi orientativamente il 7 ottobre 2026.",
-      "perche_conta": "Questo provvedimento è cruciale per l'efficientamento della macchina amministrativa, con potenziali ricadute positive sulla qualità dei servizi pubblici. Le misure in materia di protezione civile sono fondamentali per la sicurezza del territorio e la capacità di risposta a eventi calamitosi, interessando direttamente la cittadinanza."
+      "chi_interessato": "Tutte le amministrazioni pubbliche centrali e locali, enti territoriali (Regioni, Province, Comuni), dipendenti pubblici, cittadini e imprese che interagiscono con la PA, strutture e operatori della protezione civile. La funzionalità della PA ha un impatto trasversale su tutti gli aspetti della vita sociale ed economica.",
+      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione, ovvero il 7 ottobre 2026.",
+      "perche_conta": "Questo provvedimento è fondamentale per modernizzare la pubblica amministrazione italiana, rendendola più agile ed efficace. Le misure di semplificazione e di rafforzamento della capacità operativa possono tradursi in un miglioramento dei servizi pubblici, una riduzione degli oneri burocratici per cittadini e imprese e una più rapida gestione delle emergenze. L'attenzione alla protezione civile è cruciale per la resilienza del Paese di fronte a eventi naturali o altre crisi, garantendo interventi più coordinati e tempestivi."
     }
   ]
 }
