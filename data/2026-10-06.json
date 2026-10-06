@@ -5,41 +5,106 @@
   "numero_gu": "232",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
   "note": "Report Gazzetta Ufficiale del 2026-10-06",
-  "updatedAt": "2026-10-06T21:46:35Z",
-  "scartate": [],
+  "updatedAt": "2026-10-06T22:08:21Z",
+  "scartate": [
+    {
+      "materia": "Amministrativo / Enti Locali",
+      "titolo": "Scioglimento del consiglio comunale di Eboli e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05153/sg"
+    },
+    {
+      "materia": "Amministrativo / Enti Locali",
+      "titolo": "Scioglimento del consiglio comunale di Crespino e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05154/sg"
+    },
+    {
+      "materia": "Amministrativo / Enti Locali",
+      "titolo": "Scioglimento del consiglio comunale di Curino.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05155/sg"
+    },
+    {
+      "materia": "Lavoro / Previdenza",
+      "titolo": "Modifiche alle aliquote di finanziamento del Fondo di solidarieta' bilaterale per la filiera delle telecomunicazioni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05207/sg"
+    },
+    {
+      "materia": "Trasporti / Infrastrutture",
+      "titolo": "Modifiche al decreto 22 settembre 2025, in materia di autorizzazioni internazionali al trasporto di merci su strada.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05209/sg"
+    },
+    {
+      "materia": "Infrastrutture / Sviluppo Territoriale",
+      "titolo": "Nuova linea ferroviaria Torino-Lione: «Opere e misure compensative dell'impatto territoriale e sociale nel quadro di accompagnamento dell'opera». Interventi di priorita' 1. Rimodulazione delle opere e misure compensative di cui alla delibera CIPE n. 62/2016, a favore del Teatro di Susa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05210/sg"
+    }
+  ],
   "schede": [
     {
-      "titolo": "Legge di conversione del Decreto-Legge sull'obbligo di compostabilità degli imballaggi.",
+      "titolo": "Conversione in legge del decreto-legge n. 143/2026 sull'obbligo di compostabilità degli imballaggi.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 173",
       "codice_atto": "26G00193",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "La Legge n. 173 del 2026 converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143. Il decreto-legge, e ora la legge di conversione, introducono disposizioni urgenti relative all'obbligo di compostabilità per specifiche tipologie di imballaggi, mirando a ridurre l'impatto ambientale e a promuovere l'economia circolare nel settore. Il testo coordinato del decreto-legge 143/2026 con la legge di conversione 173/2026 è pubblicato nella stessa GU al codice 26A05306.",
+      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143, introducendo norme urgenti in materia di obbligo di compostabilità per determinate tipologie di imballaggi.",
       "misure": [
-        "Introduce l'obbligo di compostabilità per determinate tipologie di imballaggi, specificando i criteri tecnici e le tempistiche di attuazione.",
-        "Prevede modifiche alla normativa vigente in materia di gestione dei rifiuti e di etichettatura degli imballaggi per garantire la tracciabilità e la corretta raccolta differenziata."
+        "Introduce l'obbligo di compostabilità per specifiche tipologie di imballaggi, promuovendo la sostenibilità ambientale e la riduzione dei rifiuti.",
+        "Definisce criteri e modalità per la certificazione e l'immissione sul mercato di imballaggi compostabili.",
+        "Prevede sanzioni per la violazione delle nuove disposizioni e meccanismi di monitoraggio."
       ],
-      "chi_interessato": "Produttori e importatori di imballaggi, catene di distribuzione e vendita, aziende di gestione dei rifiuti, enti locali e consorzi per la raccolta, consumatori finali, associazioni ambientaliste. Interessa l'intera filiera produttiva e del consumo legata al packaging.",
-      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione, ovvero il 7 ottobre 2026. Le disposizioni specifiche sull'obbligo di compostabilità potrebbero prevedere tempistiche di attuazione differenziate per consentire l'adeguamento delle imprese.",
-      "perche_conta": "Questo provvedimento rappresenta un passo significativo verso una gestione più sostenibile degli imballaggi in Italia. L'introduzione dell'obbligo di compostabilità per specifici materiali non solo ridurrà la quantità di rifiuti destinati allo smaltimento, ma incentiverà anche l'innovazione tecnologica nel settore degli imballaggi biodegradabili e compostabili, allineando l'Italia agli obiettivi europei di economia circolare. Avrà un impatto diretto sui costi di produzione, sulle filiere di approvvigionamento e sulle pratiche di smaltimento a livello locale."
+      "chi_interessato": "Produttori e importatori di imballaggi, imprese del settore alimentare e della distribuzione, gestori di impianti di compostaggio, enti di controllo ambientale, consumatori.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale (6 ottobre 2026), salvo eventuali disposizioni transitorie specifiche per l'entrata in vigore dell'obbligo.",
+      "perche_conta": "Rappresenta un passo significativo verso l'economia circolare e la gestione sostenibile dei rifiuti, imponendo standard ecologici per un settore ad alto impatto ambientale e promuovendo l'innovazione nella produzione di materiali biodegradabili."
     },
     {
-      "titolo": "Legge di conversione del Decreto-Legge su funzionalità della pubblica amministrazione, enti territoriali e protezione civile.",
+      "titolo": "Conversione in legge del decreto-legge n. 144/2026 su pubblica amministrazione, enti territoriali e protezione civile.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 174",
       "codice_atto": "26G00194",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg",
-      "categoria": "Economico / Pubblica Amministrazione",
+      "categoria": "Pubblica Amministrazione e Enti Territoriali",
       "iter": "In vigore",
-      "contesto": "La Legge n. 174 del 2026 converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144. Il decreto-legge, e ora la legge di conversione, introduce disposizioni urgenti volte a migliorare la funzionalità della pubblica amministrazione e degli enti territoriali, affrontando anche tematiche cruciali in materia di protezione civile. Il testo coordinato del decreto-legge 144/2026 con la legge di conversione 174/2026 è pubblicato nella stessa GU al codice 26A05288.",
+      "contesto": "La legge converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144, recante misure urgenti per migliorare la funzionalità della pubblica amministrazione e degli enti territoriali, includendo anche disposizioni in materia di protezione civile.",
       "misure": [
-        "Prevede misure per l'efficientamento e la semplificazione delle procedure amministrative, per accelerare l'azione della PA e ridurre i tempi di risposta ai cittadini e alle imprese.",
-        "Introduce o modifica norme relative al personale degli enti territoriali e della pubblica amministrazione, potenzialmente riguardanti assunzioni, progressioni di carriera o mobilità.",
-        "Dispone interventi urgenti per rafforzare le capacità operative e di risposta del sistema di protezione civile, anche in previsione di eventi calamitosi o situazioni di emergenza."
+        "Introduce interventi per la semplificazione amministrativa e la digitalizzazione dei servizi pubblici.",
+        "Prevede misure per il potenziamento degli organici e la formazione del personale nella pubblica amministrazione e negli enti locali.",
+        "Dispone stanziamenti e procedure accelerate per la gestione delle emergenze di protezione civile e la prevenzione dei rischi."
       ],
-      "chi_interessato": "Tutte le amministrazioni pubbliche centrali e locali, enti territoriali (Regioni, Province, Comuni), dipendenti pubblici, cittadini e imprese che interagiscono con la PA, strutture e operatori della protezione civile. La funzionalità della PA ha un impatto trasversale su tutti gli aspetti della vita sociale ed economica.",
-      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione, ovvero il 7 ottobre 2026.",
-      "perche_conta": "Questo provvedimento è fondamentale per modernizzare la pubblica amministrazione italiana, rendendola più agile ed efficace. Le misure di semplificazione e di rafforzamento della capacità operativa possono tradursi in un miglioramento dei servizi pubblici, una riduzione degli oneri burocratici per cittadini e imprese e una più rapida gestione delle emergenze. L'attenzione alla protezione civile è cruciale per la resilienza del Paese di fronte a eventi naturali o altre crisi, garantendo interventi più coordinati e tempestivi."
+      "chi_interessato": "Ministeri, enti pubblici centrali e locali (Regioni, Province, Comuni), personale della PA, cittadini, Dipartimento della Protezione Civile e le sue strutture operative.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale (6 ottobre 2026), salvo diverse indicazioni per singole disposizioni.",
+      "perche_conta": "Interviene su aspetti cruciali per l'efficienza e la reattività del sistema pubblico italiano, con un impatto diretto sulla qualità dei servizi erogati ai cittadini e sulla capacità di risposta dello Stato di fronte a situazioni di crisi."
+    },
+    {
+      "titolo": "Accertamento entrate per il finanziamento del settore sportivo.",
+      "riferimento": "DECRETO 30 luglio 2026 del MINISTERO DELL'ECONOMIA E DELLE FINANZE",
+      "codice_atto": "26A05208",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05208/sg",
+      "categoria": "Economico e Finanziario",
+      "iter": "In vigore",
+      "contesto": "Il decreto accerta le entrate, ai sensi dell'articolo 1, comma 632, della legge 30 dicembre 2018, n. 145, che devono essere destinate al finanziamento del settore sportivo.",
+      "misure": [
+        "Quantifica le risorse finanziarie derivanti dalle fonti individuate dalla legge per sostenere il settore sportivo.",
+        "Stabilisce le modalità e i criteri per l'assegnazione e l'erogazione di tali fondi a favore delle attività sportive e delle infrastrutture."
+      ],
+      "chi_interessato": "Ministero dell'Economia e delle Finanze, Dipartimento per lo Sport, CONI, federazioni sportive, enti di promozione sportiva, associazioni e società sportive dilettantistiche.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale (6 ottobre 2026).",
+      "perche_conta": "Garantisce il sostegno finanziario necessario per lo sviluppo dello sport a tutti i livelli, promuovendo l'attività fisica e il benessere sociale attraverso la disponibilità di risorse economiche dedicate."
+    },
+    {
+      "titolo": "Ordinanza di protezione civile per il subentro della Regione Siciliana nella gestione del deficit idrico.",
+      "riferimento": "ORDINANZA 17 settembre 2026 del DIPARTIMENTO DELLA PROTEZIONE CIVILE",
+      "codice_atto": "26A05253",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05253/sg",
+      "categoria": "Ambiente e Protezione Civile",
+      "iter": "In vigore",
+      "contesto": "Ordinanza di protezione civile finalizzata a regolare il subentro della Regione Siciliana nella gestione delle iniziative per superare la situazione di criticità causata da un deficit idrico.",
+      "misure": [
+        "Definisce il quadro normativo e operativo per il passaggio di competenze dal Dipartimento della Protezione Civile alla Regione Siciliana per la gestione dell'emergenza idrica.",
+        "Prevede la continuità delle azioni e degli interventi urgenti già avviati per garantire l'approvvigionamento idrico e mitigare gli effetti della siccità.",
+        "Stabilisce responsabilità e risorse per le fasi successive al superamento dell'emergenza diretta."
+      ],
+      "chi_interessato": "Dipartimento della Protezione Civile, Regione Siciliana e suoi enti territoriali, gestori del servizio idrico, cittadini e settori economici (agricoltura, turismo) della Sicilia colpiti dal deficit idrico.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale (6 ottobre 2026).",
+      "perche_conta": "Assicura una transizione efficace e la continuità nella gestione di un'emergenza idrica, fondamentale per la vita quotidiana e l'economia del territorio interessato, evidenziando il coordinamento tra livelli di governo nell'affrontare crisi ambientali."
     }
   ]
 }
