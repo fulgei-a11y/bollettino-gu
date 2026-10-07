@@ -129,17 +129,28 @@ Restituisci ESCLUSIVAMENTE un JSON valido con questa struttura esatta:
 """
 
 def generate_content_with_fallback(prompt):
-    models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]
+    # Modelli attivi e pienamente supportati dall'API v1beta
+    models = [
+        "gemini-2.5-flash",
+        "gemini-2.5-pro",
+        "gemini-2.0-flash"
+    ]
+    
     last_error = None
     for model_name in models:
         try:
             print(f"Tentativo di generazione con modello: {model_name}...")
-            model = genai.GenerativeModel(model_name, generation_config={"response_mime_type": "application/json"})
+            model = genai.GenerativeModel(
+                model_name=model_name, 
+                generation_config={"response_mime_type": "application/json"}
+            )
             res = model.generate_content(prompt)
-            return res.text.strip()
+            if res and res.text:
+                return res.text.strip()
         except Exception as e:
             print(f"Modello {model_name} non disponibile o errore: {e}")
             last_error = e
+            
     raise RuntimeError(f"Tutti i modelli Gemini hanno fallito. Ultimo errore: {last_error}")
 
 def sanitize_data(data, date_str):
