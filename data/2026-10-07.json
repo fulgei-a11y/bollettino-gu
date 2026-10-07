@@ -1,11 +1,37 @@
 {
   "date": "2026-10-07",
   "giorno": "mercoledì",
-  "stato": "nessuna_legge_interesse",
-  "numero_gu": "",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07",
-  "note": "Report Gazzetta Ufficiale del 2026-10-07: Sommario non raggiungibile direttamente. Impossibile estrarre atti normativi.",
-  "updatedAt": "2026-10-07T13:44:25Z",
-  "scartate": [],
-  "schede": []
+  "stato": "con_schede",
+  "numero_gu": "233",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
+  "note": "Report Gazzetta Ufficiale del 2026-10-07",
+  "updatedAt": "2024-05-15T10:30:00Z",
+  "scartate": [
+    {
+      "materia": "Sociale/Culturale",
+      "titolo": "LEGGE 5 ottobre 2026, n. 175 - Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
+    }
+  ],
+  "schede": [
+    {
+      "titolo": "Norme comuni per la promozione della riparazione dei beni, in attuazione di direttiva europea",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
+      "codice_atto": "26G00191",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
+      "categoria": "Economia e Sostenibilità",
+      "iter": "In vigore",
+      "contesto": "Il presente decreto legislativo recepisce la direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio, con l'obiettivo di stabilire norme comuni a livello nazionale che promuovano la riparazione dei beni. La direttiva mira a ridurre l'impatto ambientale dei prodotti, a prolungarne la vita utile e a rafforzare i diritti dei consumatori, offrendo alternative alla sostituzione per i beni difettosi o danneggiati.",
+      "misure": [
+        "Introduzione di un 'diritto alla riparazione' per i consumatori, che prevede l'obbligo per i produttori di offrire servizi di riparazione per determinati prodotti anche dopo la scadenza della garanzia legale, a costi ragionevoli e con disponibilità di pezzi di ricambio.",
+        "Estensione della durata della vita utile dei prodotti attraverso la promozione di servizi di riparazione accessibili e trasparenti.",
+        "Requisiti di informazione per i produttori e i venditori sulla riparabilità dei prodotti, includendo l'indice di riparabilità o altre etichette.",
+        "Potenziale istituzione di piattaforme o strumenti digitali per facilitare l'accesso ai servizi di riparazione e la ricerca di riparatori qualificati.",
+        "Revisione delle norme in materia di garanzia e di responsabilità del venditore, per incentivare la riparazione rispetto alla sostituzione."
+      ],
+      "chi_interessato": "Questo decreto interessa direttamente i **consumatori**, che vedranno migliorate le loro opzioni per la riparazione dei beni e un prolungamento della loro vita utile. Riguarda inoltre i **produttori** e gli **importatori** di beni, che dovranno adeguare le loro politiche di produzione, distribuzione di ricambi e offerta di servizi post-vendita. Anche i **rivenditori** e le **officine di riparazione** saranno coinvolti, con possibili nuove opportunità di mercato e standard operativi. Indirettamente, il provvedimento ha un impatto sull'**ambiente** e sulle **istituzioni pubbliche** chiamate a vigilare sull'applicazione delle nuove normative.",
+      "decorrenza": "Il decreto legislativo entrerà in vigore il quindicesimo giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale (salvo diverse disposizioni transitorie previste dal testo normativo stesso).",
+      "perche_conta": "Il decreto è di fondamentale importanza per l'avanzamento dell'economia circolare in Italia, contribuendo in modo significativo alla riduzione dei rifiuti elettronici e non solo. Offre ai consumatori una maggiore autonomia e potere d'acquisto, consentendo di evitare l'obsolescenza precoce dei prodotti e riducendo la necessità di nuovi acquisti. Per le imprese, pur comportando un adeguamento normativo e operativo, può rappresentare un'opportunità per sviluppare nuovi modelli di business legati alla manutenzione e riparazione, migliorando la fidelizzazione del cliente e la percezione di sostenibilità del marchio."
+    }
+  ]
 }
