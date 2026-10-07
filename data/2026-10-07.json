@@ -5,33 +5,32 @@
   "numero_gu": "233",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
   "note": "Report Gazzetta Ufficiale del 2026-10-07",
-  "updatedAt": "2024-05-15T10:30:00Z",
+  "updatedAt": "2026-10-07T18:17:21Z",
   "scartate": [
     {
-      "materia": "Sociale/Culturale",
-      "titolo": "LEGGE 5 ottobre 2026, n. 175 - Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
+      "materia": "Sociale / Diritti Umani / Cultura",
+      "titolo": "LEGGE 5 ottobre 2026, n. 175 Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233"
     }
   ],
   "schede": [
     {
-      "titolo": "Norme comuni per la promozione della riparazione dei beni, in attuazione di direttiva europea",
+      "titolo": "Attuazione della direttiva europea sulla promozione della riparazione dei beni",
       "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
       "codice_atto": "26G00191",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
-      "categoria": "Economia e Sostenibilità",
+      "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "Il presente decreto legislativo recepisce la direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio, con l'obiettivo di stabilire norme comuni a livello nazionale che promuovano la riparazione dei beni. La direttiva mira a ridurre l'impatto ambientale dei prodotti, a prolungarne la vita utile e a rafforzare i diritti dei consumatori, offrendo alternative alla sostituzione per i beni difettosi o danneggiati.",
+      "contesto": "Il decreto legislativo recepisce la direttiva (UE) 2024/1799, che introduce norme comuni a livello europeo per promuovere la riparazione dei beni di consumo. L'obiettivo è favorire la sostenibilità, ridurre la produzione di rifiuti e migliorare i diritti dei consumatori in termini di durabilità e facilità di riparazione dei prodotti. Questo si inserisce in un più ampio contesto di economia circolare.",
       "misure": [
-        "Introduzione di un 'diritto alla riparazione' per i consumatori, che prevede l'obbligo per i produttori di offrire servizi di riparazione per determinati prodotti anche dopo la scadenza della garanzia legale, a costi ragionevoli e con disponibilità di pezzi di ricambio.",
-        "Estensione della durata della vita utile dei prodotti attraverso la promozione di servizi di riparazione accessibili e trasparenti.",
-        "Requisiti di informazione per i produttori e i venditori sulla riparabilità dei prodotti, includendo l'indice di riparabilità o altre etichette.",
-        "Potenziale istituzione di piattaforme o strumenti digitali per facilitare l'accesso ai servizi di riparazione e la ricerca di riparatori qualificati.",
-        "Revisione delle norme in materia di garanzia e di responsabilità del venditore, per incentivare la riparazione rispetto alla sostituzione."
+        "Introduzione di un quadro normativo per incentivare e facilitare la riparazione dei beni di consumo.",
+        "Rafforzamento dei diritti dei consumatori in merito alla durabilità e alla riparabilità dei prodotti.",
+        "Obblighi per i produttori e i venditori di fornire informazioni sulla riparabilità e di garantire l'accesso a servizi di riparazione adeguati e a prezzi ragionevoli.",
+        "Misura volta a contrastare l'obsolescenza programmata e a ridurre l'impatto ambientale."
       ],
-      "chi_interessato": "Questo decreto interessa direttamente i **consumatori**, che vedranno migliorate le loro opzioni per la riparazione dei beni e un prolungamento della loro vita utile. Riguarda inoltre i **produttori** e gli **importatori** di beni, che dovranno adeguare le loro politiche di produzione, distribuzione di ricambi e offerta di servizi post-vendita. Anche i **rivenditori** e le **officine di riparazione** saranno coinvolti, con possibili nuove opportunità di mercato e standard operativi. Indirettamente, il provvedimento ha un impatto sull'**ambiente** e sulle **istituzioni pubbliche** chiamate a vigilare sull'applicazione delle nuove normative.",
-      "decorrenza": "Il decreto legislativo entrerà in vigore il quindicesimo giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale (salvo diverse disposizioni transitorie previste dal testo normativo stesso).",
-      "perche_conta": "Il decreto è di fondamentale importanza per l'avanzamento dell'economia circolare in Italia, contribuendo in modo significativo alla riduzione dei rifiuti elettronici e non solo. Offre ai consumatori una maggiore autonomia e potere d'acquisto, consentendo di evitare l'obsolescenza precoce dei prodotti e riducendo la necessità di nuovi acquisti. Per le imprese, pur comportando un adeguamento normativo e operativo, può rappresentare un'opportunità per sviluppare nuovi modelli di business legati alla manutenzione e riparazione, migliorando la fidelizzazione del cliente e la percezione di sostenibilità del marchio."
+      "chi_interessato": "Consumatori (beneficiari di prodotti più duraturi e riparabili, con un accesso facilitato ai servizi di riparazione), produttori e importatori (soggetti a nuovi obblighi di progettazione e supporto alla riparazione), rivenditori, centri di assistenza tecnica, imprese del settore dei rifiuti e del riciclo.",
+      "decorrenza": "Dalla data di pubblicazione, con specifiche disposizioni transitorie per l'applicazione delle nuove norme recepite dalla direttiva.",
+      "perche_conta": "Questo provvedimento è di grande importanza per la transizione ecologica e per la tutela dei consumatori. Contribuisce a costruire un'economia più circolare, riducendo la necessità di sostituire frequentemente i prodotti e diminuendo l'accumulo di rifiuti. Ha un impatto significativo sulle politiche di prodotto, sui modelli di business delle aziende e sull'evoluzione del mercato dei servizi di riparazione."
     }
   ]
 }
