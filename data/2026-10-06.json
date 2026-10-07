@@ -5,45 +5,94 @@
   "numero_gu": "232",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
   "note": "Report Gazzetta Ufficiale del 2026-10-06",
-  "updatedAt": "2026-10-07T11:07:23Z",
-  "scartate": [],
+  "updatedAt": "2026-10-07T13:44:36Z",
+  "scartate": [
+    {
+      "materia": "Amministrativo / Autonomie Locali",
+      "titolo": "Decreto del Presidente della Repubblica 9 settembre 2026 - Scioglimento del consiglio comunale di Eboli e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05153/sg"
+    },
+    {
+      "materia": "Amministrativo / Autonomie Locali",
+      "titolo": "Decreto del Presidente della Repubblica 9 settembre 2026 - Scioglimento del consiglio comunale di Crespino e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05154/sg"
+    },
+    {
+      "materia": "Amministrativo / Autonomie Locali",
+      "titolo": "Decreto del Presidente della Repubblica 9 settembre 2026 - Scioglimento del consiglio comunale di Curino.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05155/sg"
+    },
+    {
+      "materia": "Infrastrutture / Trasporti",
+      "titolo": "Decreto Ministero delle Infrastrutture e dei Trasporti 24 settembre 2026 - Modifiche al decreto 22 settembre 2025, in materia di autorizzazioni internazionali al trasporto di merci su strada.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05209/sg"
+    }
+  ],
   "schede": [
     {
-      "titolo": "Obbligo di compostabilità degli imballaggi: disposizioni urgenti.",
+      "titolo": "Conversione in legge, con modificazioni, del decreto-legge 7 agosto 2026, n. 143, recante disposizioni urgenti in materia di obbligo di compostabilita' di determinate tipologie di imballaggi.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 173",
       "codice_atto": "26G00193",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "La Legge n. 173/2026 converte, con modificazioni, il Decreto-Legge n. 143 del 7 agosto 2026, recante disposizioni urgenti in materia di obbligo di compostabilità di determinate tipologie di imballaggi. L'obiettivo primario è affrontare in via urgente la questione dell'impatto ambientale degli imballaggi, introducendo un obbligo specifico per promuovere pratiche più sostenibili e ridurre la produzione di rifiuti non riciclabili.",
+      "contesto": "La legge converte, con modificazioni, il Decreto-Legge n. 143 del 7 agosto 2026, introducendo norme vincolanti sulla compostabilità degli imballaggi al fine di promuovere l'economia circolare e la gestione sostenibile dei rifiuti.",
       "misure": [
-        "Introduzione dell'obbligo di compostabilità per categorie specifiche di imballaggi.",
-        "Definizione dei requisiti tecnici e delle certificazioni necessarie per gli imballaggi compostabili.",
-        "Previsione di sanzioni o incentivi per la conformità alle nuove disposizioni.",
-        "Armonizzazione con le normative europee in materia di economia circolare e gestione dei rifiuti."
+        "Introduzione o modifica di disposizioni sull'obbligo di compostabilità per specifiche categorie di imballaggi immessi sul mercato.",
+        "Definizione dei requisiti tecnici, standard di certificazione e delle tempistiche per l'adeguamento delle imprese produttrici e utilizzatrici di imballaggi."
       ],
-      "chi_interessato": "Produttori di imballaggi, importatori, distributori, aziende del settore alimentare e non-food che utilizzano imballaggi, gestori di impianti di compostaggio, enti locali per la gestione dei rifiuti e consumatori finali. Le disposizioni avranno un impatto significativo sulle filiere produttive e sui modelli di consumo.",
-      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo diverse disposizioni transitorie previste per l'attuazione dell'obbligo di compostabilità.",
-      "perche_conta": "Questa legge segna un passo importante verso una gestione più sostenibile degli imballaggi in Italia. L'obbligo di compostabilità ridurrà la quantità di rifiuti destinati all'incenerimento o alla discarica, promuovendo l'economia circolare. Le imprese dovranno adeguare i loro processi produttivi e la scelta dei materiali, potenzialmente stimolando l'innovazione e la ricerca di soluzioni più ecocompatibili. L'impatto sarà visibile sulla filiera produttiva e sulla raccolta differenziata dei rifiuti organici."
+      "chi_interessato": "Produttori, importatori e distributori di imballaggi, settori industriali che utilizzano imballaggi per i propri prodotti, gestori di impianti di trattamento dei rifiuti, consumatori e enti locali responsabili della raccolta differenziata.",
+      "decorrenza": "2026-10-06",
+      "perche_conta": "Questa legge è cruciale per la transizione verso un'economia più verde, imponendo standard di sostenibilità per gli imballaggi. Impatta direttamente sulle filiere produttive e sulla gestione dei rifiuti, riducendo l'impatto ambientale e favorendo il riuso delle risorse."
     },
     {
-      "titolo": "Disposizioni urgenti per la funzionalità della Pubblica Amministrazione, enti territoriali e protezione civile.",
+      "titolo": "Conversione in legge, con modificazioni, del decreto-legge 7 agosto 2026, n. 144, recante disposizioni urgenti per la funzionalita' della pubblica amministrazione e degli enti territoriali, nonche' in materia di protezione civile.",
       "riferimento": "LEGGE 5 ottobre 2026, n. 174",
       "codice_atto": "26G00194",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg",
-      "categoria": "Economia e Finanza / Pubblica Amministrazione",
+      "categoria": "Economico / Amministrazione Pubblica",
       "iter": "In vigore",
-      "contesto": "La Legge n. 174/2026 converte, con modificazioni, il Decreto-Legge n. 144 del 7 agosto 2026, recante disposizioni urgenti per la funzionalità della pubblica amministrazione e degli enti territoriali, nonché in materia di protezione civile. Il provvedimento mira a introdurre misure urgenti per migliorare l'efficienza e l'operatività della Pubblica Amministrazione e degli enti territoriali, contestualmente rafforzando le capacità di intervento nel settore della protezione civile.",
+      "contesto": "La legge converte, con modificazioni, il Decreto-Legge n. 144 del 7 agosto 2026, intervenendo su aspetti cruciali per l'efficienza e la capacità operativa della Pubblica Amministrazione e delle autonomie locali, con un focus sul rafforzamento della protezione civile.",
       "misure": [
-        "Semplificazione di procedure amministrative per accelerare l'azione della PA e degli enti locali.",
-        "Disposizioni per il reclutamento e la gestione del personale nella Pubblica Amministrazione.",
-        "Misure di supporto e finanziamento per gli enti territoriali.",
-        "Potenziamento delle strutture e dei protocolli della protezione civile, anche in risposta a eventi climatici o emergenziali.",
-        "Possibili digitalizzazioni di processi e servizi pubblici."
+        "Disposizioni per il rafforzamento della funzionalità della pubblica amministrazione, potenzialmente includendo misure di semplificazione, digitalizzazione, riorganizzazione o gestione del personale.",
+        "Misure a supporto degli enti territoriali per garantire la continuità dei servizi essenziali, la stabilità finanziaria e la gestione delle proprie competenze.",
+        "Interventi urgenti in materia di protezione civile, volti a migliorare la capacità di prevenzione, risposta e gestione delle emergenze sul territorio nazionale."
       ],
-      "chi_interessato": "Enti della Pubblica Amministrazione centrale e locale (Regioni, Comuni, Province), dipendenti pubblici, cittadini e imprese che interagiscono con la PA, operatori e volontari della Protezione Civile. L'impatto si estenderà anche ai settori economici e sociali che beneficiano di un'amministrazione più efficiente e di una protezione civile rafforzata.",
-      "decorrenza": "La legge entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale, salvo eventuali disposizioni specifiche per l'applicazione delle singole misure contenute nel testo.",
-      "perche_conta": "Questo provvedimento è cruciale per l'ammodernamento e l'efficienza del settore pubblico italiano. Le misure sulla funzionalità della PA e degli enti territoriali possono portare a una maggiore celerità nei servizi, una burocrazia snellita e una migliore gestione delle risorse. L'attenzione alla protezione civile rafforza la resilienza del paese di fronte a calamità naturali o altre emergenze, migliorando la sicurezza dei cittadini e la capacità di reazione dello Stato."
+      "chi_interessato": "Amministrazioni centrali e locali, enti territoriali (Regioni, Province, Comuni), dipendenti pubblici, cittadini e imprese che interagiscono con la PA, strutture e volontari della protezione civile, organizzazioni non governative operanti nel settore dell'emergenza.",
+      "decorrenza": "2026-10-06",
+      "perche_conta": "Mira a migliorare l'efficienza amministrativa e la capacità di risposta dello Stato di fronte a crisi, consolidando la governance degli enti locali e potenziando il sistema di protezione civile. È fondamentale per la modernizzazione della PA e per la sicurezza del territorio."
+    },
+    {
+      "titolo": "Testo coordinato del Decreto-Legge 7 agosto 2026, n. 143, convertito con modificazioni dalla Legge 5 ottobre 2026, n. 173, recante disposizioni urgenti in materia di obbligo di compostabilita' di determinate tipologie di imballaggi.",
+      "riferimento": "TESTO COORDINATO DEL DECRETO-LEGGE 7 agosto 2026, n. 143",
+      "codice_atto": "26A05306",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05306/sg",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore",
+      "contesto": "Presenta il testo definitivo del Decreto-Legge n. 143/2026, comprensivo delle modifiche apportate durante il processo di conversione in legge (Legge n. 173/2026). Questo testo consolidato è la fonte normativa attuale per le disposizioni in materia di compostabilità degli imballaggi.",
+      "misure": [
+        "Consolidamento delle norme sull'obbligo di compostabilità per determinati imballaggi, come risultanti dalla legge di conversione.",
+        "Dettaglio delle specifiche tecniche, dei requisiti di etichettatura e delle procedure per l'attestazione della compostabilità dei materiali."
+      ],
+      "chi_interessato": "Simili a LEGGE 173: Produttori e importatori di imballaggi, settori industriali che utilizzano imballaggi, distributori, consumatori, enti locali per la gestione dei rifiuti, organismi di certificazione e controllo.",
+      "decorrenza": "2026-10-06",
+      "perche_conta": "Fornisce il testo giuridicamente valido e completo delle nuove norme, essenziale per l'applicazione e l'adeguamento da parte di tutti i soggetti interessati al ciclo produttivo, di commercializzazione e di gestione degli imballaggi e dei rifiuti, garantendo chiarezza normativa."
+    },
+    {
+      "titolo": "Testo coordinato del Decreto-Legge 7 agosto 2026, n. 144, convertito con modificazioni dalla Legge 5 ottobre 2026, n. 174, recante disposizioni urgenti per la funzionalita' della pubblica amministrazione e degli enti territoriali, nonche' in materia di protezione civile.",
+      "riferimento": "TESTO COORDINATO DEL DECRETO-LEGGE 7 agosto 2026, n. 144",
+      "codice_atto": "26A05288",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05288/sg",
+      "categoria": "Economico / Amministrazione Pubblica",
+      "iter": "In vigore",
+      "contesto": "Presenta il testo definitivo del Decreto-Legge n. 144/2026, comprensivo delle modifiche apportate durante il processo di conversione in legge (Legge n. 174/2026). Questo testo consolidato disciplina le misure urgenti per la funzionalità della pubblica amministrazione, degli enti territoriali e in materia di protezione civile.",
+      "misure": [
+        "Consolidamento delle disposizioni volte a migliorare l'efficienza della pubblica amministrazione e la capacità operativa degli enti locali, come risultanti dalla legge di conversione.",
+        "Definizione degli interventi, delle risorse e delle procedure per l'organizzazione e il funzionamento del sistema di protezione civile."
+      ],
+      "chi_interessato": "Simili a LEGGE 174: Amministrazioni centrali e locali, enti territoriali (Regioni, Province, Comuni), dipendenti pubblici, cittadini e imprese che interagiscono con la PA, strutture e volontari della protezione civile.",
+      "decorrenza": "2026-10-06",
+      "perche_conta": "Costituisce il riferimento normativo ufficiale per l'attuazione delle misure urgenti riguardanti la PA, gli enti locali e la protezione civile. È essenziale per tutti i soggetti coinvolti, fornendo chiarezza e certezza giuridica sulle nuove disposizioni operative e organizzative."
     }
   ]
 }
