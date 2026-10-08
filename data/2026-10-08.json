@@ -1,52 +1,276 @@
 {
   "date": "2026-10-08",
   "giorno": "giovedì",
+  "updatedAt": "2026-10-08T21:25:15Z",
+  "version": 2,
   "stato": "con_schede",
   "numero_gu": "234",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234",
-  "note": "Report Gazzetta Ufficiale del 2026-10-08",
-  "updatedAt": "2024-07-29T10:00:00Z",
-  "scartate": [
-    {
-      "materia": "Salute / Alimentazione",
-      "titolo": "Adeguamento della normativa nazionale alle disposizioni del regolamento delegato (UE) 2022/1644 della Commissione, del 7 luglio 2022, che integra il regolamento (UE) 2017/625 del Parlamento europeo e del Consiglio, e del regolamento di esecuzione (UE) 2022/1646 della Commissione, del 23 settembre 2022, in materia di controlli sull'uso di sostanze farmacologicamente attive autorizzate come medicinali veterinari o come additivi per mangimi.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234"
-    }
-  ],
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/08/234/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 8 ottobre 2026 presenta importanti novità legislative in materia ambientale e digitale. Un decreto-legge introduce misure urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche, inclusi interventi per la 'Terra dei fuochi'. Due decreti legislativi adeguano la normativa nazionale a regolamenti europei, uno sui controlli delle sostanze farmacologicamente attive negli alimenti di origine animale e l'altro sull'intelligenza artificiale, definendo poteri delle autorità nazionali e sanzioni.",
   "schede": [
     {
-      "titolo": "Rafforzamento delle istruttorie ambientali e misure per clima, economia circolare e bonifiche",
-      "riferimento": "DECRETO-LEGGE 8 ottobre 2026, n. 177",
       "codice_atto": "26G00199",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg",
+      "titolo": "Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche.",
+      "riferimento": "DECRETO-LEGGE 8 ottobre 2026, n. 177",
       "categoria": "Energia e Ambiente",
-      "iter": "In vigore (o in attesa di conversione)",
-      "contesto": "Questo decreto-legge introduce misure urgenti per migliorare e accelerare le procedure di valutazione ambientale, affrontare le sfide poste dai cambiamenti climatici, promuovere l'economia circolare e la bonifica dei siti contaminati. Si inserisce in un quadro di crescente attenzione alla sostenibilità e alla transizione ecologica del Paese.",
+      "iter": "Decreto-legge da convertire entro il 7 dicembre 2026.",
+      "contesto": "Il decreto-legge interviene con urgenza per rafforzare gli strumenti amministrativi, operativi e finanziari in materia di tutela ambientale, gestione dei cambiamenti climatici, economia circolare e bonifiche, anche in relazione all'area denominata 'Terra dei fuochi', per assicurare il conseguimento degli obiettivi nazionali ed europei.",
       "misure": [
-        "Introduce nuove disposizioni procedurali per le istruttorie ambientali, al fine di snellire e rendere più efficienti i processi autorizzativi.",
-        "Prevede stanziamenti e interventi volti alla gestione dei problemi climatici e all'adattamento ai cambiamenti, con un focus sulla resilienza territoriale.",
-        "Promuove l'economia circolare attraverso nuove norme e/o incentivi, finalizzati a ridurre i rifiuti e a favorire il riutilizzo e il riciclo.",
-        "Semplifica e potenzia le procedure per le bonifiche dei siti inquinati, mirando al recupero e alla riqualificazione ambientale."
+        "Art. 1, comma 1: Modifica il D.Lgs. 152/2006 (Codice Ambiente) per rafforzare le istruttorie ambientali. All'Art. 8, comma 2-bis, include le verifiche di assoggettabilità a VIA e modifica i riferimenti agli articoli 19 e 20. Introduce l'Art. 8, comma 5-bis, per definire i costi di rimborso dei diritti di istruttoria. All'Art. 25, comma 2-ter, stabilisce che dal 2026 la copertura dei costi (fino a 5 milioni di euro annui) avviene a valere sui proventi delle tariffe di cui all'Art. 33, comma 1. All'Art. 27, comma 2, lettera d), aggiunge un riferimento all'Art. 25, comma 2-quinquies.",
+        "Art. 1, comma 2: Autorizza una spesa di 500.000 euro per l'anno 2027 per rafforzare le attività istruttorie del Ministero dell'ambiente e della sicurezza energetica connesse al rinnovo e riesame delle autorizzazioni integrate ambientali (AIA) di competenza statale, con specifico riferimento ai profili sanitari.",
+        "Art. 2, comma 1: Istituisce il 'Fondo investimenti per la gestione di eventi imprevedibili correlati all’ambiente e al clima' con una dotazione di 11 milioni di euro annui a decorrere dall’anno 2027. Il fondo finanzia investimenti comunali per eventi imprevedibili non emergenziali correlati a crisi del ciclo dei rifiuti, conservazione della flora e fauna, deterioramento ecologico e altri effetti dei cambiamenti climatici.",
+        "Art. 2, comma 2: Prevede un decreto interministeriale (MAE-MEF) entro 90 giorni per stabilire modalità e termini per la presentazione delle istanze comunali (limite di 1 milione di euro per singolo evento), criteri di valutazione, procedure di erogazione, monitoraggio, rendicontazione e casi di revoca (revoca se nessuna obbligazione entro 180 giorni dalla concessione).",
+        "Art. 2, comma 3: Consente ai comuni beneficiari di avvalersi del supporto tecnico operativo di società in house, con oneri coperti fino all'1% del finanziamento concesso.",
+        "Art. 3, comma 1: Modifica l'Art. 7, comma 4, del D.L. 133/2014, stabilendo che gli oneri per l'assistenza tecnico specialistica a supporto dei commissari di Governo per la messa a bando e realizzazione degli interventi di mitigazione del rischio idrogeologico sono a carico dei quadri economici degli interventi, nel limite massimo del 2% del finanziamento assegnato.",
+        "Art. 4, comma 1, lettera a): Modifica l'Art. 178-ter, comma 1, del D.Lgs. 152/2006, introducendo l'obbligo per le organizzazioni di adottare regole che assicurino trasparenza e correttezza procedurale e sostanziale delle decisioni degli organi di amministrazione, prevedendo obblighi di astensione in caso di conflitto di interessi.",
+        "Art. 4, comma 1, lettera b): Inserisce l'Art. 185-ter nel D.Lgs. 152/2006, che disciplina le terre e rocce da scavo. Eleva i limiti di deposito per terre e rocce da scavo qualificate con codici 17.05.04 o 17.05.03* a 4.000 metri cubi complessivi (max 800 mc di rifiuti pericolosi). Permette il riutilizzo diretto nel sito di produzione senza preventiva caratterizzazione ambientale per terre e rocce da scavo prodotte in cantieri puntuali (max 20 mc), con alcune esclusioni.",
+        "Art. 4, comma 1, lettera c): Modifica l'Art. 223 del D.Lgs. 152/2006, introducendo il comma 2-bis, che disciplina la partecipazione agli organi di amministrazione dei consorzi da parte di rappresentanti di imprese che svolgono attività di raccolta, selezione, recupero o riciclaggio, prevedendo misure per prevenire conflitti di interesse e obblighi di dichiarazione e astensione.",
+        "Art. 4, comma 2: Modifica l'Art. 35 del D.L. 77/2021. Sostituisce il comma 2, stabilendo che gli interventi di sostituzione di combustibili tradizionali con CSS-combustibile in impianti R1 non costituiscono modifiche sostanziali AIA se non comportano incremento di capacità produttiva e rispettano specifiche disposizioni, previa comunicazione all'autorità competente. Sostituisce il comma 3, estendendo analoga disciplina agli impianti non R1, richiedendo l'aggiornamento del titolo abilitativo. Introduce il comma 3.1, qualificando tali interventi come di pubblica utilità, indifferibili e urgenti.",
+        "Art. 4, comma 3: Modifica l'Art. 4, comma 5-bis, del D.L. 17/2022, includendo l'utilizzo di CSS-combustibile e specificando che il vincolo si applica ai quantitativi effettivamente impiegati. Estende il termine dal 31 dicembre 2026 al 31 dicembre 2030.",
+        "Art. 4, comma 4: Modifica l'Art. 6 del D.Lgs. 196/2021, introducendo il comma 5-bis, che impone ai produttori di bottiglie per bevande di comunicare annualmente al CONAI il quantitativo immesso sul mercato e di plastica riciclata acquistata/contenuta, con trasmissione dei dati al Ministero dell'ambiente e della sicurezza energetica.",
+        "Art. 5, comma 1, lettera a): Modifica l'Art. 244 del D.Lgs. 152/2006. Al comma 3, stabilisce un termine di 150 giorni per l'adozione dell'ordinanza motivata. Introduce il comma 4-ter, prevedendo che in caso di mancato rispetto del termine, la regione assegni alla provincia un termine di 30 giorni per provvedere, dopodiché l'ordinanza è adottata dalla regione con il supporto tecnico del SNPA.",
+        "Art. 5, comma 1, lettera b): Modifica l'Art. 252, comma 3, del D.Lgs. 152/2006, aggiungendo che con decreto saranno integrati gli allegati in materia di bonifica dei siti inquinati con la disciplina dei criteri relativi alla caratterizzazione ambientale delle aree marine nei siti di interesse nazionale.",
+        "Art. 5, comma 1, lettera c): Sopprime la decima e la sedicesima riga della tabella 2, sezione METALLI, dell'allegato 5 al titolo V del D.Lgs. 152/2006.",
+        "Art. 5, comma 2: Modifica l'Art. 6, comma 1, del D.L. 153/2024, estendendo l'applicazione delle disposizioni agli interventi di bonifica finanziati a valere sulle risorse del Fondo di cui all'Art. 1, comma 177, della L. 178/2020, ovvero del Fondo di cui all'Art. 1, comma 6, della L. 147/2013.",
+        "Art. 5, comma 3: Destina fino a 200 milioni di euro delle risorse disponibili di cui all'Art. 1, comma 875, della L. 207/2024 (quota Presidenza del Consiglio) per interventi di risanamento e bonifica dell'area 'Terra dei fuochi' da parte del Commissario unico.",
+        "Art. 5, comma 4: Incrementa il fondo di cui all'Art. 1, comma 875, della L. 207/2024 (quota Presidenza del Consiglio) di 10 milioni di euro per il 2026, 10,9 milioni per il 2027 e 9,7 milioni per ciascuno degli anni 2028, 2029 e 2030.",
+        "Art. 5, comma 5: Stabilisce che le risorse confluiscono nella contabilità speciale del Commissario unico e che le relazioni sull'impiego delle risorse devono essere trasmesse.",
+        "Art. 5, comma 7: Autorizza una spesa di 1 milione di euro per ciascuno degli anni 2027, 2028, 2029 e 2030 per le esigenze operative e di funzionamento della struttura del Commissario unico, coperta mediante riduzione del Fondo di cui all'Art. 1, comma 200, della L. 190/2014."
       ],
-      "chi_interessato": "Amministrazioni pubbliche (Ministeri dell'Ambiente e della Sicurezza Energetica, Regioni, Enti locali), imprese operanti nei settori dell'energia, gestione rifiuti, bonifiche, ingegneria ambientale e consulenza, nonché la cittadinanza per gli impatti sulla qualità ambientale e la tutela del territorio.",
-      "decorrenza": "Il decreto-legge entra in vigore il giorno stesso della sua pubblicazione in Gazzetta Ufficiale, ovvero l'8 ottobre 2026.",
-      "perche_conta": "È un provvedimento chiave per accelerare la transizione ecologica dell'Italia, affrontando temi cruciali come la tutela ambientale, l'efficienza delle procedure e la lotta al cambiamento climatico. Le disposizioni sull'economia circolare e le bonifiche sono fondamentali per lo sviluppo sostenibile e il recupero del territorio nazionale."
+      "chi_interessato": "Ministero dell'ambiente e della sicurezza energetica, Ministero dell'economia e delle finanze, comuni, regioni, province, Sistema nazionale a rete per la protezione dell'ambiente (SNPA), Commissario unico per la 'Terra dei fuochi', produttori di bottiglie per bevande, Consorzio Nazionale Imballaggi (CONAI), imprese che svolgono attività di raccolta, selezione, recupero o riciclaggio, operatori di impianti R1 e non R1 che utilizzano CSS-combustibile, soggetti coinvolti in istruttorie ambientali e bonifiche, enti di ricerca e università.",
+      "decorrenza": "In vigore dal 9 ottobre 2026.",
+      "perche_conta": "Il decreto è cruciale per l'Italia in quanto rafforza la capacità amministrativa e finanziaria nella gestione delle sfide ambientali e climatiche, accelerando le procedure di valutazione ambientale, promuovendo l'economia circolare con nuove regole per terre e rocce da scavo e l'uso di CSS-combustibile, e potenziando gli interventi di bonifica, in particolare per l'area 'Terra dei fuochi'. Introduce un nuovo fondo per eventi imprevedibili legati al clima, fornendo strumenti concreti per la resilienza territoriale.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg",
+      "vigore": "09/10/2026"
     },
     {
-      "titolo": "Adeguamento normativo italiano sull'intelligenza artificiale e poteri delle Autorità nazionali",
-      "riferimento": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 179",
-      "codice_atto": "26G00200",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
-      "categoria": "Pubblica Amministrazione / Economia Digitale",
-      "iter": "In vigore",
-      "contesto": "Questo decreto legislativo implementa nell'ordinamento italiano il Regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, noto come AI Act, la prima legge completa al mondo sull'intelligenza artificiale. Si concentra in particolare sulla definizione dei poteri delle autorità nazionali preposte alla sua attuazione e sull'uso dell'IA nel settore della formazione, garantendo un quadro normativo armonizzato a livello europeo.",
+      "codice_atto": "26G00192",
+      "titolo": "Adeguamento della normativa nazionale ai regolamenti UE sui controlli delle sostanze farmacologicamente attive negli animali e prodotti di origine animale.",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 178",
+      "categoria": "Economico",
+      "iter": "In vigore dal 23 ottobre 2026.",
+      "contesto": "Il decreto legislativo recepisce le disposizioni dei regolamenti delegato (UE) 2022/1644 e di esecuzione (UE) 2022/1646 della Commissione, che stabiliscono prescrizioni specifiche e modalità pratiche uniformi per l'esecuzione dei controlli ufficiali sull'uso di sostanze farmacologicamente attive autorizzate come medicinali veterinari o additivi per mangimi, e dei loro residui, nonché sulla presenza di sostanze vietate o non autorizzate negli animali destinati alla produzione di alimenti e nei prodotti di origine animale.",
       "misure": [
-        "Prevede la designazione e l'attribuzione di poteri specifici alle autorità nazionali per la vigilanza, il controllo e l'applicazione delle disposizioni del Regolamento UE sull'Intelligenza Artificiale.",
-        "Stabilisce linee guida, requisiti e, potenzialmente, divieti o limitazioni per l'impiego di sistemi di intelligenza artificiale negli ambiti formativi, includendo scuole e università, al fine di tutelare i diritti fondamentali e garantire la qualità dell'istruzione."
+        "Art. 1, comma 1: Stabilisce le disposizioni per l'adeguamento dell'ordinamento giuridico nazionale ai regolamenti (UE) 2022/1644 e (UE) 2022/1646, definendo prescrizioni specifiche e modalità pratiche uniformi per i controlli ufficiali sui residui di sostanze farmacologicamente attive negli animali destinati alla produzione di alimenti e nei prodotti di origine animale.",
+        "Art. 2, comma 2: Definisce il 'Piano nazionale residui (PNR)' come il Piano nazionale per l'esecuzione dei controlli ufficiali, il 'Laboratorio nazionale di riferimento designato per i residui di sostanze farmacologicamente attive' come l'Istituto superiore di sanità, il 'Sistema informatico NSIS/RaDISAN' come il sistema informativo unico nazionale per la raccolta di dati analitici nel settore della sicurezza alimentare e le 'Attività di extrapiano nell’ambito del Piano nazionale residui (PNR)' come controlli mirati e aggiuntivi.",
+        "Art. 3, comma 1: Articola il PNR in: a) Piano mirato (basato sul rischio, per verificare la presenza di sostanze vietate/non autorizzate e la conformità ai limiti massimi di residui); b) Piano di sorveglianza (randomizzato, per la ricerca di un'ampia gamma di sostanze); c) Piano paesi terzi (basato sul rischio, per verificare la conformità alla legislazione europea per i prodotti importati, con possibilità di controlli mirati in fase di commercializzazione).",
+        "Art. 3, comma 2: Indica che le sostanze farmacologicamente attive da ricercare sono quelle riportate nell'allegato I al regolamento delegato (UE) 2022/1644.",
+        "Art. 3, commi 3, 4, 5: Dettaglia la struttura dei Piani (mirato, sorveglianza, paesi terzi) in base ai regolamenti europei, specificando criteri per la selezione di sostanze/prodotti, strategie e frequenze minime di campionamento.",
+        "Art. 3, comma 6: Consente al Ministero della salute o alle regioni/province autonome di pianificare attività di Extrapiano.",
+        "Art. 3, comma 7: Prevede che tutte le attività del PNR, incluse quelle di Extrapiano, siano pianificate e rendicontate nel sistema informatico NSIS/RaDISAN, includendo dati di campionamento, analisi, azioni intraprese in caso di non conformità e la causa della non conformità.",
+        "Art. 3, comma 8: Permette a regioni e province autonome di istituire nuclei operativi regionali di vigilanza veterinaria (N.O.R.V.) nell'ambito delle risorse disponibili.",
+        "Art. 4, comma 1: Designa il Ministero della salute come autorità centrale competente per la predisposizione, organizzazione e coordinamento del PNR.",
+        "Art. 4, comma 2: Elenca i compiti del Ministero della salute, tra cui l'aggiornamento annuale del PNR, l'adozione di interventi correttivi, il coordinamento delle attività, la raccolta di informazioni e la trasmissione annuale del PNR e dei risultati alla Commissione europea e all'EFSA, nonché l'elaborazione di indicazioni operative.",
+        "Art. 4, comma 3: Istituisce un 'Gruppo residui' permanente presso il Ministero della salute con funzioni di supporto e consultive per la preparazione e l'esame del PNR, l'individuazione di modifiche e il supporto per le attività europee.",
+        "Art. 4, comma 4: Specifica la composizione del Gruppo residui (13 componenti, inclusi esperti di Regioni, ISS, Laboratorio nazionale di riferimento, IIZZSS, CIBA e Ministero della salute).",
+        "Art. 4, comma 5: Prevede un decreto del Ministro della salute entro 120 giorni per la nomina dei componenti e la disciplina del funzionamento del Gruppo residui.",
+        "Art. 5, comma 1: Stabilisce che tutti i campioni siano prelevati e analizzati conformemente ai regolamenti UE, al D.Lgs. 27/2021, al regolamento (UE) 2021/808, al PNR e alle indicazioni operative del Ministero della salute.",
+        "Art. 5, comma 2: Indica che i campioni sono analizzati dagli Istituti zooprofilattici sperimentali o, in casi particolari, da altri laboratori individuati dal Ministero della salute.",
+        "Art. 6, comma 1: Prevede che le azioni successive al riscontro di non conformità siano immediate e coerenti, volte a determinarne l'origine, l'entità, le responsabilità dell'operatore e ad assicurare il rimedio e la prevenzione di future non conformità.",
+        "Art. 6, comma 2: In caso di sospetta o accertata non conformità, l'autorità competente deve comunicarla immediatamente e contestualmente a regione/provincia autonoma/UVAC, regione/provincia autonoma di origine, ASL competente, IZS e direzione generale del Ministero della salute competente, con ulteriori comunicazioni per prodotti da Stati membri o paesi terzi.",
+        "Art. 7, comma 1: Apporta modifiche al decreto legislativo 16 marzo 2006, n. 158, sopprimendo riferimenti a misure di controllo su sostanze e residui negli animali vivi e nei loro prodotti, abrogando la lettera p) del comma 3 dell'Art. 1 e gli articoli 9, 11, 12 e 20, nonché gli allegati I, II, III e IV.",
+        "Art. 8, comma 1: Clausola di invarianza finanziaria, le amministrazioni provvedono con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica."
       ],
-      "chi_interessato": "Autorità governative e di regolamentazione in Italia, Ministero dell'Istruzione e del Merito, istituzioni scolastiche e universitarie, enti di formazione, sviluppatori e fornitori di sistemi AI, imprese che utilizzano o integrano l'IA nei loro processi, operatori del settore digitale e tecnologico, e i cittadini in generale, in quanto utenti e soggetti interessati dall'applicazione dell'IA.",
-      "decorrenza": "Il decreto legislativo entra in vigore con la pubblicazione in Gazzetta Ufficiale l'8 ottobre 2026, in linea con i tempi previsti per l'applicazione del Regolamento UE, pur potendo prevedere periodi transitori per specifici adempimenti o settori.",
-      "perche_conta": "Rappresenta un pilastro fondamentale per la governance e la regolamentazione dell'intelligenza artificiale in Italia. Questo atto normativo assicura che l'innovazione tecnologica sia accompagnata da un robusto quadro normativo che garantisca sicurezza, trasparenza, etica e rispetto dei diritti, specialmente in settori critici come la pubblica amministrazione e l'istruzione, posizionando l'Italia come attore chiave nell'implementazione dell'AI Act europeo."
+      "chi_interessato": "Ministero della salute, Istituto superiore di sanità, Istituti zooprofilattici sperimentali, regioni, province autonome, aziende sanitarie locali (ASL), operatori del settore alimentare e mangimistico, allevatori, importatori di prodotti di origine animale, Commissione europea, Autorità europea per la sicurezza alimentare (EFSA).",
+      "decorrenza": "In vigore dal 23 ottobre 2026.",
+      "perche_conta": "Questo decreto è fondamentale per garantire la sicurezza alimentare e la tutela della salute pubblica, armonizzando la normativa italiana con quella europea in materia di controlli sui residui di sostanze farmacologicamente attive negli animali e nei prodotti di origine animale. Introduce un Piano Nazionale Residui strutturato e rafforza il coordinamento tra le autorità competenti, migliorando l'efficacia dei controlli e la trasparenza dei dati.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00192/sg",
+      "vigore": "23/10/2026"
+    },
+    {
+      "codice_atto": "26G00200",
+      "titolo": "Adeguamento della normativa nazionale al regolamento UE sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione.",
+      "riferimento": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 179",
+      "categoria": "Economico",
+      "iter": "In vigore dal 23 ottobre 2026.",
+      "contesto": "Il decreto legislativo adegua la normativa nazionale al regolamento (UE) 2024/1689 (Regolamento IA), che stabilisce regole armonizzate sull'intelligenza artificiale. Definisce i poteri delle autorità nazionali, il loro coordinamento e le sanzioni per le violazioni, garantendo un approccio antropocentrico e responsabile all'IA.",
+      "misure": [
+        "Art. 1, comma 2: Definisce le 'autorità nazionali per l’intelligenza artificiale' (AgID e ACN), le 'autorità nazionali di vigilanza del mercato' (ACN, Banca d’Italia, CONSOB, IVASS, Garante per la protezione dei dati personali), le 'autorità settoriali di vigilanza del mercato' (amministrazioni designate dal D.Lgs. 157/2022), le 'autorità del settore finanziario' (Banca d’Italia, CONSOB, IVASS), l''autorità nazionale di notifica' (AgID), il 'Comitato di coordinamento', gli 'istituti finanziari', il 'regolamento IA', la 'legge IA', la 'normativa di armonizzazione dell’Unione', l''organismo nazionale di accreditamento', lo 'Spazio di sperimentazione italiano per l’IA' e la 'sperimentazione FinTech'.",
+        "Art. 2, comma 1: Delinea le disposizioni necessarie all'adeguamento della normativa nazionale al regolamento IA e alle pertinenti norme tecniche, in materia di poteri delle autorità e di coordinamento con la normativa settoriale vigente.",
+        "Art. 3, comma 1: Stabilisce che il decreto è adottato nel rispetto dei principi generali della legge IA, con una prospettiva di garanzia antropocentrica, uso corretto, trasparente e responsabile dei sistemi di IA e vigilanza sui rischi per diritti e libertà.",
+        "Art. 4, comma 1: Designa l'Agenzia per l'Italia Digitale (AgID) come autorità nazionale di notifica, responsabile della predisposizione e attuazione delle procedure per la valutazione, designazione, notifica e monitoraggio degli organismi di valutazione della conformità.",
+        "Art. 5, comma 1: Individua le autorità nazionali di vigilanza del mercato: l'ACN per la vigilanza generale, la Banca d'Italia, la CONSOB e l'IVASS per i sistemi di IA ad alto rischio nel settore finanziario, e il Garante per la protezione dei dati personali per quanto previsto dall'Art. 74, paragrafo 8, del regolamento IA.",
+        "Art. 6, comma 1: Stabilisce che l'ACN svolge le funzioni di punto di contatto unico, con modalità di contatto pubblicate sul proprio sito istituzionale e nell'elenco della Commissione europea.",
+        "Art. 7, comma 1: Prevede che l'Autorità nazionale di notifica e le Autorità nazionali di vigilanza del mercato stipulino accordi per la condivisione di dati e informazioni e per l'istituzione di meccanismi di cooperazione e risposta rapida in caso di incidenti gravi.",
+        "Art. 7, comma 4: Consente all'Autorità nazionale di notifica e alle Autorità nazionali di vigilanza del mercato di stipulare convenzioni e protocolli d'intesa per progetti di ricerca, sperimentazione e formazione sull'IA, anche con università e enti di ricerca.",
+        "Art. 8, comma 1: L'ACN garantisce il coordinamento e la collaborazione con le Autorità settoriali di vigilanza del mercato, in attuazione dell'Art. 74, paragrafo 3, del regolamento IA.",
+        "Art. 9, comma 1: Prevede la collaborazione tra ACN e le Autorità del settore finanziario per l'esercizio dei poteri di vigilanza e ispettivi sui sistemi di IA utilizzati dagli istituti finanziari.",
+        "Art. 10, comma 1: Stabilisce che le disposizioni del D.Lgs. 157/2022 (vigilanza del mercato e conformità dei prodotti) si applicano alle attività dell'ACN, in quanto compatibili con il regolamento IA, con eccezione degli articoli 11 e 12.",
+        "Art. 11, comma 1: Consente alle Autorità nazionali per l'IA e alle Autorità del settore finanziario di adottare linee guida, raccomandazioni e buone pratiche nei limiti e per le finalità previste dal regolamento IA e dalla legge IA.",
+        "Art. 12, comma 1: Regola la partecipazione delle Autorità del settore finanziario al Comitato di coordinamento e ribadisce le competenze del Garante per la protezione dei dati personali e dell'Autorità per le garanzie nelle comunicazioni.",
+        "Art. 13, comma 1: L'AgID, in qualità di autorità di notifica, dispone delle prerogative per l'esecuzione delle procedure di notifica e dei compiti di cui agli articoli 28, 30 e 36 del regolamento IA, e può adottare disposizioni attuative.",
+        "Art. 13, comma 3: L'AgID assicura il monitoraggio continuo degli organismi notificati e dei soggetti di cui all'Art. 33 del regolamento IA, con audit periodici e straordinari, avviando procedimenti di limitazione, sospensione e revoca della designazione in caso di carenze.",
+        "Art. 14, comma 1: L'ACN è competente per la registrazione a livello nazionale dei sistemi di IA ad alto rischio di cui all'allegato III, punto 2, del regolamento IA.",
+        "Art. 15, comma 1: L'ACN esercita i poteri di vigilanza e ispettivi previsti dal regolamento IA e dal regolamento (UE) 2019/1020 per lo svolgimento dei compiti relativi all'IA.",
+        "Art. 15, comma 2: L'ACN dispone dei medesimi poteri di vigilanza e ispettivi per garantire lo sviluppo in sicurezza delle prove in condizioni reali, inclusi controlli e ispezioni a distanza o in loco, anche senza preavviso.",
+        "Art. 16, comma 1: L'ACN è l'autorità di vigilanza competente per i sistemi di IA in relazione alle misure di cui agli articoli 79, 80, 82 e 83 del regolamento IA, nonché agli articoli 14 e 16 del regolamento (UE) 2019/1020.",
+        "Art. 17, comma 1: Le Autorità del settore finanziario, quali autorità di vigilanza del mercato, dispongono dei poteri previsti dal regolamento IA e dal regolamento (UE) 2019/1020 nei confronti degli istituti finanziari vigilati.",
+        "Art. 18, comma 1: Le Autorità nazionali di vigilanza del mercato ricevono e trattano i reclami ai sensi dell'Art. 85 del regolamento IA, assicurando il diritto al contraddittorio e trasmettendo i reclami all'autorità competente in caso di errore.",
+        "Art. 19, comma 1: L'Autorità nazionale di notifica e le Autorità nazionali di vigilanza del mercato adottano tutte le misure necessarie per garantire un'attuazione corretta ed efficace delle disposizioni sanzionatorie, tenendo conto dell'Art. 99 del regolamento IA.",
+        "Art. 20, comma 1: L'AgID irroga le sanzioni amministrative pecuniarie previste dall'Art. 99, paragrafi 4, lettera f), e 5 del regolamento IA, nell'esercizio delle sue funzioni di autorità di notifica.",
+        "Art. 21, comma 1: Le Autorità nazionali di vigilanza del mercato irrogano le sanzioni previste nei confronti dei soggetti di cui all'Art. 99, paragrafo 1, del regolamento IA, secondo le rispettive competenze.",
+        "Art. 22, comma 1: Per violazioni di scarsa offensività o pericolosità, le autorità possono, in alternativa alle sanzioni pecuniarie, ordinare di eliminare le infrazioni o applicare una dichiarazione pubblica della violazione.",
+        "Art. 23, comma 1: La non conformità al divieto delle pratiche di cui all'Art. 5 del regolamento IA è soggetta a sanzione amministrativa pecuniaria fino a 35.000.000 euro o al 7% del fatturato mondiale totale annuo precedente, se superiore.",
+        "Art. 23, comma 2: Il mancato rispetto degli obblighi di cui agli articoli 16, 22, 23, 24, 25, 26, 31, 33 (paragrafi 1, 3 e 4), 34, 50, 73 e 80 del regolamento IA è soggetto a sanzione amministrativa pecuniaria fino a 15.000.000 euro o al 3% del fatturato mondiale totale annuo precedente, se superiore.",
+        "Art. 23, comma 3: La fornitura di informazioni inesatte, incomplete o fuorvianti è soggetta a sanzione amministrativa pecuniaria fino a 7.500.000 euro o all'1% del fatturato mondiale totale annuo precedente, se superiore.",
+        "Art. 23, comma 4: Il mancato rispetto degli obblighi di cui agli articoli 27 e 86 del regolamento IA è soggetto a sanzione amministrativa pecuniaria fino a 1.000.000 euro o allo 0,5% del fatturato mondiale totale annuo precedente, se superiore.",
+        "Art. 24, comma 1: Le autorità applicano le sanzioni con provvedimento motivato entro un termine ragionevole, previa contestazione degli addebiti.",
+        "Art. 24, comma 4: Il provvedimento di irrogazione delle sanzioni è pubblicato senza ritardo e per estratto sul sito internet istituzionale delle autorità, con possibilità di pubblicazione in forma anonima in specifici casi."
+      ],
+      "chi_interessato": "Agenzia per l'Italia Digitale (AgID), Agenzia per la cybersicurezza nazionale (ACN), Banca d'Italia, CONSOB, IVASS, Garante per la protezione dei dati personali, Autorità settoriali di vigilanza del mercato, istituti finanziari, organismi di valutazione della conformità, fornitori e utilizzatori di sistemi di IA, piccole e medie imprese, start-up innovative, università, enti pubblici di ricerca, istituzioni AFAM e ITS Academy, Corpo della Guardia di Finanza, Polizia di Stato, Arma dei Carabinieri, Direzione Investigativa Antimafia.",
+      "decorrenza": "In vigore dal 23 ottobre 2026.",
+      "perche_conta": "Questo decreto è di fondamentale importanza per l'Italia, in quanto stabilisce il quadro normativo nazionale per l'applicazione del Regolamento UE sull'Intelligenza Artificiale. Definisce chiaramente i ruoli e i poteri delle autorità competenti, garantendo un sistema di vigilanza e sanzioni efficace. È cruciale per promuovere uno sviluppo e un utilizzo dell'IA che sia sicuro, etico e conforme ai diritti fondamentali, fornendo certezza giuridica agli operatori e tutelando i cittadini.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+      "vigore": "23/10/2026"
     }
-  ]
+  ],
+  "scartate": [],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05249",
+      "categoria": "Economico",
+      "titolo": "BANCA D'ITALIA - COMUNICATO Modifiche alla circolare n. 288/2015 (Disposizioni di vigilanza per gli intermediari finanziari) in materia di cessione di rapporti giuridici in blocco di maggiore rilevanza.",
+      "sintesi": "La Banca d'Italia comunica modifiche alla circolare n. 288/2015, introducendo nuove disposizioni di vigilanza per gli intermediari finanziari relative alla cessione di rapporti giuridici in blocco di maggiore rilevanza.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05249/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00199",
+      "titolo": "DECRETO-LEGGE 8 ottobre 2026, n. 177 Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg"
+    },
+    {
+      "codice": "26G00192",
+      "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 178 Adeguamento della normativa nazionale alle disposizioni del regolamento delegato (UE) 2022/1644 della Commissione, del 7 luglio 2022, che integra il regolamento (UE) 2017/625 del Parlamento europeo e del Consiglio, e del regolamento di esecuzione (UE) 2022/1646 della Commissione, del 23 settembre 2022, in materia di controlli sull'uso di sostanze farmacologicamente attive autorizzate come medicinali veterinari o come additivi per mangimi.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00192/sg"
+    },
+    {
+      "codice": "26G00200",
+      "titolo": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 179 Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorita' nazionali e di utilizzo dell'intelligenza artificiale nella formazione.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg"
+    },
+    {
+      "codice": "26A05164",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Leonessa e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05164/sg"
+    },
+    {
+      "codice": "26A05165",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Gorgo al Monticano.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05165/sg"
+    },
+    {
+      "codice": "26A05235",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 30 settembre 2026 Conferma dell'incarico al Consorzio di tutela del Salame Felino IGP a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'art. 14, comma 15, della legge 21 dicembre 1999, n. 526, per la IGP «Salame Felino».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05235/sg"
+    },
+    {
+      "codice": "26A05236",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 7 agosto 2026 Disposizioni per l'avvio del programma pluriennale di screening su base nazionale nella popolazione pediatrica per l'individuazione degli anticorpi del diabete di tipo 1 e della celiachia.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05236/sg"
+    },
+    {
+      "codice": "26A05237",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 29 aprile 2026 Nuova linea ferroviaria Torino - Lione. Sezione internazionale - Parte comune italo-francese. Sezione transfrontaliera. Approvazione dell'aumento del costo a vita intera (CVI), riaggregazione dei lotti costruttivi, autorizzazione all'uso dei finanziamenti assegnati e nuova data di messa in esercizio (CUP C11J05000030001). (Delibera n. 18/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05237/sg"
+    },
+    {
+      "codice": "26A05238",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Foscarnet Tillomed».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05238/sg"
+    },
+    {
+      "codice": "26A05239",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Irbesartan Macleods Pharma».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05239/sg"
+    },
+    {
+      "codice": "26A05240",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Imukin»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05240/sg"
+    },
+    {
+      "codice": "26A05241",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Tacrolimus EG».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05241/sg"
+    },
+    {
+      "codice": "26A05242",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Atropina Solfato Accord».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05242/sg"
+    },
+    {
+      "codice": "26A05243",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Adenuric»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05243/sg"
+    },
+    {
+      "codice": "26A05244",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Voltaren»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05244/sg"
+    },
+    {
+      "codice": "26A05245",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Harmonet»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05245/sg"
+    },
+    {
+      "codice": "26A05246",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Benagol»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05246/sg"
+    },
+    {
+      "codice": "26A05247",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Slinda»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05247/sg"
+    },
+    {
+      "codice": "26A05249",
+      "titolo": "BANCA D'ITALIA - COMUNICATO Modifiche alla circolare n. 288/2015 (Disposizioni di vigilanza per gli intermediari finanziari) in materia di cessione di rapporti giuridici in blocco di maggiore rilevanza.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05249/sg"
+    },
+    {
+      "codice": "26A05248",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Cerimonia di presentazione di lettere credenziali",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05248/sg"
+    },
+    {
+      "codice": "26A05254",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 21 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05254/sg"
+    },
+    {
+      "codice": "26A05255",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 22 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05255/sg"
+    },
+    {
+      "codice": "26A05256",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 23 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05256/sg"
+    },
+    {
+      "codice": "26A05257",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 24 agosto 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05257/sg"
+    },
+    {
+      "codice": "26A05258",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 25 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05258/sg"
+    },
+    {
+      "codice": "26A05252",
+      "titolo": "SUPPLEMENTI ORDINARI PRESIDENZA DEL CONSIGLIO DEI MINISTRI - CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO, LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E BOLZANO ACCORDO 7 luglio 2026 Accordo, ai sensi dell'articolo 4, comma 1, del decreto legislativo 28 agosto 1997, n. 281, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, sul documento recante «Linee di indirizzo nazionale sulla ristorazione penitenziaria minorile». (Repertorio atti n. 97/CSR del 7 luglio 2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26A05252/sg"
+    }
+  ],
+  "audio": "audio/2026-10-08.mp3",
+  "duration": 1485.3
 }
