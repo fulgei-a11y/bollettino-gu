@@ -38,7 +38,7 @@ BACKFILL_DAYS = int(os.environ.get("BACKFILL_DAYS", "10"))
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "4"))
 FORCE_DATE = os.environ.get("GU_DATE", "").strip()
 
-MODELS = ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.5-flash-lite"]
+MODELS = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-2.5-pro", "gemini-3.5-flash-lite"]
 GIORNI = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
 MESI = ["", "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
