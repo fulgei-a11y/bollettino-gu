@@ -5,31 +5,32 @@
   "numero_gu": "233",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
   "note": "Report Gazzetta Ufficiale del 2026-10-07",
-  "updatedAt": "2026-10-08T18:17:06Z",
+  "updatedAt": "2026-10-08T19:10:50Z",
   "scartate": [
     {
-      "materia": "Sociale / Culturale / Diritti Umani",
+      "materia": "Sociale / Culturale",
       "titolo": "Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
-      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233"
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
     }
   ],
   "schede": [
     {
-      "titolo": "Attuazione della direttiva UE sulla promozione della riparazione dei beni per un'economia circolare.",
+      "titolo": "Attuazione di direttiva UE sulla promozione della riparazione dei beni per sostenibilità e consumo.",
       "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
       "codice_atto": "26G00191",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "Il decreto legislativo recepisce la direttiva (UE) 2024/1799, introducendo norme comuni volte a promuovere la riparazione dei beni di consumo. L'obiettivo è estendere la vita utile dei prodotti, ridurre la produzione di rifiuti e sostenere i principi dell'economia circolare, con un impatto positivo sull'ambiente e sui diritti dei consumatori.",
+      "contesto": "Il Decreto Legislativo recepisce la direttiva (UE) 2024/1799, che mira a stabilire norme comuni a livello europeo per promuovere la riparazione dei beni di consumo. L'obiettivo è prolungare la vita utile dei prodotti, ridurre la produzione di rifiuti e sostenere un'economia più circolare, garantendo al contempo maggiori diritti ai consumatori in termini di accesso alla riparazione.",
       "misure": [
-        "Introduzione di un quadro normativo per incentivare la riparazione dei beni, rendendola più accessibile e conveniente per i consumatori.",
-        "Definizione di obblighi per i produttori riguardo la disponibilità di pezzi di ricambio e la fornitura di informazioni chiare sulle opzioni di riparazione.",
-        "Rafforzamento dei diritti dei consumatori, garantendo loro maggiori opportunità di scegliere la riparazione rispetto alla sostituzione dei prodotti difettosi, anche oltre il periodo di garanzia legale."
+        "Introduzione di obblighi per i produttori riguardo la disponibilità di pezzi di ricambio e strumenti di riparazione.",
+        "Facilitazione dell'accesso dei consumatori a servizi di riparazione convenienti e trasparenti.",
+        "Potenziamento delle garanzie legali o l'introduzione di 'diritto alla riparazione' per specifiche categorie di prodotti.",
+        "Definizione di requisiti per le informazioni sulla riparabilità dei prodotti da fornire ai consumatori."
       ],
-      "chi_interessato": "Consumatori, che beneficiano di una maggiore durabilità dei prodotti e di costi potenzialmente ridotti grazie alla facilità di riparazione. Produttori e importatori, che devono adeguare le proprie politiche e processi per garantire la disponibilità di pezzi di ricambio e servizi di riparazione. L'industria della riparazione, che potrebbe vedere un aumento della domanda. L'ambiente, grazie alla riduzione dei rifiuti e all'impulso verso un modello di consumo più sostenibile.",
-      "decorrenza": "Generalmente, il decreto entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale (8 ottobre 2026), salvo diverse specifiche disposizioni transitorie per l'applicazione delle nuove normative.",
-      "perche_conta": "Questo decreto è di fondamentale importanza per l'implementazione dell'economia circolare in Italia, trasformando il panorama dei beni di consumo. Contribuisce significativamente alla sostenibilità ambientale attraverso la riduzione dell'obsolescenza programmata e la minimizzazione dei rifiuti, offrendo al contempo ai cittadini un maggiore controllo sulla vita utile dei loro acquisti e potenziali risparmi."
+      "chi_interessato": "Consumatori (beneficiari di maggiori diritti e opportunità di riparazione), produttori (soggetti a nuovi obblighi e standard), rivenditori e centri di assistenza (impatto sulle pratiche commerciali e di servizio), enti di vigilanza del mercato e associazioni di categoria.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale, salvo diverse disposizioni transitorie o di entrata in vigore previste dal decreto stesso.",
+      "perche_conta": "Questo decreto rappresenta un passo significativo verso un modello di consumo più sostenibile. Per i consumatori, si traduce in maggiore durabilità dei prodotti e risparmio economico potenziale. Per le imprese, implica un adeguamento delle strategie produttive, di supply chain e di assistenza post-vendita, con potenziali opportunità per il settore della riparazione e della ricondizionamento. Contribuisce agli obiettivi ambientali di riduzione dei rifiuti e ottimizzazione delle risorse."
     }
   ]
 }
