@@ -5,31 +5,32 @@
   "numero_gu": "233",
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
   "note": "Report Gazzetta Ufficiale del 2026-10-07",
-  "updatedAt": "2024-05-15T10:00:00Z",
+  "updatedAt": "2026-10-08T11:07:30Z",
   "scartate": [
     {
       "materia": "Sociale / Culturale",
-      "titolo": "LEGGE 5 ottobre 2026, n. 175 - Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
+      "titolo": "Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
     }
   ],
   "schede": [
     {
-      "titolo": "Attuazione della direttiva (UE) 2024/1799 sulla promozione della riparazione dei beni",
+      "titolo": "Attuazione della direttiva UE sulla promozione della riparazione dei beni per favorire l'economia circolare e la sostenibilità.",
       "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
       "codice_atto": "26G00191",
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
       "categoria": "Energia e Ambiente",
       "iter": "In vigore",
-      "contesto": "Il decreto legislativo n. 176 del 2026 mira ad attuare la direttiva (UE) 2024/1799, stabilendo norme comuni per incentivare e facilitare la riparazione dei beni. Questa iniziativa si inserisce nel più ampio quadro dell'economia circolare e delle politiche di sostenibilità ambientale, con l'obiettivo di prolungare la vita utile dei prodotti e ridurre la produzione di rifiuti, promuovendo un consumo più responsabile.",
+      "contesto": "Il decreto legislativo recepisce la direttiva (UE) 2024/1799, che introduce norme comuni per promuovere la riparazione dei beni. L'obiettivo è estendere il ciclo di vita dei prodotti, riducendo i rifiuti e supportando i principi dell'economia circolare. Questa normativa mira a rendere la riparazione un'opzione più accessibile e conveniente per i consumatori rispetto alla sostituzione, combattendo l'obsolescenza precoce dei prodotti.",
       "misure": [
-        "Introduzione di un quadro normativo armonizzato per la promozione della riparazione dei beni a livello nazionale, in linea con gli obiettivi della direttiva europea.",
-        "Potenziale rafforzamento degli obblighi per i produttori e venditori in termini di disponibilità di pezzi di ricambio, strumenti di riparazione e servizi post-vendita.",
-        "Riconoscimento e consolidamento dei diritti dei consumatori in relazione alla riparabilità dei prodotti, contribuendo a contrastare l'obsolescenza programmata."
+        "Introduzione di un 'diritto alla riparazione' per i consumatori per specifici prodotti e periodi di tempo.",
+        "Obblighi per i produttori di rendere disponibili pezzi di ricambio e strumenti a prezzi ragionevoli.",
+        "Facilitazione dell'accesso a servizi di riparazione indipendenti.",
+        "Potenziale creazione di piattaforme informative sulla riparazione e incentivi alla riparazione."
       ],
-      "chi_interessato": "Questo decreto interessa primariamente i **consumatori**, che beneficeranno di maggiori opportunità e diritti in relazione alla riparazione dei prodotti. Riguarda inoltre i **produttori e importatori** di beni, i quali dovranno adeguare le proprie strategie di progettazione, produzione e assistenza post-vendita. Anche il settore delle **imprese di riparazione** e dei **centri di assistenza tecnica** sarà direttamente coinvolto, con possibili nuove opportunità di mercato. Le **autorità di controllo e vigilanza** avranno il compito di garantire la corretta applicazione delle nuove disposizioni.",
-      "decorrenza": "Il provvedimento entra in vigore a partire dalla data di pubblicazione in Gazzetta Ufficiale, ovvero il 7 ottobre 2026, salvo specifiche diverse disposizioni transitorie che potrebbero essere contenute nel testo integrale del decreto stesso.",
-      "perche_conta": "Questo decreto è di significativa importanza per la transizione verso un'economia più sostenibile e circolare in Italia. Favorirà la riduzione dell'impatto ambientale derivante dal ciclo di vita dei prodotti, incoraggiando la riparazione anziché la sostituzione. A livello economico, può stimolare la crescita del settore delle riparazioni e offrire ai consumatori alternative più durature ed economiche. Rappresenta un passo avanti nell'affermazione del 'diritto alla riparazione', contribuendo a un mercato più equo e rispettoso dell'ambiente."
+      "chi_interessato": "Consumatori, produttori e importatori di beni di consumo, centri di assistenza e riparazione, dettaglianti, associazioni di tutela dei consumatori e ambientaliste, autorità di vigilanza del mercato e enti preposti alla gestione dei rifiuti.",
+      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale, salvo diverse disposizioni transitorie o di entrata in vigore specificate nel testo del decreto stesso.",
+      "perche_conta": "Questo provvedimento è fondamentale per la transizione verso un'economia più sostenibile e per la riduzione dell'impatto ambientale dei rifiuti. Migliora i diritti dei consumatori, offrendo maggiore scelta e una maggiore durabilità dei prodotti. Ha implicazioni economiche per il settore manifatturiero (adattamento dei processi) e per quello dei servizi di riparazione (potenziale crescita)."
     }
   ]
 }
