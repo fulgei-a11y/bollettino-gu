@@ -1,36 +1,11 @@
 {
   "date": "2026-10-07",
   "giorno": "mercoledì",
-  "stato": "con_schede",
-  "numero_gu": "233",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
+  "stato": "nessuna_legge_interesse",
+  "numero_gu": "40",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=40",
   "note": "Report Gazzetta Ufficiale del 2026-10-07",
-  "updatedAt": "2026-10-08T19:10:50Z",
-  "scartate": [
-    {
-      "materia": "Sociale / Culturale",
-      "titolo": "Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
-    }
-  ],
-  "schede": [
-    {
-      "titolo": "Attuazione di direttiva UE sulla promozione della riparazione dei beni per sostenibilità e consumo.",
-      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
-      "codice_atto": "26G00191",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
-      "categoria": "Energia e Ambiente",
-      "iter": "In vigore",
-      "contesto": "Il Decreto Legislativo recepisce la direttiva (UE) 2024/1799, che mira a stabilire norme comuni a livello europeo per promuovere la riparazione dei beni di consumo. L'obiettivo è prolungare la vita utile dei prodotti, ridurre la produzione di rifiuti e sostenere un'economia più circolare, garantendo al contempo maggiori diritti ai consumatori in termini di accesso alla riparazione.",
-      "misure": [
-        "Introduzione di obblighi per i produttori riguardo la disponibilità di pezzi di ricambio e strumenti di riparazione.",
-        "Facilitazione dell'accesso dei consumatori a servizi di riparazione convenienti e trasparenti.",
-        "Potenziamento delle garanzie legali o l'introduzione di 'diritto alla riparazione' per specifiche categorie di prodotti.",
-        "Definizione di requisiti per le informazioni sulla riparabilità dei prodotti da fornire ai consumatori."
-      ],
-      "chi_interessato": "Consumatori (beneficiari di maggiori diritti e opportunità di riparazione), produttori (soggetti a nuovi obblighi e standard), rivenditori e centri di assistenza (impatto sulle pratiche commerciali e di servizio), enti di vigilanza del mercato e associazioni di categoria.",
-      "decorrenza": "Dalla data di pubblicazione in Gazzetta Ufficiale, salvo diverse disposizioni transitorie o di entrata in vigore previste dal decreto stesso.",
-      "perche_conta": "Questo decreto rappresenta un passo significativo verso un modello di consumo più sostenibile. Per i consumatori, si traduce in maggiore durabilità dei prodotti e risparmio economico potenziale. Per le imprese, implica un adeguamento delle strategie produttive, di supply chain e di assistenza post-vendita, con potenziali opportunità per il settore della riparazione e della ricondizionamento. Contribuisce agli obiettivi ambientali di riduzione dei rifiuti e ottimizzazione delle risorse."
-    }
-  ]
+  "updatedAt": "2024-07-30T10:00:00Z",
+  "scartate": [],
+  "schede": []
 }

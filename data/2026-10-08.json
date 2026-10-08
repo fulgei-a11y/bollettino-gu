@@ -1,11 +1,52 @@
 {
   "date": "2026-10-08",
   "giorno": "giovedì",
-  "stato": "nessuna_legge_interesse",
-  "numero_gu": "79",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=79",
+  "stato": "con_schede",
+  "numero_gu": "234",
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234",
   "note": "Report Gazzetta Ufficiale del 2026-10-08",
-  "updatedAt": "2024-07-30T10:00:00Z",
-  "scartate": [],
-  "schede": []
+  "updatedAt": "2024-07-29T10:00:00Z",
+  "scartate": [
+    {
+      "materia": "Salute / Alimentazione",
+      "titolo": "Adeguamento della normativa nazionale alle disposizioni del regolamento delegato (UE) 2022/1644 della Commissione, del 7 luglio 2022, che integra il regolamento (UE) 2017/625 del Parlamento europeo e del Consiglio, e del regolamento di esecuzione (UE) 2022/1646 della Commissione, del 23 settembre 2022, in materia di controlli sull'uso di sostanze farmacologicamente attive autorizzate come medicinali veterinari o come additivi per mangimi.",
+      "link": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234"
+    }
+  ],
+  "schede": [
+    {
+      "titolo": "Rafforzamento delle istruttorie ambientali e misure per clima, economia circolare e bonifiche",
+      "riferimento": "DECRETO-LEGGE 8 ottobre 2026, n. 177",
+      "codice_atto": "26G00199",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore (o in attesa di conversione)",
+      "contesto": "Questo decreto-legge introduce misure urgenti per migliorare e accelerare le procedure di valutazione ambientale, affrontare le sfide poste dai cambiamenti climatici, promuovere l'economia circolare e la bonifica dei siti contaminati. Si inserisce in un quadro di crescente attenzione alla sostenibilità e alla transizione ecologica del Paese.",
+      "misure": [
+        "Introduce nuove disposizioni procedurali per le istruttorie ambientali, al fine di snellire e rendere più efficienti i processi autorizzativi.",
+        "Prevede stanziamenti e interventi volti alla gestione dei problemi climatici e all'adattamento ai cambiamenti, con un focus sulla resilienza territoriale.",
+        "Promuove l'economia circolare attraverso nuove norme e/o incentivi, finalizzati a ridurre i rifiuti e a favorire il riutilizzo e il riciclo.",
+        "Semplifica e potenzia le procedure per le bonifiche dei siti inquinati, mirando al recupero e alla riqualificazione ambientale."
+      ],
+      "chi_interessato": "Amministrazioni pubbliche (Ministeri dell'Ambiente e della Sicurezza Energetica, Regioni, Enti locali), imprese operanti nei settori dell'energia, gestione rifiuti, bonifiche, ingegneria ambientale e consulenza, nonché la cittadinanza per gli impatti sulla qualità ambientale e la tutela del territorio.",
+      "decorrenza": "Il decreto-legge entra in vigore il giorno stesso della sua pubblicazione in Gazzetta Ufficiale, ovvero l'8 ottobre 2026.",
+      "perche_conta": "È un provvedimento chiave per accelerare la transizione ecologica dell'Italia, affrontando temi cruciali come la tutela ambientale, l'efficienza delle procedure e la lotta al cambiamento climatico. Le disposizioni sull'economia circolare e le bonifiche sono fondamentali per lo sviluppo sostenibile e il recupero del territorio nazionale."
+    },
+    {
+      "titolo": "Adeguamento normativo italiano sull'intelligenza artificiale e poteri delle Autorità nazionali",
+      "riferimento": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 179",
+      "codice_atto": "26G00200",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+      "categoria": "Pubblica Amministrazione / Economia Digitale",
+      "iter": "In vigore",
+      "contesto": "Questo decreto legislativo implementa nell'ordinamento italiano il Regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, noto come AI Act, la prima legge completa al mondo sull'intelligenza artificiale. Si concentra in particolare sulla definizione dei poteri delle autorità nazionali preposte alla sua attuazione e sull'uso dell'IA nel settore della formazione, garantendo un quadro normativo armonizzato a livello europeo.",
+      "misure": [
+        "Prevede la designazione e l'attribuzione di poteri specifici alle autorità nazionali per la vigilanza, il controllo e l'applicazione delle disposizioni del Regolamento UE sull'Intelligenza Artificiale.",
+        "Stabilisce linee guida, requisiti e, potenzialmente, divieti o limitazioni per l'impiego di sistemi di intelligenza artificiale negli ambiti formativi, includendo scuole e università, al fine di tutelare i diritti fondamentali e garantire la qualità dell'istruzione."
+      ],
+      "chi_interessato": "Autorità governative e di regolamentazione in Italia, Ministero dell'Istruzione e del Merito, istituzioni scolastiche e universitarie, enti di formazione, sviluppatori e fornitori di sistemi AI, imprese che utilizzano o integrano l'IA nei loro processi, operatori del settore digitale e tecnologico, e i cittadini in generale, in quanto utenti e soggetti interessati dall'applicazione dell'IA.",
+      "decorrenza": "Il decreto legislativo entra in vigore con la pubblicazione in Gazzetta Ufficiale l'8 ottobre 2026, in linea con i tempi previsti per l'applicazione del Regolamento UE, pur potendo prevedere periodi transitori per specifici adempimenti o settori.",
+      "perche_conta": "Rappresenta un pilastro fondamentale per la governance e la regolamentazione dell'intelligenza artificiale in Italia. Questo atto normativo assicura che l'innovazione tecnologica sia accompagnata da un robusto quadro normativo che garantisca sicurezza, trasparenza, etica e rispetto dei diritti, specialmente in settori critici come la pubblica amministrazione e l'istruzione, posizionando l'Italia come attore chiave nell'implementazione dell'AI Act europeo."
+    }
+  ]
 }
