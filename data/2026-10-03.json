@@ -1,12 +1,154 @@
 {
   "date": "2026-10-03",
   "giorno": "sabato",
+  "updatedAt": "2026-10-08T21:39:52Z",
+  "version": 2,
+  "stato": "nessuna_legge_interesse",
   "numero_gu": "230",
-  "stato": "non_disponibile",
-  "note": "Edizione n. 230 del 3 ottobre 2026 risulta pubblicata (confermata dall'intestazione della pagina) ma al momento del controllo è ancora \"in fase di caricamento\": il sommario non è stato recuperabile nonostante i tentativi ripetuti.",
-  "scartate": [],
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-03&numeroGazzetta=230",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/03/230/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 3 ottobre 2026 presenta un focus significativo su atti di natura amministrativa e finanziaria, in particolare decreti ministeriali e ordinanze di protezione civile. Non sono presenti leggi, decreti-legge o decreti legislativi. Si segnalano provvedimenti relativi alla ripartizione di fondi per l'aggregazione degli acquisti nella PA e aggiornamenti del registro imprese, oltre a diverse ordinanze che regolano il subentro delle Regioni nella gestione post-emergenziale di eventi meteorologici eccezionali.",
   "schede": [],
+  "scartate": [],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05167",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 7 settembre 2026 Criteri di ripartizione delle risorse del Fondo per l'aggregazione degli acquisti di beni e servizi per l'anno 2026.",
+      "sintesi": "Stabilisce i criteri per la ripartizione delle risorse del Fondo destinato a promuovere l'aggregazione degli acquisti di beni e servizi da parte delle pubbliche amministrazioni per l'anno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05167/sg"
+    },
+    {
+      "codice_atto": "26A05193",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 28 settembre 2026 Registro imprese. Aggiornamento del decreto 18 ottobre 2013 (Fedra 7.10).",
+      "sintesi": "Aggiorna le disposizioni relative al Registro delle Imprese, in particolare il decreto 18 ottobre 2013, concernente il sistema Fedra 7.10.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05193/sg"
+    },
+    {
+      "codice_atto": "26A05189",
+      "categoria": "Economico",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Liguria in conseguenza degli eccezionali eventi meteorologici verificatisi dal 9 febbraio al 31 marzo 2024 nel territorio della Citta' metropolitana di Genova e delle Province di Imperia e di Savona. (Ordinanza n. 1211).",
+      "sintesi": "Regola il subentro della Regione Liguria nella gestione delle iniziative finalizzate al superamento della situazione di criticità causata dagli eventi meteorologici eccezionali del 2024 nelle province di Genova, Imperia e Savona.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05189/sg"
+    },
+    {
+      "codice_atto": "26A05190",
+      "categoria": "Economico",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Emilia-Romagna nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nel territorio delle Province di Bologna, di Forli' Cesena, di Modena, di Parma, di Piacenza e di Reggio Emilia nei giorni dal 20 al 29 giugno 2024. (Ordinanza n. 1212).",
+      "sintesi": "Disciplina il subentro della Regione Emilia-Romagna nelle iniziative per il superamento della criticità derivante dagli eventi meteorologici eccezionali del giugno 2024 nelle province di Bologna, Forlì-Cesena, Modena, Parma, Piacenza e Reggio Emilia.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05190/sg"
+    },
+    {
+      "codice_atto": "26A05191",
+      "categoria": "Economico",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Lombardia nelle iniziative finalizzate al superamento della situazione di criticita' in conseguenza degli eccezionali eventi meteorologici che a partire dal 4 al 31 luglio 2023 hanno interessato il territorio della Regione Lombardia. (Ordinanza n. 1213).",
+      "sintesi": "Regola il subentro della Regione Lombardia nelle iniziative volte al superamento della situazione di criticità causata dagli eccezionali eventi meteorologici che hanno interessato il territorio regionale nel luglio 2023.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05191/sg"
+    },
+    {
+      "codice_atto": "26A05194",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Sostegno ai programmi di investimento delle imprese della filiera automotive tramite i «Mini contratti di sviluppo».",
+      "sintesi": "Illustra le modalità di sostegno ai programmi di investimento delle imprese operanti nella filiera automotive attraverso l'utilizzo dei 'Mini contratti di sviluppo'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05194/sg"
+    },
+    {
+      "codice_atto": "26A05195",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Accordi per l'innovazione per la filiera automotive. Modalita' e termini per la presentazione delle domande di agevolazione.",
+      "sintesi": "Definisce le modalità e i termini per la presentazione delle domande di agevolazione relative agli accordi per l'innovazione destinati alla filiera automotive.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05195/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26A05182",
+      "titolo": "DECRETO 9 settembre 2026 Aggiornamento del registro nazionale delle varieta' delle piante da frutto: riconoscimento accessioni idonee per il Sistema nazionale volontario di qualificazione del materiale di propagazione vegetale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05182/sg"
+    },
+    {
+      "codice": "26A05167",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 7 settembre 2026 Criteri di ripartizione delle risorse del Fondo per l'aggregazione degli acquisti di beni e servizi per l'anno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05167/sg"
+    },
+    {
+      "codice": "26A05193",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 28 settembre 2026 Registro imprese. Aggiornamento del decreto 18 ottobre 2013 (Fedra 7.10).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05193/sg"
+    },
+    {
+      "codice": "26A05192",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - DECRETO 24 luglio 2026 Conferimento dell'attestazione di pubblica benemerenza del Dipartimento della protezione civile, a titolo onorifico, al signor Mohamed Mahudhee, Sergente maggiore della Maldives National Defence Force, che ha perso la vita durante le operazioni di recupero dei subacquei italiani deceduti durante un'immersione nelle acque a largo delle isole Maldive.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05192/sg"
+    },
+    {
+      "codice": "26A05189",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Liguria in conseguenza degli eccezionali eventi meteorologici verificatisi dal 9 febbraio al 31 marzo 2024 nel territorio della Citta' metropolitana di Genova e delle Province di Imperia e di Savona. (Ordinanza n. 1211).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05189/sg"
+    },
+    {
+      "codice": "26A05190",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Emilia-Romagna nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nel territorio delle Province di Bologna, di Forli' Cesena, di Modena, di Parma, di Piacenza e di Reggio Emilia nei giorni dal 20 al 29 giugno 2024. (Ordinanza n. 1212).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05190/sg"
+    },
+    {
+      "codice": "26A05191",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Lombardia nelle iniziative finalizzate al superamento della situazione di criticita' in conseguenza degli eccezionali eventi meteorologici che a partire dal 4 al 31 luglio 2023 hanno interessato il territorio della Regione Lombardia. (Ordinanza n. 1213).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05191/sg"
+    },
+    {
+      "codice": "26A05144",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di pregabalin, «Pregabalin Medreg».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05144/sg"
+    },
+    {
+      "codice": "26A05145",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di ezetimibe, «Mibecol».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05145/sg"
+    },
+    {
+      "codice": "26A05146",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di sodio polistirene sulfonato, «Kayexalate».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05146/sg"
+    },
+    {
+      "codice": "26A05147",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atorvastatina, «Tovanira».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05147/sg"
+    },
+    {
+      "codice": "26A05168",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Balcoga».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05168/sg"
+    },
+    {
+      "codice": "26A05169",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Esmeron».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05169/sg"
+    },
+    {
+      "codice": "26A05170",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Lansoprazolo Tecnigen Italia».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05170/sg"
+    },
+    {
+      "codice": "26A05171",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'importazione parallela di taluni medicinali per uso umano",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05171/sg"
+    },
+    {
+      "codice": "26A05194",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Sostegno ai programmi di investimento delle imprese della filiera automotive tramite i «Mini contratti di sviluppo».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05194/sg"
+    },
+    {
+      "codice": "26A05195",
+      "titolo": "COMUNICATO Accordi per l'innovazione per la filiera automotive. Modalita' e termini per la presentazione delle domande di agevolazione.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/03/26A05195/sg"
+    }
+  ],
   "audio": "audio/2026-10-03.mp3",
-  "duration": 35.0,
-  "updatedAt": "2026-10-03T08:20:55Z"
+  "duration": 211.4
 }
