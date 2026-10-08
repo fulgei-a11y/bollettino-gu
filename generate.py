@@ -220,7 +220,7 @@ def pdf_texts(date, num, codes):
             continue
         s0, end = last[code]
         start = max([p for p in marks if p <= s0] or [0])
-        out[code] = full[start:end].strip()[:40000]
+        out[code] = full[start:end].strip()[:25000]
     print(f"   📄 Testo letto dal PDF per {len(out)}/{len(codes)} atti principali.")
     return out
 
@@ -286,7 +286,7 @@ Restituisci SOLO JSON valido con questa struttura:
 def call_gemini(prompt):
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     for model in MODELS:
-        for attempt in range(2):
+        for attempt in range(3):
             try:
                 print(f"   🤖 {model} (tentativo {attempt + 1})...")
                 cfg = types.GenerateContentConfig(
@@ -297,8 +297,18 @@ def call_gemini(prompt):
                 r = client.models.generate_content(model=model, contents=prompt, config=cfg)
                 return json.loads(r.text)
             except Exception as e:
-                print(f"   ⚠️ {model}: {str(e)[:200]}")
-                time.sleep(4)
+                msg = str(e)
+                print(f"   ⚠️ {model}: {msg[:200]}")
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    # limite al minuto: si aspetta e si riprova con lo stesso modello
+                    if "per day" in msg.lower() or "PerDay" in msg:
+                        break
+                    print("   ⏳ Limite di richieste al minuto: attendo 65 secondi...")
+                    time.sleep(65)
+                elif "404" in msg or "NOT_FOUND" in msg:
+                    break
+                else:
+                    time.sleep(5)
     raise RuntimeError("Nessun modello Gemini ha risposto.")
 
 
@@ -438,7 +448,9 @@ def main():
         dates = [d for d in cands if is_publication_day(d) and needs_work(d, today)][:MAX_PER_RUN]
     print("Da elaborare:", ", ".join(d.isoformat() for d in dates) or "nessuna data")
 
-    for d in dates:
+    for k, d in enumerate(dates):
+        if k:
+            time.sleep(30)   # pausa tra un'edizione e l'altra, per non superare i limiti di Gemini
         try:
             data = process(d, anchors)
             save(data)
