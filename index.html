@@ -142,6 +142,23 @@ main{padding-block:18px 40px;}
 }
 .card .dl-link:hover{text-decoration:underline;}
 
+.sintesi{font-family:"Source Serif 4",Georgia,serif; font-size:1.05rem; line-height:1.55; margin:0 0 18px; color:var(--ink);}
+.vigore{display:inline-block; margin-left:6px; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em; text-transform:uppercase; padding:3px 7px; border-radius:5px; background:var(--ok-bg); color:var(--ok);}
+.fonte{font-size:.72rem; color:var(--ink-faint); margin-top:12px; font-style:italic;}
+.fonte.debole{color:var(--pending);}
+.section-h{font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; font-family:"Public Sans",sans-serif; font-weight:700; color:var(--ink-soft); margin:26px 0 10px;}
+.altri{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:4px 14px; margin-bottom:18px;}
+.altro{padding:10px 0; border-top:1px solid var(--line); font-size:.88rem; line-height:1.5;}
+.altro:first-child{border-top:none;}
+.altro b{display:block; margin:4px 0 2px;}
+.altro a{font-size:.75rem; font-weight:600; text-decoration:none;}
+details.tutti{border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin:18px 0; background:var(--surface-2);}
+details.tutti summary{cursor:pointer; font-weight:600; font-size:.88rem;}
+details.tutti ol{margin:10px 0 0; padding-left:1.3em; font-size:.82rem; line-height:1.45;}
+details.tutti li{margin-bottom:6px;}
+details.tutti a{text-decoration:none;}
+.navbtn{background:var(--surface); color:var(--ink); border:1px solid var(--line-strong); padding:9px 12px;}
+.navbtn:disabled{opacity:.35; cursor:default;}
 .empty-state{text-align:center; padding-block:50px; color:var(--ink-faint);}
 .empty-state .big{font-family:"Source Serif 4",serif; font-size:1.4rem; color:var(--ink-soft); margin-bottom:6px;}
 
@@ -166,9 +183,11 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
         <h1>Bollettino GU</h1>
       </div>
     </div>
-    <div class="sub">Leggi e decreti-legge in materia economica, di giustizia, energia e ambiente — schede complete per ogni edizione controllata.</div>
+    <div class="sub">Leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente — schede scritte sul testo ufficiale di ogni edizione.</div>
     <div class="controls">
+      <button class="navbtn" id="prevBtn" type="button" aria-label="Edizione precedente">‹</button>
       <select id="editionSelect" aria-label="Scegli edizione"></select>
+      <button class="navbtn" id="nextBtn" type="button" aria-label="Edizione successiva">›</button>
       <button id="pdfBtn" disabled>Scarica PDF</button>
     </div>
     <div class="player" id="player" hidden>
@@ -182,7 +201,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
   </main>
 
   <footer id="footer">
-    Il controllo gira nei giorni feriali. Ogni edizione riporta solo leggi e decreti-legge; i decreti ministeriali, le nomine e i comunicati non vengono schedati. “Scartate per trasparenza” elenca le leggi individuate ma fuori dalle tre materie monitorate (economica, giustizia, energia e ambiente).
+    Il controllo gira dal lunedì al sabato, alle 13, alle 20 e alle 21. Leggi, decreti-legge e decreti legislativi delle materie seguite hanno una scheda completa; gli altri atti rilevanti (decreti ministeriali, delibere) sono segnalati in breve, e l'elenco completo dell'edizione è sempre consultabile. “Scartate per trasparenza” elenca le leggi individuate ma fuori dalle tre materie monitorate (economica, giustizia, energia e ambiente).
   </footer>
 </div>
 
@@ -211,8 +230,10 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
 
   function dateLabel(doc){
     var d = doc.date || doc.id;
-    var giorno = doc.giorno ? (doc.giorno.charAt(0).toUpperCase()+doc.giorno.slice(1)) : '';
-    return giorno ? (giorno + ' ' + d) : d;
+    var x = new Date(d + 'T12:00:00');
+    if (isNaN(x)) return d;
+    var t = x.toLocaleDateString('it-IT', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+    return t.charAt(0).toUpperCase() + t.slice(1);
   }
 
   function statusInfo(doc){
@@ -254,15 +275,34 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     return '<div class="card '+cls+'">'+
       '<span class="tag '+cls+'">'+label+'</span>'+
       '<h3 style="margin-top:8px;">'+escapeHtml(s.titolo||'')+'</h3>'+
-      (s.riferimento ? '<div class="ref">'+escapeHtml(s.riferimento)+'</div>' : '')+
+      (s.riferimento ? '<div class="ref">'+escapeHtml(s.riferimento)+(s.vigore ? ' <span class="vigore">In vigore dal '+escapeHtml(s.vigore)+'</span>' : '')+'</div>' : '')+
       field('Iter', s.iter)+
       field('Contesto', s.contesto)+
       misure+
       field('Chi è interessato', s.chi_interessato)+
       field('Decorrenza', s.decorrenza)+
       field('Perché conta', s.perche_conta)+
-      (link ? '<a class="dl-link" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Scarica il testo integrale ↗</a>' : '')+
+      (s.fonte_testo ? '<div class="fonte'+(/titolo/.test(s.fonte_testo)?' debole':'')+'">Scheda basata su: '+escapeHtml(s.fonte_testo)+'</div>' : '')+
+      (link ? '<a class="dl-link" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ufficiale sulla Gazzetta ↗</a>' : '')+
       '</div>';
+  }
+
+  function renderAltri(list){
+    if (!list || !list.length) return '';
+    return '<h3 class="section-h">Altri atti da segnalare</h3><div class="altri">'+list.map(function(a){
+      var link = safeUrl(a.link);
+      return '<div class="altro"><span class="tag" style="background:var(--none-bg); color:var(--none);">'+escapeHtml(a.categoria||'Altro')+'</span>'+
+        '<b>'+escapeHtml(a.titolo||'')+'</b>'+escapeHtml(a.sintesi||'')+
+        (link ? ' <a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ↗</a>' : '')+'</div>';
+    }).join('')+'</div>';
+  }
+
+  function renderTutti(atti, pdfGu){
+    if (!atti || !atti.length) return '';
+    return '<details class="tutti"><summary>Tutti gli atti dell\'edizione ('+atti.length+')</summary><ol>'+
+      atti.map(function(a){ var l = safeUrl(a.link);
+        return '<li>'+(l ? '<a href="'+escapeHtml(l)+'" target="_blank" rel="noopener">' : '')+escapeHtml(a.titolo||a.codice)+(l ? '</a>' : '')+'</li>'; }).join('')+
+      '</ol>'+(pdfGu ? '<p style="margin:10px 0 0; font-size:.8rem;"><a href="'+escapeHtml(pdfGu)+'" target="_blank" rel="noopener">PDF dell\'intera edizione ↗</a></p>' : '')+'</details>';
   }
 
   function fmtDuration(sec){
@@ -283,15 +323,20 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     html += '<div class="status-banner '+st.cls+'"><span class="dot"></span><div><b>'+dateLabel(doc)+'</b><br>'+escapeHtml(st.text)+'</div></div>';
     html += '<div class="edition-meta">';
     if (doc.numero_gu) html += '<span>GU Serie Generale n. '+escapeHtml(doc.numero_gu)+'</span>';
-    if (doc.updatedAt) html += '<span>Ultimo controllo: '+escapeHtml(String(doc.updatedAt).replace('T',' ').slice(0,16))+'</span>';
+    if (doc.updatedAt){ var u = new Date(doc.updatedAt);
+      html += '<span>Ultimo controllo: '+escapeHtml(isNaN(u) ? doc.updatedAt : u.toLocaleString('it-IT',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}))+'</span>'; }
     var guLink = safeUrl(doc.link_gu);
     if (guLink) html += '<a href="'+escapeHtml(guLink)+'" target="_blank" rel="noopener">Apri l\'edizione sulla Gazzetta Ufficiale ↗</a>';
     html += '</div>';
+    var pdfGu = safeUrl(doc.pdf_gu);
+    if (doc.sintesi) html += '<p class="sintesi">'+escapeHtml(doc.sintesi)+'</p>';
     if (doc.note && doc.stato !== 'con_schede') html += '<p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px;">'+escapeHtml(doc.note)+'</p>';
-    html += renderDiscardList(doc.scartate);
     if (doc.schede && doc.schede.length){
       html += doc.schede.map(renderCard).join('');
     }
+    html += renderAltri(doc.altri_atti);
+    html += renderDiscardList(doc.scartate);
+    html += renderTutti(doc.atti, pdfGu);
     content.innerHTML = html;
     pdfBtn.disabled = false;
 
@@ -320,7 +365,8 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     editionSelect.innerHTML = state.list.map(function(d,i){
       var st = statusInfo(d);
       var badge = st.cls==='ok' ? '●' : (st.cls==='pending' ? '…' : '–');
-      return '<option value="'+i+'">'+badge+' '+dateLabel(d)+(d.numero_gu?(' · n. '+d.numero_gu):'')+'</option>';
+      var n = d.schede ? (' · '+d.schede+(d.schede===1?' scheda':' schede')) : '';
+      return '<option value="'+i+'">'+badge+' '+dateLabel(d)+(d.numero_gu?(' · n. '+d.numero_gu):'')+n+'</option>';
     }).join('');
   }
 
@@ -346,9 +392,16 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     });
   }
 
-  editionSelect.addEventListener('change', function(){
-    loadEdition(parseInt(editionSelect.value,10));
-  });
+  function go(i){
+    if (i < 0 || i >= state.list.length) return;
+    editionSelect.value = String(i);
+    loadEdition(i);
+    document.getElementById('prevBtn').disabled = i >= state.list.length - 1;
+    document.getElementById('nextBtn').disabled = i <= 0;
+  }
+  editionSelect.addEventListener('change', function(){ go(parseInt(editionSelect.value,10)); });
+  document.getElementById('prevBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)+1); });
+  document.getElementById('nextBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)-1); });
 
   pdfBtn.addEventListener('click', function(){
     if (!state.current) return;
@@ -424,6 +477,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     var metaLine = (doc.numero_gu ? 'GU Serie Generale n. '+doc.numero_gu+'  —  ' : '') + st.text;
     text(metaLine, {size:9.5, style:'normal', gap:13, after:4});
     linkLine('Edizione GU', doc.link_gu, {after:4});
+    if (doc.sintesi) text(doc.sintesi, {size:10, gap:13.5, after:8});
     if (doc.note && doc.stato !== 'con_schede') text(doc.note, {size:9.5, gap:13, after:10});
 
     if (doc.scartate && doc.scartate.length){
@@ -451,8 +505,16 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
       if (s.chi_interessato) text('Chi è interessato: '+s.chi_interessato, {size:9.5, gap:12.5});
       if (s.decorrenza) text('Decorrenza: '+s.decorrenza, {size:9.5, gap:12.5});
       if (s.perche_conta) text('Perché conta: '+s.perche_conta, {size:9.5, gap:12.5, after:4});
+      if (s.vigore) text('In vigore dal: '+s.vigore, {size:9.5, gap:12.5});
       linkLine('Testo integrale', s.link, {after:8});
     });
+    if (doc.altri_atti && doc.altri_atti.length){
+      y += 6; text('Altri atti da segnalare:', {size:10, style:'bold', gap:14, after:2});
+      doc.altri_atti.forEach(function(a){
+        text('- ['+(a.categoria||'Altro')+'] '+(a.titolo||'')+(a.sintesi ? ' — '+a.sintesi : ''), {size:9.5, gap:12.5});
+        if (a.link) linkLine('  Testo', a.link, {size:9, gap:11.5});
+      });
+    }
 
     var blob = pdf.output('blob');
     var fname = 'bollettino-gu-' + (doc.date||doc.id) + '.pdf';
@@ -500,8 +562,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
         return;
       }
       buildOptions();
-      editionSelect.value = '0';
-      loadEdition(0);
+      go(0);
     }).catch(function(){
       content.innerHTML = '<div class="empty-state"><div class="big">Archivio non raggiungibile</div>Riprova riaprendo la pagina tra qualche istante.</div>';
     });
