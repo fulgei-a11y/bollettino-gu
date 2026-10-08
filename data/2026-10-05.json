@@ -1,11 +1,330 @@
 {
   "date": "2026-10-05",
   "giorno": "lunedì",
-  "stato": "nessuna_legge_interesse",
-  "numero_gu": "78",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=78",
-  "note": "Report Gazzetta Ufficiale del 2026-10-05",
-  "updatedAt": "2026-10-06T22:09:04Z",
-  "scartate": [],
-  "schede": []
+  "updatedAt": "2026-10-08T21:27:22Z",
+  "version": 2,
+  "stato": "con_schede",
+  "numero_gu": "231",
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-05&numeroGazzetta=231",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/05/231/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 5 ottobre 2026 è prevalentemente dedicata ad atti di natura economico-finanziaria e amministrativa. Spiccano numerosi decreti del Ministero dell'Economia e delle Finanze relativi all'emissione e riapertura di titoli di Stato, oltre a diverse ordinanze di protezione civile per la gestione di eventi calamitosi. Si segnala inoltre un comunicato del Ministero della Giustizia sulla mancata conversione di un decreto-legge in materia di prezzi petroliferi.",
+  "schede": [
+    {
+      "codice_atto": "26A05269",
+      "titolo": "Mancata conversione del decreto-legge sui prezzi petroliferi",
+      "riferimento": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Mancata conversione del decreto-legge 5 agosto 2026, n. 139",
+      "categoria": "Economico",
+      "iter": "Decreto-legge non convertito",
+      "contesto": "Il comunicato del Ministero della Giustizia informa della mancata conversione del decreto-legge n. 139 del 5 agosto 2026. Il testo integrale dell'atto non è disponibile, pertanto le misure sono desunte unicamente dal titolo.",
+      "misure": [
+        "Il decreto-legge 5 agosto 2026, n. 139, recante 'Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali', non è stato convertito in legge entro i termini previsti."
+      ],
+      "chi_interessato": "Operatori del settore petrolifero, consumatori, Governo e Parlamento.",
+      "decorrenza": "Il decreto-legge ha perso efficacia ex tunc dalla data di entrata in vigore, non essendo stato convertito.",
+      "perche_conta": "La mancata conversione di un decreto-legge implica che le disposizioni in esso contenute non hanno acquisito forza di legge, con conseguente venir meno degli effetti giuridici prodotti. Questo segnala l'assenza di interventi urgenti in materia di prezzi petroliferi, lasciando invariata la situazione preesistente al decreto.",
+      "fonte_testo": "solo titolo",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05269/sg"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26A05172",
+      "materia": "Sanità (farmaci)",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di naloxone cloridrato, «Ventizolve».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05172/sg"
+    },
+    {
+      "codice_atto": "26A05173",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di adapalene/benzoile perossido idrato, «Stersed».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05173/sg"
+    },
+    {
+      "codice_atto": "26A05174",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di citalopram, «Citalopram Sandoz B.V.» e «Citalopram Hexal».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05174/sg"
+    },
+    {
+      "codice_atto": "26A05175",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di adapalene/benzoile perossido, «Adapalene e Benzoile Perossido Medgen».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05175/sg"
+    },
+    {
+      "codice_atto": "26A05176",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di teicoplanina, «Teicoplanina Bradex».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05176/sg"
+    },
+    {
+      "codice_atto": "26A05177",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di iobenguano ( 123 l), «Mibeg».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05177/sg"
+    },
+    {
+      "codice_atto": "26A05178",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atorvastatina, «Omegastatin».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05178/sg"
+    },
+    {
+      "codice_atto": "26A05183",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Sirkava»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05183/sg"
+    },
+    {
+      "codice_atto": "26A05184",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Ticagrelor Menarini».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05184/sg"
+    },
+    {
+      "codice_atto": "26A05185",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di perampanel, «Perampanel Vivanta».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05185/sg"
+    },
+    {
+      "codice_atto": "26A05205",
+      "materia": "Sanità (farmaci)",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di meropenem, «Meropenem Qilu»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05205/sg"
+    },
+    {
+      "codice_atto": "26A05206",
+      "materia": "Affari Esteri",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Cerimonia di presentazione di lettere credenziali",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05206/sg"
+    },
+    {
+      "codice_atto": "26A05152",
+      "materia": "Culti",
+      "titolo": "COMUNICATO Calendario delle festivita' della Sacra arcidiocesi ortodossa d'Italia ed Esarcato per l'Europa meridionale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05152/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05196",
+      "categoria": "Economico",
+      "titolo": "DECRETO 7 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 2 giugno 2026.",
+      "sintesi": "Dichiarata l'eccezionalità degli eventi calamitosi del 2 giugno 2026 in Lombardia, aprendo la strada a misure di sostegno.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05196/sg"
+    },
+    {
+      "codice_atto": "26A05197",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 24 settembre 2026 Autorizzazione alla riscossione coattiva mediante ruolo dei crediti vantati da Rivieracqua S.p.a., relativi alla tariffa del servizio idrico integrato.",
+      "sintesi": "Autorizzata Rivieracqua S.p.a. a riscuotere coattivamente i crediti per la tariffa del servizio idrico integrato tramite ruolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05197/sg"
+    },
+    {
+      "codice_atto": "26A05198",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Emissione delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,95%, con godimento 1° ottobre 2026 e scadenza 1° febbraio 2032, prima e seconda tranche.",
+      "sintesi": "Emesse la prima e seconda tranche di BTP con tasso del 3,95%, godimento 1° ottobre 2026 e scadenza 1° febbraio 2032.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05198/sg"
+    },
+    {
+      "codice_atto": "26A05199",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 4,00%, con godimento 1° settembre 2026 e scadenza 1° ottobre 2036, terza e quarta tranche.",
+      "sintesi": "Riaperta la sottoscrizione per la terza e quarta tranche di BTP con tasso del 4,00%, godimento 1° settembre 2026 e scadenza 1° ottobre 2036.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05199/sg"
+    },
+    {
+      "codice_atto": "26A05200",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Riapertura delle operazioni di sottoscrizione dei certificati di credito del Tesoro indicizzati al tasso Euribor a sei mesi («CCTeu»), con godimento 15 aprile 2026 e scadenza 15 aprile 2036, nona e decima tranche.",
+      "sintesi": "Riaperta la sottoscrizione per la nona e decima tranche di CCTeu indicizzati Euribor a sei mesi, con godimento 15 aprile 2026 e scadenza 15 aprile 2036.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05200/sg"
+    },
+    {
+      "codice_atto": "26A05202",
+      "categoria": "Economico",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Lombardia nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 20 ottobre al 10 novembre 2023 nel territorio della Provincia di Brescia. (Ordinanza n. 1215).",
+      "sintesi": "Ordinanza di protezione civile per il subentro della Regione Lombardia nella gestione della crisi post-eventi meteorologici del 2023 in Provincia di Brescia.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05202/sg"
+    },
+    {
+      "codice_atto": "26A05203",
+      "categoria": "Economico",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Emilia-Romagna nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi a partire dal giorno 17 settembre 2024, nel territorio delle Province di Reggio-Emilia, di Modena, di Bologna, di Ferrara, di Ravenna, di Forli-Cesena e di Rimini e a partire dal 17 ottobre 2024 nel territorio della medesima Regione. (Ordinanza n. 1216).",
+      "sintesi": "Ordinanza di protezione civile per il subentro della Regione Emilia-Romagna nella gestione della crisi post-eventi meteorologici del 2024 in diverse province.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05203/sg"
+    },
+    {
+      "codice_atto": "26A05204",
+      "categoria": "Economico",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Veneto nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 30 ottobre 2023 al 5 novembre 2023 nel territorio della Provincia di Belluno, di Treviso e di Venezia. (Ordinanza n. 1217).",
+      "sintesi": "Ordinanza di protezione civile per il subentro della Regione Veneto nella gestione della crisi post-eventi meteorologici del 2023 in alcune province.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05204/sg"
+    },
+    {
+      "codice_atto": "26A05150",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Nomina dell'organo straordinario di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Canterano.",
+      "sintesi": "Nominato l'organo straordinario di liquidazione per la gestione del dissesto finanziario del Comune di Canterano.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05150/sg"
+    },
+    {
+      "codice_atto": "26A05151",
+      "categoria": "Economico",
+      "titolo": "COMUNICATO Nomina della commissione straordinaria di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Borgetto.",
+      "sintesi": "Nominata la commissione straordinaria di liquidazione per la gestione del dissesto finanziario del Comune di Borgetto.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05151/sg"
+    },
+    {
+      "codice_atto": "26A05201",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Presentazione delle domande di agevolazione delle proposte progettuali nell'ambito del programma europeo Digital Europe Programme, bando «DIGITAL-2026-AI-DATA-10-COMPLIANCE».",
+      "sintesi": "Aperta la presentazione delle domande di agevolazione per proposte progettuali nel bando 'DIGITAL-2026-AI-DATA-10-COMPLIANCE' del programma Digital Europe.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05201/sg"
+    },
+    {
+      "codice_atto": "26A05262",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 1 ottobre 2026 Ripartizione in unita' elementari di bilancio delle variazioni alle unita' di voto parlamentare disposte dalla legge recante disposizioni per l'assestamento del bilancio dello Stato per l'anno finanziario 2026.",
+      "sintesi": "Ripartite in unità elementari di bilancio le variazioni disposte dalla legge di assestamento del bilancio dello Stato per il 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05262/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26A05196",
+      "titolo": "DECRETO 7 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 2 giugno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05196/sg"
+    },
+    {
+      "codice": "26A05197",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 24 settembre 2026 Autorizzazione alla riscossione coattiva mediante ruolo dei crediti vantati da Rivieracqua S.p.a., relativi alla tariffa del servizio idrico integrato.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05197/sg"
+    },
+    {
+      "codice": "26A05198",
+      "titolo": "DECRETO 29 settembre 2026 Emissione delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,95%, con godimento 1° ottobre 2026 e scadenza 1° febbraio 2032, prima e seconda tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05198/sg"
+    },
+    {
+      "codice": "26A05199",
+      "titolo": "DECRETO 29 settembre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 4,00%, con godimento 1° settembre 2026 e scadenza 1° ottobre 2036, terza e quarta tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05199/sg"
+    },
+    {
+      "codice": "26A05200",
+      "titolo": "DECRETO 29 settembre 2026 Riapertura delle operazioni di sottoscrizione dei certificati di credito del Tesoro indicizzati al tasso Euribor a sei mesi («CCTeu»), con godimento 15 aprile 2026 e scadenza 15 aprile 2036, nona e decima tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05200/sg"
+    },
+    {
+      "codice": "26A05202",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Lombardia nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 20 ottobre al 10 novembre 2023 nel territorio della Provincia di Brescia. (Ordinanza n. 1215).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05202/sg"
+    },
+    {
+      "codice": "26A05203",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Emilia-Romagna nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi a partire dal giorno 17 settembre 2024, nel territorio delle Province di Reggio-Emilia, di Modena, di Bologna, di Ferrara, di Ravenna, di Forli-Cesena e di Rimini e a partire dal 17 ottobre 2024 nel territorio della medesima Regione. (Ordinanza n. 1216).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05203/sg"
+    },
+    {
+      "codice": "26A05204",
+      "titolo": "ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Veneto nelle iniziative finalizzate al superamento della situazione di criticita' determinatasi in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 30 ottobre 2023 al 5 novembre 2023 nel territorio della Provincia di Belluno, di Treviso e di Venezia. (Ordinanza n. 1217).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05204/sg"
+    },
+    {
+      "codice": "26A05172",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di naloxone cloridrato, «Ventizolve».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05172/sg"
+    },
+    {
+      "codice": "26A05173",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di adapalene/benzoile perossido idrato, «Stersed».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05173/sg"
+    },
+    {
+      "codice": "26A05174",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di citalopram, «Citalopram Sandoz B.V.» e «Citalopram Hexal».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05174/sg"
+    },
+    {
+      "codice": "26A05175",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di adapalene/benzoile perossido, «Adapalene e Benzoile Perossido Medgen».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05175/sg"
+    },
+    {
+      "codice": "26A05176",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di teicoplanina, «Teicoplanina Bradex».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05176/sg"
+    },
+    {
+      "codice": "26A05177",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di iobenguano ( 123 l), «Mibeg».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05177/sg"
+    },
+    {
+      "codice": "26A05178",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atorvastatina, «Omegastatin».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05178/sg"
+    },
+    {
+      "codice": "26A05183",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Sirkava»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05183/sg"
+    },
+    {
+      "codice": "26A05184",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Ticagrelor Menarini».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05184/sg"
+    },
+    {
+      "codice": "26A05185",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di perampanel, «Perampanel Vivanta».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05185/sg"
+    },
+    {
+      "codice": "26A05205",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di meropenem, «Meropenem Qilu»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05205/sg"
+    },
+    {
+      "codice": "26A05206",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Cerimonia di presentazione di lettere credenziali",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05206/sg"
+    },
+    {
+      "codice": "26A05150",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Nomina dell'organo straordinario di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Canterano.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05150/sg"
+    },
+    {
+      "codice": "26A05151",
+      "titolo": "COMUNICATO Nomina della commissione straordinaria di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Borgetto.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05151/sg"
+    },
+    {
+      "codice": "26A05152",
+      "titolo": "COMUNICATO Calendario delle festivita' della Sacra arcidiocesi ortodossa d'Italia ed Esarcato per l'Europa meridionale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05152/sg"
+    },
+    {
+      "codice": "26A05269",
+      "titolo": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Mancata conversione del decreto-legge 5 agosto 2026, n. 139, recante: «Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali.».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05269/sg"
+    },
+    {
+      "codice": "26A05201",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Presentazione delle domande di agevolazione delle proposte progettuali nell'ambito del programma europeo Digital Europe Programme, bando «DIGITAL-2026-AI-DATA-10-COMPLIANCE».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05201/sg"
+    },
+    {
+      "codice": "26A05262",
+      "titolo": "SUPPLEMENTI ORDINARI MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 1 ottobre 2026 Ripartizione in unita' elementari di bilancio delle variazioni alle unita' di voto parlamentare disposte dalla legge recante disposizioni per l'assestamento del bilancio dello Stato per l'anno finanziario 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05262/sg"
+    }
+  ],
+  "audio": "audio/2026-10-05.mp3",
+  "duration": 378.5
 }
