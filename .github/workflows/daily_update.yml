@@ -2,43 +2,70 @@ name: Aggiornamento Automatico Bollettino GU
 
 on:
   schedule:
-    # Esecuzione alle 13:00 italiane (11:00 UTC)
-    - cron: '0 11 * * *'
-    # Esecuzione alle 20:00 italiane (18:00 UTC con ora legale / 19:00 UTC con ora solare)
-    - cron: '0 18 * * *'
-    - cron: '0 19 * * *'
+    # La Serie Generale viene pubblicata in serata: controlli alle 13, 20 e 21 italiane (ora legale)
+    - cron: '0 11 * * 1-6'
+    - cron: '0 18 * * 1-6'
+    - cron: '0 19 * * 1-6'
   workflow_dispatch:
+    inputs:
+      gu_date:
+        description: 'Data da rifare (AAAA-MM-GG). Vuoto = automatico'
+        required: false
+        default: ''
+
+concurrency:
+  group: bollettino-gu
+  cancel-in-progress: false
 
 jobs:
   update-bulletin:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     permissions:
       contents: write
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configurazione Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Installazione dipendenze
         run: |
-          python -m pip install --upgrade pip
-          pip install google-generativeai requests
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install google-genai requests pypdf
 
-      - name: Esecuzione script di analisi
+      - name: Controlla che gli script siano completi
+        run: |
+          for f in generate.py tools/make_audio.py tools/build_audio.py; do
+            python -m py_compile "$f" || { echo "❌ $f non è valido: ricaricalo per intero."; exit 1; }
+            tail -3 "$f" | grep -q "main()" || { echo "❌ $f è incompleto: ricaricalo per intero."; exit 1; }
+          done
+
+      - name: Cache della voce Paola
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/bollettino-gu-tts
+          key: paola-tts-1.12.14
+
+      - name: Analisi della Gazzetta
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          python generate.py
+          GU_DATE: ${{ github.event.inputs.gu_date }}
+        run: python generate.py
 
-      - name: Commit e Push dei file aggiornati
+      - name: Lettura audio
+        run: python tools/make_audio.py
+
+      - name: Commit e push
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]"
-          git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bollettino GU del $(date +'%Y-%m-%d')" && git push)
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ audio/
+          if git diff --cached --quiet; then echo "Nessuna novità."; exit 0; fi
+          git commit -m "Bollettino GU: aggiornamento $(TZ=Europe/Rome date +'%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push
