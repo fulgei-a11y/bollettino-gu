@@ -1,19 +1,377 @@
 {
   "date": "2026-10-01",
   "giorno": "giovedì",
+  "updatedAt": "2026-10-09T18:17:24Z",
+  "version": 2,
+  "stato": "con_schede",
   "numero_gu": "228",
-  "stato": "nessuna_legge_interesse",
-  "note": "Nessuna legge di interesse economico, giudiziario o energetico/ambientale pubblicata il 01-10-2026 (Serie Generale n. 228). L'unica legge del sommario riguarda la motorizzazione e circolazione stradale, fuori dalle tre materie monitorate.",
-  "scartate": [
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-01&numeroGazzetta=228",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/01/228/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 1° ottobre 2026 è dominata da un'importante Legge che proroga i termini per la delega al Governo per la revisione del Codice della Strada, evidenziando l'impegno per una riforma complessa e articolata. Completano il quadro diversi atti minori di natura economica e amministrativa, tra cui decreti di liquidazione coatta e aggiornamenti normativi per il settore agricolo e delle imprese.",
+  "schede": [
     {
-      "materia": "Trasporti e circolazione stradale",
-      "titolo": "LEGGE 23 settembre 2026, n. 171 — \"Proroga del termine per l'esercizio della delega prevista dall'articolo 35 della legge 25 novembre 2024, n. 177\" (riordino complessivo della disciplina della motorizzazione e circolazione stradale, redazione di un nuovo Codice della strada). Proroga il termine della delega da 18 a 22 mesi, nuova scadenza 14 ottobre 2026, e modifica i termini per i pareri parlamentari sugli schemi di decreto legislativo attuativi. (GU n.228 del 01-10-2026, cod. 26G00185)",
-      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26G00185/sg"
+      "codice_atto": "26G00185",
+      "titolo": "Proroga delega per la revisione del Codice della Strada",
+      "riferimento": "LEGGE 23 settembre 2026, n. 171",
+      "categoria": "Economico",
+      "iter": "In vigore dal 02/10/2026",
+      "contesto": "La legge proroga i termini per l'esercizio della delega conferita al Governo dall'articolo 35 della legge 25 novembre 2024, n. 177, per la revisione e il riordino della disciplina concernente la motorizzazione e la circolazione stradale, inclusa la redazione di un nuovo codice della strada.",
+      "misure": [
+        "Art. 1, comma 1, lettera a): Il termine per l'adozione dei decreti legislativi è prorogato da dodici a ventidue mesi. Viene specificato che la revisione può avvenire \"anche mediante la redazione di un nuovo codice\".",
+        "Art. 1, comma 1, lettera b): Il termine per l'espressione dei pareri delle Commissioni parlamentari è prorogato da sessanta a novanta giorni.",
+        "Art. 1, comma 1, lettera c): Il termine di proroga per l'adozione dei decreti legislativi, qualora il parere parlamentare scada nei quaranta giorni precedenti la scadenza del termine principale, è esteso da centoventi a centocinquanta giorni."
+      ],
+      "chi_interessato": "Governo (in particolare Ministero delle infrastrutture e dei trasporti, Ministero dell'interno, Ministero della giustizia), Parlamento, Consiglio di Stato, Conferenza unificata, enti locali, cittadini, imprese e operatori del settore dei trasporti e della circolazione stradale.",
+      "decorrenza": "02/10/2026",
+      "perche_conta": "Questa legge è fondamentale perché estende il tempo a disposizione del Governo per attuare una riforma organica e profonda del Codice della Strada, consentendo una maggiore ponderazione e un processo legislativo più articolato. Le modifiche ai termini per i pareri parlamentari mirano a garantire un maggiore coinvolgimento e controllo da parte delle Camere. La possibilità esplicita di redigere un \"nuovo codice\" sottolinea l'ampiezza e l'importanza della riforma attesa.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26G00185/sg",
+      "vigore": "02/10/2026"
     }
   ],
-  "schede": [],
-  "updatedAt": "2026-10-02T14:05:00Z",
+  "scartate": [
+    {
+      "codice_atto": "26A05062",
+      "materia": "Sanità",
+      "titolo": "Decadenza, per mancata commercializzazione, dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di loperamide, «Loperamide EG».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05062/sg"
+    },
+    {
+      "codice_atto": "26A05063",
+      "materia": "Sanità",
+      "titolo": "Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di sitagliptin e metformina cloridrato, «Diesmit» e «Metsunix».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05063/sg"
+    },
+    {
+      "codice_atto": "26A05064",
+      "materia": "Sanità",
+      "titolo": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Alprazolam Pensa»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05064/sg"
+    },
+    {
+      "codice_atto": "26A05065",
+      "materia": "Sanità",
+      "titolo": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Metronidazolo Kabi»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05065/sg"
+    },
+    {
+      "codice_atto": "26A05066",
+      "materia": "Sanità",
+      "titolo": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Zinnat».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05066/sg"
+    },
+    {
+      "codice_atto": "26A05122",
+      "materia": "Sanità",
+      "titolo": "Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Scinorus»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05122/sg"
+    },
+    {
+      "codice_atto": "26A05123",
+      "materia": "Sanità",
+      "titolo": "Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Morniflu»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05123/sg"
+    },
+    {
+      "codice_atto": "26A05132",
+      "materia": "Sanità",
+      "titolo": "Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Alozof».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05132/sg"
+    },
+    {
+      "codice_atto": "26A05133",
+      "materia": "Sanità",
+      "titolo": "Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Liometacen»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05133/sg"
+    },
+    {
+      "codice_atto": "26A05166",
+      "materia": "Sanità",
+      "titolo": "Avviso di pubblicazione di provvedimenti di classificazione e rimborsabilita', ed atti correlati, di specialita' medicinali sul portale «TrovaNormeFarmaco».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05166/sg"
+    },
+    {
+      "codice_atto": "26A05068",
+      "materia": "Affari Esteri",
+      "titolo": "Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05068/sg"
+    },
+    {
+      "codice_atto": "26A05069",
+      "materia": "Affari Esteri",
+      "titolo": "Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05069/sg"
+    },
+    {
+      "codice_atto": "26A05070",
+      "materia": "Affari Esteri",
+      "titolo": "Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05070/sg"
+    },
+    {
+      "codice_atto": "26A05071",
+      "materia": "Affari Esteri",
+      "titolo": "Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05071/sg"
+    },
+    {
+      "codice_atto": "26A05186",
+      "materia": "Amministrazione",
+      "titolo": "Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 3",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05186/sg"
+    },
+    {
+      "codice_atto": "26A05187",
+      "materia": "Amministrazione",
+      "titolo": "Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 4",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05187/sg"
+    },
+    {
+      "codice_atto": "26A05188",
+      "materia": "Amministrazione",
+      "titolo": "Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 5",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05188/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05091",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 24 giugno 2026 Ripartizione della quota residua di cattura anno 2025.",
+      "sintesi": "Ripartisce la quota residua di cattura per l'anno 2025, influenzando le attività di pesca.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05091/sg"
+    },
+    {
+      "codice_atto": "26A05061",
+      "categoria": "Economico",
+      "titolo": "DECRETO 21 settembre 2026 Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta «Asiago».",
+      "sintesi": "Apporta modifiche al disciplinare di produzione del formaggio DOP «Asiago», rilevante per i produttori e il settore agroalimentare.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05061/sg"
+    },
+    {
+      "codice_atto": "26A05131",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 27 luglio 2026 Liquidazione coatta amministrativa della «Sky Coop societa' cooperativa in liquidazione», in Milano e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa di una società cooperativa e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05131/sg"
+    },
+    {
+      "codice_atto": "26A04646",
+      "categoria": "Economico",
+      "titolo": "DECRETO 14 agosto 2026 Liquidazione coatta amministrativa della «Ginestra sociale cooperativa sociale in liquidazione», in Roma e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa di una cooperativa sociale e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A04646/sg"
+    },
+    {
+      "codice_atto": "26A05120",
+      "categoria": "Economico",
+      "titolo": "DECRETO 23 settembre 2026 Registro imprese. Aggiornamento del decreto 18 ottobre 2013 (Fedra 7.20).",
+      "sintesi": "Aggiorna le disposizioni relative al Registro delle Imprese, con riferimento al software Fedra 7.20, per la gestione delle pratiche camerali.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05120/sg"
+    },
+    {
+      "codice_atto": "26A05067",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Domanda di registrazione della indicazione geografica protetta «Cassatella di Agira» e pubblicazione del disciplinare di produzione.",
+      "sintesi": "Pubblica la domanda di registrazione e il disciplinare di produzione per l'indicazione geografica protetta «Cassatella di Agira».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05067/sg"
+    },
+    {
+      "codice_atto": "26A05121",
+      "categoria": "Energia e Ambiente",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO Deliberazione dell'Albo nazionale gestori ambientali n. 6 del 16 settembre 2026.",
+      "sintesi": "Comunica una deliberazione dell'Albo nazionale gestori ambientali, rilevante per gli operatori del settore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05121/sg"
+    },
+    {
+      "codice_atto": "26A05103",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 65/26/DI adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza dei dottori commercialisti, in data 17 marzo 2026.",
+      "sintesi": "Approva una delibera della Cassa nazionale di previdenza ed assistenza dei dottori commercialisti, con impatto sulla gestione previdenziale della categoria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05103/sg"
+    },
+    {
+      "codice_atto": "26A05104",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 6 adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza e di assistenza farmacisti, in data 28 gennaio 2026.",
+      "sintesi": "Approva una delibera dell'Ente nazionale di previdenza e di assistenza farmacisti, con impatto sulla gestione previdenziale della categoria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05104/sg"
+    },
+    {
+      "codice_atto": "26A05105",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 28/IVCDA adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza e assistenza veterinari, in data 14 maggio 2026.",
+      "sintesi": "Approva una delibera dell'Ente nazionale di previdenza e assistenza veterinari, con impatto sulla gestione previdenziale della categoria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05105/sg"
+    },
+    {
+      "codice_atto": "26A05112",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 137/2026 adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza ed assistenza per i consulenti del lavoro, in data 20 maggio 2026.",
+      "sintesi": "Approva una delibera dell'Ente nazionale di previdenza ed assistenza per i consulenti del lavoro, con impatto sulla gestione previdenziale della categoria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05112/sg"
+    },
+    {
+      "codice_atto": "26A05119",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Aggiornamento della determinazione del costo medio orario del lavoro per il personale dipendente dei Servizi della cultura, del turismo, dello sport e del tempo libero - Federculture.",
+      "sintesi": "Aggiorna il costo medio orario del lavoro per il personale dipendente dei Servizi della cultura, del turismo, dello sport e del tempo libero (Federculture), rilevante per la gestione del personale e i bilanci delle imprese del settore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05119/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00185",
+      "titolo": "LEGGE 23 settembre 2026, n. 171 Proroga del termine per l'esercizio della delega prevista dall'articolo 35 della legge 25 novembre 2024, n. 177.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26G00185/sg"
+    },
+    {
+      "codice": "26A05091",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 24 giugno 2026 Ripartizione della quota residua di cattura anno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05091/sg"
+    },
+    {
+      "codice": "26A05061",
+      "titolo": "DECRETO 21 settembre 2026 Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta «Asiago».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05061/sg"
+    },
+    {
+      "codice": "26A05131",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 27 luglio 2026 Liquidazione coatta amministrativa della «Sky Coop societa' cooperativa in liquidazione», in Milano e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05131/sg"
+    },
+    {
+      "codice": "26A04646",
+      "titolo": "DECRETO 14 agosto 2026 Liquidazione coatta amministrativa della «Ginestra sociale cooperativa sociale in liquidazione», in Roma e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A04646/sg"
+    },
+    {
+      "codice": "26A05120",
+      "titolo": "DECRETO 23 settembre 2026 Registro imprese. Aggiornamento del decreto 18 ottobre 2013 (Fedra 7.20).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05120/sg"
+    },
+    {
+      "codice": "26A05062",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Decadenza, per mancata commercializzazione, dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di loperamide, «Loperamide EG».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05062/sg"
+    },
+    {
+      "codice": "26A05063",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di sitagliptin e metformina cloridrato, «Diesmit» e «Metsunix».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05063/sg"
+    },
+    {
+      "codice": "26A05064",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Alprazolam Pensa»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05064/sg"
+    },
+    {
+      "codice": "26A05065",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Metronidazolo Kabi»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05065/sg"
+    },
+    {
+      "codice": "26A05066",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Zinnat».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05066/sg"
+    },
+    {
+      "codice": "26A05122",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Scinorus»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05122/sg"
+    },
+    {
+      "codice": "26A05123",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Morniflu»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05123/sg"
+    },
+    {
+      "codice": "26A05132",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Alozof».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05132/sg"
+    },
+    {
+      "codice": "26A05133",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Liometacen»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05133/sg"
+    },
+    {
+      "codice": "26A05166",
+      "titolo": "COMUNICATO Avviso di pubblicazione di provvedimenti di classificazione e rimborsabilita', ed atti correlati, di specialita' medicinali sul portale «TrovaNormeFarmaco».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05166/sg"
+    },
+    {
+      "codice": "26A05068",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05068/sg"
+    },
+    {
+      "codice": "26A05069",
+      "titolo": "COMUNICATO Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05069/sg"
+    },
+    {
+      "codice": "26A05070",
+      "titolo": "COMUNICATO Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05070/sg"
+    },
+    {
+      "codice": "26A05071",
+      "titolo": "COMUNICATO Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05071/sg"
+    },
+    {
+      "codice": "26A05067",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Domanda di registrazione della indicazione geografica protetta «Cassatella di Agira» e pubblicazione del disciplinare di produzione.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05067/sg"
+    },
+    {
+      "codice": "26A05121",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO Deliberazione dell'Albo nazionale gestori ambientali n. 6 del 16 settembre 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05121/sg"
+    },
+    {
+      "codice": "26A05103",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 65/26/DI adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza dei dottori commercialisti, in data 17 marzo 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05103/sg"
+    },
+    {
+      "codice": "26A05104",
+      "titolo": "COMUNICATO Approvazione della delibera n. 6 adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza e di assistenza farmacisti, in data 28 gennaio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05104/sg"
+    },
+    {
+      "codice": "26A05105",
+      "titolo": "COMUNICATO Approvazione della delibera n. 28/IVCDA adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza e assistenza veterinari, in data 14 maggio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05105/sg"
+    },
+    {
+      "codice": "26A05112",
+      "titolo": "COMUNICATO Approvazione della delibera n. 137/2026 adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza ed assistenza per i consulenti del lavoro, in data 20 maggio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05112/sg"
+    },
+    {
+      "codice": "26A05119",
+      "titolo": "COMUNICATO Aggiornamento della determinazione del costo medio orario del lavoro per il personale dipendente dei Servizi della cultura, del turismo, dello sport e del tempo libero - Federculture.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05119/sg"
+    },
+    {
+      "codice": "26A05186",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMUNICATO Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 3",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05186/sg"
+    },
+    {
+      "codice": "26A05187",
+      "titolo": "COMUNICATO Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 4",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05187/sg"
+    },
+    {
+      "codice": "26A05188",
+      "titolo": "COMUNICATO Comunicato relativo all'adozione del decreto del Presidente del Consiglio dei ministri 24 settembre 2026, n. 5",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26A05188/sg"
+    }
+  ],
   "audio": "audio/2026-10-01.mp3",
-  "duration": 48,
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-01&numeroGazzetta=228"
+  "duration": 345.4
 }

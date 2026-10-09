@@ -52,7 +52,14 @@
     "date": "2026-10-01",
     "giorno": "giovedì",
     "numero_gu": "228",
-    "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "stato": "con_schede",
+    "schede": 1
+  },
+  {
+    "date": "2026-09-30",
+    "giorno": "mercoledì",
+    "numero_gu": "227",
+    "stato": "con_schede",
+    "schede": 1
   }
 ]
