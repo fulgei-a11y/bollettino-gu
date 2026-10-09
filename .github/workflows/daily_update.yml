@@ -2,10 +2,12 @@ name: Aggiornamento Automatico Bollettino GU
 
 on:
   schedule:
-    # La Serie Generale viene pubblicata in serata: controlli alle 13, 20 e 21 italiane (ora legale)
+    # La Serie Generale viene pubblicata in serata. Orari in UTC: con l'ora legale sono le 13, 20, 21 e 22
+    # italiane; con l'ora solare (dal 25 ottobre) le 12, 19, 20 e 21. L'ultimo controllo copre la sera d'inverno.
     - cron: '0 11 * * 1-6'
     - cron: '0 18 * * 1-6'
     - cron: '0 19 * * 1-6'
+    - cron: '0 20 * * 1-6'
   workflow_dispatch:
     inputs:
       gu_date:
@@ -23,24 +25,28 @@ jobs:
     timeout-minutes: 45
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout del codice
         uses: actions/checkout@v5
 
       - name: Configurazione Python
+        id: python
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: Installazione dipendenze
+        id: deps
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install google-genai requests pypdf
 
       - name: Controlla che gli script siano completi
+        id: check
         run: |
-          for f in generate.py tools/make_audio.py tools/build_audio.py; do
+          for f in generate.py tools/make_audio.py tools/build_audio.py tools/build_extras.py tools/report_status.py; do
             python -m py_compile "$f" || { echo "❌ $f non è valido: ricaricalo per intero."; exit 1; }
             tail -3 "$f" | grep -q "main()" || { echo "❌ $f è incompleto: ricaricalo per intero."; exit 1; }
           done
@@ -51,21 +57,83 @@ jobs:
           path: ~/.cache/bollettino-gu-tts
           key: paola-tts-1.12.14
 
+      # I passaggi seguenti proseguono anche se uno fallisce: il sito resta aggiornato
+      # con quello che è riuscito e l'esito finisce nell'avviso.
       - name: Analisi della Gazzetta
+        id: gen
+        if: ${{ !cancelled() && steps.check.outcome == 'success' }}
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GU_DATE: ${{ github.event.inputs.gu_date }}
         run: python generate.py
 
       - name: Lettura audio
+        id: audio
+        if: ${{ !cancelled() && steps.check.outcome == 'success' }}
+        continue-on-error: true
         run: python tools/make_audio.py
 
+      - name: Archivio, ricerca, scadenzario e podcast (audio solo ultimi 60 giorni)
+        id: extras
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          AUDIO_DAYS: '60'
+        run: python3 tools/build_extras.py
+
+      - name: Stato dell'aggiornamento
+        id: status
+        if: ${{ !cancelled() }}
+        env:
+          SETUP_OUTCOME: ${{ steps.python.outcome == 'success' && steps.deps.outcome == 'success' && steps.check.outcome == 'success' && 'success' || 'failure' }}
+          GEN_OUTCOME: ${{ steps.gen.outcome }}
+          AUDIO_OUTCOME: ${{ steps.audio.outcome }}
+          EXTRAS_OUTCOME: ${{ steps.extras.outcome }}
+        run: python3 tools/report_status.py
+
       - name: Commit e push
+        if: ${{ !cancelled() }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ audio/
+          git add -A data/ audio/
           if git diff --cached --quiet; then echo "Nessuna novità."; exit 0; fi
           git commit -m "Bollettino GU: aggiornamento $(TZ=Europe/Rome date +'%Y-%m-%d %H:%M')"
-          git pull --rebase
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 10
+          done
+          exit 1
+
+      - name: Avviso su GitHub se qualcosa non va
+        if: ${{ !cancelled() && steps.status.outputs.problem == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create aggiornamento-fallito --color B60205 \
+            --description "Avviso automatico: il controllo della Gazzetta non è riuscito" 2>/dev/null || true
+          open=$(gh issue list --label aggiornamento-fallito --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body-file report.md
+          else
+            gh issue create --label aggiornamento-fallito --body-file report.md \
+              --title "⚠️ Bollettino GU: aggiornamento non riuscito ($(TZ=Europe/Rome date +'%d/%m %H:%M'))"
+          fi
+
+      - name: Chiudi l'avviso se tutto è tornato a posto
+        if: ${{ !cancelled() && steps.status.outputs.problem == 'false' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label aggiornamento-fallito --state open --json number --jq '.[].number' 2>/dev/null); do
+            gh issue close "$n" --comment "$(cat report.md) L'avviso si chiude da solo."
+          done
+
+      - name: Esito
+        if: ${{ !cancelled() }}
+        run: |
+          if [ "${{ steps.status.outputs.problem }}" != "false" ]; then
+            echo "::error::Aggiornamento non riuscito: vedi data/status.json o l'avviso tra le Issues."
+            exit 1
+          fi
