@@ -4,62 +4,80 @@
     "giorno": "venerdì",
     "numero_gu": "235",
     "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "schede": 0,
+    "audio": true,
+    "updatedAt": "2026-10-09T19:13:39Z"
   },
   {
     "date": "2026-10-08",
     "giorno": "giovedì",
     "numero_gu": "234",
     "stato": "con_schede",
-    "schede": 3
+    "schede": 3,
+    "audio": true,
+    "updatedAt": "2026-10-08T21:25:15Z"
   },
   {
     "date": "2026-10-07",
     "giorno": "mercoledì",
     "numero_gu": "233",
     "stato": "con_schede",
-    "schede": 1
+    "schede": 1,
+    "audio": true,
+    "updatedAt": "2026-10-09T11:14:22Z"
   },
   {
     "date": "2026-10-06",
     "giorno": "martedì",
     "numero_gu": "232",
     "stato": "con_schede",
-    "schede": 2
+    "schede": 2,
+    "audio": true,
+    "updatedAt": "2026-10-09T11:15:27Z"
   },
   {
     "date": "2026-10-05",
     "giorno": "lunedì",
     "numero_gu": "231",
     "stato": "con_schede",
-    "schede": 1
+    "schede": 1,
+    "audio": true,
+    "updatedAt": "2026-10-08T21:27:22Z"
   },
   {
     "date": "2026-10-03",
     "giorno": "sabato",
     "numero_gu": "230",
     "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "schede": 0,
+    "audio": true,
+    "updatedAt": "2026-10-08T21:39:52Z"
   },
   {
     "date": "2026-10-02",
     "giorno": "venerdì",
     "numero_gu": "229",
     "stato": "con_schede",
-    "schede": 1
+    "schede": 1,
+    "audio": true,
+    "updatedAt": "2026-10-09T11:16:55Z"
   },
   {
     "date": "2026-10-01",
     "giorno": "giovedì",
     "numero_gu": "228",
     "stato": "con_schede",
-    "schede": 1
+    "schede": 1,
+    "audio": true,
+    "updatedAt": "2026-10-09T18:17:24Z"
   },
   {
     "date": "2026-09-30",
     "giorno": "mercoledì",
     "numero_gu": "227",
     "stato": "con_schede",
-    "schede": 1
+    "schede": 1,
+    "audio": true,
+    "updatedAt": "2026-10-09T18:18:27Z"
   }
 ]

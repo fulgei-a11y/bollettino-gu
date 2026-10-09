@@ -37,6 +37,7 @@ VERSION = 2
 BACKFILL_DAYS = int(os.environ.get("BACKFILL_DAYS", "10"))
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "4"))
 FORCE_DATE = os.environ.get("GU_DATE", "").strip()
+RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_generate.json")
 
 MODELS = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-2.5-pro", "gemini-3.5-flash-lite"]
 GIORNI = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
@@ -343,6 +344,14 @@ def process(date, anchors):
 
     acts = parse_acts(page, date)
     print(f"   📑 {len(acts)} atti nell'indice.")
+    if not acts:
+        # la pagina dell'edizione esiste ma l'indice non è ancora completo (succede in serata):
+        # non la si considera elaborata, così il prossimo controllo la riprova
+        print("   ⏳ Indice dell'edizione ancora vuoto: verrà ricontrollata.")
+        return {**base, "stato": "non_disponibile", "numero_gu": str(num), "link_gu": url,
+                "schede": [], "scartate": [], "altri_atti": [], "atti": [],
+                "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: "
+                        "verrà ricontrollata automaticamente."}
     primary = [a for a in acts if a["tipo"] in PRIMARY]
 
     texts = {c: ("testo integrale", t) for c, t in pdf_texts(date, num, [a["codice"] for a in primary]).items()}
@@ -380,7 +389,9 @@ def process(date, anchors):
         "schede": schede,
         "scartate": fix(res.get("scartate")),
         "altri_atti": fix(res.get("altri_atti")),
-        "atti": [{"codice": a["codice"], "titolo": a["intestazione"], "link": a["link"]} for a in acts],
+        "atti": [{"codice": a["codice"], "titolo": a["intestazione"], "link": a["link"],
+                  **({"tipo": a["tipo"]} if a["tipo"] in PRIMARY else {}),
+                  **({"vigore": vigore[a["codice"]]} if vigore.get(a["codice"]) else {})} for a in acts],
     }
     print(f"   ✅ {len(schede)} schede, {len(data['scartate'])} scartate, {len(data['altri_atti'])} altri atti.")
     return data
@@ -403,7 +414,8 @@ def needs_work(date, today):
         return True   # edizioni fatte con il vecchio metodo (numero sbagliato)
     if d.get("stato") == "non_disponibile":
         return True
-    return date == today and d.get("stato") != "con_schede" and not d.get("atti")
+    # edizione trovata ma senza elenco degli atti: era stata letta mentre veniva pubblicata
+    return not d.get("atti")
 
 
 def save(data):
@@ -411,6 +423,9 @@ def save(data):
     # conserva l'audio se il contenuto non è cambiato
     if old.get("audio") and old.get("schede") == data.get("schede") and old.get("altri_atti") == data.get("altri_atti"):
         data["audio"], data["duration"] = old["audio"], old.get("duration")
+    for k in ("audio_scaduto",):
+        if old.get(k) and k not in data:
+            data[k] = old[k]
     with open(os.path.join(DATA_DIR, f"{data['date']}.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -422,7 +437,8 @@ def update_index():
             d = load(dt.date.fromisoformat(name[:10]))
             if d:
                 idx.append({"date": d["date"], "giorno": d.get("giorno", ""), "numero_gu": str(d.get("numero_gu", "")),
-                            "stato": d.get("stato", ""), "schede": len(d.get("schede") or [])})
+                            "stato": d.get("stato", ""), "schede": len(d.get("schede") or []),
+                            "audio": bool(d.get("audio")), "updatedAt": d.get("updatedAt", "")})
     with open(os.path.join(DATA_DIR, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=2)
 
@@ -448,17 +464,25 @@ def main():
         dates = [d for d in cands if is_publication_day(d) and needs_work(d, today)][:MAX_PER_RUN]
     print("Da elaborare:", ", ".join(d.isoformat() for d in dates) or "nessuna data")
 
+    errors, done = [], []
     for k, d in enumerate(dates):
         if k:
             time.sleep(30)   # pausa tra un'edizione e l'altra, per non superare i limiti di Gemini
         try:
             data = process(d, anchors)
             save(data)
+            done.append({"date": d.isoformat(), "stato": data.get("stato"), "schede": len(data.get("schede") or [])})
             if data.get("verificato"):
                 anchors.append((d, int(data["numero_gu"])))
         except Exception as e:
             print(f"❌ {d}: {e}")
+            errors.append(f"Edizione del {d.strftime('%d/%m/%Y')}: {type(e).__name__}: {str(e)[:300]}")
     update_index()
+
+    with open(RUN_REPORT, "w", encoding="utf-8") as f:
+        json.dump({"elaborate": done, "errori": errors, "feed_rss": bool(rss)}, f, ensure_ascii=False, indent=2)
+    if errors:
+        raise SystemExit(f"{len(errors)} edizione/i non elaborate.")
 
 
 if __name__ == "__main__":

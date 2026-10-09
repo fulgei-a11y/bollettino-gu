@@ -1,0 +1,178 @@
+{
+  "generato": "2026-10-09T22:34:16Z",
+  "oggi": "2026-10-10",
+  "decreti_legge": [
+    {
+      "numero": 170,
+      "anno": 2026,
+      "data_dl": "2026-09-30",
+      "riferimento": "Decreto-legge 30 settembre 2026, n. 170",
+      "titolo": "Misure urgenti per garantire il regolare avvio dell'anno scolastico 2026/2027, per l'accompagnamento delle misure del Piano nazionale di ripresa e resilienza (PNRR) di competenza del Ministero dell'istruzione e del merito, per la promozione dell'integrazione…",
+      "pubblicazione": "2026-09-30",
+      "numero_gu": "227",
+      "vigore": "",
+      "scadenza": "2026-11-29",
+      "categoria": "",
+      "scheda": null,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/09/30/26G00190/sg",
+      "stato": "in_conversione",
+      "giorni_mancanti": 50
+    },
+    {
+      "numero": 177,
+      "anno": 2026,
+      "data_dl": "2026-10-08",
+      "riferimento": "Decreto-legge 8 ottobre 2026, n. 177",
+      "titolo": "Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche.",
+      "pubblicazione": "2026-10-08",
+      "numero_gu": "234",
+      "vigore": "2026-10-09",
+      "scadenza": "2026-12-07",
+      "categoria": "Energia e Ambiente",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg",
+      "stato": "in_conversione",
+      "giorni_mancanti": 58
+    },
+    {
+      "numero": 143,
+      "anno": 2026,
+      "data_dl": "2026-08-07",
+      "riferimento": "Decreto-legge 7 agosto 2026, n. 143",
+      "titolo": "Disposizioni urgenti in materia di obbligo di compostabilita' di determinate tipologie di imballaggi",
+      "pubblicazione": "2026-08-07",
+      "numero_gu": "",
+      "vigore": "",
+      "scadenza": "2026-10-06",
+      "categoria": "",
+      "scheda": null,
+      "link": "",
+      "fuori_archivio": true,
+      "stato": "convertito",
+      "conversione": {
+        "legge": "LEGGE 5 ottobre 2026, n. 173",
+        "data_gu": "2026-10-06",
+        "numero_gu": "232",
+        "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg"
+      },
+      "giorni_mancanti": -4
+    },
+    {
+      "numero": 144,
+      "anno": 2026,
+      "data_dl": "2026-08-07",
+      "riferimento": "Decreto-legge 7 agosto 2026, n. 144",
+      "titolo": "Disposizioni urgenti per la funzionalita' della pubblica amministrazione e degli enti territoriali, nonche' in materia di protezione civile",
+      "pubblicazione": "2026-08-07",
+      "numero_gu": "",
+      "vigore": "",
+      "scadenza": "2026-10-06",
+      "categoria": "",
+      "scheda": null,
+      "link": "",
+      "fuori_archivio": true,
+      "stato": "convertito",
+      "conversione": {
+        "legge": "LEGGE 5 ottobre 2026, n. 174",
+        "data_gu": "2026-10-06",
+        "numero_gu": "232",
+        "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg"
+      },
+      "giorni_mancanti": -4
+    },
+    {
+      "numero": 139,
+      "anno": 2026,
+      "data_dl": "2026-08-05",
+      "riferimento": "Decreto-legge 5 agosto 2026, n. 139",
+      "titolo": "Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali",
+      "pubblicazione": "",
+      "numero_gu": "",
+      "vigore": "",
+      "scadenza": "",
+      "categoria": "",
+      "scheda": null,
+      "link": "",
+      "fuori_archivio": true,
+      "stato": "non_convertito",
+      "conversione": {
+        "data_gu": "2026-10-05",
+        "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/05/26A05269/sg"
+      }
+    }
+  ],
+  "entrate_in_vigore": [
+    {
+      "data": "2026-10-02",
+      "riferimento": "LEGGE 23 settembre 2026, n. 171",
+      "titolo": "Proroga delega per la revisione del Codice della Strada",
+      "categoria": "Economico",
+      "edizione": "2026-10-01",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/01/26G00185/sg"
+    },
+    {
+      "data": "2026-10-07",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 173",
+      "titolo": "Obbligo di compostabilità per imballaggi monouso e sanzioni",
+      "categoria": "Energia e Ambiente",
+      "edizione": "2026-10-06",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg"
+    },
+    {
+      "data": "2026-10-07",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 174",
+      "titolo": "Disposizioni urgenti per la funzionalità della PA, enti territoriali e protezione civile",
+      "categoria": "Economico",
+      "edizione": "2026-10-06",
+      "scheda": 1,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg"
+    },
+    {
+      "data": "2026-10-15",
+      "riferimento": "LEGGE 29 settembre 2026, n. 169",
+      "titolo": "Delega al Governo in materia di energia nucleare sostenibile",
+      "categoria": "Energia e Ambiente",
+      "edizione": "2026-09-30",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/09/30/26G00189/sg"
+    },
+    {
+      "data": "2026-10-17",
+      "riferimento": "DECRETO LEGISLATIVO 11 settembre 2026, n. 172",
+      "titolo": "Norme di attuazione dello Statuto della Valle d'Aosta sulle concessioni di derivazione d'acqua",
+      "categoria": "Energia e Ambiente",
+      "edizione": "2026-10-02",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26G00187/sg"
+    },
+    {
+      "data": "2026-10-22",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
+      "titolo": "Norme comuni per la promozione della riparazione dei beni",
+      "categoria": "Energia e Ambiente",
+      "edizione": "2026-10-07",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg"
+    },
+    {
+      "data": "2026-10-23",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 178",
+      "titolo": "Adeguamento della normativa nazionale ai regolamenti UE sui controlli delle sostanze farmacologicamente attive negli animali e prodotti di origine animale.",
+      "categoria": "Economico",
+      "edizione": "2026-10-08",
+      "scheda": 1,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00192/sg"
+    },
+    {
+      "data": "2026-10-23",
+      "riferimento": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 179",
+      "titolo": "Adeguamento della normativa nazionale al regolamento UE sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione.",
+      "categoria": "Economico",
+      "edizione": "2026-10-08",
+      "scheda": 2,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg"
+    }
+  ]
+}

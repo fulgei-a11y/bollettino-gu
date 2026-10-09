@@ -3,300 +3,563 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Bollettino GU</title>
+<title>Bollettino GU — le leggi del giorno dalla Gazzetta Ufficiale</title>
+<meta name="description" content="Ogni giorno le leggi, i decreti-legge e i decreti legislativi della Gazzetta Ufficiale in materia economica, di giustizia, energia e ambiente, spiegati sul testo ufficiale. Con lettura audio e scadenze dei decreti-legge.">
+<link rel="canonical" href="https://fulgei-a11y.github.io/bollettino-gu/">
+
+<!-- Anteprima per WhatsApp, Telegram, Facebook, LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bollettino GU">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Bollettino GU — le leggi del giorno">
+<meta property="og:description" content="La Gazzetta Ufficiale di ogni giorno spiegata sul testo ufficiale: schede, audio e scadenze dei decreti-legge.">
+<meta property="og:url" content="https://fulgei-a11y.github.io/bollettino-gu/">
+<meta property="og:image" content="https://fulgei-a11y.github.io/bollettino-gu/icons/og-image.jpg">
+<meta property="og:image:secure_url" content="https://fulgei-a11y.github.io/bollettino-gu/icons/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bollettino GU: le leggi del giorno dalla Gazzetta Ufficiale">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bollettino GU — le leggi del giorno">
+<meta name="twitter:description" content="La Gazzetta Ufficiale di ogni giorno spiegata sul testo ufficiale: schede, audio e scadenze dei decreti-legge.">
+<meta name="twitter:image" content="https://fulgei-a11y.github.io/bollettino-gu/icons/og-image.jpg">
+
+<!-- Installabile come app -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#EDEEF2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141826" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bollettino GU">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="icons/favicon-64.png">
+<link rel="alternate" type="application/rss+xml" title="Bollettino GU (podcast)" href="data/podcast.xml">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
   --bg:#EDEEF2; --surface:#FFFFFF; --surface-2:#F6F7F9;
-  --ink:#1C2541; --ink-soft:#4A5173; --ink-faint:#7A8099;
-  --accent:#9C7A2E; --accent-ink:#5C4615;
+  --ink:#1C2541; --ink-soft:#4A5173; --ink-faint:#6E7490;
+  --accent:#8A6A22; --accent-ink:#5C4615; --gold:#C9A447;
   --line:#D7D9E0; --line-strong:#B9BCC9;
-  --econ:#9C7A2E; --econ-bg:#F3ECDA;
+  --econ:#8A6A22; --econ-bg:#F3ECDA;
   --giust:#7A3030; --giust-bg:#F6E6E4;
   --energy:#2F5D3A; --energy-bg:#E3EDE3;
   --ok:#2F5D3A; --ok-bg:#E3EDE3;
-  --pending:#8A6417; --pending-bg:#F3ECDA;
+  --pending:#7E5A12; --pending-bg:#F3ECDA;
+  --alert:#8E2B2B; --alert-bg:#F6E6E4;
   --none:#5B5F72; --none-bg:#E7E8EE;
+  --mark:#F6E3A6;
   --shadow: 0 1px 2px rgba(28,37,65,.06), 0 6px 20px rgba(28,37,65,.06);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#141826; --surface:#1B2036; --surface-2:#20263F;
-    --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#7E84A3;
-    --accent:#D8B65B; --accent-ink:#F3DFA2;
+    --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#8A90AD;
+    --accent:#D8B65B; --accent-ink:#F3DFA2; --gold:#D8B65B;
     --line:#2C3150; --line-strong:#3B4068;
     --econ:#D8B65B; --econ-bg:#352C16;
     --giust:#D98888; --giust-bg:#3A2020;
     --energy:#7FCB93; --energy-bg:#1E3324;
     --ok:#7FCB93; --ok-bg:#1E3324;
     --pending:#E4C56B; --pending-bg:#352C16;
+    --alert:#F0A0A0; --alert-bg:#3A2020;
     --none:#9DA2BC; --none-bg:#242A46;
+    --mark:#5A4A1A;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#141826; --surface:#1B2036; --surface-2:#20263F;
-  --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#7E84A3;
-  --accent:#D8B65B; --accent-ink:#F3DFA2;
+  --ink:#E7E8EE; --ink-soft:#AEB2C6; --ink-faint:#8A90AD;
+  --accent:#D8B65B; --accent-ink:#F3DFA2; --gold:#D8B65B;
   --line:#2C3150; --line-strong:#3B4068;
   --econ:#D8B65B; --econ-bg:#352C16;
   --giust:#D98888; --giust-bg:#3A2020;
   --energy:#7FCB93; --energy-bg:#1E3324;
   --ok:#7FCB93; --ok-bg:#1E3324;
   --pending:#E4C56B; --pending-bg:#352C16;
+  --alert:#F0A0A0; --alert-bg:#3A2020;
   --none:#9DA2BC; --none-bg:#242A46;
+  --mark:#5A4A1A;
   --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
   color-scheme: dark;
 }
 *{box-sizing:border-box}
-body{margin:0; padding:0; background:var(--bg); color:var(--ink); font-family:"Public Sans",system-ui,-apple-system,sans-serif; padding-inline:16px;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:"Public Sans",system-ui,-apple-system,sans-serif;
+  padding:0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));}
 .wrap{max-width:720px; margin:0 auto;}
 h1,h2,h3{font-family:"Source Serif 4",Georgia,serif; text-wrap:balance; margin:0;}
-.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;}
 a{color:var(--accent);}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px;}
+[hidden]{display:none!important;}
+.sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap;}
 
+/* ---------- Testata ---------- */
+.brand{padding-top:calc(16px + env(safe-area-inset-top,0px));}
 .masthead{
-  position:sticky; top:env(safe-area-inset-top,0px); z-index:5;
-  background:var(--bg); padding-block:14px 10px;
-  border-bottom:1px solid var(--line);
+  position:sticky; top:0; z-index:5; background:var(--bg);
+  padding-top:env(safe-area-inset-top,0px); border-bottom:1px solid var(--line);
 }
-.masthead-row{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;}
-.masthead h1{font-size:1.5rem; font-weight:700; letter-spacing:.2px;}
-.masthead .kicker{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:2px;}
-.sub{color:var(--ink-soft); font-size:.85rem; margin-top:4px; max-width:60ch;}
+.masthead-row{display:flex; align-items:flex-end; justify-content:space-between; gap:12px;}
+.masthead h1{font-size:1.5rem; font-weight:700; letter-spacing:.2px; line-height:1.15;}
+.kicker{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:2px;}
 
-.controls{display:flex; gap:8px; margin-top:12px; flex-wrap:wrap;}
+.freshness{
+  display:inline-flex; align-items:center; gap:7px; background:none; border:0; padding:4px 0; margin-top:4px;
+  font:inherit; font-size:.78rem; color:var(--ink-soft); cursor:pointer; text-align:left; font-weight:500;
+}
+.freshness .dot{width:8px; height:8px; border-radius:50%; background:var(--ok); flex:none; box-shadow:0 0 0 3px var(--ok-bg);}
+.freshness.warn .dot{background:var(--pending); box-shadow:0 0 0 3px var(--pending-bg);}
+.freshness.bad .dot{background:var(--alert); box-shadow:0 0 0 3px var(--alert-bg);}
+.freshness.bad{color:var(--alert);}
+.freshness .chev{font-size:.7rem; color:var(--ink-faint); transition:transform .15s;}
+.freshness[aria-expanded="true"] .chev{transform:rotate(180deg);}
+.status-detail{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin:6px 0 4px; font-size:.82rem; line-height:1.5; color:var(--ink-soft);}
+.status-detail dl{display:grid; grid-template-columns:auto 1fr; gap:2px 12px; margin:0;}
+.status-detail dt{color:var(--ink-faint);}
+.status-detail dd{margin:0; color:var(--ink);}
+.status-detail ul{margin:6px 0 0; padding-left:1.1em; color:var(--alert);}
+
+.tabs{display:flex; gap:4px; margin-top:8px; overflow-x:auto; scrollbar-width:none;}
+.tabs::-webkit-scrollbar{display:none;}
+.tab{
+  font:inherit; font-size:.9rem; font-weight:600; color:var(--ink-soft); background:none; border:0; cursor:pointer;
+  padding:9px 12px 10px; border-bottom:3px solid transparent; border-radius:0; white-space:nowrap;
+  display:inline-flex; align-items:center; gap:6px;
+}
+.tab[aria-selected="true"]{color:var(--ink); border-bottom-color:var(--gold);}
+.tab .count{font-family:"IBM Plex Mono",monospace; font-size:.68rem; font-weight:500; background:var(--pending-bg); color:var(--pending); border-radius:10px; padding:1px 6px;}
+
+.controls{display:flex; gap:6px; padding-top:10px;}
 select#editionSelect{
-  flex:1 1 220px; min-width:0; appearance:none; background:var(--surface);
-  color:var(--ink); border:1px solid var(--line-strong); border-radius:8px;
-  padding:9px 12px; font:inherit; font-size:.9rem;
+  flex:1 1 200px; min-width:0; appearance:none; -webkit-appearance:none; background:var(--surface);
+  color:var(--ink); border:1px solid var(--line-strong); border-radius:8px; padding:9px 12px; font:inherit; font-size:.9rem;
 }
-button{
-  font:inherit; font-size:.85rem; font-weight:600; border-radius:8px; border:1px solid transparent;
-  padding:9px 14px; cursor:pointer;
-}
-#pdfBtn{background:var(--ink); color:var(--bg); white-space:nowrap;}
-#pdfBtn:disabled{opacity:.45; cursor:default;}
-#pdfBtn:active{transform:translateY(1px);}
+button{font:inherit; font-size:.85rem; font-weight:600; border-radius:8px; border:1px solid transparent; padding:9px 14px; cursor:pointer;}
+button:disabled{opacity:.4; cursor:default;}
+.btn-primary{background:var(--ink); color:var(--bg);}
+.btn-ghost{background:var(--surface); color:var(--ink); border-color:var(--line-strong);}
+.navbtn{padding:9px 0; min-width:38px;}
+.iconbtn{padding:0 10px; min-width:42px; display:inline-grid; place-items:center;}
 
-.player{
-  display:flex; align-items:center; gap:10px; margin-top:10px; padding:10px 12px;
-  background:var(--surface); border:1px solid var(--line); border-radius:10px;
-}
-.player audio{flex:1; min-width:0; height:32px;}
-.player .ptitle{font-size:.72rem; color:var(--ink-faint); white-space:nowrap; font-family:"IBM Plex Mono",monospace;}
+.player{display:flex; align-items:center; gap:8px; margin-top:10px; padding:8px 10px; background:var(--surface); border:1px solid var(--line); border-radius:10px;}
+.player audio{flex:1; min-width:0; height:34px;}
+.speed{font-family:"IBM Plex Mono",monospace; font-size:.75rem; padding:6px 8px; min-width:52px; background:var(--surface-2); color:var(--ink); border:1px solid var(--line);}
+.masthead-tail{height:10px;}
+
+/* ---------- Avvisi ---------- */
+.alert{display:flex; gap:10px; align-items:flex-start; border-radius:10px; padding:11px 14px; margin-top:16px; font-size:.86rem; line-height:1.45; background:var(--alert-bg); color:var(--alert);}
+.alert.warn{background:var(--pending-bg); color:var(--pending);}
+.alert b{color:inherit;}
+.alert .dot{width:8px; height:8px; border-radius:50%; background:currentColor; margin-top:6px; flex:none;}
 
 main{padding-block:18px 40px;}
+.view{animation:none;}
 
-.status-banner{
-  display:flex; gap:10px; align-items:flex-start; border-radius:10px; padding:12px 14px;
-  margin-bottom:18px; font-size:.88rem; line-height:1.45;
-}
+/* ---------- Edizione ---------- */
+.status-banner{display:flex; gap:10px; align-items:flex-start; border-radius:10px; padding:12px 14px; margin-bottom:18px; font-size:.88rem; line-height:1.45;}
 .status-banner.ok{background:var(--ok-bg); color:var(--ok);}
 .status-banner.pending{background:var(--pending-bg); color:var(--pending);}
 .status-banner.none{background:var(--none-bg); color:var(--none);}
 .status-banner b{color:inherit;}
 .status-banner .dot{width:8px; height:8px; border-radius:50%; background:currentColor; margin-top:6px; flex:none;}
-
-.edition-meta{display:flex; gap:16px; flex-wrap:wrap; align-items:baseline; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-faint); margin-bottom:14px; letter-spacing:.02em;}
+.edition-meta{display:flex; gap:6px 16px; flex-wrap:wrap; align-items:baseline; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-faint); margin-bottom:14px;}
 .edition-meta a{color:var(--accent); text-decoration:none; font-weight:500;}
 .edition-meta a:hover{text-decoration:underline;}
 
-.discard-list{border:1px dashed var(--line-strong); border-radius:10px; padding:12px 14px; margin-bottom:20px;}
-.discard-list h3{font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; font-family:"Public Sans",sans-serif; font-weight:700; color:var(--ink-soft); margin-bottom:8px;}
-.discard-item{display:flex; gap:8px; flex-wrap:wrap; align-items:baseline; padding-block:6px; border-top:1px solid var(--line); font-size:.85rem;}
-.discard-item:first-child{border-top:none;}
-.discard-item .tag{flex:none;}
-.discard-item .linkout{font-size:.72rem; white-space:nowrap;}
-
-.tag{
-  display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em;
-  text-transform:uppercase; padding:3px 7px; border-radius:5px; font-weight:500;
-}
+.tag{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em; text-transform:uppercase; padding:3px 7px; border-radius:5px; font-weight:500; background:var(--none-bg); color:var(--none);}
 .tag.econ{background:var(--econ-bg); color:var(--econ);}
 .tag.giust{background:var(--giust-bg); color:var(--giust);}
 .tag.energy{background:var(--energy-bg); color:var(--energy);}
+.tag.ok{background:var(--ok-bg); color:var(--ok);}
+.tag.pending{background:var(--pending-bg); color:var(--pending);}
+.tag.alert{background:var(--alert-bg); color:var(--alert);}
 
-.card{
-  background:var(--surface); border:1px solid var(--line); border-radius:14px;
-  padding:18px 18px 20px; margin-bottom:18px; box-shadow:var(--shadow);
-  border-left:4px solid var(--accent);
-}
+.card{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px; margin-bottom:18px; box-shadow:var(--shadow); border-left:4px solid var(--accent); scroll-margin-top:190px;}
 .card.econ{border-left-color:var(--econ);}
 .card.giust{border-left-color:var(--giust);}
 .card.energy{border-left-color:var(--energy);}
-.card h3{font-size:1.15rem; line-height:1.3; margin-bottom:8px;}
-.card .ref{font-family:"IBM Plex Mono",monospace; font-size:.75rem; color:var(--ink-faint); margin-bottom:10px;}
+.card.flash{animation:flash 1.6s ease-out 1;}
+@keyframes flash{0%{box-shadow:0 0 0 4px var(--gold);}100%{box-shadow:var(--shadow);}}
+.card h3{font-size:1.15rem; line-height:1.3; margin:8px 0;}
+.card .ref{font-family:"IBM Plex Mono",monospace; font-size:.75rem; color:var(--ink-faint); margin-bottom:10px; line-height:1.6;}
 .card .field{margin-top:12px;}
-.card .field-label{font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; font-weight:700; color:var(--ink-faint); margin-bottom:4px;}
-.card .field-body{font-size:.9rem; line-height:1.55; color:var(--ink);}
+.card .field-label{font-size:.72rem; letter-spacing:.02em; font-weight:700; color:var(--ink-faint); margin-bottom:3px;}
+.card .field-body{font-size:.9rem; line-height:1.55;}
 .card ul.misure{margin:4px 0 0; padding-left:1.1em;}
 .card ul.misure li{margin-bottom:5px; font-size:.9rem; line-height:1.5;}
-.card .dl-link{
-  display:inline-flex; align-items:center; gap:6px; margin-top:14px;
-  font-size:.82rem; font-weight:600; color:var(--accent); text-decoration:none;
-}
-.card .dl-link:hover{text-decoration:underline;}
-
-.sintesi{font-family:"Source Serif 4",Georgia,serif; font-size:1.05rem; line-height:1.55; margin:0 0 18px; color:var(--ink);}
-.vigore{display:inline-block; margin-left:6px; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em; text-transform:uppercase; padding:3px 7px; border-radius:5px; background:var(--ok-bg); color:var(--ok);}
+.card-actions{display:flex; gap:6px 16px; flex-wrap:wrap; align-items:center; margin-top:14px; padding-top:12px; border-top:1px solid var(--line);}
+.card-actions a, .linkbtn{font-size:.82rem; font-weight:600; color:var(--accent); text-decoration:none; background:none; border:0; padding:0; cursor:pointer;}
+.card-actions a:hover, .linkbtn:hover{text-decoration:underline;}
+.vigore{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.65rem; letter-spacing:.06em; text-transform:uppercase; padding:2px 6px; border-radius:5px; background:var(--ok-bg); color:var(--ok); white-space:nowrap;}
+.dl-strip{display:flex; align-items:center; gap:10px; margin:10px 0 2px; padding:10px 12px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line); font-size:.82rem; color:var(--ink-soft); cursor:pointer; text-align:left; width:100%; font-weight:500;}
+.dl-strip b{color:var(--ink); font-family:"Source Serif 4",serif; font-size:1.05rem;}
+.sintesi{font-family:"Source Serif 4",Georgia,serif; font-size:1.06rem; line-height:1.6; margin:0 0 18px;}
 .fonte{font-size:.72rem; color:var(--ink-faint); margin-top:12px; font-style:italic;}
 .fonte.debole{color:var(--pending);}
-.section-h{font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; font-family:"Public Sans",sans-serif; font-weight:700; color:var(--ink-soft); margin:26px 0 10px;}
-.altri{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:4px 14px; margin-bottom:18px;}
-.altro{padding:10px 0; border-top:1px solid var(--line); font-size:.88rem; line-height:1.5;}
+.section-h{font-size:.95rem; font-family:"Source Serif 4",serif; font-weight:700; color:var(--ink); margin:28px 0 10px;}
+.section-h small{font-family:"Public Sans",sans-serif; font-weight:400; font-size:.8rem; color:var(--ink-faint); margin-left:6px;}
+.altri, .discard-list{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:4px 14px; margin-bottom:18px;}
+.discard-list{background:transparent; border-style:dashed; border-color:var(--line-strong);}
+.altro{padding:11px 0; border-top:1px solid var(--line); font-size:.88rem; line-height:1.5;}
 .altro:first-child{border-top:none;}
 .altro b{display:block; margin:4px 0 2px;}
-.altro a{font-size:.75rem; font-weight:600; text-decoration:none;}
+.altro a{font-size:.78rem; font-weight:600; text-decoration:none;}
 details.tutti{border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin:18px 0; background:var(--surface-2);}
 details.tutti summary{cursor:pointer; font-weight:600; font-size:.88rem;}
 details.tutti ol{margin:10px 0 0; padding-left:1.3em; font-size:.82rem; line-height:1.45;}
 details.tutti li{margin-bottom:6px;}
 details.tutti a{text-decoration:none;}
-.navbtn{background:var(--surface); color:var(--ink); border:1px solid var(--line-strong); padding:9px 12px;}
-.navbtn:disabled{opacity:.35; cursor:default;}
-.empty-state{text-align:center; padding-block:50px; color:var(--ink-faint);}
-.empty-state .big{font-family:"Source Serif 4",serif; font-size:1.4rem; color:var(--ink-soft); margin-bottom:6px;}
+.note{color:var(--ink-soft); font-size:.88rem; margin:0 0 18px; line-height:1.5;}
+.empty-state{text-align:center; padding-block:50px; color:var(--ink-faint); line-height:1.5;}
+.empty-state .big{font-family:"Source Serif 4",serif; font-size:1.35rem; color:var(--ink-soft); margin-bottom:6px;}
 
-footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe-area-inset-bottom,0px)); font-size:.75rem; color:var(--ink-faint); line-height:1.6;}
+/* ---------- Ricerca ---------- */
+.searchbox{position:relative;}
+.searchbox input{
+  width:100%; font:inherit; font-size:1.05rem; padding:13px 44px 13px 14px; border-radius:12px;
+  border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); -webkit-appearance:none; appearance:none;
+}
+.searchbox input:focus{outline:none; border-color:var(--accent); box-shadow:0 0 0 3px var(--econ-bg);}
+.searchbox input::-webkit-search-cancel-button{-webkit-appearance:none; display:none;}
+.searchbox .clear{position:absolute; right:6px; top:50%; transform:translateY(-50%); background:none; color:var(--ink-faint); font-size:1.2rem; padding:6px 10px;}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin:12px 0 4px;}
+.chip{font-size:.78rem; font-weight:600; padding:6px 11px; border-radius:16px; background:var(--surface); border:1px solid var(--line-strong); color:var(--ink-soft);}
+.chip[aria-pressed="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink);}
+.search-summary{font-size:.8rem; color:var(--ink-faint); margin:12px 0 8px;}
+.results{list-style:none; margin:0; padding:0;}
+.result{border-top:1px solid var(--line);}
+.result:first-child{border-top:none;}
+.result a{display:block; padding:13px 2px; text-decoration:none; color:var(--ink);}
+.result a:hover .rt{text-decoration:underline;}
+.result .rmeta{display:flex; gap:8px; align-items:center; flex-wrap:wrap; font-size:.72rem; color:var(--ink-faint); font-family:"IBM Plex Mono",monospace; margin-bottom:4px;}
+.result .rt{font-family:"Source Serif 4",serif; font-weight:600; font-size:1rem; line-height:1.35;}
+.result .rx{font-size:.84rem; color:var(--ink-soft); line-height:1.5; margin-top:4px;}
+mark{background:var(--mark); color:inherit; border-radius:2px; padding:0 1px;}
+.suggest{font-size:.86rem; color:var(--ink-soft); line-height:1.8;}
+.suggest button{background:var(--surface); border:1px solid var(--line); padding:4px 10px; border-radius:14px; font-weight:500; font-size:.82rem; color:var(--ink); margin:0 4px 4px 0;}
 
-[hidden]{display:none!important;}
+/* ---------- Scadenze ---------- */
+.lead{font-size:.9rem; color:var(--ink-soft); line-height:1.55; margin:0 0 6px;}
+.dl{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin-bottom:16px; box-shadow:var(--shadow); scroll-margin-top:200px;}
+.dl-top{display:flex; gap:6px; flex-wrap:wrap; align-items:center;}
+.dl h3{font-size:1.05rem; line-height:1.35; margin:8px 0 4px; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden;}
+.dl .ref{font-family:"IBM Plex Mono",monospace; font-size:.74rem; color:var(--ink-faint);}
+.countdown{display:flex; align-items:baseline; gap:8px; margin:14px 0 8px;}
+.countdown .num{font-family:"Source Serif 4",serif; font-weight:700; font-size:2.6rem; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums;}
+.countdown .lbl{font-size:.88rem; color:var(--ink-soft);}
+.dl.soon .countdown .num{color:var(--pending);}
+.dl.urgent .countdown .num{color:var(--alert);}
+/* sessanta giorni, uno per tacca */
+.days{display:grid; grid-template-columns:repeat(60,1fr); gap:2px; height:22px; margin:4px 0 4px;}
+.days i{display:block; border-radius:1.5px; background:var(--line);}
+.days i.gone{background:var(--ink-faint); opacity:.55;}
+.days i.today{background:var(--gold); opacity:1; transform:scaleY(1.35);}
+.dl.soon .days i.today{background:var(--pending);}
+.dl.urgent .days i.today, .dl.urgent .days i.last{background:var(--alert);}
+.days i.last{background:var(--line-strong);}
+.days-scale{display:flex; justify-content:space-between; font-family:"IBM Plex Mono",monospace; font-size:.66rem; color:var(--ink-faint);}
+.dates{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:12px; padding-top:12px; border-top:1px solid var(--line);}
+.dates div{font-size:.72rem; color:var(--ink-faint); line-height:1.35;}
+.dates b{display:block; font-size:.86rem; color:var(--ink); font-weight:600; margin-top:2px;}
+.dl .outcome{font-size:.86rem; line-height:1.5; margin-top:8px; color:var(--ink-soft);}
+.dl.closed{box-shadow:none; background:transparent; padding:12px 14px;}
+.dl.closed h3{font-size:.95rem;}
+.subscribe{display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 4px;}
+.subscribe a{font-size:.82rem; font-weight:600; text-decoration:none; padding:8px 12px; border-radius:8px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink);}
+.timeline{list-style:none; margin:0; padding:0; background:var(--surface); border:1px solid var(--line); border-radius:12px;}
+.timeline li{display:grid; grid-template-columns:52px 1fr; gap:12px; padding:12px 14px; border-top:1px solid var(--line);}
+.timeline li:first-child{border-top:none;}
+.timeline li.past{opacity:.62;}
+.timeline .when{text-align:center; line-height:1.05;}
+.timeline .when b{display:block; font-family:"Source Serif 4",serif; font-size:1.45rem;}
+.timeline .when span{font-family:"IBM Plex Mono",monospace; font-size:.66rem; text-transform:uppercase; color:var(--ink-faint);}
+.timeline .what{font-size:.88rem; line-height:1.45;}
+.timeline .what .ref{font-family:"IBM Plex Mono",monospace; font-size:.7rem; color:var(--ink-faint); display:block; margin-bottom:2px;}
+.timeline .what a{font-size:.78rem; font-weight:600; text-decoration:none; margin-right:12px;}
+.timeline li.todayline{display:block; padding:6px 14px; font-family:"IBM Plex Mono",monospace; font-size:.68rem; color:var(--accent); background:var(--surface-2); text-transform:uppercase; letter-spacing:.08em;}
 
+/* ---------- Piè di pagina ---------- */
+footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe-area-inset-bottom,0px)); font-size:.78rem; color:var(--ink-faint); line-height:1.6;}
+.tools{display:grid; gap:8px; margin-bottom:16px;}
+.tool{display:flex; gap:12px; align-items:center; background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:10px 12px; color:var(--ink); text-decoration:none; font-size:.85rem; text-align:left; width:100%; font-weight:400;}
+.tool b{display:block; font-size:.88rem;}
+.tool span{color:var(--ink-faint); font-size:.78rem;}
+.tool .ico{width:30px; height:30px; flex:none; border-radius:8px; background:var(--surface-2); display:grid; place-items:center; color:var(--accent);}
+.ios-hint{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:.84rem; color:var(--ink-soft); line-height:1.5;}
+.toast{position:fixed; left:50%; bottom:calc(20px + env(safe-area-inset-bottom,0px)); transform:translateX(-50%); background:var(--ink); color:var(--bg); padding:10px 16px; border-radius:10px; font-size:.86rem; z-index:20; box-shadow:var(--shadow); max-width:calc(100% - 32px);}
+
+@media (prefers-reduced-motion: reduce){ *{animation:none!important; transition:none!important;} }
 @media print {
-  .masthead, .controls, .player, footer { display: none !important; }
-  body { background: #fff !important; color: #000 !important; }
-  .card { box-shadow: none !important; border: 1px solid #ccc !important; page-break-inside: avoid; }
+  .masthead, .controls, .player, footer, .alert, .card-actions { display:none !important; }
+  body{background:#fff !important; color:#000 !important;}
+  .card{box-shadow:none !important; border:1px solid #ccc !important; page-break-inside:avoid;}
 }
 </style>
 </head>
 <body>
 
 <div class="wrap">
-  <div class="masthead">
+  <header class="brand">
     <div class="masthead-row">
       <div>
         <div class="kicker">Gazzetta Ufficiale · Serie Generale</div>
         <h1>Bollettino GU</h1>
+        <button class="freshness" id="freshness" type="button" aria-expanded="false" aria-controls="statusDetail" hidden>
+          <span class="dot" aria-hidden="true"></span><span id="freshText"></span><span class="chev" aria-hidden="true">▾</span>
+        </button>
       </div>
     </div>
-    <div class="sub">Leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente — schede scritte sul testo ufficiale di ogni edizione.</div>
-    <div class="controls">
-      <button class="navbtn" id="prevBtn" type="button" aria-label="Edizione precedente">‹</button>
-      <select id="editionSelect" aria-label="Scegli edizione"></select>
-      <button class="navbtn" id="nextBtn" type="button" aria-label="Edizione successiva">›</button>
-      <button id="pdfBtn" disabled>Scarica PDF</button>
+    <div class="status-detail" id="statusDetail" hidden></div>
+  </header>
+
+  <div class="masthead">
+    <nav class="tabs" role="tablist" aria-label="Sezioni">
+      <button class="tab" role="tab" id="tab-edizioni" aria-controls="view-edizioni" aria-selected="true" data-view="edizioni">Edizioni</button>
+      <button class="tab" role="tab" id="tab-cerca" aria-controls="view-cerca" aria-selected="false" data-view="cerca">Cerca</button>
+      <button class="tab" role="tab" id="tab-scadenze" aria-controls="view-scadenze" aria-selected="false" data-view="scadenze">Scadenze <span class="count" id="dlCount" hidden></span></button>
+    </nav>
+
+    <div id="edizioniBar">
+      <div class="controls">
+        <button class="btn-ghost navbtn" id="prevBtn" type="button" aria-label="Edizione precedente">‹</button>
+        <select id="editionSelect" aria-label="Scegli edizione"></select>
+        <button class="btn-ghost navbtn" id="nextBtn" type="button" aria-label="Edizione successiva">›</button>
+        <button class="btn-ghost iconbtn" id="shareBtn" type="button" disabled aria-label="Condividi l'edizione" title="Condividi">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg></button>
+        <button class="btn-primary iconbtn" id="pdfBtn" type="button" disabled aria-label="Scarica il PDF dell'edizione" title="Scarica PDF">PDF</button>
+      </div>
+      <div class="player" id="player" hidden>
+        <audio id="audioEl" controls preload="none"></audio>
+        <button class="speed" id="speedBtn" type="button" aria-label="Velocità di lettura">1×</button>
+      </div>
     </div>
-    <div class="player" id="player" hidden>
-      <audio id="audioEl" controls preload="none"></audio>
-      <span class="ptitle" id="playerDur"></span>
-    </div>
+    <div class="masthead-tail"></div>
   </div>
 
-  <main id="content">
-    <div class="empty-state"><div class="big">Caricamento archivio…</div>Se questa app è appena stata pubblicata, l'archivio verrà popolato dal prossimo controllo automatico.</div>
+  <div id="alertBox"></div>
+
+  <main>
+    <section class="view" id="view-edizioni" role="tabpanel" aria-labelledby="tab-edizioni">
+      <div id="content"><div class="empty-state"><div class="big">Caricamento archivio…</div></div></div>
+    </section>
+
+    <section class="view" id="view-cerca" role="tabpanel" aria-labelledby="tab-cerca" hidden>
+      <form class="searchbox" id="searchForm" role="search" autocomplete="off">
+        <label for="q" class="sr-only">Cerca nell'archivio</label>
+        <input id="q" type="search" enterkeyhint="search" placeholder="Cerca leggi, decreti, parole chiave…">
+        <button class="clear" id="qClear" type="button" aria-label="Cancella ricerca" hidden>×</button>
+      </form>
+      <div class="chips" id="catChips" role="group" aria-label="Filtra per materia">
+        <button class="chip" type="button" data-cat="" aria-pressed="true">Tutte</button>
+        <button class="chip" type="button" data-cat="econ" aria-pressed="false">Economico</button>
+        <button class="chip" type="button" data-cat="giust" aria-pressed="false">Giustizia</button>
+        <button class="chip" type="button" data-cat="energ" aria-pressed="false">Energia e Ambiente</button>
+        <button class="chip" type="button" data-cat="schede" aria-pressed="false">Solo schede</button>
+      </div>
+      <div id="searchOut"></div>
+    </section>
+
+    <section class="view" id="view-scadenze" role="tabpanel" aria-labelledby="tab-scadenze" hidden>
+      <div id="scadOut"><div class="empty-state"><div class="big">Carico lo scadenzario…</div></div></div>
+    </section>
   </main>
 
   <footer id="footer">
-    Il controllo gira dal lunedì al sabato, alle 13, alle 20 e alle 21. Leggi, decreti-legge e decreti legislativi delle materie seguite hanno una scheda completa; gli altri atti rilevanti (decreti ministeriali, delibere) sono segnalati in breve, e l'elenco completo dell'edizione è sempre consultabile. “Scartate per trasparenza” elenca le leggi individuate ma fuori dalle tre materie monitorate (economica, giustizia, energia e ambiente).
+    <div class="tools">
+      <button class="tool" id="installBtn" type="button" hidden>
+        <span class="ico" aria-hidden="true">⤓</span><span><b>Installa l'app</b><span>Si apre dalla schermata Home, anche senza rete.</span></span>
+      </button>
+      <div class="ios-hint" id="iosHint" hidden>
+        <b>Installa sull'iPhone:</b> tocca il pulsante Condividi di Safari, poi «Aggiungi alla schermata Home».
+      </div>
+      <a class="tool" id="podcastLink" href="data/podcast.xml">
+        <span class="ico" aria-hidden="true">♫</span><span><b>Ascolta come podcast</b><span>Copia l'indirizzo e aggiungilo alla tua app di podcast.</span></span>
+      </a>
+      <a class="tool" id="calLink" href="data/scadenze.ics">
+        <span class="ico" aria-hidden="true">▦</span><span><b>Scadenze nel tuo calendario</b><span>Decreti-legge e entrate in vigore, sempre aggiornate.</span></span>
+      </a>
+    </div>
+    <p style="margin:0;">I controlli girano dal lunedì al sabato, a metà giornata e in serata. Leggi, decreti-legge e decreti legislativi delle materie seguite hanno una scheda completa; gli altri atti rilevanti sono segnalati in breve e l'elenco completo dell'edizione è sempre consultabile. La lettura audio resta disponibile per gli ultimi 60 giorni; le schede restano tutte.</p>
   </footer>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
 <script>
 (function(){
   "use strict";
 
-  var state = { list: [], current: null, cache: {} };
+  var state = { list: [], current: null, cache: {}, view: 'edizioni', status: null,
+                search: null, searchLoading: null, scad: null, cat: '', pendingFocus: null };
 
-  var editionSelect = document.getElementById('editionSelect');
-  var pdfBtn = document.getElementById('pdfBtn');
-  var content = document.getElementById('content');
-  var playerBox = document.getElementById('player');
-  var audioEl = document.getElementById('audioEl');
-  var playerDur = document.getElementById('playerDur');
+  var $ = function(id){ return document.getElementById(id); };
+  var editionSelect = $('editionSelect'), pdfBtn = $('pdfBtn'), shareBtn = $('shareBtn'), content = $('content');
+  var playerBox = $('player'), audioEl = $('audioEl'), speedBtn = $('speedBtn');
 
   var CAT_LABEL = { economico:'Economico', giustizia:'Giustizia', energia:'Energia e Ambiente' };
   var CAT_CLASS = { economico:'econ', giustizia:'giust', energia:'energy' };
+  var MESI = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+  var MESI_BREVI = ['gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'];
+  var SITE = location.origin + location.pathname.replace(/index\.html$/, '');
 
+  // ---------------------------------------------------------------- utilità
   function escapeHtml(s){
     return String(s==null?'':s).replace(/[&<>"']/g, function(c){
       return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
     });
   }
-
+  function safeUrl(u){ u = String(u||''); return /^https?:\/\//i.test(u) ? u : ''; }
+  function store(k, v){ try{ if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); }catch(e){ return null; } }
+  function isoToday(){ var d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+  function parseIso(s){ var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||''); return m ? new Date(+m[1], +m[2]-1, +m[3], 12) : null; }
+  function daysBetween(a, b){ return Math.round((parseIso(b) - parseIso(a)) / 86400000); }
+  function itDate(s, opt){
+    var d = parseIso(s); if (!d) return s || '';
+    return d.getDate() + ' ' + (opt === 'short' ? MESI_BREVI[d.getMonth()] : MESI[d.getMonth()]) + (opt === 'noyear' || opt === 'short' ? '' : ' ' + d.getFullYear());
+  }
   function dateLabel(doc){
-    var d = doc.date || doc.id;
-    var x = new Date(d + 'T12:00:00');
-    if (isNaN(x)) return d;
+    var x = parseIso(doc.date); if (!x) return doc.date;
     var t = x.toLocaleDateString('it-IT', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
     return t.charAt(0).toUpperCase() + t.slice(1);
   }
+  function catKey(c){ c = (c||'').toLowerCase(); return c.indexOf('giust')>=0 ? 'giustizia' : (c.indexOf('energ')>=0 || c.indexOf('ambient')>=0 ? 'energia' : (c.indexOf('econ')>=0 ? 'economico' : '')); }
+  function catTag(c){ var k = catKey(c); return k ? '<span class="tag '+CAT_CLASS[k]+'">'+CAT_LABEL[k]+'</span>' : (c ? '<span class="tag">'+escapeHtml(c)+'</span>' : ''); }
+  function toast(msg){
+    var t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role','status'); t.textContent = msg;
+    document.body.appendChild(t); setTimeout(function(){ t.remove(); }, 2600);
+  }
+  function getJson(url){
+    return fetch(url, {cache:'no-store'}).then(function(r){ if (!r.ok) throw new Error('http '+r.status); return r.json(); });
+  }
+  function fmtDuration(sec){ sec = Math.round(sec||0); var m = Math.floor(sec/60), s = sec%60; return m+':'+(s<10?'0':'')+s; }
 
+  // ---------------------------------------------------------------- "Aggiornato alle…"
+  function whenLabel(iso){
+    var d = new Date(iso); if (isNaN(d)) return '';
+    var hm = d.toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'});
+    var today = new Date(); var y = new Date(); y.setDate(today.getDate()-1);
+    if (d.toDateString() === today.toDateString()) return 'oggi alle ' + hm;
+    if (d.toDateString() === y.toDateString()) return 'ieri alle ' + hm;
+    return d.toLocaleDateString('it-IT', {weekday:'short', day:'numeric', month:'short'}) + ' alle ' + hm;
+  }
+  // tolleranza: dopo domeniche e festivi la Gazzetta non esce, quindi si attende di più
+  function staleLimitHours(){
+    var now = new Date(), wd = now.getDay(), h = now.getHours();
+    if (wd === 0 || (wd === 1 && h < 15)) return 52;
+    var y = new Date(now); y.setDate(now.getDate()-1);
+    var fest = ['1-1','6-1','25-4','1-5','2-6','15-8','1-11','8-12','25-12','26-12'];
+    if (fest.indexOf(y.getDate()+'-'+(y.getMonth()+1)) >= 0) return 52;
+    return 27;
+  }
+  function renderFreshness(){
+    var st = state.status, btn = $('freshness'), txt = $('freshText'), detail = $('statusDetail');
+    var lastOk = st && st.ultimoSuccesso;
+    if (!lastOk){
+      lastOk = state.list.reduce(function(m, e){ return e.updatedAt && e.updatedAt > m ? e.updatedAt : m; }, '');
+    }
+    if (!lastOk) return;
+    var ageH = (Date.now() - new Date(lastOk).getTime()) / 3600000;
+    var failed = st && st.ok === false;
+    var stale = ageH > staleLimitHours();
+    btn.className = 'freshness' + (stale ? ' bad' : (failed ? ' warn' : ''));
+    txt.textContent = (stale ? 'Fermo da ' : 'Aggiornato ') + whenLabel(lastOk);
+    btn.hidden = false;
+
+    var rows = '<dl>';
+    if (st && st.ultimoControllo) rows += '<dt>Ultimo controllo</dt><dd>'+escapeHtml(whenLabel(st.ultimoControllo))+(st.ok===false?' — non riuscito':' — riuscito')+'</dd>';
+    rows += '<dt>Ultimo aggiornamento riuscito</dt><dd>'+escapeHtml(whenLabel(lastOk))+'</dd>';
+    if (st && st.audioMB != null) rows += '<dt>Audio online</dt><dd>'+escapeHtml(String(st.audioMB).replace('.',','))+' MB, ultimi 60 giorni</dd>';
+    rows += '</dl>';
+    if (failed && st.problemi && st.problemi.length){
+      rows += '<ul>' + st.problemi.map(function(p){ return '<li>'+escapeHtml(p)+'</li>'; }).join('') + '</ul>';
+    }
+    detail.innerHTML = rows;
+
+    var box = $('alertBox');
+    if (stale){
+      box.innerHTML = '<div class="alert" role="status"><span class="dot"></span><div><b>Il bollettino non si aggiorna da '+Math.round(ageH)+' ore.</b> '+
+        'Le edizioni più recenti della Gazzetta potrebbero mancare: consultale su <a href="https://www.gazzettaufficiale.it" target="_blank" rel="noopener">gazzettaufficiale.it</a>.</div></div>';
+    } else if (failed){
+      box.innerHTML = '<div class="alert warn" role="status"><span class="dot"></span><div><b>L\'ultimo controllo non è riuscito.</b> '+
+        'Le schede qui sotto sono quelle dell\'aggiornamento precedente; il prossimo controllo riproverà da solo.</div></div>';
+    } else box.innerHTML = '';
+  }
+  $('freshness').addEventListener('click', function(){
+    var open = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!open));
+    $('statusDetail').hidden = open;
+  });
+
+  // ---------------------------------------------------------------- edizione
   function statusInfo(doc){
-    if (doc.stato === 'con_schede') return {cls:'ok', text:'Trovate leggi di interesse — '+(doc.schede||[]).length+' scheda/e'};
-    if (doc.stato === 'nessuna_legge_interesse') return {cls:'none', text:'Nessuna legge di interesse economico, giudiziario o energetico/ambientale in questa edizione'};
+    if (doc.stato === 'con_schede') { var n = (doc.schede||[]).length; return {cls:'ok', text: n + (n===1 ? ' legge di interesse con scheda' : ' leggi di interesse con scheda')}; }
+    if (doc.stato === 'nessuna_legge_interesse') return {cls:'none', text:'Nessuna legge di interesse economico, giudiziario o energetico-ambientale in questa edizione'};
     if (doc.stato === 'nessuna_edizione') return {cls:'none', text:'Nessuna edizione della Gazzetta Ufficiale pubblicata in questa data'};
-    if (doc.stato === 'non_disponibile') return {cls:'pending', text:'Edizione non ancora disponibile al momento del controllo — verrà ricontrollata automaticamente'};
+    if (doc.stato === 'non_disponibile') return {cls:'pending', text:'Edizione non ancora disponibile al momento del controllo: verrà ricontrollata automaticamente'};
     return {cls:'none', text:'Stato sconosciuto'};
   }
 
-  function safeUrl(u){
-    if (!u) return '';
-    u = String(u);
-    return /^https?:\/\//i.test(u) ? u : '';
+  function dlInfo(riferimento){
+    if (!state.scad || !/^DECRETO-LEGGE/i.test(riferimento||'')) return null;
+    var m = /n\.\s*(\d+)/.exec(riferimento), y = /(\d{4})/.exec(riferimento);
+    if (!m) return null;
+    return (state.scad.decreti_legge||[]).filter(function(d){ return d.numero === +m[1] && (!y || d.anno === +y[1]); })[0] || null;
   }
 
-  function renderDiscardList(scartate){
-    if (!scartate || !scartate.length) return '';
-    var rows = scartate.map(function(s){
-      var link = safeUrl(s.link);
-      return '<div class="discard-item"><span class="tag" style="background:var(--none-bg); color:var(--none);">'+escapeHtml(s.materia||'n.d.')+'</span><span>'+escapeHtml(s.titolo||'')+'</span>'+
-        (link ? ' <a class="linkout" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo integrale ↗</a>' : '')+
-        '</div>';
-    }).join('');
-    return '<div class="discard-list"><h3>Individuate e scartate per trasparenza</h3>'+rows+'</div>';
-  }
-
-  function renderCard(s){
-    var catKey = (s.categoria||'').toLowerCase().indexOf('giust')>=0 ? 'giustizia' : ((s.categoria||'').toLowerCase().indexOf('energ')>=0 ? 'energia' : 'economico');
-    var cls = CAT_CLASS[catKey] || 'econ';
-    var label = CAT_LABEL[catKey] || escapeHtml(s.categoria||'');
+  function renderCard(s, i, doc){
+    var k = catKey(s.categoria) || 'economico';
+    var cls = CAT_CLASS[k];
     function field(l,v){ return v ? '<div class="field"><div class="field-label">'+l+'</div><div class="field-body">'+escapeHtml(v)+'</div></div>' : ''; }
-    var misure = '';
-    if (s.misure && s.misure.length){
-      misure = '<div class="field"><div class="field-label">Misure principali</div><ul class="misure">'+
-        s.misure.map(function(m){return '<li>'+escapeHtml(m)+'</li>';}).join('')+'</ul></div>';
-    }
+    var misure = (s.misure && s.misure.length) ? '<div class="field"><div class="field-label">Misure principali</div><ul class="misure">'+
+      s.misure.map(function(m){ return '<li>'+escapeHtml(m)+'</li>'; }).join('')+'</ul></div>' : '';
     var link = safeUrl(s.link);
-    return '<div class="card '+cls+'">'+
-      '<span class="tag '+cls+'">'+label+'</span>'+
-      '<h3 style="margin-top:8px;">'+escapeHtml(s.titolo||'')+'</h3>'+
+    var dl = dlInfo(s.riferimento), strip = '';
+    if (dl && dl.stato === 'in_conversione'){
+      var left = daysBetween(isoToday(), dl.scadenza);
+      strip = '<button class="dl-strip" type="button" data-goto-dl="'+dl.anno+'-'+dl.numero+'"><span>Da convertire entro il <b>'+escapeHtml(itDate(dl.scadenza,'noyear'))+'</b></span><span style="margin-left:auto">'+
+        (left >= 0 ? left + (left===1?' giorno':' giorni') : 'termine scaduto')+' ›</span></button>';
+    } else if (dl && dl.stato === 'convertito'){
+      strip = '<div class="dl-strip" style="cursor:default">Convertito: '+escapeHtml(dl.conversione.legge)+'</div>';
+    }
+    return '<article class="card '+cls+'" id="s'+i+'">'+
+      catTag(s.categoria)+
+      '<h3>'+escapeHtml(s.titolo||'')+'</h3>'+
       (s.riferimento ? '<div class="ref">'+escapeHtml(s.riferimento)+(s.vigore ? ' <span class="vigore">In vigore dal '+escapeHtml(s.vigore)+'</span>' : '')+'</div>' : '')+
-      field('Iter', s.iter)+
-      field('Contesto', s.contesto)+
-      misure+
-      field('Chi è interessato', s.chi_interessato)+
-      field('Decorrenza', s.decorrenza)+
-      field('Perché conta', s.perche_conta)+
-      (s.fonte_testo ? '<div class="fonte'+(/titolo/.test(s.fonte_testo)?' debole':'')+'">Scheda basata su: '+escapeHtml(s.fonte_testo)+'</div>' : '')+
-      (link ? '<a class="dl-link" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ufficiale sulla Gazzetta ↗</a>' : '')+
-      '</div>';
+      strip+
+      field('Iter', s.iter)+ field('Contesto', s.contesto)+ misure+
+      field('Chi è interessato', s.chi_interessato)+ field('Decorrenza', s.decorrenza)+ field('Perché conta', s.perche_conta)+
+      (s.fonte_testo ? '<div class="fonte'+(/titolo/.test(s.fonte_testo)?' debole':'')+'">Scheda scritta su: '+escapeHtml(s.fonte_testo)+'</div>' : '')+
+      '<div class="card-actions">'+
+        (link ? '<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ufficiale ↗</a>' : '')+
+        '<button class="linkbtn" type="button" data-share-scheda="'+i+'">Condividi la scheda</button>'+
+      '</div></article>';
   }
 
   function renderAltri(list){
     if (!list || !list.length) return '';
-    return '<h3 class="section-h">Altri atti da segnalare</h3><div class="altri">'+list.map(function(a){
+    return '<h2 class="section-h">Altri atti da segnalare</h2><div class="altri">'+list.map(function(a){
       var link = safeUrl(a.link);
-      return '<div class="altro"><span class="tag" style="background:var(--none-bg); color:var(--none);">'+escapeHtml(a.categoria||'Altro')+'</span>'+
-        '<b>'+escapeHtml(a.titolo||'')+'</b>'+escapeHtml(a.sintesi||'')+
+      return '<div class="altro">'+catTag(a.categoria||'Altro')+'<b>'+escapeHtml(a.titolo||'')+'</b>'+escapeHtml(a.sintesi||'')+
         (link ? ' <a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ↗</a>' : '')+'</div>';
     }).join('')+'</div>';
   }
-
+  function renderDiscardList(list){
+    if (!list || !list.length) return '';
+    return '<h2 class="section-h">Fuori dalle materie seguite <small>individuate e scartate per trasparenza</small></h2><div class="discard-list">'+list.map(function(s){
+      var link = safeUrl(s.link);
+      return '<div class="altro"><span class="tag">'+escapeHtml(s.materia||'n.d.')+'</span><b>'+escapeHtml(s.titolo||'')+'</b>'+
+        (link ? '<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo integrale ↗</a>' : '')+'</div>';
+    }).join('')+'</div>';
+  }
   function renderTutti(atti, pdfGu){
     if (!atti || !atti.length) return '';
     return '<details class="tutti"><summary>Tutti gli atti dell\'edizione ('+atti.length+')</summary><ol>'+
@@ -305,123 +568,158 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
       '</ol>'+(pdfGu ? '<p style="margin:10px 0 0; font-size:.8rem;"><a href="'+escapeHtml(pdfGu)+'" target="_blank" rel="noopener">PDF dell\'intera edizione ↗</a></p>' : '')+'</details>';
   }
 
-  function fmtDuration(sec){
-    sec = Math.round(sec||0);
-    var m = Math.floor(sec/60), s = sec%60;
-    return m+':'+(s<10?'0':'')+s;
-  }
-
   function render(doc){
     if (!doc){
       content.innerHTML = '<div class="empty-state"><div class="big">Nessuna edizione in archivio</div>L\'archivio si popola automaticamente a ogni controllo.</div>';
-      pdfBtn.disabled = true;
-      playerBox.hidden = true;
-      return;
+      pdfBtn.disabled = shareBtn.disabled = true; playerBox.hidden = true; return;
     }
-    var st = statusInfo(doc);
-    var html = '';
+    var st = statusInfo(doc), html = '';
     html += '<div class="status-banner '+st.cls+'"><span class="dot"></span><div><b>'+dateLabel(doc)+'</b><br>'+escapeHtml(st.text)+'</div></div>';
     html += '<div class="edition-meta">';
     if (doc.numero_gu) html += '<span>GU Serie Generale n. '+escapeHtml(doc.numero_gu)+'</span>';
-    if (doc.updatedAt){ var u = new Date(doc.updatedAt);
-      html += '<span>Ultimo controllo: '+escapeHtml(isNaN(u) ? doc.updatedAt : u.toLocaleString('it-IT',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}))+'</span>'; }
     var guLink = safeUrl(doc.link_gu);
-    if (guLink) html += '<a href="'+escapeHtml(guLink)+'" target="_blank" rel="noopener">Apri l\'edizione sulla Gazzetta Ufficiale ↗</a>';
+    if (guLink) html += '<a href="'+escapeHtml(guLink)+'" target="_blank" rel="noopener">Edizione sulla Gazzetta Ufficiale ↗</a>';
     html += '</div>';
-    var pdfGu = safeUrl(doc.pdf_gu);
     if (doc.sintesi) html += '<p class="sintesi">'+escapeHtml(doc.sintesi)+'</p>';
-    if (doc.note && doc.stato !== 'con_schede') html += '<p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px;">'+escapeHtml(doc.note)+'</p>';
-    if (doc.schede && doc.schede.length){
-      html += doc.schede.map(renderCard).join('');
-    }
+    if (doc.note && doc.stato !== 'con_schede') html += '<p class="note">'+escapeHtml(doc.note)+'</p>';
+    if (doc.audio_scaduto) html += '<p class="note">La lettura audio di questa edizione non è più online: si conservano gli audio degli ultimi 60 giorni.</p>';
+    (doc.schede||[]).forEach(function(s, i){ html += renderCard(s, i, doc); });
     html += renderAltri(doc.altri_atti);
     html += renderDiscardList(doc.scartate);
-    html += renderTutti(doc.atti, pdfGu);
+    html += renderTutti(doc.atti, safeUrl(doc.pdf_gu));
     content.innerHTML = html;
-    pdfBtn.disabled = false;
+    pdfBtn.disabled = shareBtn.disabled = false;
+    setupAudio(doc);
+    applyPendingFocus();
+  }
 
-    if (doc.audio){
-      audioEl.pause();
-      audioEl.setAttribute('src', doc.audio);
-      audioEl.load();
-      playerDur.textContent = doc.duration ? fmtDuration(doc.duration) : '';
+  function applyPendingFocus(){
+    var f = state.pendingFocus; state.pendingFocus = null;
+    if (f == null) { return; }
+    var el = $('s'+f);
+    if (el){
+      requestAnimationFrame(function(){
+        el.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+        el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+      });
+    }
+  }
+
+  // ---------------------------------------------------------------- audio
+  var SPEEDS = [1, 1.25, 1.5, 1.75, 2];
+  function setSpeed(v){ audioEl.playbackRate = v; speedBtn.textContent = String(v).replace('.',',') + '×'; store('bgu-speed', String(v)); }
+  speedBtn.addEventListener('click', function(){
+    var i = SPEEDS.indexOf(audioEl.playbackRate); setSpeed(SPEEDS[(i+1) % SPEEDS.length]);
+  });
+  audioEl.addEventListener('loadedmetadata', function(){
+    audioEl.playbackRate = parseFloat(store('bgu-speed')) || 1;
+    var pos = parseFloat(store('bgu-pos-' + (state.current && state.current.date)));
+    if (pos && pos < audioEl.duration - 5) audioEl.currentTime = pos;
+  });
+  var lastSave = 0;
+  audioEl.addEventListener('timeupdate', function(){
+    if (!state.current || Date.now() - lastSave < 4000) return;
+    lastSave = Date.now(); store('bgu-pos-' + state.current.date, String(Math.floor(audioEl.currentTime)));
+  });
+  audioEl.addEventListener('ended', function(){ if (state.current) store('bgu-pos-' + state.current.date, '0'); });
+
+  function setupAudio(doc){
+    if (doc.audio && doc.duration > 20){
+      if (audioEl.getAttribute('src') !== doc.audio){
+        audioEl.pause(); audioEl.setAttribute('src', doc.audio); audioEl.load();
+      }
+      setSpeed(parseFloat(store('bgu-speed')) || 1);
       playerBox.hidden = false;
       if ('mediaSession' in navigator){
-        try{
-          navigator.mediaSession.metadata = new MediaMetadata({
-            title: 'Bollettino GU — ' + dateLabel(doc),
-            artist: 'Gazzetta Ufficiale, Serie Generale' + (doc.numero_gu ? (' n. '+doc.numero_gu) : '')
-          });
-        }catch(e){}
+        try{ navigator.mediaSession.metadata = new MediaMetadata({
+          title: 'Bollettino GU — ' + dateLabel(doc),
+          artist: 'Gazzetta Ufficiale, Serie Generale' + (doc.numero_gu ? (' n. '+doc.numero_gu) : ''),
+          artwork: [{src:'icons/icon-512.png', sizes:'512x512', type:'image/png'}] }); }catch(e){}
       }
     } else {
-      audioEl.pause();
-      audioEl.removeAttribute('src');
-      playerBox.hidden = true;
+      audioEl.pause(); audioEl.removeAttribute('src'); playerBox.hidden = true;
     }
   }
 
+  // ---------------------------------------------------------------- navigazione tra edizioni
   function buildOptions(){
     editionSelect.innerHTML = state.list.map(function(d,i){
-      var st = statusInfo(d);
-      var badge = st.cls==='ok' ? '●' : (st.cls==='pending' ? '…' : '–');
+      var st = statusInfo(d), badge = st.cls==='ok' ? '●' : (st.cls==='pending' ? '…' : '–');
+      var x = parseIso(d.date), lbl = x ? x.toLocaleDateString('it-IT', {weekday:'short', day:'numeric', month:'short'}) : d.date;
       var n = d.schede ? (' · '+d.schede+(d.schede===1?' scheda':' schede')) : '';
-      return '<option value="'+i+'">'+badge+' '+dateLabel(d)+(d.numero_gu?(' · n. '+d.numero_gu):'')+n+'</option>';
+      return '<option value="'+i+'">'+badge+' '+lbl.charAt(0).toUpperCase()+lbl.slice(1)+(d.numero_gu?(' · n. '+d.numero_gu):'')+n+'</option>';
     }).join('');
   }
-
   function loadEdition(i){
-    var meta = state.list[i];
-    if (!meta) return;
-    if (state.cache[meta.date]){
-      state.current = state.cache[meta.date];
-      render(state.current);
-      return;
-    }
+    var meta = state.list[i]; if (!meta) return;
+    if (state.cache[meta.date]){ state.current = state.cache[meta.date]; render(state.current); return; }
     content.innerHTML = '<div class="empty-state"><div class="big">Carico '+escapeHtml(dateLabel(meta))+'…</div></div>';
-    fetch('data/' + meta.date + '.json', {cache:'no-store'}).then(function(r){
-      if (!r.ok) throw new Error('http '+r.status);
-      return r.json();
-    }).then(function(doc){
+    getJson('data/' + meta.date + '.json').then(function(doc){
       state.cache[meta.date] = doc;
-      state.current = doc;
-      render(doc);
+      if (state.list[parseInt(editionSelect.value,10)] === meta){ state.current = doc; render(doc); }
     }).catch(function(){
-      content.innerHTML = '<div class="empty-state"><div class="big">Impossibile caricare questa edizione</div>Riprova più tardi o riapri la pagina.</div>';
-      pdfBtn.disabled = true;
+      content.innerHTML = '<div class="empty-state"><div class="big">Questa edizione non si è caricata</div>Controlla la connessione e riapri la pagina.</div>';
+      pdfBtn.disabled = shareBtn.disabled = true;
     });
   }
-
-  function go(i){
+  function go(i, opts){
     if (i < 0 || i >= state.list.length) return;
     editionSelect.value = String(i);
+    $('prevBtn').disabled = i >= state.list.length - 1;
+    $('nextBtn').disabled = i <= 0;
+    if (!(opts && opts.noHash)) setHash(i === 0 && state.pendingFocus == null ? '' : state.list[i].date + (state.pendingFocus != null ? '/s'+state.pendingFocus : ''));
     loadEdition(i);
-    document.getElementById('prevBtn').disabled = i >= state.list.length - 1;
-    document.getElementById('nextBtn').disabled = i <= 0;
+  }
+  function goDate(date, focus){
+    var i = state.list.map(function(e){ return e.date; }).indexOf(date);
+    if (i < 0) { toast('Edizione non trovata in archivio'); return; }
+    state.pendingFocus = (focus == null ? null : focus);
+    showView('edizioni', true);
+    if (String(i) === editionSelect.value && state.current && state.current.date === date){ setHash(date + (focus != null ? '/s'+focus : '')); applyPendingFocus(); return; }
+    go(i);
   }
   editionSelect.addEventListener('change', function(){ go(parseInt(editionSelect.value,10)); });
-  document.getElementById('prevBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)+1); });
-  document.getElementById('nextBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)-1); });
+  $('prevBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)+1); });
+  $('nextBtn').addEventListener('click', function(){ go(parseInt(editionSelect.value,10)-1); });
 
+  // ---------------------------------------------------------------- condivisione
+  function share(title, text, url){
+    if (navigator.share){
+      navigator.share({title:title, text:text, url:url}).catch(function(){});
+      return;
+    }
+    var wa = 'https://wa.me/?text=' + encodeURIComponent(text + '\n' + url);
+    if (navigator.clipboard){
+      navigator.clipboard.writeText(url).then(function(){ toast('Link copiato. Si apre WhatsApp…'); }).catch(function(){});
+    }
+    window.open(wa, '_blank', 'noopener');
+  }
+  shareBtn.addEventListener('click', function(){
+    var d = state.current; if (!d) return;
+    var n = (d.schede||[]).length;
+    var text = 'Bollettino GU — ' + dateLabel(d) + (d.numero_gu ? ' (GU n. '+d.numero_gu+')' : '') + ': ' +
+      (n ? (d.schede.map(function(s){ return s.titolo; }).slice(0,3).join('; ')) : 'nessuna legge di interesse.');
+    share('Bollettino GU — ' + dateLabel(d), text, SITE + '#' + d.date);
+  });
+  content.addEventListener('click', function(e){
+    var b = e.target.closest('[data-share-scheda]');
+    if (b && state.current){
+      var i = +b.getAttribute('data-share-scheda'), s = state.current.schede[i];
+      share(s.titolo, s.titolo + (s.riferimento ? ' (' + s.riferimento + ')' : '') + ' — dal Bollettino GU', SITE + '#' + state.current.date + '/s' + i);
+      return;
+    }
+    var g = e.target.closest('[data-goto-dl]');
+    if (g){ showView('scadenze'); setTimeout(function(){ var el = $('dl-'+g.getAttribute('data-goto-dl')); if (el) el.scrollIntoView({block:'start'}); }, 60); }
+  });
+
+  // ---------------------------------------------------------------- PDF
   pdfBtn.addEventListener('click', function(){
     if (!state.current) return;
     pdfBtn.disabled = true;
-    var prevLabel = pdfBtn.textContent;
-    pdfBtn.textContent = 'Genero…';
-    
+    var prevLabel = pdfBtn.textContent; pdfBtn.textContent = 'Genero…';
     function restore(){ pdfBtn.disabled = false; pdfBtn.textContent = prevLabel; }
-
-    try {
-      generatePdf(state.current).then(restore).catch(function(err){
-        console.warn('Fallback alla stampa di sistema causa errore PDF:', err);
-        window.print();
-        restore();
-      });
-    } catch(e){
-      console.warn('Eccezione nella generazione PDF, avvio window.print():', e);
-      window.print();
-      restore();
-    }
+    try { generatePdf(state.current).then(restore).catch(function(){ window.print(); restore(); }); }
+    catch(e){ window.print(); restore(); }
   });
 
   function generatePdf(doc){
@@ -551,23 +849,325 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(20px + env(safe
     });
   }
 
+
+  // ---------------------------------------------------------------- ricerca
+  function norm(s){
+    return String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/['’`]/g,'').replace(/[^a-z0-9]+/g,' ');
+  }
+  function termRegex(terms){
+    var map = {a:"[aàáâ]'?", e:"[eèéê]'?", i:"[iìíî]'?", o:"[oòóô]'?", u:"[uùúû]'?"};
+    var parts = terms.map(function(t){
+      return t.split('').map(function(ch){ return map[ch] || ch.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }).join('');
+    });
+    return new RegExp('(' + parts.join('|') + ')', 'gi');
+  }
+  function highlight(text, re){ return escapeHtml(text).replace(re, '<mark>$1</mark>'); }
+  function snippet(text, re){
+    if (!text) return '';
+    re.lastIndex = 0; var m = re.exec(text); re.lastIndex = 0;
+    if (!m) return '';
+    var a = Math.max(0, m.index - 70), b = Math.min(text.length, m.index + 150);
+    var s = text.slice(a, b);
+    if (a > 0) s = '…' + s.replace(/^\S*\s/, '');
+    if (b < text.length) s = s.replace(/\s\S*$/, '') + '…';
+    return highlight(s, re);
+  }
+  var KIND = {s:'Scheda', a:'Segnalato', x:'Fuori materia', t:'Atto dell\'edizione'};
+
+  function ensureSearchIndex(){
+    if (state.search) return Promise.resolve(state.search);
+    if (!state.searchLoading){
+      state.searchLoading = getJson('data/search.json').then(function(rows){
+        rows.forEach(function(r){ r._t = norm(r.t); r._r = norm(r.r); r._x = norm(r.x); r._c = norm(r.c); });
+        state.search = rows; return rows;
+      });
+    }
+    return state.searchLoading;
+  }
+
+  var searchTimer = null, shown = 40;
+  function runSearch(keepShown){
+    var q = $('q').value.trim(), out = $('searchOut');
+    $('qClear').hidden = !q;
+    if (!keepShown) shown = 40;
+    if (!q && !state.cat){
+      out.innerHTML = '<div class="suggest" style="margin-top:14px;">Cerca in tutte le edizioni in archivio: schede, atti segnalati ed elenco completo degli atti.<br>Per esempio: '+
+        ['imballaggi','IVA','codice della strada','rifiuti','processo civile','enti territoriali'].map(function(s){ return '<button type="button" data-q="'+escapeHtml(s)+'">'+escapeHtml(s)+'</button>'; }).join('')+'</div>';
+      return;
+    }
+    out.innerHTML = '<div class="search-summary">Cerco…</div>';
+    ensureSearchIndex().then(function(rows){
+      var terms = norm(q).split(' ').filter(function(t){ return t.length > 1 || /\d/.test(t); });
+      var res = [];
+      rows.forEach(function(r){
+        if (state.cat === 'schede' && r.k !== 's') return;
+        if (state.cat && state.cat !== 'schede' && r._c.indexOf(state.cat) < 0) return;
+        var score = 0;
+        for (var i = 0; i < terms.length; i++){
+          var t = terms[i], hit = 0;
+          if (r._t.indexOf(t) >= 0) hit += 6;
+          if (r._r.indexOf(t) >= 0) hit += 4;
+          if (r._x.indexOf(t) >= 0) hit += 2;
+          if (r._c.indexOf(t) >= 0) hit += 1;
+          if (!hit) return;
+          score += hit;
+        }
+        score += ({s:4, a:2, x:0, t:0})[r.k];
+        res.push({r:r, score:score});
+      });
+      res.sort(function(a,b){ return b.score - a.score || (a.r.d < b.r.d ? 1 : -1); });
+      var re = terms.length ? termRegex(terms) : null;
+      var html = '<div class="search-summary" role="status">'+(res.length ? res.length + (res.length===1?' risultato':' risultati') : 'Nessun risultato')+
+        (q ? ' per «'+escapeHtml(q)+'»' : '')+'</div>';
+      if (!res.length){
+        html += '<div class="suggest">Prova con una parola sola o senza accenti, oppure togli il filtro per materia. L\'archivio parte dal '+
+          escapeHtml(itDate(state.list.length ? state.list[state.list.length-1].date : '')) + '.</div>';
+      }
+      html += '<ul class="results">' + res.slice(0, shown).map(function(o){
+        var r = o.r, href = '#' + r.d + (r.k === 's' ? '/s' + r.i : '');
+        var title = re ? highlight(r.t, re) : escapeHtml(r.t);
+        var sn = re ? (snippet(r.x, re) || (r.r ? highlight(r.r, re) : '')) : escapeHtml((r.x||'').slice(0,160));
+        return '<li class="result"><a href="'+href+'" data-d="'+r.d+'"'+(r.k==='s'?' data-i="'+r.i+'"':'')+'>'+
+          '<div class="rmeta">'+(r.k==='s' ? catTag(r.c) : '<span class="tag">'+KIND[r.k]+'</span>')+'<span>'+escapeHtml(itDate(r.d))+(r.n?' · GU n. '+escapeHtml(r.n):'')+'</span></div>'+
+          '<div class="rt">'+title+'</div>'+(sn ? '<div class="rx">'+sn+'</div>' : '')+'</a></li>';
+      }).join('') + '</ul>';
+      if (res.length > shown) html += '<p style="text-align:center"><button class="btn-ghost" type="button" id="moreRes">Mostra altri '+Math.min(40, res.length-shown)+'</button></p>';
+      out.innerHTML = html;
+    }).catch(function(){
+      out.innerHTML = '<div class="empty-state"><div class="big">La ricerca non è disponibile</div>L\'indice di ricerca non si è caricato: riprova tra poco.</div>';
+    });
+  }
+  $('q').addEventListener('input', function(){
+    clearTimeout(searchTimer); searchTimer = setTimeout(function(){ runSearch(); replaceHashQuiet(); }, 180);
+  });
+  $('searchForm').addEventListener('submit', function(e){ e.preventDefault(); $('q').blur(); runSearch(); replaceHashQuiet(); });
+  $('qClear').addEventListener('click', function(){ $('q').value=''; runSearch(); replaceHashQuiet(); $('q').focus(); });
+  $('catChips').addEventListener('click', function(e){
+    var b = e.target.closest('.chip'); if (!b) return;
+    state.cat = b.getAttribute('data-cat');
+    Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(c){ c.setAttribute('aria-pressed', String(c === b)); });
+    runSearch();
+  });
+  $('searchOut').addEventListener('click', function(e){
+    var s = e.target.closest('[data-q]');
+    if (s){ $('q').value = s.getAttribute('data-q'); runSearch(); replaceHashQuiet(); return; }
+    if (e.target.id === 'moreRes'){ shown += 40; runSearch(true); return; }
+    var a = e.target.closest('a[data-d]');
+    if (a){ e.preventDefault(); goDate(a.getAttribute('data-d'), a.hasAttribute('data-i') ? +a.getAttribute('data-i') : null); }
+  });
+  function replaceHashQuiet(){
+    var q = $('q').value.trim();
+    history.replaceState(null, '', q ? '#cerca=' + encodeURIComponent(q) : '#cerca');
+  }
+
+  // ---------------------------------------------------------------- scadenzario
+  function loadScadenze(){
+    return getJson('data/scadenze.json').then(function(s){
+      state.scad = s;
+      var active = (s.decreti_legge||[]).filter(function(d){ return d.stato === 'in_conversione' && daysBetween(isoToday(), d.scadenza) >= 0; }).length;
+      if (active){ $('dlCount').textContent = active; $('dlCount').hidden = false; $('dlCount').setAttribute('aria-label', active + ' decreti-legge in conversione'); }
+      if (state.current && state.view === 'edizioni') render(state.current);
+      return s;
+    });
+  }
+
+  function dlCard(d){
+    var today = isoToday(), stato = d.stato;
+    if (stato === 'in_conversione' && d.scadenza && daysBetween(today, d.scadenza) < 0) stato = 'termine_scaduto';
+    var id = 'dl-' + d.anno + '-' + d.numero;
+    var tags = {
+      in_conversione: '<span class="tag pending">In conversione</span>',
+      termine_scaduto: '<span class="tag alert">Termine scaduto</span>',
+      convertito: '<span class="tag ok">Convertito in legge</span>',
+      non_convertito: '<span class="tag alert">Non convertito</span>'
+    }[stato] + (d.categoria ? catTag(d.categoria) : '');
+    var head = '<div class="dl-top">'+tags+'</div><h3>'+escapeHtml(d.titolo || d.riferimento)+'</h3><div class="ref">'+escapeHtml(d.riferimento)+'</div>';
+    var links = [];
+    if (d.scheda != null && d.pubblicazione) links.push('<a href="#'+d.pubblicazione+'/s'+d.scheda+'" data-d="'+d.pubblicazione+'" data-i="'+d.scheda+'">Leggi la scheda</a>');
+    else if (d.pubblicazione && !d.fuori_archivio) links.push('<a href="#'+d.pubblicazione+'" data-d="'+d.pubblicazione+'">Apri l\'edizione</a>');
+    if (safeUrl(d.link)) links.push('<a href="'+escapeHtml(d.link)+'" target="_blank" rel="noopener">Testo ufficiale ↗</a>');
+
+    if (stato === 'in_conversione'){
+      var left = daysBetween(today, d.scadenza), gone = 60 - left;
+      var cls = left <= 7 ? ' urgent' : (left <= 15 ? ' soon' : '');
+      var ticks = '';
+      for (var k = 1; k <= 60; k++){
+        ticks += '<i class="'+(k < gone ? 'gone' : (k === gone ? 'today' : (k === 60 ? 'last' : '')))+'"></i>';
+      }
+      links.push('<button class="linkbtn" type="button" data-ics="'+d.anno+'-'+d.numero+'">Aggiungi al calendario</button>');
+      return '<article class="dl'+cls+'" id="'+id+'">'+head+
+        '<div class="countdown"><span class="num">'+left+'</span><span class="lbl">'+(left===1?'giorno':'giorni')+' per convertirlo in legge'+(left===0?': scade oggi':'')+'</span></div>'+
+        '<div class="days" role="img" aria-label="Trascorsi '+gone+' giorni su 60">'+ticks+'</div>'+
+        '<div class="days-scale"><span>pubblicato</span><span>60° giorno</span></div>'+
+        '<div class="dates"><div>Pubblicato<b>'+escapeHtml(itDate(d.pubblicazione,'short'))+'</b></div>'+
+        '<div>In vigore dal<b>'+(d.vigore ? escapeHtml(itDate(d.vigore,'short')) : '—')+'</b></div>'+
+        '<div>Scadenza<b>'+escapeHtml(itDate(d.scadenza,'short'))+'</b></div></div>'+
+        '<div class="card-actions">'+links.join('')+'</div></article>';
+    }
+    var outcome = '';
+    if (stato === 'convertito'){
+      var c = d.conversione || {};
+      outcome = 'Convertito con la '+escapeHtml((c.legge||'legge').replace(/^LEGGE/,'legge'))+', pubblicata il '+escapeHtml(itDate(c.data_gu))+'.'+
+        (safeUrl(c.link) ? ' <a href="'+escapeHtml(c.link)+'" target="_blank" rel="noopener">Legge di conversione ↗</a>' : '');
+    } else if (stato === 'non_convertito'){
+      var c2 = d.conversione || {};
+      outcome = 'Decaduto: il comunicato di mancata conversione è stato pubblicato il '+escapeHtml(itDate(c2.data_gu))+'. Gli effetti sono venuti meno fin dall\'inizio, salvo diversa disciplina della legge.'+
+        (safeUrl(c2.link) ? ' <a href="'+escapeHtml(c2.link)+'" target="_blank" rel="noopener">Comunicato ↗</a>' : '');
+    } else {
+      outcome = 'Il termine di 60 giorni è scaduto il '+escapeHtml(itDate(d.scadenza))+' e nell\'archivio non risulta la legge di conversione. Verifica sulla Gazzetta Ufficiale.';
+    }
+    return '<article class="dl'+(stato === 'termine_scaduto' ? '' : ' closed')+'" id="'+id+'">'+head+'<p class="outcome">'+outcome+'</p>'+
+      (links.length ? '<div class="card-actions">'+links.join('')+'</div>' : '')+'</article>';
+  }
+
+  function renderScadenze(){
+    var out = $('scadOut'), s = state.scad;
+    if (!s){ out.innerHTML = '<div class="empty-state"><div class="big">Lo scadenzario non si è caricato</div>Riprova riaprendo la pagina.</div>'; return; }
+    var today = isoToday();
+    var dls = s.decreti_legge || [];
+    var open = dls.filter(function(d){ return d.stato === 'in_conversione' || d.stato === 'termine_scaduto'; });
+    var closed = dls.filter(function(d){ return d.stato === 'convertito' || d.stato === 'non_convertito'; });
+    var cal = SITE.replace(/^https?:/, 'webcal:') + 'data/scadenze.ics';
+    var html = '<p class="lead">Un decreto-legge vale da subito ma decade se il Parlamento non lo converte in legge entro 60 giorni dalla pubblicazione (art. 77 della Costituzione). Qui il conto alla rovescia di ciascuno.</p>'+
+      '<div class="subscribe"><a href="'+escapeHtml(cal)+'">Iscriviti al calendario</a>'+
+      '<a href="https://calendar.google.com/calendar/r?cid='+encodeURIComponent(cal)+'" target="_blank" rel="noopener">Google Calendar ↗</a></div>';
+    html += '<h2 class="section-h">Decreti-legge in conversione <small>'+open.length+'</small></h2>';
+    html += open.length ? open.map(dlCard).join('') : '<p class="note">Nessun decreto-legge in attesa di conversione tra quelli in archivio.</p>';
+
+    var vig = s.entrate_in_vigore || [];
+    if (vig.length){
+      var next = vig.filter(function(v){ return v.data >= today; }), past = vig.filter(function(v){ return v.data < today; }).reverse();
+      function row(v, isPast){
+        var d = parseIso(v.data);
+        var a = (v.scheda != null ? '<a href="#'+v.edizione+'/s'+v.scheda+'" data-d="'+v.edizione+'" data-i="'+v.scheda+'">Scheda</a>' : '')+
+                (safeUrl(v.link) ? '<a href="'+escapeHtml(v.link)+'" target="_blank" rel="noopener">Testo ↗</a>' : '');
+        return '<li class="'+(isPast?'past':'')+'"><div class="when"><b>'+d.getDate()+'</b><span>'+MESI_BREVI[d.getMonth()]+'</span></div>'+
+          '<div class="what"><span class="ref">'+escapeHtml(v.riferimento)+'</span>'+escapeHtml(v.titolo)+(a ? '<div>'+a+'</div>' : '')+'</div></li>';
+      }
+      html += '<h2 class="section-h">Entrate in vigore <small>leggi e decreti legislativi</small></h2><ul class="timeline">'+
+        next.map(function(v){ return row(v, false); }).join('')+
+        (past.length ? '<li class="todayline">Già in vigore, ultimi 30 giorni</li>' + past.map(function(v){ return row(v, true); }).join('') : '')+
+        '</ul>';
+    }
+    if (closed.length){
+      html += '<h2 class="section-h">Conclusi</h2>' + closed.map(dlCard).join('');
+    }
+    out.innerHTML = html;
+  }
+  $('scadOut').addEventListener('click', function(e){
+    var a = e.target.closest('a[data-d]');
+    if (a){ e.preventDefault(); goDate(a.getAttribute('data-d'), a.hasAttribute('data-i') ? +a.getAttribute('data-i') : null); return; }
+    var b = e.target.closest('[data-ics]');
+    if (b){
+      var key = b.getAttribute('data-ics');
+      var d = state.scad.decreti_legge.filter(function(x){ return x.anno+'-'+x.numero === key; })[0];
+      if (d) downloadIcs(d);
+    }
+  });
+  function downloadIcs(d){
+    var day = d.scadenza.replace(/-/g,''), end = parseIso(d.scadenza); end.setDate(end.getDate()+1);
+    var endS = end.getFullYear()+String(end.getMonth()+1).padStart(2,'0')+String(end.getDate()).padStart(2,'0');
+    var esc = function(s){ return String(s).replace(/\\/g,'\\\\').replace(/[,;]/g,'\\$&').replace(/\n/g,'\\n'); };
+    var ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Bollettino GU//IT','BEGIN:VEVENT',
+      'UID:dl-'+d.anno+'-'+d.numero+'-scadenza@bollettino-gu',
+      'DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d+/,''),
+      'DTSTART;VALUE=DATE:'+day, 'DTEND;VALUE=DATE:'+endS,
+      'SUMMARY:'+esc('Scade il DL n. '+d.numero+'/'+d.anno+' (60 giorni)'),
+      'DESCRIPTION:'+esc(d.riferimento+' – '+d.titolo+'\nUltimo giorno per la conversione in legge.\n'+SITE+'#scadenze'),
+      'BEGIN:VALARM','ACTION:DISPLAY','DESCRIPTION:'+esc('Scade il DL n. '+d.numero+'/'+d.anno),'TRIGGER:-P7D','END:VALARM',
+      'END:VEVENT','END:VCALENDAR'].join('\r\n');
+    var blob = new Blob([ics], {type:'text/calendar'});
+    triggerBrowserDownload(blob, 'scadenza-dl-'+d.numero+'-'+d.anno+'.ics');
+  }
+
+  // ---------------------------------------------------------------- viste e indirizzi
+  var hashLock = false;
+  function setHash(h){
+    var target = h ? '#' + h : location.pathname + location.search;
+    hashLock = true;
+    if (h) { if (location.hash !== '#'+h) history.replaceState(null, '', '#' + h); }
+    else history.replaceState(null, '', target);
+    hashLock = false;
+  }
+  function showView(v, silent){
+    state.view = v;
+    ['edizioni','cerca','scadenze'].forEach(function(name){
+      $('view-'+name).hidden = name !== v;
+      $('tab-'+name).setAttribute('aria-selected', String(name === v));
+    });
+    $('edizioniBar').hidden = v !== 'edizioni';
+    if (v === 'cerca'){
+      if (!silent) replaceHashQuiet();
+      runSearch(true);
+      if (!silent && matchMedia('(pointer:fine)').matches) $('q').focus();
+    }
+    if (v === 'scadenze'){
+      if (!silent) setHash('scadenze');
+      if (state.scad) renderScadenze(); else loadScadenze().then(renderScadenze).catch(renderScadenze);
+    }
+    if (v === 'edizioni' && !silent){
+      var i = parseInt(editionSelect.value,10) || 0;
+      setHash(i === 0 ? '' : state.list[i] && state.list[i].date);
+    }
+    window.scrollTo(0, 0);
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.tab'), function(t){
+    t.addEventListener('click', function(){ showView(t.getAttribute('data-view')); });
+  });
+
+  function route(){
+    if (hashLock) return;
+    var h = decodeURIComponent(location.hash.replace(/^#/, ''));
+    var m = /^(\d{4}-\d{2}-\d{2})(?:\/s(\d+))?$/.exec(h);
+    if (m){ goDate(m[1], m[2] != null ? +m[2] : null); return true; }
+    if (h === 'scadenze'){ showView('scadenze', true); return true; }
+    if (h.indexOf('cerca') === 0){
+      var q = h.split('=')[1]; if (q != null) $('q').value = q;
+      showView('cerca', true); return true;
+    }
+    return false;
+  }
+  window.addEventListener('hashchange', route);
+
+  // ---------------------------------------------------------------- installazione come app
+  var deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); deferredPrompt = e; $('installBtn').hidden = false; });
+  $('installBtn').addEventListener('click', function(){
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.finally(function(){ deferredPrompt = null; $('installBtn').hidden = true; });
+  });
+  window.addEventListener('appinstalled', function(){ $('installBtn').hidden = true; toast('App installata'); });
+  var standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+  if (!standalone && /iphone|ipad|ipod/i.test(navigator.userAgent)) $('iosHint').hidden = false;
+  if ('serviceWorker' in navigator && location.protocol === 'https:'){
+    window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+  }
+  $('podcastLink').addEventListener('click', function(e){
+    e.preventDefault();
+    var url = SITE + 'data/podcast.xml';
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(function(){ toast('Indirizzo del podcast copiato'); }, function(){ location.href = url; });
+    else location.href = url;
+  });
+  $('calLink').href = SITE.replace(/^https?:/, 'webcal:') + 'data/scadenze.ics';
+
+  // ---------------------------------------------------------------- avvio
   function loadIndex(){
-    fetch('data/index.json', {cache:'no-store'}).then(function(r){
-      if (!r.ok) throw new Error('http '+r.status);
-      return r.json();
-    }).then(function(list){
+    getJson('data/index.json').then(function(list){
       state.list = Array.isArray(list) ? list : [];
       if (!state.list.length){
         content.innerHTML = '<div class="empty-state"><div class="big">Archivio vuoto</div>Il prossimo controllo automatico popolerà questa pagina.</div>';
         return;
       }
       buildOptions();
-      go(0);
+      renderFreshness();
+      if (!route()) go(0, {noHash:true});
     }).catch(function(){
-      content.innerHTML = '<div class="empty-state"><div class="big">Archivio non raggiungibile</div>Riprova riaprendo la pagina tra qualche istante.</div>';
+      content.innerHTML = '<div class="empty-state"><div class="big">L\'archivio non si è caricato</div>Controlla la connessione e riapri la pagina.</div>';
     });
+    getJson('data/status.json').then(function(s){ state.status = s; renderFreshness(); }).catch(function(){});
+    loadScadenze().catch(function(){});
   }
-
   loadIndex();
 })();
 </script>
