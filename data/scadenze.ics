@@ -1,0 +1,197 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bollettino GU//Scadenzario//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bollettino GU – Scadenze
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dl-2026-170-scadenza@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Scade il DL n. 170/2026 (60 giorni)
+DESCRIPTION:Decreto-legge 30 settembre 2026\, n. 170 – Misure urgenti p
+ er garantire il regolare avvio dell'anno scolastico 2026/2027\, per l'ac
+ compagnamento delle misure del Piano nazionale di ripresa e resilienza (
+ PNRR) di competenza del Ministero dell'istruzione e del merito\, per la 
+ promozione dell'integrazione…\nUltimo giorno utile per la conversione 
+ in legge (pubblicato in GU il 30 settembre 2026).\nhttps://fulgei-a11y.g
+ ithub.io/bollettino-gu/#2026-09-30
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade il DL n. 170/2026 (60 giorni)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dl-2026-177-scadenza@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Scade il DL n. 177/2026 (60 giorni)
+DESCRIPTION:Decreto-legge 8 ottobre 2026\, n. 177 – Disposizioni urgent
+ i per il rafforzamento delle istruttorie ambientali\, la gestione dei pr
+ oblemi climatici\, l'economia circolare e le bonifiche.\nUltimo giorno u
+ tile per la conversione in legge (pubblicato in GU il 8 ottobre 2026).\n
+ https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade il DL n. 177/2026 (60 giorni)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dl-2026-177-vigore@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:In vigore il DL n. 177/2026
+DESCRIPTION:Decreto-legge 8 ottobre 2026\, n. 177 – Disposizioni urgent
+ i per il rafforzamento delle istruttorie ambientali\, la gestione dei pr
+ oblemi climatici\, l'economia circolare e le bonifiche.\nhttps://fulgei-
+ a11y.github.io/bollettino-gu/#2026-10-08
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-legge-23-settembre-2026-n-171@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:In vigore: LEGGE 23 settembre 2026\, n. 171
+DESCRIPTION:Proroga delega per la revisione del Codice della Strada\nhttp
+ s://fulgei-a11y.github.io/bollettino-gu/#2026-10-01
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: LEGGE 23 settembre 2026\, n. 171
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-legge-5-ottobre-2026-n-173@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:In vigore: LEGGE 5 ottobre 2026\, n. 173
+DESCRIPTION:Obbligo di compostabilità per imballaggi monouso e sanzioni\
+ nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: LEGGE 5 ottobre 2026\, n. 173
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-legge-5-ottobre-2026-n-174@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:In vigore: LEGGE 5 ottobre 2026\, n. 174
+DESCRIPTION:Disposizioni urgenti per la funzionalità della PA\, enti ter
+ ritoriali e protezione civile\nhttps://fulgei-a11y.github.io/bollettino-
+ gu/#2026-10-06
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: LEGGE 5 ottobre 2026\, n. 174
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-legge-29-settembre-2026-n-169@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:In vigore: LEGGE 29 settembre 2026\, n. 169
+DESCRIPTION:Delega al Governo in materia di energia nucleare sostenibile\
+ nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: LEGGE 29 settembre 2026\, n. 169
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-decreto-legislativo-11-settembre-2026-n-172@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:In vigore: DECRETO LEGISLATIVO 11 settembre 2026\, n. 172
+DESCRIPTION:Norme di attuazione dello Statuto della Valle d'Aosta sulle c
+ oncessioni di derivazione d'acqua\nhttps://fulgei-a11y.github.io/bollett
+ ino-gu/#2026-10-02
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: DECRETO LEGISLATIVO 11 settembre 2026\, n. 172
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-decreto-legislativo-25-settembre-2026-n-176@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 176
+DESCRIPTION:Norme comuni per la promozione della riparazione dei beni\nht
+ tps://fulgei-a11y.github.io/bollettino-gu/#2026-10-07
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-07
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 176
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-decreto-legislativo-25-settembre-2026-n-178@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 178
+DESCRIPTION:Adeguamento della normativa nazionale ai regolamenti UE sui c
+ ontrolli delle sostanze farmacologicamente attive negli animali e prodot
+ ti di origine animale.\nhttps://fulgei-a11y.github.io/bollettino-gu/#202
+ 6-10-08
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 178
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vigore-decreto-legislativo-7-ottobre-2026-n-179@bollettino-gu
+DTSTAMP:20261009T223416Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 179
+DESCRIPTION:Adeguamento della normativa nazionale al regolamento UE sull'
+ intelligenza artificiale\, in materia di poteri delle Autorità nazional
+ i e di utilizzo dell'intelligenza artificiale nella formazione.\nhttps:/
+ /fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+TRANSP:TRANSPARENT
+URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 179
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

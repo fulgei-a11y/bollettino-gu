@@ -2,6 +2,8 @@
 Crea la lettura audio (voce Paola) delle edizioni che non ce l'hanno ancora.
 Per ogni data/AAAA-MM-GG.json senza "audio": scrive il testo da leggere, chiama build_audio.py
 e salva nel JSON il percorso dell'MP3 e la durata.
+Solo per le edizioni degli ultimi AUDIO_DAYS giorni (default 60): quelle più vecchie vengono
+tolte da tools/build_extras.py per restare nei limiti di spazio di GitHub Pages.
 """
 import os
 import re
@@ -13,6 +15,8 @@ import datetime as dt
 
 DATA = "data"
 MAX_AUDIO = int(os.environ.get("MAX_AUDIO", "4"))
+AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "60"))
+RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_audio.json")
 MESI = ["", "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 ORD = ["Prima", "Seconda", "Terza", "Quarta", "Quinta", "Sesta", "Settima", "Ottava", "Nona", "Decima"]
@@ -68,14 +72,20 @@ def narration(d):
 
 
 def main():
-    done = 0
+    from zoneinfo import ZoneInfo
+    oldest = dt.datetime.now(ZoneInfo("Europe/Rome")).date() - dt.timedelta(days=AUDIO_DAYS)
+    done, errors = 0, []
     for name in sorted(os.listdir(DATA), reverse=True):
         if done >= MAX_AUDIO or not re.match(r"\d{4}-\d{2}-\d{2}\.json$", name):
+            continue
+        if dt.date.fromisoformat(name[:10]) < oldest:
             continue
         path = os.path.join(DATA, name)
         d = json.load(open(path, encoding="utf-8"))
         if d.get("audio") or d.get("stato") not in ("con_schede", "nessuna_legge_interesse"):
             continue
+        if not d.get("atti"):
+            continue   # indice non ancora completo: niente audio vuoto
         with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
             f.write(narration(d))
         print(f"🎙️ Audio per {d['date']}...")
@@ -83,11 +93,17 @@ def main():
                             "--date", d["date"], "--out", "audio"])
         if r.returncode != 0:
             print(f"⚠️ Audio non riuscito per {d['date']}")
+            errors.append(f"Audio dell'edizione del {d['date']} non riuscito (codice {r.returncode}).")
             continue
         meta = json.load(open(os.path.join("audio", f"{d['date']}.json"), encoding="utf-8"))
         d["audio"], d["duration"] = meta["audio"], meta["duration"]
         json.dump(d, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         done += 1
+
+    with open(RUN_REPORT, "w", encoding="utf-8") as f:
+        json.dump({"audio_creati": done, "errori": errors}, f, ensure_ascii=False, indent=2)
+    if errors:
+        raise SystemExit(f"{len(errors)} audio non riusciti.")
 
 
 if __name__ == "__main__":

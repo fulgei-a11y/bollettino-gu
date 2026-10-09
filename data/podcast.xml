@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bollettino GU</title>
+    <link>https://fulgei-a11y.github.io/bollettino-gu/</link>
+    <atom:link href="https://fulgei-a11y.github.io/bollettino-gu/data/podcast.xml" rel="self" type="application/rss+xml"/>
+    <language>it-it</language>
+    <description>La Gazzetta Ufficiale (Serie Generale) letta ogni giorno: leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente. Sono disponibili le edizioni degli ultimi 60 giorni.</description>
+    <itunes:author>Bollettino GU</itunes:author>
+    <itunes:summary>La Gazzetta Ufficiale (Serie Generale) letta ogni giorno: leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente.</itunes:summary>
+    <itunes:image href="https://fulgei-a11y.github.io/bollettino-gu/icons/podcast-1400.png"/>
+    <image><url>https://fulgei-a11y.github.io/bollettino-gu/icons/podcast-1400.png</url><title>Bollettino GU</title><link>https://fulgei-a11y.github.io/bollettino-gu/</link></image>
+    <itunes:category text="Government"/>
+    <itunes:category text="News"><itunes:category text="Politics"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>GU n. 235 – Venerdì 9 ottobre 2026</title>
+      <description>Nessuna legge di interesse per le materie seguite in questa edizione.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-09</description>
+      <itunes:summary>Nessuna legge di interesse per le materie seguite in questa edizione.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-09</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-09</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-09.mp3" length="59394" type="audio/mpeg"/>
+      <itunes:duration>00:00:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 234 – Giovedì 8 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 8 ottobre 2026 presenta importanti novità legislative in materia ambientale e digitale. Un decreto-legge introduce misure urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche, inclusi interventi per la 'Terra dei fuochi'. Due decreti legislativi adeguano la normativa nazionale a regolamenti europei, uno sui controlli delle sostanze farmacologicamente attive negli alimenti di origine animale e l'altro sull'intelligenza artificiale, definendo poteri delle autorità nazionali e sanzioni.
+
+Schede:
+• Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche.
+• Adeguamento della normativa nazionale ai regolamenti UE sui controlli delle sostanze farmacologicamente attive negli animali e prodotti di origine animale.
+• Adeguamento della normativa nazionale al regolamento UE sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 8 ottobre 2026 presenta importanti novità legislative in materia ambientale e digitale. Un decreto-legge introduce misure urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche, inclusi interventi per la 'Terra dei fuochi'. Due decreti legislativi adeguano la normativa nazionale a regolamenti europei, uno sui controlli delle sostanze farmacologicamente attive negli alimenti di origine animale e l'altro sull'intelligenza artificiale, definendo poteri delle autorità nazionali e sanzioni.
+
+Schede:
+• Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche.
+• Adeguamento della normativa nazionale ai regolamenti UE sui controlli delle sostanze farmacologicamente attive negli animali e prodotti di origine animale.
+• Adeguamento della normativa nazionale al regolamento UE sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-08.mp3" length="7427231" type="audio/mpeg"/>
+      <itunes:duration>00:24:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 233 – Mercoledì 7 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 7 ottobre 2026 introduce importanti novità in materia di sostenibilità e diritti dei consumatori, con un decreto legislativo che promuove la riparazione dei beni. Viene inoltre istituita una giornata nazionale di sensibilizzazione. Completano l'edizione vari decreti e provvedimenti su temi agricoli, infrastrutturali e di pubblica amministrazione.
+
+Schede:
+• Norme comuni per la promozione della riparazione dei beni
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-07</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 7 ottobre 2026 introduce importanti novità in materia di sostenibilità e diritti dei consumatori, con un decreto legislativo che promuove la riparazione dei beni. Viene inoltre istituita una giornata nazionale di sensibilizzazione. Completano l'edizione vari decreti e provvedimenti su temi agricoli, infrastrutturali e di pubblica amministrazione.
+
+Schede:
+• Norme comuni per la promozione della riparazione dei beni
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-07</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-07</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-07.mp3" length="2887280" type="audio/mpeg"/>
+      <itunes:duration>00:09:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 232 – Martedì 6 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 6 ottobre 2026 è dominata da due importanti leggi di conversione. La prima introduce l'obbligo di compostabilità per specifiche tipologie di imballaggi monouso, con significative eccezioni per il settore ortofrutticolo, e definisce le relative sanzioni. La seconda legge interviene sulla funzionalità della pubblica amministrazione e degli enti territoriali, con misure che vanno dalla gestione delle ferie non godute del personale pubblico alle assunzioni straordinarie, fino a modifiche sull'ordinamento delle province e la protezione civile.
+
+Schede:
+• Obbligo di compostabilità per imballaggi monouso e sanzioni
+• Disposizioni urgenti per la funzionalità della PA, enti territoriali e protezione civile
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 6 ottobre 2026 è dominata da due importanti leggi di conversione. La prima introduce l'obbligo di compostabilità per specifiche tipologie di imballaggi monouso, con significative eccezioni per il settore ortofrutticolo, e definisce le relative sanzioni. La seconda legge interviene sulla funzionalità della pubblica amministrazione e degli enti territoriali, con misure che vanno dalla gestione delle ferie non godute del personale pubblico alle assunzioni straordinarie, fino a modifiche sull'ordinamento delle province e la protezione civile.
+
+Schede:
+• Obbligo di compostabilità per imballaggi monouso e sanzioni
+• Disposizioni urgenti per la funzionalità della PA, enti territoriali e protezione civile
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-06.mp3" length="4054300" type="audio/mpeg"/>
+      <itunes:duration>00:13:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 231 – Lunedì 5 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 5 ottobre 2026 è prevalentemente dedicata ad atti di natura economico-finanziaria e amministrativa. Spiccano numerosi decreti del Ministero dell'Economia e delle Finanze relativi all'emissione e riapertura di titoli di Stato, oltre a diverse ordinanze di protezione civile per la gestione di eventi calamitosi. Si segnala inoltre un comunicato del Ministero della Giustizia sulla mancata conversione di un decreto-legge in materia di prezzi petroliferi.
+
+Schede:
+• Mancata conversione del decreto-legge sui prezzi petroliferi
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-05</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 5 ottobre 2026 è prevalentemente dedicata ad atti di natura economico-finanziaria e amministrativa. Spiccano numerosi decreti del Ministero dell'Economia e delle Finanze relativi all'emissione e riapertura di titoli di Stato, oltre a diverse ordinanze di protezione civile per la gestione di eventi calamitosi. Si segnala inoltre un comunicato del Ministero della Giustizia sulla mancata conversione di un decreto-legge in materia di prezzi petroliferi.
+
+Schede:
+• Mancata conversione del decreto-legge sui prezzi petroliferi
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-05</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-05</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-05.mp3" length="1893321" type="audio/mpeg"/>
+      <itunes:duration>00:06:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 230 – Sabato 3 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 3 ottobre 2026 presenta un focus significativo su atti di natura amministrativa e finanziaria, in particolare decreti ministeriali e ordinanze di protezione civile. Non sono presenti leggi, decreti-legge o decreti legislativi. Si segnalano provvedimenti relativi alla ripartizione di fondi per l'aggregazione degli acquisti nella PA e aggiornamenti del registro imprese, oltre a diverse ordinanze che regolano il subentro delle Regioni nella gestione post-emergenziale di eventi meteorologici eccezionali.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-03</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 3 ottobre 2026 presenta un focus significativo su atti di natura amministrativa e finanziaria, in particolare decreti ministeriali e ordinanze di protezione civile. Non sono presenti leggi, decreti-legge o decreti legislativi. Si segnalano provvedimenti relativi alla ripartizione di fondi per l'aggregazione degli acquisti nella PA e aggiornamenti del registro imprese, oltre a diverse ordinanze che regolano il subentro delle Regioni nella gestione post-emergenziale di eventi meteorologici eccezionali.
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-03</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-03</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-03.mp3" length="1057664" type="audio/mpeg"/>
+      <itunes:duration>00:03:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 229 – Venerdì 2 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 2 ottobre 2026 è caratterizzata principalmente dall'emanazione del decreto legislativo n. 172, recante norme di attuazione dello Statuto speciale della Valle d'Aosta in materia di concessioni idriche. Tra gli altri atti, si segnalano importanti aggiornamenti contrattuali per il pubblico impiego e disposizioni in materia di istruzione e sanità.
+
+Schede:
+• Norme di attuazione dello Statuto della Valle d'Aosta sulle concessioni di derivazione d'acqua
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-02</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 2 ottobre 2026 è caratterizzata principalmente dall'emanazione del decreto legislativo n. 172, recante norme di attuazione dello Statuto speciale della Valle d'Aosta in materia di concessioni idriche. Tra gli altri atti, si segnalano importanti aggiornamenti contrattuali per il pubblico impiego e disposizioni in materia di istruzione e sanità.
+
+Schede:
+• Norme di attuazione dello Statuto della Valle d'Aosta sulle concessioni di derivazione d'acqua
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-02</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-02</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-02.mp3" length="796309" type="audio/mpeg"/>
+      <itunes:duration>00:02:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 228 – Giovedì 1 ottobre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 1° ottobre 2026 è dominata da un'importante Legge che proroga i termini per la delega al Governo per la revisione del Codice della Strada, evidenziando l'impegno per una riforma complessa e articolata. Completano il quadro diversi atti minori di natura economica e amministrativa, tra cui decreti di liquidazione coatta e aggiornamenti normativi per il settore agricolo e delle imprese.
+
+Schede:
+• Proroga delega per la revisione del Codice della Strada
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-01</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 1° ottobre 2026 è dominata da un'importante Legge che proroga i termini per la delega al Governo per la revisione del Codice della Strada, evidenziando l'impegno per una riforma complessa e articolata. Completano il quadro diversi atti minori di natura economica e amministrativa, tra cui decreti di liquidazione coatta e aggiornamenti normativi per il settore agricolo e delle imprese.
+
+Schede:
+• Proroga delega per la revisione del Codice della Strada
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-10-01</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-10-01</link>
+      <guid isPermaLink="false">bollettino-gu-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-10-01.mp3" length="1727574" type="audio/mpeg"/>
+      <itunes:duration>00:05:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>GU n. 227 – Mercoledì 30 settembre 2026</title>
+      <description>L'edizione della Gazzetta Ufficiale del 30 settembre 2026 è dominata da due importanti atti normativi: una legge delega che getta le basi per il ritorno dell'Italia all'energia nucleare sostenibile e un decreto-legge con misure urgenti per l'avvio dell'anno scolastico 2026/2027 e il supporto al PNRR. La legge delega sull'energia nucleare è un passo strategico per la decarbonizzazione e l'indipendenza energetica, mentre il decreto-legge interviene su inclusione scolastica, welfare studentesco e semplificazione amministrativa nel settore dell'istruzione.
+
+Schede:
+• Delega al Governo in materia di energia nucleare sostenibile
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30</description>
+      <itunes:summary>L'edizione della Gazzetta Ufficiale del 30 settembre 2026 è dominata da due importanti atti normativi: una legge delega che getta le basi per il ritorno dell'Italia all'energia nucleare sostenibile e un decreto-legge con misure urgenti per l'avvio dell'anno scolastico 2026/2027 e il supporto al PNRR. La legge delega sull'energia nucleare è un passo strategico per la decarbonizzazione e l'indipendenza energetica, mentre il decreto-legge interviene su inclusione scolastica, welfare studentesco e semplificazione amministrativa nel settore dell'istruzione.
+
+Schede:
+• Delega al Governo in materia di energia nucleare sostenibile
+
+Leggi le schede: https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30</itunes:summary>
+      <link>https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30</link>
+      <guid isPermaLink="false">bollettino-gu-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 21:00:00 +0200</pubDate>
+      <enclosure url="https://fulgei-a11y.github.io/bollettino-gu/audio/2026-09-30.mp3" length="2306970" type="audio/mpeg"/>
+      <itunes:duration>00:07:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
