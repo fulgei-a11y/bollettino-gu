@@ -1,13 +1,132 @@
 {
   "date": "2026-10-02",
   "giorno": "venerdì",
+  "updatedAt": "2026-10-09T11:16:55Z",
+  "version": 2,
+  "stato": "con_schede",
   "numero_gu": "229",
-  "stato": "nessuna_legge_interesse",
-  "note": "Nessuna legge o decreto-legge di interesse economico, giudiziario o energetico/ambientale pubblicato; presente solo un Decreto Legislativo (Valle d'Aosta, concessioni idriche) che non rientra nel perimetro dell'analisi (non è una Legge né un Decreto-Legge).",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-02&numeroGazzetta=229",
-  "scartate": [],
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/02/229/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 2 ottobre 2026 è caratterizzata principalmente dall'emanazione del decreto legislativo n. 172, recante norme di attuazione dello Statuto speciale della Valle d'Aosta in materia di concessioni idriche. Tra gli altri atti, si segnalano importanti aggiornamenti contrattuali per il pubblico impiego e disposizioni in materia di istruzione e sanità.",
+  "schede": [
+    {
+      "codice_atto": "26G00187",
+      "titolo": "Norme di attuazione dello Statuto della Valle d'Aosta sulle concessioni di derivazione d'acqua",
+      "riferimento": "DECRETO LEGISLATIVO 11 settembre 2026, n. 172",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore dal 17/10/2026",
+      "contesto": "Il provvedimento attua lo Statuto speciale della Regione autonoma Valle d'Aosta/Vallée d'Aoste, delegando alla legislazione regionale la disciplina delle concessioni e subconcessioni di derivazione d'acqua.",
+      "misure": [
+        "Art. 1, comma 1: La Regione Valle d'Aosta disciplina con legge regionale le modalità e le procedure di assegnazione delle concessioni e subconcessioni di derivazione d'acqua per qualsiasi uso.",
+        "Art. 2, comma 1: Alla scadenza, decadenza o rinuncia delle concessioni, le opere di raccolta, adduzione, regolazione, condotte e canali di scarico passano gratuitamente in proprietà della Regione, salvo obbligo di ripristino per motivi di pubblico interesse.",
+        "Art. 2, commi 2-3: Regolamentazione degli indennizzi per investimenti non ammortizzati autorizzati ed esercizio della facoltà della Regione di immettersi nel possesso di edifici, macchinari e impianti con preavviso di almeno sei mesi prima della scadenza.",
+        "Art. 3, comma 1: Obbligo di approvare la legge regionale sulle grandi derivazioni idroelettriche entro 12 mesi dall'entrata in vigore del decreto. La durata massima delle concessioni è fissata a 40 anni (estendibile di ulteriori 10 anni per investimenti complessi).",
+        "Art. 3, comma 3: Possibilità di assegnare le grandi derivazioni a operatori economici tramite gara, a società miste pubblico-private, tramite partenariato pubblico-privato o a società in house a totale controllo pubblico.",
+        "Art. 3, comma 5: Obbligo per i concessionari di grandi derivazioni di fornire gratuitamente alla Regione 220 kWh all'anno per ogni kW di potenza nominale media di concessione per servizi pubblici e categorie di utenti.",
+        "Art. 4, comma 1: Obbligo di consultazione preventiva della Regione sugli atti dell'ARERA indirizzati ai servizi di pubblica utilità operanti nel territorio regionale, tramite apposito protocollo d'intesa."
+      ],
+      "chi_interessato": "Regione autonoma Valle d'Aosta, operatori economici del settore idrico e idroelettrico, ARERA.",
+      "decorrenza": "17/10/2026",
+      "perche_conta": "Trasferisce alla Regione Valle d'Aosta la competenza legislativa e amministrativa sulle concessioni idriche e idroelettriche, definendo regole chiare per il passaggio dei beni alla scadenza e introducendo l'obbligo di fornitura gratuita di energia alla Regione.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26G00187/sg",
+      "vigore": "17/10/2026"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26A05135",
+      "materia": "Agricoltura",
+      "titolo": "Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta (DOP) «Prosciutto Veneto Berico-Euganeo»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05135/sg"
+    },
+    {
+      "codice_atto": "26A05136",
+      "materia": "Istruzione",
+      "titolo": "Modalita' di attribuzione di punteggi aggiuntivi nelle graduatorie ad esaurimento, nelle graduatorie provinciali per le supplenze e nelle correlate graduatorie di istituto...",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05136/sg"
+    },
+    {
+      "codice_atto": "26A05263",
+      "materia": "Sanità",
+      "titolo": "Misure di sorveglianza sanitaria nei confronti delle persone provenienti dalla Repubblica Democratica del Congo in relazione all'epidemia di malattia da virus Bundibugyo (BVD)",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05263/sg"
+    }
+  ],
+  "altri_atti": [],
+  "atti": [
+    {
+      "codice": "26G00187",
+      "titolo": "DECRETO LEGISLATIVO 11 settembre 2026, n. 172 Norme di attuazione dello Statuto speciale per la Regione autonoma Valle d'Aosta/Vallee d'Aoste in materia di concessioni di derivazione d'acqua.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26G00187/sg"
+    },
+    {
+      "codice": "26A05135",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 23 settembre 2026 Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta (DOP) «Prosciutto Veneto Berico-Euganeo».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05135/sg"
+    },
+    {
+      "codice": "26A05136",
+      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - DECRETO 1 settembre 2026 Modalita' di attribuzione di punteggi aggiuntivi nelle graduatorie ad esaurimento, nelle graduatorie provinciali per le supplenze e nelle correlate graduatorie di istituto, a favore del personale docente che abbia prestato servizio presso i plessi scolastici ubicati nei territori individuati dall'allegato A alla legge 28 dicembre 2001, n. 448.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05136/sg"
+    },
+    {
+      "codice": "26A05263",
+      "titolo": "MINISTERO DELLA SALUTE - ORDINANZA 1 ottobre 2026 Misure di sorveglianza sanitaria nei confronti delle persone provenienti dalla Repubblica Democratica del Congo in relazione all'epidemia di malattia da virus Bundibugyo (BVD).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05263/sg"
+    },
+    {
+      "codice": "26A05134",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 7 agosto 2026 Individuazione del numero e dei compiti degli uffici dirigenziali di livello non generale del Ministero delle infrastrutture e trasporti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05134/sg"
+    },
+    {
+      "codice": "26A05072",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di teriparatide, «Teriparatide Cipla»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05072/sg"
+    },
+    {
+      "codice": "26A05073",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di raltitrexed, «Tomudex».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05073/sg"
+    },
+    {
+      "codice": "26A05074",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di glatiramer acetato, «Copaxone».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05074/sg"
+    },
+    {
+      "codice": "26A05075",
+      "titolo": "COMUNICATO Rettifica della determina AAM/PPA n. 819/2025 del 19 dicembre 2025, concernente la modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di fexofenadina cloridrato, «Fexallegra».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05075/sg"
+    },
+    {
+      "codice": "26A05076",
+      "titolo": "COMUNICATO Rinnovo dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di nitroglicerina, «Niglina».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05076/sg"
+    },
+    {
+      "codice": "26A05077",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Slinda»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05077/sg"
+    },
+    {
+      "codice": "26A05097",
+      "titolo": "AGENZIA PER LA RAPPRESENTANZA NEGOZIALE DELLE PUBBLICHE AMMINISTRAZIONI - COMUNICATO Contratto collettivo nazionale di lavoro relativo al personale del comparto funzioni centrali - triennio 2025-2027",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05097/sg"
+    },
+    {
+      "codice": "26A05113",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 56 adottata dal consiglio di amministrazione della Cassa nazionale del notariato in data 16 aprile 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05113/sg"
+    },
+    {
+      "codice": "26A05114",
+      "titolo": "COMUNICATO Approvazione della delibera n. 79 adottata dal consiglio di amministrazione dell'Ente nazionale di previdenza ed assistenza per i consulenti del lavoro in data 31 marzo 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/02/26A05114/sg"
+    }
+  ],
   "audio": "audio/2026-10-02.mp3",
-  "duration": 65.2,
-  "updatedAt": "2026-10-03T08:20:55Z"
+  "duration": 159.1
 }
