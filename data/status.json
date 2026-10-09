@@ -1,0 +1,22 @@
+{
+  "ultimoControllo": "2026-10-09T22:42:27Z",
+  "ultimoSuccesso": "2026-10-09T22:42:27Z",
+  "ok": true,
+  "problemi": [],
+  "avvisi": [],
+  "ultimaEdizione": "2026-10-09",
+  "elaborate": [
+    {
+      "date": "2026-10-10",
+      "stato": "non_disponibile",
+      "schede": 0
+    },
+    {
+      "date": "2026-10-09",
+      "stato": "nessuna_legge_interesse",
+      "schede": 0
+    }
+  ],
+  "audioMB": 21.4,
+  "esecuzione": "https://github.com/fulgei-a11y/bollettino-gu/actions/runs/38000485029"
+}

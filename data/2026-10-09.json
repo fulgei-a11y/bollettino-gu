@@ -1,18 +1,153 @@
 {
   "date": "2026-10-09",
   "giorno": "venerdì",
-  "updatedAt": "2026-10-09T19:13:39Z",
+  "updatedAt": "2026-10-09T22:41:48Z",
   "version": 2,
   "stato": "nessuna_legge_interesse",
   "numero_gu": "235",
   "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-09&numeroGazzetta=235",
   "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/09/235/sg/pdf",
-  "sintesi": "",
+  "sintesi": "L'edizione odierna della Gazzetta Ufficiale presenta importanti novità in materia elettorale con la riforma del sistema di voto per la Camera e il Senato, introducendo il premio di governabilità e le preferenze. Viene inoltre recepito il decreto di semplificazione degli obblighi di comunicazione in materia di emissioni acustiche e alimenti in attuazione di direttive UE.",
   "schede": [],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05291",
+      "categoria": "Energia e Ambiente",
+      "titolo": "Aggiornamento regole operative procedure competitive potenza",
+      "sintesi": "Approvazione dell'aggiornamento delle regole operative per la presentazione e valutazione delle manifestazioni di interesse e richieste di partecipazione alle procedure competitive, con relativi contingenti di potenza.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05291/sg"
+    },
+    {
+      "codice_atto": "26A05220",
+      "categoria": "Economico",
+      "titolo": "Aggiornamento importi risarcimento danno non patrimoniale 2026",
+      "sintesi": "Decreto ministeriale del 28 settembre 2026 per l'adeguamento annuale degli importi per il risarcimento del danno non patrimoniale per lesioni di non lieve entità (sinistri stradali e responsabilità sanitaria).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05220/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00201",
+      "titolo": "LEGGE 9 ottobre 2026, n. 180 Disposizioni in materia di elezioni della Camera dei deputati e del Senato della Repubblica.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg",
+      "tipo": "LEGGE",
+      "vigore": "24/10/2026"
+    },
+    {
+      "codice": "26G00196",
+      "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 181 Attuazione della direttiva (UE) 2024/2839 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, in materia di comunicazione nei settori degli alimenti e dei loro ingredienti, dell'emissione acustica ambientale, dei diritti dei pazienti e delle apparecchiature radio.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00196/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "24/10/2026"
+    },
+    {
+      "codice": "26A05281",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 2 ottobre 2026 Approvazione della modifica ordinaria al disciplinare di produzione della denominazione di origine protetta, menzione tradizionale specifica italiana: denominazione di origine controllata - D.O.C., dei vini «Pomino».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05281/sg"
+    },
+    {
+      "codice": "26A05289",
+      "titolo": "DECRETO 5 ottobre 2026 Conferma dell'incarico al Consorzio per la tutela del Formaggio Montasio a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526, per la DOP «Montasio».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05289/sg"
+    },
+    {
+      "codice": "26A05290",
+      "titolo": "DECRETO 5 ottobre 2026 Conferma dell'incarico al Consorzio per la tutela del Formaggio Asiago a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526, per la DOP «Asiago».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05290/sg"
+    },
+    {
+      "codice": "26A05282",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 7 agosto 2026 Criteri di riparto del fondo per il potenziamento dei test di profilazione genomica dei tumori mediante tecnologia NGS con riferimento al carcinoma sieroso di alto grado dell'ovaio in stadio avanzato.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05282/sg"
+    },
+    {
+      "codice": "26A05265",
+      "titolo": "DECRETO 8 settembre 2026 Definizione e rideterminazione delle tariffe e dei diritti spettanti al Ministero della salute per le attivita' e gli adempimenti di competenza del Ministero della salute di cui al regolamento (CE) 11 dicembre 2018, n. 2019/6/UE e al decreto legislativo 7 dicembre 2023, n. 218, connessi alle prestazioni a richiesta e ad utilita' dei soggetti interessati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05265/sg"
+    },
+    {
+      "codice": "26A05283",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Aventino societa' cooperativa», in Roma e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05283/sg"
+    },
+    {
+      "codice": "26A05286",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Edil Parravano societa' cooperativa», in Pontecorvo e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05286/sg"
+    },
+    {
+      "codice": "26A05284",
+      "titolo": "DECRETO 30 settembre 2026 Sostituzione del commissario liquidatore della «Societa' cooperativa G7 - Societa' cooperativa a responsabilita' limitata», in Bologna, in liquidazione coatta amministrativa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05284/sg"
+    },
+    {
+      "codice": "26A05285",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Commerciale Sarda societa' cooperativa sociale a r.l.», in Sassari e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05285/sg"
+    },
+    {
+      "codice": "26A05307",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di aflibercept, «Ahzantive». (Determina n. 1337/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05307/sg"
+    },
+    {
+      "codice": "26A05308",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di delgocitinib, «Anzupgo». (Determina n. 1338/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05308/sg"
+    },
+    {
+      "codice": "26A05250",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Xanax».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05250/sg"
+    },
+    {
+      "codice": "26A05251",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Technemibi»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05251/sg"
+    },
+    {
+      "codice": "26A05287",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Xadago»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05287/sg"
+    },
+    {
+      "codice": "26A05291",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO Pubblicazione del decreto 2 ottobre 2026, concernente l'approvazione dell'aggiornamento delle regole operative per la disciplina delle modalita' di presentazione e valutazione delle manifestazioni di interesse e delle richieste di partecipazione alle procedure competitive e approvazione dei contingenti di potenza e dei coefficienti locazionali.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05291/sg"
+    },
+    {
+      "codice": "26A05259",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 28 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05259/sg"
+    },
+    {
+      "codice": "26A05260",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 29 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05260/sg"
+    },
+    {
+      "codice": "26A05261",
+      "titolo": "COMUNICATO Cambi di riferimento rilevati a titolo indicativo del giorno 30 settembre 2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05261/sg"
+    },
+    {
+      "codice": "26A05304",
+      "titolo": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Destituzione dall'esercizio delle funzioni notarili",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05304/sg"
+    },
+    {
+      "codice": "26A05305",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO DI GOVERNO PER LA REALIZZAZIONE DELLA LINEA 2 DELLA METROPOLITANA DELLA CITTA' DI TORINO - COMUNICATO Ordinanza n. 56 del 29 settembre 2026 - Affidamento diretto del servizio di supporto tecnico da eseguire nell'ambito della verifica preventiva del PFTE delle opere di sistema e fornitura del materiale rotabile e della procedura di gara indetta per appalto integrato delle opere civili e degli impianti non di sistema relativi alla Linea 2 della metropolitana di Torino - Tratta «Rebaudengo-Politecnico».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05305/sg"
+    },
+    {
+      "codice": "26A05220",
+      "titolo": "SUPPLEMENTI ORDINARI MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 28 settembre 2026 Aggiornamento annuale degli importi per il risarcimento del danno non patrimoniale per lesioni di non lieve entita' conseguenti alla circolazione dei veicoli a motore e dei natanti, nonche' conseguenti all'attivita' dell'esercente la professione sanitaria e della struttura sanitaria o socio-sanitaria, pubblica o privata. Anno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05220/sg"
+    }
+  ],
   "audio": "audio/2026-10-09.mp3",
-  "duration": 11.8
+  "duration": 58.8
 }
