@@ -1,13 +1,301 @@
 {
   "date": "2026-10-07",
   "giorno": "mercoledì",
-  "stato": "nessuna_legge_interesse",
-  "numero_gu": "40",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=40",
-  "note": "Report Gazzetta Ufficiale del 2026-10-07",
-  "updatedAt": "2024-07-30T10:00:00Z",
-  "scartate": [],
-  "schede": [],
+  "updatedAt": "2026-10-09T11:14:22Z",
+  "version": 2,
+  "stato": "con_schede",
+  "numero_gu": "233",
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-07&numeroGazzetta=233",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/07/233/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 7 ottobre 2026 introduce importanti novità in materia di sostenibilità e diritti dei consumatori, con un decreto legislativo che promuove la riparazione dei beni. Viene inoltre istituita una giornata nazionale di sensibilizzazione. Completano l'edizione vari decreti e provvedimenti su temi agricoli, infrastrutturali e di pubblica amministrazione.",
+  "schede": [
+    {
+      "codice_atto": "26G00191",
+      "titolo": "Norme comuni per la promozione della riparazione dei beni",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore dal 22/10/2026",
+      "contesto": "Il decreto legislativo attua la direttiva (UE) 2024/1799, introducendo nel Codice del consumo (decreto legislativo 6 settembre 2005, n. 206) nuove disposizioni volte a promuovere la riparazione dei beni e a rafforzare i diritti dei consumatori in tale ambito. L'obiettivo è favorire l'economia circolare e la sostenibilità dei prodotti.",
+      "misure": [
+        "Art. 1, comma 1, lettera a): Introduce nel Codice del consumo il Titolo II-bis 'DELLA RIPARAZIONE DEI BENI' (Art. 127-bis a 127-undecies).",
+        "Art. 127-bis (Ambito di applicazione): Le disposizioni si applicano alla riparazione dei beni acquistati dai consumatori in caso di difetto che si verifica o si manifesta al di fuori della responsabilità del venditore. Gli articoli 127-quinquies e 127-sexies si applicano ai beni per i quali gli atti giuridici dell'Unione europea prevedono specifiche di riparabilità.",
+        "Art. 127-ter (Definizioni): Fornisce definizioni chiave come 'consumatore', 'riparatore', 'riparazione', 'fabbricante', 'bene' e 'specifiche di riparabilità'.",
+        "Art. 127-quater (Modulo europeo di informazioni sulla riparazione): I riparatori possono fornire un modulo europeo di informazioni sulla riparazione su supporto durevole, gratuitamente (salvo costi di diagnostica). Il modulo deve specificare l'identità del riparatore, il bene da riparare, la natura del difetto, il prezzo o le modalità di calcolo, il tempo di riparazione, la disponibilità di beni sostitutivi temporanei, il luogo di consegna e il periodo di validità. Le condizioni non possono essere modificate per 30 giorni dalla fornitura del modulo.",
+        "Art. 127-quinquies (Obbligo di riparazione): Il fabbricante è obbligato a riparare i beni per i quali esistono specifiche di riparabilità UE, a meno che la riparazione sia impossibile. La riparazione deve essere eseguita gratuitamente o a un prezzo ragionevole e in tempi ragionevoli. Il fabbricante può offrire un bene sostitutivo temporaneo o un bene ricondizionato. L'obbligo si estende a rappresentanti autorizzati, importatori o distributori se il fabbricante è extra-UE. I fabbricanti devono offrire parti di ricambio e strumenti a un prezzo ragionevole e non devono impedire la riparazione tramite clausole contrattuali o tecnologie, né rifiutare riparazioni per interventi precedenti di terzi. I consumatori mantengono il diritto di rivolgersi a qualsiasi riparatore di loro scelta.",
+        "Art. 127-sexies (Informazioni sull’obbligo di riparazione): Fabbricanti (o rappresentanti/importatori/distributori) devono rendere disponibili gratuitamente informazioni sui loro servizi di riparazione per tutta la durata dell'obbligo.",
+        "Art. 127-septies (Sezione nazionale della piattaforma online europea per la riparazione): Istituisce una sezione nazionale della piattaforma online europea per la riparazione, accessibile gratuitamente ai consumatori, dove possono registrarsi riparatori, venditori di beni ricondizionati, acquirenti di beni difettosi e iniziative di riparazione partecipative.",
+        "Art. 127-octies (Punto di contatto nazionale): Il Ministero delle imprese e del made in Italy è individuato come punto di contatto nazionale con la Commissione europea per la sezione nazionale, incaricato di fornire accesso e monitorare i dati.",
+        "Art. 127-novies (Informazioni ai consumatori): I siti internet istituzionali del Ministero delle imprese e del made in Italy, del Ministero dell’ambiente e della sicurezza energetica, dell’Autorità garante della concorrenza e del mercato e del Consiglio nazionale dei consumatori e degli utenti devono pubblicare sezioni sui diritti dei consumatori relativi alla riparazione e il link alla piattaforma europea.",
+        "Art. 127-decies (Carattere imperativo delle disposizioni): Ogni patto che escluda o deroghi a danno del consumatore è nullo. Il riparatore può sempre offrire condizioni contrattuali di maggior tutela.",
+        "Art. 127-undecies (Sanzioni): Prevede l'applicazione di sanzioni per la violazione delle disposizioni del titolo, salvo che il fatto costituisca reato."
+      ],
+      "chi_interessato": "Consumatori, fabbricanti, venditori, importatori, distributori, riparatori (anche indipendenti), Ministero delle imprese e del made in Italy, Ministero dell'ambiente e della sicurezza energetica, Autorità garante della concorrenza e del mercato, Consiglio nazionale dei consumatori e degli utenti.",
+      "decorrenza": "In vigore dal 22/10/2026",
+      "perche_conta": "Questo decreto legislativo è cruciale per la transizione verso un'economia più circolare e sostenibile, estendendo i diritti dei consumatori alla riparazione dei beni e imponendo obblighi specifici ai fabbricanti. Contribuisce a ridurre i rifiuti, prolungare la vita utile dei prodotti e promuovere un mercato della riparazione più trasparente e accessibile, in linea con gli obiettivi europei di sostenibilità ambientale.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
+      "vigore": "22/10/2026"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26G00195",
+      "materia": "Sociale/Culturale",
+      "titolo": "LEGGE 5 ottobre 2026, n. 175 Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg",
+      "vigore": "08/10/2026"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05158",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Ronco Biellese e nomina del commissario straordinario.",
+      "sintesi": "Scioglimento del consiglio comunale di Ronco Biellese e nomina di un commissario straordinario per la gestione dell'ente locale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05158/sg"
+    },
+    {
+      "codice_atto": "26A05159",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Monte San Giovanni Campano e nomina del commissario straordinario.",
+      "sintesi": "Scioglimento del consiglio comunale di Monte San Giovanni Campano e nomina di un commissario straordinario per la gestione dell'ente locale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05159/sg"
+    },
+    {
+      "codice_atto": "26A05160",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Longone Sabino e nomina del commissario straordinario.",
+      "sintesi": "Scioglimento del consiglio comunale di Longone Sabino e nomina di un commissario straordinario per la gestione dell'ente locale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05160/sg"
+    },
+    {
+      "codice_atto": "26A05222",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 22 luglio 2026 Integrazione al decreto 17 luglio 2026, relativo alla ripartizione della quota residua nazionale di cattura di tonno rosso anno 2025.",
+      "sintesi": "Integra il decreto precedente sulla ripartizione della quota residua nazionale di cattura di tonno rosso per l'anno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05222/sg"
+    },
+    {
+      "codice_atto": "26A05223",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 luglio 2026 Seconda integrazione al decreto 17 luglio 2026, relativo alla ripartizione della quota residua nazionale di cattura di tonno rosso anno 2025.",
+      "sintesi": "Seconda integrazione al decreto sulla ripartizione della quota residua nazionale di cattura di tonno rosso per l'anno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05223/sg"
+    },
+    {
+      "codice_atto": "26A05266",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 15 e il 20 luglio 2026.",
+      "sintesi": "Dichiarazione di eccezionalità per eventi calamitosi in Lombardia (15 e 20 luglio 2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05266/sg"
+    },
+    {
+      "codice_atto": "26A05267",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 17 luglio 2026.",
+      "sintesi": "Dichiarazione di eccezionalità per eventi calamitosi in Lombardia (17 luglio 2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05267/sg"
+    },
+    {
+      "codice_atto": "26A05268",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Veneto il 2 giugno 2026.",
+      "sintesi": "Dichiarazione di eccezionalità per eventi calamitosi in Veneto (2 giugno 2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05268/sg"
+    },
+    {
+      "codice_atto": "26A05221",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLA DIFESA - DECRETO 11 settembre 2026 Fondo per gli assetti ad alta e altissima prontezza operativa.",
+      "sintesi": "Istituzione di un fondo per il finanziamento di assetti ad alta e altissima prontezza operativa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05221/sg"
+    },
+    {
+      "codice_atto": "26A05347",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 17 settembre 2026 Ripartizione tra le regioni della somma di 15 milioni di euro in attuazione di quanto previsto dall'articolo 1, comma 365, della legge 30 dicembre 2024, n. 207.",
+      "sintesi": "Ripartizione di 15 milioni di euro tra le regioni in attuazione di una legge finanziaria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05347/sg"
+    },
+    {
+      "codice_atto": "26A05163",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 28 agosto 2026 Modifiche e integrazioni al decreto 11 maggio 2016, concernente l'istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture.",
+      "sintesi": "Modifiche e integrazioni al decreto istitutivo del SINFI, il Sistema informativo nazionale federato delle infrastrutture.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05163/sg"
+    },
+    {
+      "codice_atto": "26A05224",
+      "categoria": "Economico",
+      "titolo": "COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 4 agosto 2026 Potenziamento asse ferroviario Monaco-Verona. Galleria di base del Brennero infrastruttura strategica di interesse nazionale (articolo 1 della legge n. 443 del 2001) - Approvazione avvio quinto lotto costruttivo e nuovo limite di spesa dell'opera (CUP I41J05000020005). (Delibera n. 27/2026).",
+      "sintesi": "Approvazione dell'avvio del quinto lotto costruttivo e del nuovo limite di spesa per la Galleria di base del Brennero, parte dell'asse ferroviario Monaco-Verona.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05224/sg"
+    },
+    {
+      "codice_atto": "26A05162",
+      "categoria": "Economico",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - PROVVEDIMENTO 22 settembre 2026 Regolamento concernente la predisposizione del modello di relazione in tema di repressione delle frodi di cui all'articolo 30, comma 1, del decreto-legge 24 gennaio 2012, n. 1, convertito, con modificazioni, nella legge 24 marzo 2012, n. 27. (Regolamento n. 59/2026).",
+      "sintesi": "Regolamento IVASS per la predisposizione del modello di relazione sulla repressione delle frodi assicurative.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05162/sg"
+    },
+    {
+      "codice_atto": "26A05148",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Domanda di modifica ordinaria del disciplinare della denominazione di origine protetta (DOP) dei prodotti agricoli «Mela Val di Non», ai sensi del regolamento (UE) 2024/1143 e del decreto 22 dicembre 2025.",
+      "sintesi": "Comunicato relativo alla domanda di modifica del disciplinare della DOP 'Mela Val di Non'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05148/sg"
+    },
+    {
+      "codice_atto": "26A05264",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Autorizzazione unica, sul progetto presentato dalla societa' proponente «A.S. Roma S.r.l.», relativo alla realizzazione e gestione di un nuovo stadio di calcio nell'area di Pietralata, in Roma.",
+      "sintesi": "Autorizzazione unica per il progetto di realizzazione e gestione del nuovo stadio di calcio dell'A.S. Roma nell'area di Pietralata.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05264/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00195",
+      "titolo": "LEGGE 5 ottobre 2026, n. 175 Istituzione della Giornata nazionale della meraviglia, al fine di sensibilizzare sulle sofferenze e far conoscere le fatiche dei bambini che vivono in guerra, per riflettere sul valore fondamentale del diritto alla meraviglia nella vita dei bambini e degli adulti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00195/sg"
+    },
+    {
+      "codice": "26G00191",
+      "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176 Attuazione della direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio, del 13 giugno 2024, recante norme comuni che promuovono la riparazione dei beni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg"
+    },
+    {
+      "codice": "26A05158",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Ronco Biellese e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05158/sg"
+    },
+    {
+      "codice": "26A05159",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Monte San Giovanni Campano e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05159/sg"
+    },
+    {
+      "codice": "26A05160",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Longone Sabino e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05160/sg"
+    },
+    {
+      "codice": "26A05222",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 22 luglio 2026 Integrazione al decreto 17 luglio 2026, relativo alla ripartizione della quota residua nazionale di cattura di tonno rosso anno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05222/sg"
+    },
+    {
+      "codice": "26A05223",
+      "titolo": "DECRETO 30 luglio 2026 Seconda integrazione al decreto 17 luglio 2026, relativo alla ripartizione della quota residua nazionale di cattura di tonno rosso anno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05223/sg"
+    },
+    {
+      "codice": "26A05266",
+      "titolo": "DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 15 e il 20 luglio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05266/sg"
+    },
+    {
+      "codice": "26A05267",
+      "titolo": "DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 17 luglio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05267/sg"
+    },
+    {
+      "codice": "26A05268",
+      "titolo": "DECRETO 30 settembre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Veneto il 2 giugno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05268/sg"
+    },
+    {
+      "codice": "26A05161",
+      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - DECRETO 14 maggio 2026 Disciplina del sistema di valutazione dell'offerta formativa erogata dalle istituzioni formative accreditate dalle regioni, per la validazione dei percorsi di durata quadriennale di istruzione e formazione professionale nell'ambito della filiera formativa tecnologico-professionale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05161/sg"
+    },
+    {
+      "codice": "26A05221",
+      "titolo": "MINISTERO DELLA DIFESA - DECRETO 11 settembre 2026 Fondo per gli assetti ad alta e altissima prontezza operativa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05221/sg"
+    },
+    {
+      "codice": "26A05347",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 17 settembre 2026 Ripartizione tra le regioni della somma di 15 milioni di euro in attuazione di quanto previsto dall'articolo 1, comma 365, della legge 30 dicembre 2024, n. 207.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05347/sg"
+    },
+    {
+      "codice": "26A05163",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 28 agosto 2026 Modifiche e integrazioni al decreto 11 maggio 2016, concernente l'istituzione del SINFI - Sistema informativo nazionale federato delle infrastrutture.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05163/sg"
+    },
+    {
+      "codice": "26A05224",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 4 agosto 2026 Potenziamento asse ferroviario Monaco-Verona. Galleria di base del Brennero infrastruttura strategica di interesse nazionale (articolo 1 della legge n. 443 del 2001) - Approvazione avvio quinto lotto costruttivo e nuovo limite di spesa dell'opera (CUP I41J05000020005). (Delibera n. 27/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05224/sg"
+    },
+    {
+      "codice": "26A05162",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - PROVVEDIMENTO 22 settembre 2026 Regolamento concernente la predisposizione del modello di relazione in tema di repressione delle frodi di cui all'articolo 30, comma 1, del decreto-legge 24 gennaio 2012, n. 1, convertito, con modificazioni, nella legge 24 marzo 2012, n. 27. (Regolamento n. 59/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05162/sg"
+    },
+    {
+      "codice": "26A05225",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di colecalciferolo, «Colecalciferolo EG Stada Italia».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05225/sg"
+    },
+    {
+      "codice": "26A05226",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di colecalciferolo, «Vibon».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05226/sg"
+    },
+    {
+      "codice": "26A05227",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di colecalciferolo, «Anorsia»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05227/sg"
+    },
+    {
+      "codice": "26A05228",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di exemestane, «Inibarix»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05228/sg"
+    },
+    {
+      "codice": "26A05229",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di metronidazolo, «Metronidazolo Kabi».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05229/sg"
+    },
+    {
+      "codice": "26A05230",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di filgrastim (fattore umano ricombinante metionilato stimolante le colonie granulocitarie), «Granulokine».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05230/sg"
+    },
+    {
+      "codice": "26A05231",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di esteri etilici di acidi grassi poliinsaturi, «Balik».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05231/sg"
+    },
+    {
+      "codice": "26A05232",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di abiraterone, «Abiraterone Sun».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05232/sg"
+    },
+    {
+      "codice": "26A05233",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di flurbiprofene, «Benactivdol Gola» e «Benactivdolmed».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05233/sg"
+    },
+    {
+      "codice": "26A05234",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di acetilsalicilato di D,L-lisina, «Cardirene».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05234/sg"
+    },
+    {
+      "codice": "26A05148",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Domanda di modifica ordinaria del disciplinare della denominazione di origine protetta (DOP) dei prodotti agricoli «Mela Val di Non», ai sensi del regolamento (UE) 2024/1143 e del decreto 22 dicembre 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05148/sg"
+    },
+    {
+      "codice": "26A05264",
+      "titolo": "COMUNICATO Autorizzazione unica, sul progetto presentato dalla societa' proponente «A.S. Roma S.r.l.», relativo alla realizzazione e gestione di un nuovo stadio di calcio nell'area di Pietralata, in Roma.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05264/sg"
+    }
+  ],
   "audio": "audio/2026-10-07.mp3",
-  "duration": 11.6
+  "duration": 577.3
 }

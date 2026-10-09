@@ -1,13 +1,253 @@
 {
   "date": "2026-10-06",
   "giorno": "martedì",
-  "stato": "nessuna_legge_interesse",
-  "numero_gu": "77",
-  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=77",
-  "note": "Report Gazzetta Ufficiale del 2026-10-06",
-  "updatedAt": "2026-10-07T19:11:30Z",
+  "updatedAt": "2026-10-09T11:15:27Z",
+  "version": 2,
+  "stato": "con_schede",
+  "numero_gu": "232",
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-06&numeroGazzetta=232",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/06/232/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 6 ottobre 2026 è dominata da due importanti leggi di conversione. La prima introduce l'obbligo di compostabilità per specifiche tipologie di imballaggi monouso, con significative eccezioni per il settore ortofrutticolo, e definisce le relative sanzioni. La seconda legge interviene sulla funzionalità della pubblica amministrazione e degli enti territoriali, con misure che vanno dalla gestione delle ferie non godute del personale pubblico alle assunzioni straordinarie, fino a modifiche sull'ordinamento delle province e la protezione civile.",
+  "schede": [
+    {
+      "codice_atto": "26G00193",
+      "titolo": "Obbligo di compostabilità per imballaggi monouso e sanzioni",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 173",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore dal 07/10/2026. Converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 143.",
+      "contesto": "La legge converte il decreto-legge n. 143 del 2026, introducendo modifiche significative alla normativa ambientale in materia di imballaggi, in linea con le direttive europee sulla sostenibilità e la gestione dei rifiuti.",
+      "misure": [
+        "Art. 1, comma 1: Il decreto-legge 7 agosto 2026, n. 143, è convertito in legge con le modificazioni riportate in allegato.",
+        "Art. 1, comma 2: La legge entra in vigore il giorno successivo alla sua pubblicazione.",
+        "Allegato - Art. 1, comma 1, lettera a) (modifiche al D.Lgs. 152/2006): Introduce l'Art. 226-quinquies, che stabilisce l'obbligo di certificazione come biodegradabili e compostabili (UNI EN 13432 o standard equivalenti) per i seguenti imballaggi di plastica monouso, se immessi per la prima volta sul mercato nazionale: a) imballaggi per meno di 1,5 kg di prodotti ortofrutticoli freschi preconfezionati; b) imballaggi di alimenti e bevande destinati al consumo nel settore HORECA; c) imballaggi di porzioni individuali di condimenti nel settore HORECA (con eccezioni); d) imballaggi flessibili per cosmetici e prodotti per l'igiene nel settore ricettivo, a condizione che il prodotto contenuto sia certificato biodegradabile e compostabile.",
+        "Allegato - Art. 1, comma 1, lettera a) (modifiche al D.Lgs. 152/2006): L'Art. 226-quinquies, comma 2, prevede eccezioni agli obblighi del comma 1 per gli imballaggi di cui alle lettere a) e c), numero 2), e per quelli di cui alla lettera b), alle condizioni stabilite dal regolamento (UE) 2025/40.",
+        "Allegato - Art. 1, comma 1, lettera a) (modifiche al D.Lgs. 152/2006): L'Art. 226-quinquies, comma 2-bis, introduce una deroga agli obblighi per gli imballaggi di cui al comma 1, lettera a), contenenti specifici prodotti ortofrutticoli freschi preconfezionati (es. ciliegie, albicocche, uva da tavola, kiwi, pere, mele, lattughe, spinaci, broccoli, pomodori, patate, asparagi, erbe aromatiche, funghi coltivati, frutta e verdura di IV gamma), in attesa degli orientamenti della Commissione europea.",
+        "Allegato - Art. 1, comma 1, lettera b) (modifiche al D.Lgs. 152/2006): All'Art. 261, è aggiunto il comma 4-quinquies, che sanziona la violazione delle disposizioni dell'Art. 226-quinquies con una sanzione amministrativa pecuniaria da 2.500 a 25.000 euro, aumentabile fino al quadruplo del massimo se la violazione riguarda quantitativi di imballaggi superiori al 10% del fatturato del trasgressore. La sanzione non si applica se l'operatore economico dimostra di aver acquisito gli imballaggi con idonea documentazione di conformità, salvo conoscenza o evidenza della non conformità. Queste sanzioni si applicano a partire dal 1° gennaio 2030."
+      ],
+      "chi_interessato": "Produttori, importatori, distributori e utilizzatori di imballaggi di plastica monouso, in particolare nel settore alimentare (ortofrutta preconfezionata, HORECA) e ricettivo. Organismi di certificazione. Autorità di controllo ambientale.",
+      "decorrenza": "7 ottobre 2026, ad eccezione delle sanzioni per la violazione dell'Art. 226-quinquies che si applicano dal 1° gennaio 2030.",
+      "perche_conta": "La legge rappresenta un passo significativo verso la riduzione dell'impatto ambientale degli imballaggi in plastica, promuovendo la compostabilità. Le deroghe per specifici prodotti ortofrutticoli freschi preconfezionati mirano a bilanciare le esigenze ambientali con quelle del settore agricolo e della distribuzione, fornendo un periodo di transizione e chiarezza sulle applicazioni future delle norme sanzionatorie.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg",
+      "vigore": "07/10/2026"
+    },
+    {
+      "codice_atto": "26G00194",
+      "titolo": "Disposizioni urgenti per la funzionalità della PA, enti territoriali e protezione civile",
+      "riferimento": "LEGGE 5 ottobre 2026, n. 174",
+      "categoria": "Economico",
+      "iter": "In vigore dal 07/10/2026. Converte, con modificazioni, il decreto-legge 7 agosto 2026, n. 144.",
+      "contesto": "La legge di conversione interviene con modifiche urgenti su vari aspetti della pubblica amministrazione, degli enti territoriali e della protezione civile, con l'obiettivo di migliorarne la funzionalità e la capacità operativa.",
+      "misure": [
+        "Art. 1, comma 1: Il decreto-legge 7 agosto 2026, n. 144, è convertito in legge con le modificazioni riportate in allegato.",
+        "Art. 1, comma 2: La legge entra in vigore il giorno successivo alla sua pubblicazione.",
+        "Allegato - Art. 1, comma 1: Modifica l'Art. 5, comma 8, del D.L. 95/2012, stabilendo che la mancata fruizione delle ferie da parte del personale pubblico non comporta la corresponsione di trattamenti economici sostitutivi alla cessazione del rapporto di lavoro, se dipendente da scelta consapevole del lavoratore. Il datore di lavoro deve invitare formalmente il personale a fruire delle ferie.",
+        "Allegato - Art. 1, comma 3: Estende fino al 31 dicembre 2026 le procedure di inquadramento in ruolo per il personale in servizio a tempo indeterminato in posizione di comando. Prevede l'applicazione delle procedure di cui all'Art. 50, comma 17, D.L. 13/2023 anche alle assunzioni del Ministero dell'economia e delle finanze, computando i periodi di servizio svolti anche a tempo determinato. Incrementa la dotazione finanziaria di euro 390.000 per il 2026 e di euro 200.000 annui dal 2027 per specifiche finalità.",
+        "Allegato - Art. 1, comma 3-bis: Modifica l'Art. 13-bis, comma 2, del D.L. 25/2025, specificando che la sostituzione della parola 'comunque' con ', a decorrere dal 1° marzo 2022,' si applica a decorrere da tale data.",
+        "Allegato - Art. 1, comma 4: Consente alle confederazioni sindacali rappresentative nelle aree della dirigenza di cumulare le ore dei permessi sindacali, dandone comunicazione all'ARAN entro quindici giorni dall'entrata in vigore del decreto.",
+        "Allegato - Art. 1, comma 6: Disciplina il transito nella prima fascia per il personale dirigenziale non generale che svolge un incarico dirigenziale generale, estendendo le disposizioni anche al personale dirigenziale di ruolo titolare di incarichi di livello generale apicale o di cui all'Art. 19, comma 3, D.Lgs. 165/2001, o all'Art. 8, D.Lgs. 178/2009. La domanda per il transito può essere presentata entro trentasei mesi dal compimento del quinquennio.",
+        "Allegato - Art. 1, comma 6-quater: Autorizza le agenzie regionali e delle province autonome per la protezione dell'ambiente e l'ISPRA a procedere, entro il 31 dicembre 2027, all'assunzione a tempo indeterminato di personale non dirigenziale con contratto a tempo determinato che abbia maturato almeno trentasei mesi continuativi di servizio al 31 dicembre 2026, con valutazione positiva e reclutato tramite concorso. Le assunzioni avvengono senza nuovi o maggiori oneri per la finanza pubblica.",
+        "Allegato - Art. 1, comma 8: Sostituisce l'Art. 8 della Legge 157/1992, istituendo il Comitato tecnico faunistico-venatorio nazionale (CTFVN) presso il Ministero dell'agricoltura, della sovranità alimentare e delle foreste, con compiti di organo tecnico consultivo e composizione specificata (rappresentanti ministeriali, regioni, province, ISPRA, associazioni venatorie, agricole, ambientaliste, ecc.).",
+        "Allegato - Art. 1, comma 9-bis: Fino al 31 dicembre 2029, il Ministero dell'ambiente e della sicurezza energetica può attribuire due incarichi dirigenziali generali per l'esercizio delle competenze di autorità settoriale in materia di infrastrutture energetiche e idriche, anche in deroga ai limiti percentuali, nei limiti della dotazione organica e delle facoltà assunzionali vigenti.",
+        "Allegato - Art. 1, comma 11: Autorizza l'Avvocatura dello Stato ad assumere 9 avvocati e 6 procuratori dello Stato nel triennio 2026-2028, e ulteriori 14 avvocati e 4 procuratori dello Stato in deroga alle procedure ordinarie.",
+        "Allegato - Art. 1, comma 12: Copre gli oneri derivanti dalle assunzioni di cui al comma 11, primo periodo, pari a euro 1.847.193 per il 2027, con incrementi annuali fino a euro 3.969.922 annui dal 2036, mediante riduzione del fondo di cui all'Art. 10, comma 5, D.L. 282/2004.",
+        "Allegato - Art. 1, comma 15-ter: Introduce l'Art. 815-bis nel Codice dell'ordinamento militare, istituendo un contingente di trenta unità di personale del Corpo delle capitanerie di porto – Guardia costiera per il funzionamento del Reparto ambientale marino, con oneri a carico del Ministero dell'ambiente e della sicurezza energetica. Autorizza una spesa di 2.375.324 euro annui a decorrere dal 2027 per l'attuazione.",
+        "Allegato - Art. 1, comma 15-sexies: Consente alle amministrazioni pubbliche e agli enti locali di riservare una quota non superiore al 20% dei posti o di valorizzare l'esperienza professionale nelle procedure selettive non dirigenziali indette entro il 31 dicembre 2027, a favore di soggetti con almeno tre anni di servizio (anche non continuativi) con contratti di lavoro flessibile negli ultimi cinque anni, nel medesimo profilo professionale.",
+        "Allegato - Art. 1-bis, comma 1: Incrementa la dotazione organica dei dirigenti di seconda fascia della Presidenza del Consiglio dei ministri, articolando l'Ispettorato in due servizi.",
+        "Allegato - Art. 2, comma 10: Proroga la durata dei consigli provinciali fino alla scadenza del mandato dei rispettivi presidenti di provincia, e viceversa, al fine di riallineare i mandati, in attesa di una revisione organica dell'ordinamento delle province. La proroga dei consigli non si applica ai rinnovi da effettuare entro il 31 dicembre 2026 nelle province dove il presidente è stato eletto nello stesso anno prima dell'entrata in vigore del decreto."
+      ],
+      "chi_interessato": "Pubbliche amministrazioni centrali e locali, enti territoriali (province, comuni), Ministero dell'economia e delle finanze, Ministero dell'ambiente e della sicurezza energetica, Avvocatura dello Stato, personale pubblico (dirigenziale e non), agenzie ambientali (ARPA, ISPRA), organizzazioni sindacali, Corpo delle capitanerie di porto – Guardia costiera, cittadini.",
+      "decorrenza": "7 ottobre 2026.",
+      "perche_conta": "La legge apporta modifiche strutturali e operative alla pubblica amministrazione, con impatti sulla gestione del personale, le assunzioni, la rappresentanza sindacale e l'organizzazione di enti chiave. Le disposizioni mirano a rafforzare la capacità amministrativa, a stabilizzare il personale precario e a migliorare la funzionalità degli enti territoriali, inclusa la protezione civile e la tutela ambientale marina, con significative implicazioni finanziarie e organizzative.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg",
+      "vigore": "07/10/2026"
+    }
+  ],
   "scartate": [],
-  "schede": [],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05153",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Eboli e nomina del commissario straordinario.",
+      "sintesi": "Scioglimento del consiglio comunale di Eboli e nomina di un commissario straordinario per la gestione dell'ente.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05153/sg"
+    },
+    {
+      "codice_atto": "26A05154",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Crespino e nomina del commissario straordinario.",
+      "sintesi": "Scioglimento del consiglio comunale di Crespino e nomina di un commissario straordinario per la gestione dell'ente.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05154/sg"
+    },
+    {
+      "codice_atto": "26A05155",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Curino.",
+      "sintesi": "Scioglimento del consiglio comunale di Curino.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05155/sg"
+    },
+    {
+      "codice_atto": "26A05208",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 30 luglio 2026 Accertamento delle entrate ai sensi dell'articolo 1, comma 632, della legge 30 dicembre 2018, n. 145, da destinare al finanziamento del settore sportivo.",
+      "sintesi": "Accertamento delle entrate da destinare al finanziamento del settore sportivo, come previsto dalla legge di bilancio 2019.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05208/sg"
+    },
+    {
+      "codice_atto": "26A05207",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - DECRETO 1 settembre 2026 Modifiche alle aliquote di finanziamento del Fondo di solidarieta' bilaterale per la filiera delle telecomunicazioni.",
+      "sintesi": "Modifiche alle aliquote contributive per il finanziamento del Fondo di solidarietà bilaterale destinato al settore delle telecomunicazioni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05207/sg"
+    },
+    {
+      "codice_atto": "26A05209",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 24 settembre 2026 Modifiche al decreto 22 settembre 2025, in materia di autorizzazioni internazionali al trasporto di merci su strada.",
+      "sintesi": "Modifiche alla normativa sulle autorizzazioni internazionali per il trasporto di merci su strada.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05209/sg"
+    },
+    {
+      "codice_atto": "26A05253",
+      "categoria": "Economico",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Siciliana nelle iniziative finalizzate al superamento della situazione di criticita' determinata dal deficit idrico. (Ordinanza n. 1210).",
+      "sintesi": "Ordinanza per regolare il subentro della Regione Siciliana nelle iniziative di protezione civile per affrontare il deficit idrico.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05253/sg"
+    },
+    {
+      "codice_atto": "26A05210",
+      "categoria": "Economico",
+      "titolo": "COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 29 aprile 2026 Nuova linea ferroviaria Torino-Lione: «Opere e misure compensative dell'impatto territoriale e sociale nel quadro di accompagnamento dell'opera». Interventi di priorita' 1. Rimodulazione delle opere e misure compensative di cui alla delibera CIPE n. 62/2016, a favore del Teatro di Susa: (CUP: C11J05000030001 e J84B12000510001) Programma delle infrastrutture strategiche, legge 21 dicembre 2001, n. 443 (legge obiettivo). (Delibera n. 19/2026).",
+      "sintesi": "Rimodulazione delle opere e misure compensative per l'impatto territoriale e sociale della nuova linea ferroviaria Torino-Lione, con interventi a favore del Teatro di Susa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05210/sg"
+    },
+    {
+      "codice_atto": "26A05219",
+      "categoria": "Energia e Ambiente",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO Pubblicazione del decreto 10 agosto 2026, concernente le modalita' di attuazione dell'opzione di fuoriuscita volontaria dai meccanismi di incentivazione in Conto Energia.",
+      "sintesi": "Pubblicazione del decreto che definisce le modalità per la fuoriuscita volontaria dagli incentivi del Conto Energia.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05219/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00193",
+      "titolo": "LEGGE 5 ottobre 2026, n. 173 Conversione in legge, con modificazioni, del decreto-legge 7 agosto 2026, n. 143, recante disposizioni urgenti in materia di obbligo di compostabilita' di determinate tipologie di imballaggi.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00193/sg"
+    },
+    {
+      "codice": "26G00194",
+      "titolo": "LEGGE 5 ottobre 2026, n. 174 Conversione in legge, con modificazioni, del decreto-legge 7 agosto 2026, n. 144, recante disposizioni urgenti per la funzionalita' della pubblica amministrazione e degli enti territoriali, nonche' in materia di protezione civile.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26G00194/sg"
+    },
+    {
+      "codice": "26A05153",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Eboli e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05153/sg"
+    },
+    {
+      "codice": "26A05154",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Crespino e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05154/sg"
+    },
+    {
+      "codice": "26A05155",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 9 settembre 2026 Scioglimento del consiglio comunale di Curino.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05155/sg"
+    },
+    {
+      "codice": "26A05208",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 30 luglio 2026 Accertamento delle entrate ai sensi dell'articolo 1, comma 632, della legge 30 dicembre 2018, n. 145, da destinare al finanziamento del settore sportivo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05208/sg"
+    },
+    {
+      "codice": "26A05207",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - DECRETO 1 settembre 2026 Modifiche alle aliquote di finanziamento del Fondo di solidarieta' bilaterale per la filiera delle telecomunicazioni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05207/sg"
+    },
+    {
+      "codice": "26A05209",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 24 settembre 2026 Modifiche al decreto 22 settembre 2025, in materia di autorizzazioni internazionali al trasporto di merci su strada.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05209/sg"
+    },
+    {
+      "codice": "26A05253",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 17 settembre 2026 Ordinanza di protezione civile per favorire e regolare il subentro della Regione Siciliana nelle iniziative finalizzate al superamento della situazione di criticita' determinata dal deficit idrico. (Ordinanza n. 1210).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05253/sg"
+    },
+    {
+      "codice": "26A05210",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 29 aprile 2026 Nuova linea ferroviaria Torino-Lione: «Opere e misure compensative dell'impatto territoriale e sociale nel quadro di accompagnamento dell'opera». Interventi di priorita' 1. Rimodulazione delle opere e misure compensative di cui alla delibera CIPE n. 62/2016, a favore del Teatro di Susa: (CUP: C11J05000030001 e J84B12000510001) Programma delle infrastrutture strategiche, legge 21 dicembre 2001, n. 443 (legge obiettivo). (Delibera n. 19/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05210/sg"
+    },
+    {
+      "codice": "26A05306",
+      "titolo": "TESTI COORDINATI E AGGIORNATI TESTO COORDINATO DEL - DECRETO-LEGGE 7 agosto 2026, n. 143 Testo del decreto-legge 7 agosto 2026, n. 143 (in Gazzetta Ufficiale - Serie generale - n. 182 del 7 agosto 2026), coordinato con la legge di conversione 5 ottobre 2026, n. 173 (in questa stessa Gazzetta Ufficiale alla pag. 1), recante: «Disposizioni urgenti in materia di obbligo di compostabilita' di determinate tipologie di imballaggi.».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05306/sg"
+    },
+    {
+      "codice": "26A05288",
+      "titolo": "TESTO COORDINATO DEL - DECRETO-LEGGE 7 agosto 2026, n. 144 Testo del decreto-legge 7 agosto 2026, n. 144 (in Gazzetta Ufficiale - Serie generale - n. 182 del 7 agosto 2026), coordinato con la legge di conversione 5 ottobre 2026, n. 174 (in questa stessa Gazzetta Ufficiale alla pag. 2), recante: «Disposizioni urgenti per la funzionalita' della pubblica amministrazione e degli enti territoriali, nonche' in materia di protezione civile.».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05288/sg"
+    },
+    {
+      "codice": "26A05211",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di indacaterolo maleato, glicopirronio, indacaterolo, glicopirronio bromuro, «Indacaterolo e Glicopirronio EG».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05211/sg"
+    },
+    {
+      "codice": "26A05212",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di paroxetina, «Tekisippis»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05212/sg"
+    },
+    {
+      "codice": "26A05213",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di edoxaban, «Oblonela»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05213/sg"
+    },
+    {
+      "codice": "26A05214",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di Lactobacillus rhamnosus e Lactobacillus gasseri, «Gynocaneslacto Microbiota vaginale».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05214/sg"
+    },
+    {
+      "codice": "26A05215",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di azacitidina, «Azacitidina Sandoz GmbH».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05215/sg"
+    },
+    {
+      "codice": "26A05216",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di colecalciferolo, «Dertop»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05216/sg"
+    },
+    {
+      "codice": "26A05217",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di colecalciferolo, «Dietra»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05217/sg"
+    },
+    {
+      "codice": "26A05218",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di captopril e idroclorotiazide, «Captopril e Idroclorotiazide Mylan Generics».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05218/sg"
+    },
+    {
+      "codice": "26A05219",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO Pubblicazione del decreto 10 agosto 2026, concernente le modalita' di attuazione dell'opzione di fuoriuscita volontaria dai meccanismi di incentivazione in Conto Energia.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05219/sg"
+    },
+    {
+      "codice": "26A05156",
+      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - COMUNICATO Edilizia scolastica - Approvazione della graduatoria degli interventi per l'eliminazione delle barriere architettoniche negli edifici scolastici.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05156/sg"
+    },
+    {
+      "codice": "26A05157",
+      "titolo": "REGIONE PIEMONTE - COMUNICATO Dichiarazione di notevole interesse pubblico delle Case Grotta in localita' Cariglie di Mombarone e del loro intorno rurale-naturalistico, nel Comune di Asti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05157/sg"
+    }
+  ],
   "audio": "audio/2026-10-06.mp3",
-  "duration": 11.2
+  "duration": 810.7
 }

@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-09",
+    "giorno": "venerdì",
+    "numero_gu": "235",
+    "stato": "nessuna_legge_interesse",
+    "schede": 0
+  },
+  {
     "date": "2026-10-08",
     "giorno": "giovedì",
     "numero_gu": "234",
@@ -9,16 +16,16 @@
   {
     "date": "2026-10-07",
     "giorno": "mercoledì",
-    "numero_gu": "40",
-    "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "numero_gu": "233",
+    "stato": "con_schede",
+    "schede": 1
   },
   {
     "date": "2026-10-06",
     "giorno": "martedì",
-    "numero_gu": "77",
-    "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "numero_gu": "232",
+    "stato": "con_schede",
+    "schede": 2
   },
   {
     "date": "2026-10-05",
@@ -38,8 +45,8 @@
     "date": "2026-10-02",
     "giorno": "venerdì",
     "numero_gu": "229",
-    "stato": "nessuna_legge_interesse",
-    "schede": 0
+    "stato": "con_schede",
+    "schede": 1
   },
   {
     "date": "2026-10-01",
