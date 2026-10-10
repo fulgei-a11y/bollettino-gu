@@ -46,7 +46,7 @@ jobs:
       - name: Controlla che gli script siano completi
         id: check
         run: |
-          for f in generate.py tools/make_audio.py tools/build_audio.py tools/build_extras.py tools/report_status.py; do
+          for f in generate.py tools/make_audio.py tools/build_audio.py tools/parlamento.py tools/build_extras.py tools/report_status.py; do
             python -m py_compile "$f" || { echo "❌ $f non è valido: ricaricalo per intero."; exit 1; }
             tail -3 "$f" | grep -q "main()" || { echo "❌ $f è incompleto: ricaricalo per intero."; exit 1; }
           done
@@ -74,6 +74,12 @@ jobs:
         continue-on-error: true
         run: python tools/make_audio.py
 
+      - name: Novità dal Parlamento (dossier e documenti delle commissioni)
+        id: parl
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        run: python3 tools/parlamento.py
+
       - name: Archivio, ricerca, scadenzario e podcast (audio solo ultimi 60 giorni)
         id: extras
         if: ${{ !cancelled() }}
@@ -89,6 +95,7 @@ jobs:
           SETUP_OUTCOME: ${{ steps.python.outcome == 'success' && steps.deps.outcome == 'success' && steps.check.outcome == 'success' && 'success' || 'failure' }}
           GEN_OUTCOME: ${{ steps.gen.outcome }}
           AUDIO_OUTCOME: ${{ steps.audio.outcome }}
+          PARL_OUTCOME: ${{ steps.parl.outcome }}
           EXTRAS_OUTCOME: ${{ steps.extras.outcome }}
         run: python3 tools/report_status.py
 
