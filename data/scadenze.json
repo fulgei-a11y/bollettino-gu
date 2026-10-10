@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-10T14:54:48Z",
+  "generato": "2026-10-10T15:01:23Z",
   "oggi": "2026-10-10",
   "decreti_legge": [
     {
@@ -173,6 +173,24 @@
       "edizione": "2026-10-08",
       "scheda": 2,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg"
+    },
+    {
+      "data": "2026-10-24",
+      "riferimento": "LEGGE 9 ottobre 2026, n. 180",
+      "titolo": "Disposizioni in materia di elezioni della Camera dei deputati e del Senato della Repubblica.",
+      "categoria": "",
+      "edizione": "2026-10-09",
+      "scheda": null,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg"
+    },
+    {
+      "data": "2026-10-24",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 181",
+      "titolo": "Attuazione della direttiva (UE) 2024/2839 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, in materia di comunicazione nei settori degli alimenti e dei loro ingredienti, dell'emissione acustica ambientale,…",
+      "categoria": "",
+      "edizione": "2026-10-09",
+      "scheda": null,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00196/sg"
     }
   ]
 }
