@@ -129,7 +129,8 @@ def clip(s, n):
 
 def build_search(eds):
     """Una riga per ogni scheda, atto segnalato, legge scartata e atto dell'edizione.
-    k: s = scheda, a = altro atto segnalato, x = scartata, t = atto dell'indice."""
+    k: s = scheda, a = altro atto segnalato, x = scartata, t = atto dell'indice,
+    p = dossier o documento del Parlamento (da data/parlamento.json)."""
     rows = []
     for d in eds:
         base = {"d": d["date"], "n": str(d.get("numero_gu", ""))}
@@ -153,6 +154,20 @@ def build_search(eds):
             if a.get("codice") in seen:
                 continue
             rows.append({**base, "k": "t", "t": clip(a.get("titolo"), 320), "l": a.get("link", "")})
+    parl = {}
+    try:
+        with open(os.path.join(DATA, "parlamento.json"), encoding="utf-8") as f:
+            parl = json.load(f)
+    except Exception:
+        pass
+    for v in parl.get("voci") or []:
+        org = v.get("organo", "")
+        if v.get("fonte") == "commissione":
+            org = "Commissione " + " e ".join(v.get("commissioni") or [org.split(" ")[0]])
+        rows.append({"d": v.get("data") or v.get("visto", "")[:10], "n": "", "k": "p",
+                     "t": clip(v.get("titolo"), 220),
+                     "r": clip(" – ".join(x for x in (org, v.get("tipo"), v.get("atto")) if x), 140),
+                     "c": v.get("materia", ""), "x": clip(v.get("contesto"), 500), "l": v.get("link", "")})
     write_json("search.json", rows, compact=True)
     size = os.path.getsize(os.path.join(DATA, "search.json"))
     print(f"🔎 Indice di ricerca: {len(rows)} voci, {size / 1024:.0f} KB.")
