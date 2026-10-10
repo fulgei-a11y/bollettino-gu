@@ -1,5 +1,5 @@
 /* Bollettino GU — service worker: il sito si apre anche senza rete con l'ultima versione vista. */
-const VERSION = 'bgu-v1';
+const VERSION = 'bgu-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
 

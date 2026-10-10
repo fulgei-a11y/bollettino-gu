@@ -129,15 +129,16 @@ a{color:var(--accent);}
 .status-detail dd{margin:0; color:var(--ink);}
 .status-detail ul{margin:6px 0 0; padding-left:1.1em; color:var(--alert);}
 
-.tabs{display:flex; gap:4px; margin-top:8px; overflow-x:auto; scrollbar-width:none;}
+.tabs{display:flex; gap:0; margin-top:8px; overflow-x:auto; scrollbar-width:none;}
 .tabs::-webkit-scrollbar{display:none;}
 .tab{
   font:inherit; font-size:.9rem; font-weight:600; color:var(--ink-soft); background:none; border:0; cursor:pointer;
-  padding:9px 12px 10px; border-bottom:3px solid transparent; border-radius:0; white-space:nowrap;
-  display:inline-flex; align-items:center; gap:6px;
+  padding:9px 8px 10px; border-bottom:3px solid transparent; border-radius:0; white-space:nowrap;
+  display:inline-flex; align-items:center; justify-content:center; gap:5px; flex:1 1 auto;
 }
 .tab[aria-selected="true"]{color:var(--ink); border-bottom-color:var(--gold);}
-.tab .count{font-family:"IBM Plex Mono",monospace; font-size:.68rem; font-weight:500; background:var(--pending-bg); color:var(--pending); border-radius:10px; padding:1px 6px;}
+@media (max-width:400px){ .tab{font-size:.84rem; padding-inline:4px;} }
+.tab .count{font-family:"IBM Plex Mono",monospace; font-size:.66rem; font-weight:500; background:var(--pending-bg); color:var(--pending); border-radius:10px; padding:1px 6px;}
 
 .controls{display:flex; gap:6px; padding-top:10px;}
 select#editionSelect{
@@ -288,6 +289,74 @@ mark{background:var(--mark); color:inherit; border-radius:2px; padding:0 1px;}
 .timeline .what a{font-size:.78rem; font-weight:600; text-decoration:none; margin-right:12px;}
 .timeline li.todayline{display:block; padding:6px 14px; font-family:"IBM Plex Mono",monospace; font-size:.68rem; color:var(--accent); background:var(--surface-2); text-transform:uppercase; letter-spacing:.08em;}
 
+/* ---------- Parlamento ---------- */
+.tab .count.new{background:var(--giust-bg); color:var(--giust);}
+.seg{display:inline-flex; border:1px solid var(--line-strong); border-radius:9px; overflow:hidden; margin:12px 0 0; background:var(--surface);}
+.seg button{border-radius:0; border:0; border-left:1px solid var(--line-strong); background:none; color:var(--ink-soft); padding:8px 14px; font-size:.84rem;}
+.seg button:first-child{border-left:0;}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--bg);}
+.parl-check{display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; font-size:.84rem; color:var(--ink-soft); margin:14px 0 4px; padding:10px 12px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line);}
+.parl-check b{color:var(--ink);}
+.parl-check .linkbtn{margin-left:auto;}
+.day-h{font-family:"Source Serif 4",serif; font-weight:700; font-size:.95rem; margin:24px 0 2px; display:flex; align-items:baseline; gap:8px;}
+.day-h small{font-family:"Public Sans",sans-serif; font-weight:400; font-size:.78rem; color:var(--ink-faint);}
+.pitems{list-style:none; margin:0; padding:0;}
+.pitem{padding:13px 0 12px; border-top:1px solid var(--line);}
+.pitem:first-child{border-top:0;}
+.pitem.fresh{position:relative;}
+.pitem.fresh::before{content:""; position:absolute; left:-12px; top:16px; bottom:14px; width:3px; border-radius:2px; background:var(--gold);}
+.pmeta{display:flex; gap:6px; flex-wrap:wrap; align-items:center; font-size:.74rem; color:var(--ink-faint); margin-bottom:5px;}
+.pmeta .org{font-weight:600; color:var(--ink-soft);}
+.badge-new{font-family:"IBM Plex Mono",monospace; font-size:.62rem; letter-spacing:.06em; text-transform:uppercase; padding:2px 6px; border-radius:5px; background:var(--gold); color:#1C2541; font-weight:500;}
+.pt{font-family:"Source Serif 4",serif; font-weight:600; font-size:1rem; line-height:1.35; color:var(--ink); text-decoration:none; display:block;}
+a.pt:hover{text-decoration:underline;}
+.pnote{font-size:.84rem; color:var(--ink-soft); margin-top:3px; line-height:1.45;}
+.pctx{font-size:.82rem; color:var(--ink-soft); margin-top:5px; line-height:1.5;}
+.pctx summary{cursor:pointer; list-style:none; color:var(--ink-soft);}
+.pctx summary::-webkit-details-marker{display:none;}
+.pctx summary .more{color:var(--accent); font-weight:600; white-space:nowrap;}
+.pctx[open] summary .more{display:none;}
+.plinks{display:flex; gap:14px; flex-wrap:wrap; margin-top:6px;}
+.plinks a{font-size:.8rem; font-weight:600; text-decoration:none;}
+.sources{margin-top:26px; font-size:.78rem; color:var(--ink-faint); line-height:1.6;}
+.sources ul{margin:4px 0 0; padding-left:1.1em;}
+.sources .ko{color:var(--alert);}
+
+/* ---------- Preferiti ---------- */
+.favbtn{display:inline-flex; align-items:center; gap:6px; background:var(--surface); color:var(--ink); border:1px solid var(--line-strong); padding:7px 11px; margin-bottom:6px; border-radius:20px; font-size:.82rem; flex:none;}
+@media (max-width:400px){ .favbtn > span:not(.favcount){display:none;} .favbtn{padding:8px 10px;} }
+.favbtn svg{color:var(--gold);}
+.favbtn[aria-current="page"]{background:var(--ink); color:var(--bg); border-color:var(--ink);}
+.favcount{font-family:"IBM Plex Mono",monospace; font-size:.7rem; font-weight:500; min-width:18px; text-align:center;}
+.star{display:inline-flex; align-items:center; gap:5px; background:none; border:0; padding:0; font-size:.82rem; font-weight:600; color:var(--accent); cursor:pointer;}
+.star svg{width:16px; height:16px; flex:none;}
+.star svg path{fill:none; stroke:currentColor; stroke-width:1.8; stroke-linejoin:round;}
+.star[aria-pressed="true"] svg path{fill:var(--gold); stroke:var(--gold);}
+.star.icon-only{padding:4px; margin:-4px -4px -4px auto;}
+.altro .star{display:flex; margin-top:6px; font-size:.78rem;}
+.fav-head{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:4px;}
+.fav-head h2{font-size:1.35rem;}
+.fav-head small{color:var(--ink-faint); font-size:.85rem;}
+.favs{list-style:none; margin:0; padding:0; background:var(--surface); border:1px solid var(--line); border-radius:12px;}
+.fav{padding:13px 14px; border-top:1px solid var(--line);}
+.fav:first-child{border-top:0;}
+.fav .pmeta{margin-bottom:4px;}
+.fav .pt{font-size:1rem;}
+.fav .ref{font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-faint); margin-top:3px;}
+.fav .alertline{font-size:.8rem; font-weight:600; margin-top:6px; color:var(--pending);}
+.fav .alertline.urgent{color:var(--alert);}
+.fav .alertline.ok{color:var(--ok);}
+.fav-note{margin-top:8px; font-size:.86rem; line-height:1.5; color:var(--ink); background:var(--surface-2); border-left:3px solid var(--gold); padding:6px 10px; border-radius:0 6px 6px 0; white-space:pre-wrap;}
+.fav textarea{width:100%; margin-top:8px; font:inherit; font-size:.88rem; padding:8px 10px; border-radius:8px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); min-height:70px; resize:vertical;}
+.fav-actions{display:flex; gap:16px; flex-wrap:wrap; margin-top:8px;}
+.fav-actions a, .fav-actions button{font-size:.8rem; font-weight:600; text-decoration:none;}
+.fav .sum{font-size:.84rem; color:var(--ink-soft); line-height:1.5; margin-top:4px;}
+.linkbtn.danger{color:var(--alert);}
+.fav-tools{display:flex; gap:8px; flex-wrap:wrap; margin-top:22px;}
+.fav-tools button, .fav-tools label{font:inherit; font-size:.82rem; font-weight:600; padding:8px 12px; border-radius:8px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); cursor:pointer;}
+.fav-import{background:var(--pending-bg); color:var(--ink); border-radius:10px; padding:12px 14px; font-size:.88rem; line-height:1.5; margin-bottom:16px;}
+.fav-import .row{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;}
+
 /* ---------- Piè di pagina ---------- */
 footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe-area-inset-bottom,0px)); font-size:.78rem; color:var(--ink-faint); line-height:1.6;}
 .tools{display:grid; gap:8px; margin-bottom:16px;}
@@ -310,14 +379,18 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
 
 <div class="wrap">
   <header class="brand">
+    <div class="kicker">Gazzetta Ufficiale · Serie Generale</div>
     <div class="masthead-row">
       <div>
-        <div class="kicker">Gazzetta Ufficiale · Serie Generale</div>
         <h1>Bollettino GU</h1>
         <button class="freshness" id="freshness" type="button" aria-expanded="false" aria-controls="statusDetail" hidden>
           <span class="dot" aria-hidden="true"></span><span id="freshText"></span><span class="chev" aria-hidden="true">▾</span>
         </button>
       </div>
+      <button class="favbtn" id="favBtn" type="button" aria-label="Preferiti">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="currentColor"/></svg>
+        <span>Preferiti</span><span class="favcount" id="favCount" hidden></span>
+      </button>
     </div>
     <div class="status-detail" id="statusDetail" hidden></div>
   </header>
@@ -327,6 +400,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
       <button class="tab" role="tab" id="tab-edizioni" aria-controls="view-edizioni" aria-selected="true" data-view="edizioni">Edizioni</button>
       <button class="tab" role="tab" id="tab-cerca" aria-controls="view-cerca" aria-selected="false" data-view="cerca">Cerca</button>
       <button class="tab" role="tab" id="tab-scadenze" aria-controls="view-scadenze" aria-selected="false" data-view="scadenze">Scadenze <span class="count" id="dlCount" hidden></span></button>
+      <button class="tab" role="tab" id="tab-parlamento" aria-controls="view-parlamento" aria-selected="false" data-view="parlamento">Parlamento <span class="count new" id="parlCount" hidden></span></button>
     </nav>
 
     <div id="edizioniBar">
@@ -372,6 +446,26 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     <section class="view" id="view-scadenze" role="tabpanel" aria-labelledby="tab-scadenze" hidden>
       <div id="scadOut"><div class="empty-state"><div class="big">Carico lo scadenzario…</div></div></div>
     </section>
+
+    <section class="view" id="view-preferiti" role="region" aria-label="Preferiti" hidden>
+      <div id="favOut"></div>
+    </section>
+
+    <section class="view" id="view-parlamento" role="tabpanel" aria-labelledby="tab-parlamento" hidden>
+      <p class="lead">Dossier dei Servizi Studi di Camera e Senato e documenti depositati nelle commissioni Giustizia, Bilancio, Finanze, Ambiente e Attività produttive della Camera: memorie delle audizioni e contributi sui progetti di legge.</p>
+      <div class="seg" role="group" aria-label="Fonte">
+        <button type="button" data-src="" aria-pressed="true">Tutto</button>
+        <button type="button" data-src="dossier" aria-pressed="false">Dossier</button>
+        <button type="button" data-src="commissione" aria-pressed="false">Commissioni</button>
+      </div>
+      <div class="chips" id="parlChips" role="group" aria-label="Filtra per materia">
+        <button class="chip" type="button" data-pm="" aria-pressed="true">Tutte le materie</button>
+        <button class="chip" type="button" data-pm="Economico" aria-pressed="false">Economico</button>
+        <button class="chip" type="button" data-pm="Giustizia" aria-pressed="false">Giustizia</button>
+        <button class="chip" type="button" data-pm="Energia e Ambiente" aria-pressed="false">Energia e Ambiente</button>
+      </div>
+      <div id="parlOut"><div class="empty-state"><div class="big">Carico le novità dal Parlamento…</div></div></div>
+    </section>
   </main>
 
   <footer id="footer">
@@ -399,7 +493,8 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
   "use strict";
 
   var state = { list: [], current: null, cache: {}, view: 'edizioni', status: null,
-                search: null, searchLoading: null, scad: null, cat: '', pendingFocus: null };
+                search: null, searchLoading: null, scad: null, cat: '', pendingFocus: null,
+                parl: null, parlSrc: '', parlMat: '', parlSeenMark: null };
 
   var $ = function(id){ return document.getElementById(id); };
   var editionSelect = $('editionSelect'), pdfBtn = $('pdfBtn'), shareBtn = $('shareBtn'), content = $('content');
@@ -541,6 +636,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
       '<div class="card-actions">'+
         (link ? '<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ufficiale ↗</a>' : '')+
         '<button class="linkbtn" type="button" data-share-scheda="'+i+'">Condividi la scheda</button>'+
+        starBtn(favFromScheda(s, i, doc))+
       '</div></article>';
   }
 
@@ -549,7 +645,8 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     return '<h2 class="section-h">Altri atti da segnalare</h2><div class="altri">'+list.map(function(a){
       var link = safeUrl(a.link);
       return '<div class="altro">'+catTag(a.categoria||'Altro')+'<b>'+escapeHtml(a.titolo||'')+'</b>'+escapeHtml(a.sintesi||'')+
-        (link ? ' <a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ↗</a>' : '')+'</div>';
+        (link ? ' <a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ↗</a>' : '')+
+        starBtn(favFromAtto(a, 'a'))+'</div>';
     }).join('')+'</div>';
   }
   function renderDiscardList(list){
@@ -557,7 +654,8 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     return '<h2 class="section-h">Fuori dalle materie seguite <small>individuate e scartate per trasparenza</small></h2><div class="discard-list">'+list.map(function(s){
       var link = safeUrl(s.link);
       return '<div class="altro"><span class="tag">'+escapeHtml(s.materia||'n.d.')+'</span><b>'+escapeHtml(s.titolo||'')+'</b>'+
-        (link ? '<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo integrale ↗</a>' : '')+'</div>';
+        (link ? '<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo integrale ↗</a>' : '')+
+        starBtn(favFromAtto(s, 'x'))+'</div>';
     }).join('')+'</div>';
   }
   function renderTutti(atti, pdfGu){
@@ -872,7 +970,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     if (b < text.length) s = s.replace(/\s\S*$/, '') + '…';
     return highlight(s, re);
   }
-  var KIND = {s:'Scheda', a:'Segnalato', x:'Fuori materia', t:'Atto dell\'edizione'};
+  var KIND = {s:'Scheda', a:'Segnalato', x:'Fuori materia', t:'Atto dell\'edizione', p:'Parlamento'};
 
   function ensureSearchIndex(){
     if (state.search) return Promise.resolve(state.search);
@@ -912,7 +1010,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
           if (!hit) return;
           score += hit;
         }
-        score += ({s:4, a:2, x:0, t:0})[r.k];
+        score += ({s:4, a:2, x:0, t:0, p:2})[r.k];
         res.push({r:r, score:score});
       });
       res.sort(function(a,b){ return b.score - a.score || (a.r.d < b.r.d ? 1 : -1); });
@@ -925,6 +1023,13 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
       }
       html += '<ul class="results">' + res.slice(0, shown).map(function(o){
         var r = o.r, href = '#' + r.d + (r.k === 's' ? '/s' + r.i : '');
+        if (r.k === 'p'){
+          var pl = safeUrl(r.l);
+          return '<li class="result"><a href="'+escapeHtml(pl)+'" target="_blank" rel="noopener">'+
+            '<div class="rmeta">'+(r.c ? catTag(r.c) : '')+'<span class="tag">Parlamento</span><span>'+escapeHtml(itDate(r.d))+'</span></div>'+
+            '<div class="rt">'+(re ? highlight(r.t, re) : escapeHtml(r.t))+' ↗</div>'+
+            (r.r ? '<div class="rx">'+(re ? highlight(r.r, re) : escapeHtml(r.r))+'</div>' : '')+'</a></li>';
+        }
         var title = re ? highlight(r.t, re) : escapeHtml(r.t);
         var sn = re ? (snippet(r.x, re) || (r.r ? highlight(r.r, re) : '')) : escapeHtml((r.x||'').slice(0,160));
         return '<li class="result"><a href="'+href+'" data-d="'+r.d+'"'+(r.k==='s'?' data-i="'+r.i+'"':'')+'>'+
@@ -967,6 +1072,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
       var active = (s.decreti_legge||[]).filter(function(d){ return d.stato === 'in_conversione' && daysBetween(isoToday(), d.scadenza) >= 0; }).length;
       if (active){ $('dlCount').textContent = active; $('dlCount').hidden = false; $('dlCount').setAttribute('aria-label', active + ' decreti-legge in conversione'); }
       if (state.current && state.view === 'edizioni') render(state.current);
+      if (state.view === 'preferiti') renderFavs();
       return s;
     });
   }
@@ -986,6 +1092,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     if (d.scheda != null && d.pubblicazione) links.push('<a href="#'+d.pubblicazione+'/s'+d.scheda+'" data-d="'+d.pubblicazione+'" data-i="'+d.scheda+'">Leggi la scheda</a>');
     else if (d.pubblicazione && !d.fuori_archivio) links.push('<a href="#'+d.pubblicazione+'" data-d="'+d.pubblicazione+'">Apri l\'edizione</a>');
     if (safeUrl(d.link)) links.push('<a href="'+escapeHtml(d.link)+'" target="_blank" rel="noopener">Testo ufficiale ↗</a>');
+    links.push(starBtn(favFromDl(d)));
 
     if (stato === 'in_conversione'){
       var left = daysBetween(today, d.scadenza), gone = 60 - left;
@@ -1080,6 +1187,309 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     triggerBrowserDownload(blob, 'scadenza-dl-'+d.numero+'-'+d.anno+'.ics');
   }
 
+  // ---------------------------------------------------------------- Parlamento
+  var PARL_MARK = 'bgu-parl-visto';
+  function loadParlamento(){
+    return getJson('data/parlamento.json').then(function(p){
+      state.parl = p;
+      if (state.parlSeenMark === null) state.parlSeenMark = store(PARL_MARK) || '';
+      updateParlCount();
+      return p;
+    });
+  }
+  // nuovo "per te": comparso dopo la tua ultima visita alla sezione (alla prima visita: l'ultimo controllo)
+  function isFresh(v){
+    if (v.iniziale) return false;
+    var mark = state.parlSeenMark;
+    if (mark) return v.visto > mark;
+    var last = state.parl && state.parl.controlli && state.parl.controlli[0];
+    return !!(last && v.visto >= last.quando);
+  }
+  function updateParlCount(){
+    var n = ((state.parl && state.parl.voci) || []).filter(isFresh).length, el = $('parlCount');
+    el.textContent = n; el.hidden = !n; el.setAttribute('aria-label', n + ' novità dal Parlamento');
+  }
+  function parlItem(v){
+    var fresh = isFresh(v), link = safeUrl(v.link);
+    var org = v.fonte === 'commissione'
+      ? (v.commissioni && v.commissioni.length > 1 ? 'Commissioni ' + v.commissioni.join(' e ') + ' riunite' : (v.organo ? 'Commissione ' + v.organo.replace(/^([IVX]+) /, '$1 ') : 'Commissione'))
+      : (v.organo || 'Dossier');
+    var meta = (fresh ? '<span class="badge-new">Nuovo</span>' : '') + (v.materia ? catTag(v.materia) : '') +
+      '<span class="org">'+escapeHtml(org)+'</span>' +
+      (v.senato ? '<span class="tag">Camera e Senato</span>' : '') +
+      (v.tipo && v.fonte === 'commissione' ? '<span>'+escapeHtml(v.tipo)+'</span>' : '') +
+      (v.atto && (v.titolo||'').indexOf(v.atto) < 0 ? '<span>'+escapeHtml(v.atto)+'</span>' : '') +
+      (fresh && v.data ? '<span>'+escapeHtml(itDate(v.data,'short'))+(v.ora ? ', ore '+escapeHtml(v.ora) : '')+'</span>' : '');
+    var title = link ? '<a class="pt" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">'+escapeHtml(v.titolo)+'</a>' : '<span class="pt">'+escapeHtml(v.titolo)+'</span>';
+    var body = '';
+    if (v.fonte === 'dossier' && v.tipo) body += '<div class="pnote">'+escapeHtml(v.tipo)+'</div>';
+    if (v.contesto){
+      var c = v.contesto, short = c.length > 150 ? c.slice(0, 150).replace(/\s\S*$/, '') + '…' : c;
+      body += c.length > 150
+        ? '<details class="pctx"><summary>'+escapeHtml(v.seduta ? v.seduta + ': ' : '')+escapeHtml(short)+' <span class="more">continua</span></summary>'+escapeHtml(c)+'</details>'
+        : '<div class="pctx">'+escapeHtml(v.seduta ? v.seduta + ': ' : '')+escapeHtml(c)+'</div>';
+    }
+    var links = [];
+    if (link) links.push('<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">'+(v.fonte === 'dossier' ? 'Apri il dossier ↗' : (/\.pdf$/i.test(link) ? 'Apri il PDF ↗' : 'Apri il documento ↗'))+'</a>');
+    if (safeUrl(v.pagina)) links.push('<a href="'+escapeHtml(v.pagina)+'" target="_blank" rel="noopener">Tutti i documenti della commissione ↗</a>');
+    links.push(starBtn(favFromParl(v)));
+    return '<li class="pitem'+(fresh?' fresh':'')+'"><div class="pmeta">'+meta+'</div>'+title+body+'<div class="plinks">'+links.join('')+'</div></li>';
+  }
+  function renderParlamento(){
+    var out = $('parlOut'), p = state.parl;
+    if (!p || !p.voci){
+      out.innerHTML = '<div class="empty-state"><div class="big">Le novità dal Parlamento non sono ancora disponibili</div>Compariranno dopo il prossimo controllo automatico.</div>';
+      return;
+    }
+    var voci = p.voci.filter(function(v){
+      return (!state.parlSrc || v.fonte === state.parlSrc) && (!state.parlMat || v.materia === state.parlMat);
+    });
+    var fresh = voci.filter(isFresh);
+    var last = (p.controlli || [])[0], html = '';
+    if (last){
+      var n = last.nuovi;
+      html += '<div class="parl-check" role="status"><span>Ultimo controllo <b>'+escapeHtml(whenLabel(last.quando))+'</b>: '+
+        (n ? n + (n===1 ? ' novità' : ' novità') : 'nessuna novità')+'.</span>'+
+        (fresh.length ? '<span>Per te: <b>'+fresh.length+'</b> da leggere.</span><button class="linkbtn" type="button" id="parlMarkRead">Segna come lette</button>' : '')+'</div>';
+    }
+    if (!voci.length){
+      html += '<div class="empty-state"><div class="big">Niente con questi filtri</div>Prova con «Tutte le materie» o «Tutto».</div>';
+      out.innerHTML = html; return;
+    }
+    // novità per te in cima, poi per data di pubblicazione
+    var rest = voci.filter(function(v){ return !isFresh(v); });
+    if (fresh.length){
+      html += '<h2 class="day-h">Da leggere <small>'+fresh.length+'</small></h2><ul class="pitems">'+
+        fresh.sort(function(a,b){ return (b.data||'') < (a.data||'') ? -1 : 1; }).map(parlItem).join('')+'</ul>';
+    }
+    var groups = {}, order = [];
+    rest.sort(function(a,b){ return ((b.data||'')+(b.ora||'')) < ((a.data||'')+(a.ora||'')) ? -1 : 1; }).forEach(function(v){
+      var k = v.data || 'senza data'; if (!groups[k]){ groups[k] = []; order.push(k); } groups[k].push(v);
+    });
+    var shown = 0, LIMIT = 120;
+    order.forEach(function(k){
+      if (shown >= LIMIT) return;
+      var list = groups[k].slice(0, LIMIT - shown); shown += list.length;
+      var d = parseIso(k), label = d ? d.toLocaleDateString('it-IT', {weekday:'long', day:'numeric', month:'long'}) : k;
+      html += '<h2 class="day-h">'+escapeHtml(label.charAt(0).toUpperCase()+label.slice(1))+' <small>'+groups[k].length+'</small></h2><ul class="pitems">'+list.map(parlItem).join('')+'</ul>';
+    });
+    var src = (p.fonti || []).map(function(f){
+      return '<li class="'+(f.ok?'':'ko')+'"><a href="'+escapeHtml(safeUrl(f.url))+'" target="_blank" rel="noopener">'+escapeHtml(f.nome)+'</a>'+
+        (f.ok ? '' : ': non raggiungibile all\'ultimo controllo')+'</li>';
+    }).join('');
+    html += '<div class="sources"><b>Fonti controllate</b><ul>'+src+'</ul>'+
+      'I dossier del Senato arrivano dal portale comune della documentazione parlamentare. Le commissioni del Senato non sono incluse: il sito del Senato non consente la lettura automatica delle sue pagine.</div>';
+    out.innerHTML = html;
+  }
+  function markParlRead(){
+    var p = state.parl; if (!p || !p.voci) return;
+    var max = p.voci.reduce(function(m, v){ return v.visto > m ? v.visto : m; }, (p.controlli[0]||{}).quando || '');
+    state.parlSeenMark = max; store(PARL_MARK, max); updateParlCount(); renderParlamento();
+  }
+  $('parlOut').addEventListener('click', function(e){ if (e.target.id === 'parlMarkRead') markParlRead(); });
+  document.querySelector('#view-parlamento .seg').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    state.parlSrc = b.getAttribute('data-src');
+    Array.prototype.forEach.call(this.querySelectorAll('button'), function(x){ x.setAttribute('aria-pressed', String(x === b)); });
+    renderParlamento();
+  });
+  $('parlChips').addEventListener('click', function(e){
+    var b = e.target.closest('.chip'); if (!b) return;
+    state.parlMat = b.getAttribute('data-pm');
+    Array.prototype.forEach.call(this.querySelectorAll('.chip'), function(x){ x.setAttribute('aria-pressed', String(x === b)); });
+    renderParlamento();
+  });
+
+  // ---------------------------------------------------------------- preferiti
+  // Salvati nel browser di questo dispositivo. Ogni voce porta con sé titolo e link,
+  // così resta leggibile anche quando esce dall'archivio online.
+  var FAV_KEY = 'bgu-preferiti', favReg = {}, favEditing = null;
+  var STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>';
+  var FAV_GROUPS = [['s','Leggi e decreti con scheda'], ['dl','Decreti-legge'], ['a','Atti segnalati'], ['x','Leggi fuori dalle materie seguite'], ['p','Dossier e documenti del Parlamento']];
+  function favLoad(){ try{ var v = JSON.parse(store(FAV_KEY) || '[]'); return Array.isArray(v) ? v : []; }catch(e){ return []; } }
+  var favs = favLoad();
+  function favSave(){
+    var ok = true;
+    try{ localStorage.setItem(FAV_KEY, JSON.stringify(favs)); }catch(e){ ok = false; }
+    if (!ok) toast('Questo browser non permette di salvare: i preferiti dureranno fino alla chiusura della pagina');
+    updateFavCount();
+  }
+  function favIndex(id){ for (var i = 0; i < favs.length; i++) if (favs[i].id === id) return i; return -1; }
+  function updateFavCount(){ var c = $('favCount'); c.textContent = favs.length; c.hidden = !favs.length; $('favBtn').setAttribute('aria-label', 'Preferiti' + (favs.length ? ', ' + favs.length : '')); }
+  function starBtn(o){
+    if (!o || !o.id) return '';
+    favReg[o.id] = o;
+    var on = favIndex(o.id) >= 0;
+    return '<button class="star" type="button" data-fav-id="'+escapeHtml(o.id)+'" aria-pressed="'+on+'">'+STAR+'<span>'+(on ? 'Nei preferiti' : 'Preferito')+'</span></button>';
+  }
+  function favFromScheda(s, i, doc){
+    return {id:'s:'+doc.date+':'+(s.codice_atto||i), k:'s', t:s.titolo||'', r:s.riferimento||'', c:s.categoria||'',
+            d:doc.date, h:'#'+doc.date+'/s'+i, l:safeUrl(s.link)};
+  }
+  function favFromAtto(a, k){
+    var doc = state.current || {};
+    return {id:k+':'+doc.date+':'+(a.codice_atto||a.titolo), k:k, t:a.titolo||'', r:a.sintesi ? a.sintesi.slice(0,240) : '', c:a.categoria||a.materia||'',
+            d:doc.date, h:'#'+doc.date, l:safeUrl(a.link)};
+  }
+  function favFromDl(d){
+    return {id:'dl:'+d.anno+'-'+d.numero, k:'dl', t:d.titolo||d.riferimento, r:d.riferimento, c:d.categoria||'', d:d.pubblicazione||d.data_dl,
+            h:(d.scheda != null && d.pubblicazione) ? '#'+d.pubblicazione+'/s'+d.scheda : '#scadenze', l:safeUrl(d.link)};
+  }
+  function favFromParl(v){
+    var org = v.fonte === 'commissione' ? 'Commissione ' + ((v.commissioni||[]).join(' e ') || v.organo) : (v.organo || 'Dossier');
+    return {id:'p:'+v.id, k:'p', t:v.titolo, r:[org, v.tipo, v.atto].filter(Boolean).join(' – '), c:v.materia||'',
+            d:v.data || (v.visto||'').slice(0,10), h:'', l:safeUrl(v.link)};
+  }
+  function toggleFav(id, btn){
+    var i = favIndex(id), on;
+    if (i >= 0){ favs.splice(i, 1); on = false; }
+    else {
+      var o = favReg[id]; if (!o) return;
+      favs.unshift(Object.assign({}, o, {added: new Date().toISOString()}));
+      on = true;
+    }
+    favSave();
+    Array.prototype.forEach.call(document.querySelectorAll('.star[data-fav-id]'), function(b){
+      if (b.getAttribute('data-fav-id') !== id) return;
+      b.setAttribute('aria-pressed', String(on)); b.querySelector('span').textContent = on ? 'Nei preferiti' : 'Preferito';
+    });
+    toast(on ? 'Aggiunto ai preferiti' : 'Tolto dai preferiti');
+  }
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('.star[data-fav-id]');
+    if (b){ e.preventDefault(); e.stopPropagation(); toggleFav(b.getAttribute('data-fav-id'), b); }
+  }, true);
+  $('favBtn').addEventListener('click', function(){ showView('preferiti'); });
+
+  // decreto-legge salvato (come scheda o dallo scadenzario): stato aggiornato della conversione
+  function favDlLine(f){
+    if (!state.scad) return '';
+    var dl = null;
+    if (f.k === 'dl'){ var m = /^dl:(\d+)-(\d+)$/.exec(f.id); if (m) dl = state.scad.decreti_legge.filter(function(x){ return x.anno === +m[1] && x.numero === +m[2]; })[0]; }
+    else if (f.k === 's') dl = dlInfo(f.r);
+    if (!dl) return '';
+    if (dl.stato === 'convertito') return '<div class="alertline ok">Convertito in legge ('+escapeHtml((dl.conversione||{}).legge||'')+')</div>';
+    if (dl.stato === 'non_convertito') return '<div class="alertline urgent">Decaduto: non convertito in legge</div>';
+    var left = daysBetween(isoToday(), dl.scadenza);
+    if (left < 0) return '<div class="alertline urgent">Termine di conversione scaduto il '+escapeHtml(itDate(dl.scadenza))+'</div>';
+    return '<div class="alertline'+(left <= 7 ? ' urgent' : '')+'">Da convertire entro il '+escapeHtml(itDate(dl.scadenza,'noyear'))+': '+left+(left===1?' giorno':' giorni')+'</div>';
+  }
+  function favItem(f){
+    var link = safeUrl(f.l), internal = f.h && /^#/.test(f.h);
+    var title = internal ? '<a class="pt" href="'+escapeHtml(f.h)+'">'+escapeHtml(f.t)+'</a>'
+      : (link ? '<a class="pt" href="'+escapeHtml(link)+'" target="_blank" rel="noopener">'+escapeHtml(f.t)+' ↗</a>' : '<span class="pt">'+escapeHtml(f.t)+'</span>');
+    var meta = (f.c ? catTag(f.c) : '') + (f.d ? '<span>'+escapeHtml(itDate(f.d))+'</span>' : '');
+    var note = favEditing === f.id
+      ? '<textarea data-note-for="'+escapeHtml(f.id)+'" placeholder="Scrivi una nota: perché ti interessa, cosa verificare…">'+escapeHtml(f.note||'')+'</textarea>'
+      : (f.note ? '<div class="fav-note">'+escapeHtml(f.note)+'</div>' : '');
+    var acts = [];
+    if (internal && link) acts.push('<a href="'+escapeHtml(link)+'" target="_blank" rel="noopener">Testo ufficiale ↗</a>');
+    acts.push(favEditing === f.id ? '<button class="linkbtn" type="button" data-note-save="'+escapeHtml(f.id)+'">Salva la nota</button>'
+      : '<button class="linkbtn" type="button" data-note-edit="'+escapeHtml(f.id)+'">'+(f.note ? 'Modifica la nota' : 'Aggiungi una nota')+'</button>');
+    acts.push('<button class="linkbtn danger" type="button" data-fav-remove="'+escapeHtml(f.id)+'">Togli</button>');
+    return '<li class="fav">'+(meta ? '<div class="pmeta">'+meta+'</div>' : '')+title+
+      (f.r && f.r !== f.t ? '<div class="'+(f.k === 'a' || f.k === 'x' ? 'sum' : 'ref')+'">'+escapeHtml(f.r)+'</div>' : '')+favDlLine(f)+note+
+      '<div class="fav-actions">'+acts.join('')+'</div></li>';
+  }
+  function encodeFavs(list){
+    var json = JSON.stringify(list.map(function(f){ var o = Object.assign({}, f); delete o.added; return o; }));
+    return btoa(unescape(encodeURIComponent(json))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+  }
+  function decodeFavs(code){
+    try{
+      var b = code.replace(/-/g,'+').replace(/_/g,'/'); while (b.length % 4) b += '=';
+      var v = JSON.parse(decodeURIComponent(escape(atob(b))));
+      return Array.isArray(v) ? v.filter(function(f){ return f && f.id && f.t; }) : null;
+    }catch(e){ return null; }
+  }
+  function mergeFavs(list){
+    var added = 0;
+    list.forEach(function(f){
+      var i = favIndex(f.id);
+      if (i < 0){ favs.push(Object.assign({added:new Date().toISOString()}, f)); added++; }
+      else if (f.note && !favs[i].note){ favs[i].note = f.note; }
+    });
+    favSave(); return added;
+  }
+  function renderFavs(){
+    var out = $('favOut'), html = '';
+    if (state.favImport){
+      var inc = decodeFavs(state.favImport);
+      html += inc ? '<div class="fav-import" role="status"><b>Questo link contiene '+inc.length+(inc.length===1?' preferito':' preferiti')+'.</b> Aggiungili a quelli salvati su questo dispositivo? Quelli che hai già restano.'+
+        '<div class="row"><button class="btn-primary" type="button" id="favImportYes">Aggiungi</button><button class="btn-ghost" type="button" id="favImportNo">Non ora</button></div></div>'
+        : '<div class="fav-import">Il link dei preferiti non è valido o è incompleto.</div>';
+    }
+    html += '<div class="fav-head"><h2>Preferiti</h2><small>'+(favs.length ? favs.length + (favs.length===1?' voce':' voci') : '')+'</small></div>';
+    if (!favs.length){
+      html += '<p class="lead">Tocca la stella «Preferito» su una scheda, un decreto-legge, un atto segnalato o un documento del Parlamento: lo ritrovi qui, con le tue note.</p>'+
+        '<p class="note">I preferiti sono salvati nel browser di questo dispositivo. Per averli anche su un altro, usa «Trasferisci su un altro dispositivo» quando ne avrai salvato qualcuno.</p>';
+    } else {
+      FAV_GROUPS.forEach(function(g){
+        var list = favs.filter(function(f){ return f.k === g[0]; });
+        if (!list.length) return;
+        html += '<h2 class="section-h">'+g[1]+' <small>'+list.length+'</small></h2><ul class="favs">'+list.map(favItem).join('')+'</ul>';
+      });
+      html += '<div class="fav-tools">'+
+        '<button type="button" id="favTransfer">Trasferisci su un altro dispositivo</button>'+
+        '<button type="button" id="favExport">Esporta il file</button>'+
+        '<label>Importa un file<input type="file" id="favFile" accept="application/json,.json" hidden></label>'+
+        '</div><p class="note" style="margin-top:10px">Sono salvati nel browser di questo dispositivo: se cancelli i dati di navigazione si perdono, quindi ogni tanto esportali.</p>';
+    }
+    if (!favs.length) html += '<div class="fav-tools"><label>Importa un file<input type="file" id="favFile" accept="application/json,.json" hidden></label></div>';
+    out.innerHTML = html;
+    var ta = out.querySelector('textarea'); if (ta){ ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+  }
+  $('favOut').addEventListener('click', function(e){
+    var t = e.target, id;
+    if ((id = t.getAttribute('data-fav-remove'))){
+      var i = favIndex(id); if (i < 0) return;
+      favs.splice(i, 1); favSave(); renderFavs();
+      toast('Tolto dai preferiti');
+      return;
+    }
+    if ((id = t.getAttribute('data-note-edit'))){ favEditing = id; renderFavs(); return; }
+    if ((id = t.getAttribute('data-note-save'))){
+      var ta = $('favOut').querySelector('textarea'), k = favIndex(id);
+      if (k >= 0 && ta){ favs[k].note = ta.value.trim(); favSave(); }
+      favEditing = null; renderFavs(); toast('Nota salvata'); return;
+    }
+    if (t.id === 'favImportYes'){
+      var inc = decodeFavs(state.favImport || '') || [], n = mergeFavs(inc);
+      state.favImport = null; setHash('preferiti'); renderFavs();
+      toast(n ? n + (n===1 ? ' preferito aggiunto' : ' preferiti aggiunti') : 'Li avevi già tutti'); return;
+    }
+    if (t.id === 'favImportNo'){ state.favImport = null; setHash('preferiti'); renderFavs(); return; }
+    if (t.id === 'favTransfer'){
+      var url = SITE + '#preferiti=' + encodeFavs(favs);
+      if (navigator.share) navigator.share({title:'I miei preferiti del Bollettino GU', url:url}).catch(function(){});
+      else if (navigator.clipboard) navigator.clipboard.writeText(url).then(function(){ toast('Link copiato: aprilo sull\'altro dispositivo'); }, function(){ prompt('Copia questo link', url); });
+      return;
+    }
+    if (t.id === 'favExport'){
+      var blob = new Blob([JSON.stringify({app:'bollettino-gu', esportato:new Date().toISOString(), preferiti:favs}, null, 1)], {type:'application/json'});
+      triggerBrowserDownload(blob, 'preferiti-bollettino-gu-'+isoToday()+'.json'); return;
+    }
+  });
+  // la nota si salva anche uscendo dal campo
+  $('favOut').addEventListener('focusout', function(e){
+    var ta = e.target; if (!ta.matches || !ta.matches('textarea[data-note-for]')) return;
+    var k = favIndex(ta.getAttribute('data-note-for')); if (k >= 0){ favs[k].note = ta.value.trim(); favSave(); }
+  });
+  $('favOut').addEventListener('change', function(e){
+    if (e.target.id !== 'favFile' || !e.target.files[0]) return;
+    var r = new FileReader();
+    r.onload = function(){
+      try{
+        var data = JSON.parse(r.result), list = Array.isArray(data) ? data : data.preferiti;
+        if (!Array.isArray(list)) throw new Error();
+        var n = mergeFavs(list.filter(function(f){ return f && f.id && f.t; })); renderFavs();
+        toast(n ? n + (n===1 ? ' preferito importato' : ' preferiti importati') : 'Nessun preferito nuovo nel file');
+      }catch(err){ toast('Il file non contiene preferiti del Bollettino GU'); }
+    };
+    r.readAsText(e.target.files[0]);
+  });
+  updateFavCount();
+
   // ---------------------------------------------------------------- viste e indirizzi
   var hashLock = false;
   function setHash(h){
@@ -1091,10 +1501,12 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
   }
   function showView(v, silent){
     state.view = v;
-    ['edizioni','cerca','scadenze'].forEach(function(name){
+    ['edizioni','cerca','scadenze','parlamento','preferiti'].forEach(function(name){
       $('view-'+name).hidden = name !== v;
-      $('tab-'+name).setAttribute('aria-selected', String(name === v));
+      if ($('tab-'+name)) $('tab-'+name).setAttribute('aria-selected', String(name === v));
     });
+    if (v === 'preferiti') $('favBtn').setAttribute('aria-current', 'page'); else $('favBtn').removeAttribute('aria-current');
+    if (v === 'preferiti'){ if (!silent) setHash('preferiti'); renderFavs(); }
     $('edizioniBar').hidden = v !== 'edizioni';
     if (v === 'cerca'){
       if (!silent) replaceHashQuiet();
@@ -1104,6 +1516,10 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     if (v === 'scadenze'){
       if (!silent) setHash('scadenze');
       if (state.scad) renderScadenze(); else loadScadenze().then(renderScadenze).catch(renderScadenze);
+    }
+    if (v === 'parlamento'){
+      if (!silent) setHash('parlamento');
+      if (state.parl) renderParlamento(); else loadParlamento().then(renderParlamento).catch(renderParlamento);
     }
     if (v === 'edizioni' && !silent){
       var i = parseInt(editionSelect.value,10) || 0;
@@ -1121,6 +1537,9 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     var m = /^(\d{4}-\d{2}-\d{2})(?:\/s(\d+))?$/.exec(h);
     if (m){ goDate(m[1], m[2] != null ? +m[2] : null); return true; }
     if (h === 'scadenze'){ showView('scadenze', true); return true; }
+    if (h === 'parlamento'){ showView('parlamento', true); return true; }
+    if (h === 'preferiti'){ showView('preferiti', true); return true; }
+    if (h.indexOf('preferiti=') === 0){ state.favImport = h.slice(10); showView('preferiti', true); return true; }
     if (h.indexOf('cerca') === 0){
       var q = h.split('=')[1]; if (q != null) $('q').value = q;
       showView('cerca', true); return true;
@@ -1167,6 +1586,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     });
     getJson('data/status.json').then(function(s){ state.status = s; renderFreshness(); }).catch(function(){});
     loadScadenze().catch(function(){});
+    loadParlamento().catch(function(){});
   }
   loadIndex();
 })();
