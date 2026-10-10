@@ -1,14 +1,159 @@
 {
   "date": "2026-10-10",
   "giorno": "sabato",
-  "updatedAt": "2026-10-09T22:41:15Z",
+  "updatedAt": "2026-10-10T11:11:46Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "nessuna_legge_interesse",
   "numero_gu": "236",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-10&numeroGazzetta=236",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/10/236/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale n. 236 del 10 ottobre 2026 presenta principalmente decreti ministeriali e provvedimenti di autorità. Si segnalano diverse liquidazioni coatte amministrative di cooperative e consorzi, misure di controllo all'esportazione e operazioni finanziarie, oltre a numerose determinazioni e comunicati dell'AIFA relativi a medicinali.",
   "schede": [],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05300",
+      "categoria": "Economico",
+      "titolo": "DECRETO 1 settembre 2026 Nuove misure di controllo all'esportazione verso determinati Paesi terzi, di taluni motori a scoppio e relative parti destinati al settore dell'aviazione, in applicazione di quanto previsto dall'articolo 9 del decreto legislativo 15 dicembre 2017, n. 221.",
+      "sintesi": "Introduce nuove misure per il controllo dell'esportazione di motori a scoppio e relative parti per l'aviazione verso specifici Paesi terzi.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05300/sg"
+    },
+    {
+      "codice_atto": "26A05309",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 5 ottobre 2026 Operazione di riacquisto di titoli di Stato mediante asta competitiva.",
+      "sintesi": "Dispone un'operazione di riacquisto di titoli di Stato attraverso un'asta competitiva.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05309/sg"
+    },
+    {
+      "codice_atto": "26A05294",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Consorzio cooperative agricole Basilicata - Co.C.A.B.», in Potenza e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa del Consorzio cooperative agricole Basilicata - Co.C.A.B. e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05294/sg"
+    },
+    {
+      "codice_atto": "26A05295",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Duebaie - Cooperativa di servizi», in Sestri Levante e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della cooperativa «Duebaie - Cooperativa di servizi» e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05295/sg"
+    },
+    {
+      "codice_atto": "26A05296",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «European Clinical Home Care CRL Work cooperativa sociale», in Roma e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della cooperativa sociale «European Clinical Home Care CRL Work» e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05296/sg"
+    },
+    {
+      "codice_atto": "26A05297",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Gea societa' cooperativa sociale», in Cuneo e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della cooperativa sociale «Gea» e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05297/sg"
+    },
+    {
+      "codice_atto": "26A05293",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Organizzazione dei produttori olivicoli - Consorzio provinciale olivicoltori - Societa' cooperativa agricola», in Salerno e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa del Consorzio provinciale olivicoltori - Società cooperativa agricola e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05293/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26A05300",
+      "titolo": "DECRETO 1 settembre 2026 Nuove misure di controllo all'esportazione verso determinati Paesi terzi, di taluni motori a scoppio e relative parti destinati al settore dell'aviazione, in applicazione di quanto previsto dall'articolo 9 del decreto legislativo 15 dicembre 2017, n. 221.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05300/sg"
+    },
+    {
+      "codice": "26A05298",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 2 ottobre 2026 Conferma dell'incarico al Consorzio di tutela della Melanzana Rossa di Rotonda DOP a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526 per la DOP «Melanzana Rossa di Rotonda».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05298/sg"
+    },
+    {
+      "codice": "26A05299",
+      "titolo": "DECRETO 2 ottobre 2026 Modifiche ordinarie al disciplinare di produzione della Denominazione di origine protetta (DOP) «Prosciutto di San Daniele».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05299/sg"
+    },
+    {
+      "codice": "26A05309",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 5 ottobre 2026 Operazione di riacquisto di titoli di Stato mediante asta competitiva.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05309/sg"
+    },
+    {
+      "codice": "26A05294",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Consorzio cooperative agricole Basilicata - Co.C.A.B.», in Potenza e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05294/sg"
+    },
+    {
+      "codice": "26A05295",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Duebaie - Cooperativa di servizi», in Sestri Levante e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05295/sg"
+    },
+    {
+      "codice": "26A05296",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «European Clinical Home Care CRL Work cooperativa sociale», in Roma e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05296/sg"
+    },
+    {
+      "codice": "26A05297",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Gea societa' cooperativa sociale», in Cuneo e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05297/sg"
+    },
+    {
+      "codice": "26A05293",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Organizzazione dei produttori olivicoli - Consorzio provinciale olivicoltori - Societa' cooperativa agricola», in Salerno e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05293/sg"
+    },
+    {
+      "codice": "26A05310",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di tocilizumab, «Avtozma». (Determina n. 1339/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05310/sg"
+    },
+    {
+      "codice": "26A05311",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di trastuzumab, «Dazublys». (Determina n. 1340/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05311/sg"
+    },
+    {
+      "codice": "26A05312",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di vaccino del Papillomavirus umano 9-valente (ricombinante, adsorbito), «Gardasil 9». (Determina n. 1341/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05312/sg"
+    },
+    {
+      "codice": "26A05270",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di dobutamina cloridrato, «Dobutamina Bioindustria Lim».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05270/sg"
+    },
+    {
+      "codice": "26A05271",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di rabeprazolo sodico, «Pariet».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05271/sg"
+    },
+    {
+      "codice": "26A05272",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di rosuvastatina, «Staros».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05272/sg"
+    },
+    {
+      "codice": "26A05301",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Cipralex»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05301/sg"
+    },
+    {
+      "codice": "26A05302",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Imodium»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05302/sg"
+    },
+    {
+      "codice": "26A05303",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Augmentin»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05303/sg"
+    }
+  ],
+  "audio": "audio/2026-10-10.mp3",
+  "duration": 150.9
 }
