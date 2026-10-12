@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-12T18:17:36Z",
+ "aggiornato": "2026-10-12T19:15:02Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-12T19:15:02Z",
+   "nuovi": 0
+  },
   {
    "quando": "2026-10-12T18:17:36Z",
    "nuovi": 13
