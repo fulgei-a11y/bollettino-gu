@@ -1,14 +1,242 @@
 {
   "date": "2026-10-12",
   "giorno": "lunedì",
-  "updatedAt": "2026-10-12T11:15:52Z",
+  "updatedAt": "2026-10-12T18:16:27Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "237",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-12&numeroGazzetta=237",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/12/237/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 12 ottobre 2026 è dominata dalla Legge n. 182/2026, che ratifica un ampio Accordo di cooperazione strategica tra Italia e Albania, toccando settori cruciali come energia, ambiente, giustizia, economia e infrastrutture. Sono inoltre presenti numerosi decreti ministeriali e provvedimenti di autorità, tra cui diverse liquidazioni coatte amministrative di cooperative e modifiche regolamentari in ambito assicurativo.",
+  "schede": [
+    {
+      "codice_atto": "26G00197",
+      "titolo": "Ratifica Accordo Italia-Albania per cooperazione strategica in vari settori",
+      "riferimento": "LEGGE 1 ottobre 2026, n. 182",
+      "categoria": "Energia e Ambiente",
+      "iter": "In vigore dal 13/10/2026",
+      "contesto": "La legge autorizza la ratifica e dà piena esecuzione all'Accordo di cooperazione strategica tra il Governo della Repubblica Italiana e il Consiglio dei Ministri della Repubblica di Albania, firmato a Roma il 13 novembre 2025. L'accordo mira a rafforzare i legami e la collaborazione in settori chiave per entrambi i Paesi.",
+      "misure": [
+        "Art. 1: Autorizza il Presidente della Repubblica a ratificare l'Accordo tra il Governo della Repubblica italiana e il Consiglio dei ministri della Repubblica di Albania.",
+        "Art. 2: Dà piena ed intera esecuzione all'Accordo, a decorrere dalla data della sua entrata in vigore, in conformità a quanto disposto dall'articolo 7 dell'Accordo stesso.",
+        "Art. 3: Prevede una clausola di invarianza finanziaria, stabilendo che gli adempimenti siano coperti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica.",
+        "Art. 4: Stabilisce l'entrata in vigore della legge il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale.",
+        "Accordo, Articolo 1, comma 1 (Energia): Le Parti cooperano nel settore dell'energia, con particolare riguardo alle energie rinnovabili, all'elettrificazione, all'efficienza energetica e all'uso sostenibile delle risorse naturali. La cooperazione include investimenti e progetti pilota nella generazione di energia solare, eolica, idroelettrica, a idrogeno, geotermica, da biomasse, nella produzione di cogenerazione a biogas, nelle reti e infrastrutture di distribuzione elettrica e nella cattura, utilizzo e stoccaggio di anidride carbonica. Prevede inoltre la promozione di investimenti in progetti di efficientamento energetico (cogenerazione, trigenerazione, sistemi di accumulo, pompe di calore, illuminazione ad alta efficienza, sistemi di gestione degli edifici e dell'energia, sistemi di ricarica per auto elettriche). Si esplorano opportunità di cooperazione sullo sviluppo di infrastrutture per lo stoccaggio di petrolio, prodotti petroliferi raffinati e gas naturale.",
+        "Accordo, Articolo 1, comma 2 (Protezione Ambientale e Gestione Integrata dei Rifiuti): Le Parti cooperano nel promuovere la protezione e la sostenibilità ambientale e nel migliorare le condizioni ecologiche in Albania e nell'intera regione Adriatico-Ionica. La cooperazione include la realizzazione di iniziative congiunte per ripristinare e valorizzare gli ecosistemi, proteggere la biodiversità, prevenire e ridurre l'inquinamento, sviluppare sistemi integrati di gestione dei rifiuti solidi (prevenzione, smistamento, riciclo, valorizzazione energetica), promuovere l'economia circolare, proteggere e usare in modo sostenibile le risorse idriche, progettare e gestire infrastrutture per rifiuti urbani e industriali, impianti di trattamento acque e acque reflue, bonifica e risanamento ambientale. Sono previsti programmi di educazione, formazione e sensibilizzazione, ricerca, innovazione e trasferimento di tecnologie, e scambio di migliori pratiche nella preservazione ambientale e gestione sostenibile delle foreste.",
+        "Accordo, Articolo 1, comma 5 (Cooperazione Migratoria): Le Parti rafforzano la cooperazione nell'affrontare le cause profonde della migrazione irregolare e nel combattere il traffico di migranti e la tratta di esseri umani. Si impegnano a costruire partenariati con i Paesi di origine e transito, rafforzare le capacità di pattugliamento marittimo dell'Albania e implementare efficacemente il Protocollo per il rafforzamento della collaborazione in materia migratoria del 6 novembre 2023. Si prevede lo sviluppo di soluzioni innovative per la gestione della migrazione in vista dell'entrata in vigore del Patto europeo sulla migrazione e l'asilo.",
+        "Accordo, Articolo 1, comma 6 (Cooperazione sulla Giustizia e gli Affari Interni): Le Parti danno priorità all'assistenza giudiziaria reciproca nella lotta contro il crimine organizzato transnazionale, il terrorismo internazionale, il riciclaggio di denaro e il traffico illegale di esseri umani e di stupefacenti. Si prevede il trasferimento di persone condannate verso i loro Paesi di origine, implementando le disposizioni della Convenzione di Strasburgo del 1983 e relativi protocolli d'intesa bilaterali.",
+        "Accordo, Articolo 1, comma 7 (Infrastrutture): Le Parti rafforzano la cooperazione bilaterale nello sviluppo di infrastrutture strategiche fisiche e digitali, al di fuori del settore energetico, per potenziare la connettività e accelerare l'integrazione dell'Albania con l'Europa. La cooperazione può includere la costruzione e modernizzazione di ferrovie, autostrade, aeroporti e porti, nonché infrastrutture digitali per migliorare la connettività, la sovranità digitale e la cyber sicurezza.",
+        "Accordo, Articolo 1, comma 9 (Agribusiness e Catena Alimentare Sostenibile): Le Parti rafforzano la cooperazione in tutta la catena del valore alimentare e dell'agricoltura per promuovere la sostenibilità, l'innovazione e l'integrazione del mercato. Include cooperazione nell'agricoltura biologica, sicurezza alimentare, acquacultura, piante medicinali, sviluppo di prodotti a valore aggiunto e sistemi di tracciabilità, con assistenza tecnica, tecnologie avanzate e creazione di zone pilota italo-albanesi."
+      ],
+      "chi_interessato": "Governo italiano, Consiglio dei Ministri della Repubblica di Albania, Ministeri competenti, enti pubblici e privati coinvolti nei settori dell'energia, ambiente, sicurezza, difesa, migrazioni, giustizia, infrastrutture, sanità, agribusiness, turismo, innovazione e ricerca. Cittadini di entrambi i Paesi.",
+      "decorrenza": "13/10/2026",
+      "perche_conta": "Questa legge è di fondamentale importanza perché ratifica un accordo di cooperazione strategica ad ampio raggio con l'Albania, un partner chiave nell'area balcanica. Le misure previste toccano settori vitali per lo sviluppo economico, la sicurezza, la sostenibilità ambientale e la gestione dei flussi migratori, con un impatto significativo sulle relazioni bilaterali e sull'integrazione regionale dell'Albania. La clausola di invarianza finanziaria sottolinea l'impegno a realizzare gli obiettivi con le risorse esistenti, evidenziando una gestione oculata delle finanze pubbliche.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26G00197/sg",
+      "vigore": "13/10/2026"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05273",
+      "categoria": "Economico",
+      "titolo": "DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 14 settembre 2026 Proroga dell'incarico a Commissario unico per la realizzazione degli interventi di collettamento, fognatura e depurazione delle acque reflue urbane ed ai due subcommissari.",
+      "sintesi": "Proroga l'incarico del Commissario unico e dei due subcommissari per la realizzazione di interventi di collettamento, fognatura e depurazione delle acque reflue urbane.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05273/sg"
+    },
+    {
+      "codice_atto": "26A05317",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperazione Sud per l'Europa cooperativa sociale Onlus - in liquidazione», in Mileto e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della cooperativa sociale 'Cooperazione Sud per l'Europa cooperativa sociale Onlus - in liquidazione' e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05317/sg"
+    },
+    {
+      "codice_atto": "26A05318",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa costruzioni campigiane societa' cooperativa di produzione e lavoro a responsabilita' limitata», in Campi Bisenzio e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della 'Cooperativa costruzioni campigiane societa' cooperativa di produzione e lavoro a responsabilita' limitata' e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05318/sg"
+    },
+    {
+      "codice_atto": "26A05319",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Final Crew societa' cooperativa», in Lucca e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della 'Final Crew societa' cooperativa' e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05319/sg"
+    },
+    {
+      "codice_atto": "26A05320",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Societa' cooperativa sociale L'Albero Azzurro a responsabilita' limitata Onlus», in Palmi e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della 'Societa' cooperativa sociale L'Albero Azzurro a responsabilita' limitata Onlus' e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05320/sg"
+    },
+    {
+      "codice_atto": "26A05321",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Nuova Etruria societa' cooperativa in liquidazione», in Arezzo e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della 'Nuova Etruria societa' cooperativa in liquidazione' e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05321/sg"
+    },
+    {
+      "codice_atto": "26A05322",
+      "categoria": "Economico",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - PROVVEDIMENTO 29 settembre 2026 Modifiche e integrazioni al regolamento n. 36 del 28 febbraio 2017, come modificato dal provvedimento n. 135 del 27 luglio 2023 e dal provvedimento n. 150 del 25 settembre 2024, concernenti nuovi contenuti e termini per l'invio dei flussi relativi alle polizze a copertura dei rischi catastrofali e alle polizze a copertura della responsabilita' civile sanitaria. (Provvedimento n. 175/2026).",
+      "sintesi": "Modifica il regolamento IVASS n. 36/2017 introducendo nuovi contenuti e termini per l'invio dei dati relativi alle polizze per rischi catastrofali e responsabilità civile sanitaria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05322/sg"
+    },
+    {
+      "codice_atto": "26A05325",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Determinazione del costo medio orario del lavoro dei dipendenti da imprese e societa' esercenti servizi ambientali, pubbliche e private, aggiornato per gli operai e per gli impiegati.",
+      "sintesi": "Aggiorna il costo medio orario del lavoro per i dipendenti di imprese e società che erogano servizi ambientali, distinguendo tra operai e impiegati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05325/sg"
+    },
+    {
+      "codice_atto": "26A05327",
+      "categoria": "Economico",
+      "titolo": "COMUNICATO Aggiornamento della determinazione del costo medio orario del lavoro per il personale dipendente da imprese dell'industria metalmeccanica e della installazione di impianti, distintamente per gli operai e per gli impiegati.",
+      "sintesi": "Aggiorna il costo medio orario del lavoro per il personale dipendente da imprese dell'industria metalmeccanica e dell'installazione di impianti, distinguendo tra operai e impiegati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05327/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00197",
+      "titolo": "LEGGE 1 ottobre 2026, n. 182 Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica Italiana e il Consiglio dei Ministri della Repubblica di Albania in materia di cooperazione strategica nei settori dell'assistenza sanitaria, dell'energia, dell'ambiente, della sicurezza e dell'industria della difesa, della gestione delle migrazioni, dell'educazione, dell'innovazione, della diaspora, della trasformazione economica e della crescita intelligente, fatto a Roma il 13 novembre 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26G00197/sg",
+      "tipo": "LEGGE",
+      "vigore": "13/10/2026"
+    },
+    {
+      "codice": "26A05273",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 14 settembre 2026 Proroga dell'incarico a Commissario unico per la realizzazione degli interventi di collettamento, fognatura e depurazione delle acque reflue urbane ed ai due subcommissari.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05273/sg"
+    },
+    {
+      "codice": "26A05274",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 15 settembre 2026 Riconoscimento dell'idoneita' al Centro di saggio «Isagro S.p.a.» in Galliera, ad effettuare prove ufficiali di campo, finalizzate alla produzione di dati di efficacia e alla determinazione dell'entita' dei residui di prodotti fitosanitari.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05274/sg"
+    },
+    {
+      "codice": "26A05149",
+      "titolo": "DECRETO 25 settembre 2026 Approvazione di una modifica ordinaria al disciplinare di produzione della denominazione di origine controllata dei vini «Friuli» o «Friuli-Venezia Giulia» - «Furlanija» o «Furlanija Julijska krajina».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05149/sg"
+    },
+    {
+      "codice": "26A05317",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperazione Sud per l'Europa cooperativa sociale Onlus - in liquidazione», in Mileto e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05317/sg"
+    },
+    {
+      "codice": "26A05318",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa costruzioni campigiane societa' cooperativa di produzione e lavoro a responsabilita' limitata», in Campi Bisenzio e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05318/sg"
+    },
+    {
+      "codice": "26A05319",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Final Crew societa' cooperativa», in Lucca e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05319/sg"
+    },
+    {
+      "codice": "26A05320",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Societa' cooperativa sociale L'Albero Azzurro a responsabilita' limitata Onlus», in Palmi e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05320/sg"
+    },
+    {
+      "codice": "26A05321",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Nuova Etruria societa' cooperativa in liquidazione», in Arezzo e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05321/sg"
+    },
+    {
+      "codice": "26A05313",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di trastuzumab, «Herzuma». (Determina n. 1342/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05313/sg"
+    },
+    {
+      "codice": "26A05314",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ponatinib, «Iclusig». (Determina n. 1343/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05314/sg"
+    },
+    {
+      "codice": "26A05315",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di elafibranor, «Iqirvo». (Determina n. 1344/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05315/sg"
+    },
+    {
+      "codice": "26A05316",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di adalimumab, «Libmyris». (Determina n. 1345/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05316/sg"
+    },
+    {
+      "codice": "26A05322",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - PROVVEDIMENTO 29 settembre 2026 Modifiche e integrazioni al regolamento n. 36 del 28 febbraio 2017, come modificato dal provvedimento n. 135 del 27 luglio 2023 e dal provvedimento n. 150 del 25 settembre 2024, concernenti nuovi contenuti e termini per l'invio dei flussi relativi alle polizze a copertura dei rischi catastrofali e alle polizze a copertura della responsabilita' civile sanitaria. (Provvedimento n. 175/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05322/sg"
+    },
+    {
+      "codice": "26A05276",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atovaquone e proguanile cloridrato, «Malarone».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05276/sg"
+    },
+    {
+      "codice": "26A05277",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atovaquone, «Wellvone».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05277/sg"
+    },
+    {
+      "codice": "26A05278",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di magaldrato, «Riopan».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05278/sg"
+    },
+    {
+      "codice": "26A05279",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di itopride cloridrato, «Progit».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05279/sg"
+    },
+    {
+      "codice": "26A05323",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di glucosio monoidrato/ sodio cloruro / potassio cloruro / magnesio cloruro esaidrato / sodio acetato triidrato / sodio gluconato, «Crystalglu».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05323/sg"
+    },
+    {
+      "codice": "26A05324",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di apremilast, «Apremilast KRKA».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05324/sg"
+    },
+    {
+      "codice": "26A05345",
+      "titolo": "CAMERA DI COMMERCIO INDUSTRIA ARTIGIANATO E AGRICOLTURA DEL GRAN SASSO D'ITALIA - COMUNICATO Provvedimento concernente i marchi di identificazione dei metalli preziosi",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05345/sg"
+    },
+    {
+      "codice": "26A05346",
+      "titolo": "COMUNICATO Provvedimento concernente i marchi di identificazione dei metalli preziosi",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05346/sg"
+    },
+    {
+      "codice": "26A05275",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Determinazione del calendario delle festivita' religiose ebraiche per l'anno 2027",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05275/sg"
+    },
+    {
+      "codice": "26A05326",
+      "titolo": "MINISTERO DELLA DIFESA - COMUNICATO Concessione della medaglia d'oro al valor militare «alla memoria»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05326/sg"
+    },
+    {
+      "codice": "26A05325",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Determinazione del costo medio orario del lavoro dei dipendenti da imprese e societa' esercenti servizi ambientali, pubbliche e private, aggiornato per gli operai e per gli impiegati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05325/sg"
+    },
+    {
+      "codice": "26A05327",
+      "titolo": "COMUNICATO Aggiornamento della determinazione del costo medio orario del lavoro per il personale dipendente da imprese dell'industria metalmeccanica e della installazione di impianti, distintamente per gli operai e per gli impiegati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/12/26A05327/sg"
+    }
+  ],
+  "audio": "audio/2026-10-12.mp3",
+  "duration": 563.2
 }
