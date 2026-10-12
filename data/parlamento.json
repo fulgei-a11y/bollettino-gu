@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-12T11:15:54Z",
+ "aggiornato": "2026-10-12T18:17:36Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-12T18:17:36Z",
+   "nuovi": 13
+  },
   {
    "quando": "2026-10-12T11:15:54Z",
    "nuovi": 4
@@ -43,7 +47,7 @@
    "nome": "V Commissione Bilancio",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
    "ok": true,
-   "trovati": 669
+   "trovati": 673
   },
   {
    "id": "comm6",
@@ -68,6 +72,199 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-e4302b645c5481",
+   "fonte": "commissione",
+   "organo": "V Bilancio",
+   "commissioni": [
+    "V"
+   ],
+   "materia": "Economico",
+   "titolo": "Memoria ISTAT",
+   "tipo": "Memoria",
+   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti dell'ISTAT",
+   "seduta": "Seduta del 12/10/2026",
+   "data": "2026-10-12",
+   "ora": "18:46",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Audizioni/leg19.com05.Audizioni.Memoria.PUBBLICO.ideGes.102557.12-10-2026-18-46-36.440.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
+   "atto": "",
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "c-2d1b0c2f657c86",
+   "fonte": "commissione",
+   "organo": "V Bilancio",
+   "commissioni": [
+    "V"
+   ],
+   "materia": "Economico",
+   "titolo": "Memoria Ufficio parlamentare di bilancio",
+   "tipo": "Memoria",
+   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione della Presidente dell'Ufficio parlamentare di bilancio, Lilia Cavallari",
+   "seduta": "Seduta del 12/10/2026",
+   "data": "2026-10-12",
+   "ora": "17:17",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Audizioni/leg19.com05.Audizioni.Memoria.PUBBLICO.ideGes.102565.12-10-2026-17-17-14.319.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
+   "atto": "",
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "c-4dbab18c36bc70",
+   "fonte": "commissione",
+   "organo": "V Bilancio",
+   "commissioni": [
+    "V"
+   ],
+   "materia": "Economico",
+   "titolo": "Memoria Banca d'Italia",
+   "tipo": "Memoria",
+   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti della Banca d'Italia",
+   "seduta": "Seduta del 12/10/2026",
+   "data": "2026-10-12",
+   "ora": "16:39",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Audizioni/leg19.com05.Audizioni.Memoria.PUBBLICO.ideGes.102561.12-10-2026-16-39-20.506.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
+   "atto": "",
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "c-340892fef544d3",
+   "fonte": "commissione",
+   "organo": "V Bilancio",
+   "commissioni": [
+    "V"
+   ],
+   "materia": "Economico",
+   "titolo": "Memoria CNEL",
+   "tipo": "Memoria",
+   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti del CNEL",
+   "seduta": "Seduta del 12/10/2026",
+   "data": "2026-10-12",
+   "ora": "15:52",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Audizioni/leg19.com05.Audizioni.Memoria.PUBBLICO.ideGes.102545.12-10-2026-15-52-38.343.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
+   "atto": "",
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23670",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23670/misure-urgenti-materia-giustizia-funzionalita-del-ministero-interno-e-impianti-interesse-strategico-nazionale.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23659",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23659/misure-urgenti-assicurare-continuita-operativa-impianti-interesse-strategico-nazionale.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23660",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Dichiarazione di monumento nazionale della piazza Caduti di Marcinelle e della cappella delle Vittime di Marcinelle a Manoppello, in provincia di Pescara",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23660/dichiarazione-monumento-nazionale-della-piazza-caduti-marcinelle-e-della-cappella-vittime-marcinelle-manoppello-provincia-pescara.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23665",
+   "fonte": "dossier",
+   "organo": "Studi - Affari sociali",
+   "materia": "",
+   "titolo": "Istituzione e disciplina della figura professionale dell'assistente spirituale nell'ambito della rete per le cure palliative",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23665/istituzione-e-disciplina-della-figura-professionale-assistente-spirituale-nell-ambito-della-rete-cure-palliative.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23664",
+   "fonte": "dossier",
+   "organo": "Studi - Affari sociali",
+   "materia": "",
+   "titolo": "Disposizioni per la promozione del metodo oralista e per l'inclusione delle persone sorde nella vita civile e sociale",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23664/disposizioni-promozione-del-metodo-oralista-e-l-inclusione-persone-sorde-nella-vita-civile-e-sociale.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23702",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23702/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23709",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "DL 162-2026: Disposizioni urgenti per il sostegno economico e il contenimento degli effetti derivanti dal perdurante aumento del costo dei carburanti, nonché in materia fiscale",
+   "tipo": "",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23709/dl-162-2026-disposizioni-urgenti-sostegno-economico-e-contenimento-degli-effetti-derivanti-dal-perdurante-aumento-del-costo.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23701",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Dichiarazione di monumento nazionale del sistema bastionato della città di Treviso",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23701/dichiarazione-monumento-nazionale-del-sistema-bastionato-della-citta-treviso.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-12T18:17:36Z"
+  },
+  {
+   "id": "d-OCD18-23717",
+   "fonte": "dossier",
+   "organo": "Studi - Cultura",
+   "materia": "",
+   "titolo": "Riordino e riorganizzazione del Consiglio universitario nazionale",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23717/riordino-e-riorganizzazione-del-consiglio-universitario-nazionale.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-12T18:17:36Z"
+  },
   {
    "id": "c-7797c766186ba2",
    "fonte": "commissione",
@@ -330,7 +527,7 @@
    "titolo": "Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale",
    "tipo": "Elementi di valutazione sulla qualità del testo e su specificità, omogeneità e limiti di contenuto del decreto-legge",
    "data": "2026-10-07",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23681/misure-urgenti-materia-giustizia-funzionalita-del-ministero-interno-e-impianti-interesse-strategico-nazionale.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23681/misure-urgenti-materia-giustizia-funzionalita-del-ministero-interno-e-impianti-interesse-strategico-nazionale-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-10T14:59:48Z",
@@ -844,7 +1041,7 @@
    "titolo": "Dichiarazione di monumento nazionale della piazza Caduti di Marcinelle e della cappella delle Vittime di Marcinelle a Manoppello, in provincia di Pescara",
    "tipo": "Schede di lettura",
    "data": "2026-10-01",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23611/dichiarazione-monumento-nazionale-della-piazza-caduti-marcinelle-e-della-cappella-vittime-marcinelle-manoppello-provincia-pescara.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23611/dichiarazione-monumento-nazionale-della-piazza-caduti-marcinelle-e-della-cappella-vittime-marcinelle-manoppello-provincia-pescara-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-10T14:59:48Z",
