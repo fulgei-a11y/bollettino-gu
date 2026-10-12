@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-10T20:10:01Z",
+ "aggiornato": "2026-10-12T11:15:54Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-12T11:15:54Z",
+   "nuovi": 4
+  },
   {
    "quando": "2026-10-10T20:10:01Z",
    "nuovi": 0
@@ -32,7 +36,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 862
+   "trovati": 863
   },
   {
    "id": "comm5",
@@ -53,17 +57,93 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1557
+   "trovati": 1558
   },
   {
    "id": "comm10",
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1645
+   "trovati": 1647
   }
  ],
  "voci": [
+  {
+   "id": "c-7797c766186ba2",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ISDE Italia",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-12",
+   "ora": "12:37",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.12-10-2026-12-37-12.086.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-12T11:15:54Z"
+  },
+  {
+   "id": "c-35e5dbc9036d8b",
+   "fonte": "commissione",
+   "organo": "X Attività produttive",
+   "commissioni": [
+    "X"
+   ],
+   "materia": "Economico",
+   "titolo": "Enel",
+   "tipo": "Contributo scritto",
+   "contesto": "Indagine conoscitiva sulla capacità competitiva del sistema Italia, sulle dinamiche del PIL nel periodo 1992–2025 in rapporto alla media UE e sulle leve di intervento sui settori produttivi per sostenere la crescita economica",
+   "seduta": "",
+   "data": "2026-10-12",
+   "ora": "11:02",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Indagine/leg19.com10.Indagine.Contributo%20Scritto.PUBBLICO.ideGes.85364.12-10-2026-11-02-14.315.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
+   "atto": "",
+   "visto": "2026-10-12T11:15:54Z"
+  },
+  {
+   "id": "c-2100ad9c8f8ff1",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 2904 - Memoria INAIL",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di INAIL, nell'ambito dell'esame della proposta di legge C. 2904 Gribaudo, recante «Modifica all'articolo 76 del testo unico di cui al decreto del Presidente della Repubblica 30 maggio 2002, n. 115, in materia di patrocinio a spese dello Stato in favore delle persone offese da reati commessi con violazione delle norme per la prevenzione degli infortuni sul lavoro, da cui consegua totale inabilità o decesso»",
+   "seduta": "Seduta del 29/09/2026",
+   "data": "2026-10-12",
+   "ora": "10:34",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.101353.12-10-2026-10-34-16.034.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 2904",
+   "visto": "2026-10-12T11:15:54Z"
+  },
+  {
+   "id": "c-a5201ee825959b",
+   "fonte": "commissione",
+   "organo": "X Attività produttive",
+   "commissioni": [
+    "X"
+   ],
+   "materia": "Economico",
+   "titolo": "Enel",
+   "tipo": "Contributo scritto",
+   "contesto": "Indagine conoscitiva sulla capacità competitiva del sistema Italia, sulle dinamiche del PIL nel periodo 1992–2025 in rapporto alla media UE e sulle leve di intervento sui settori produttivi per sostenere la crescita economica",
+   "seduta": "",
+   "data": "2026-10-12",
+   "ora": "10:01",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Indagine/leg19.com10.Indagine.Contributo%20Scritto.PUBBLICO.ideGes.85364.12-10-2026-10-01-39.899.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
+   "atto": "",
+   "visto": "2026-10-12T11:15:54Z"
+  },
   {
    "id": "d-OCD18-23715",
    "fonte": "dossier",
