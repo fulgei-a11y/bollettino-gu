@@ -1,14 +1,217 @@
 {
   "date": "2026-10-13",
   "giorno": "martedì",
-  "updatedAt": "2026-10-13T11:16:12Z",
+  "updatedAt": "2026-10-13T18:21:45Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "238",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-13&numeroGazzetta=238",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/13/238/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 13 ottobre 2026 presenta un regolamento che introduce nuove sigle provinciali, rilevante per la pubblica amministrazione. Sono numerosi i decreti ministeriali e le ordinanze che toccano aspetti economici, finanziari e di gestione delle imprese, inclusa l'emissione di titoli di stato e diverse liquidazioni coatte amministrative. Si segnalano anche interventi urgenti di protezione civile per eventi meteorologici eccezionali.",
+  "schede": [
+    {
+      "codice_atto": "26G00198",
+      "titolo": "Regolamento per l'introduzione delle sigle provinciali di Sulcis Iglesiente, Medio Campidano, Ogliastra e Gallura nord-est Sardegna",
+      "riferimento": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 4 agosto 2026, n. 183",
+      "categoria": "Economico",
+      "iter": "In vigore dal 13 ottobre 2026",
+      "contesto": "Il presente regolamento modifica il decreto del Presidente della Repubblica 16 dicembre 1992, n. 495. Il testo integrale dell'atto non è fornito, pertanto le misure sono desunte dal solo titolo.",
+      "misure": [
+        "Introduzione delle sigle di individuazione per le province di Sulcis Iglesiente, Medio Campidano, Ogliastra e Gallura nord-est Sardegna."
+      ],
+      "chi_interessato": "Enti territoriali, cittadini e professionisti delle nuove province interessate in Sardegna, nonché la pubblica amministrazione per l'aggiornamento dei registri e della modulistica.",
+      "decorrenza": "13 ottobre 2026",
+      "perche_conta": "L'introduzione di nuove sigle provinciali ha implicazioni amministrative e burocratiche significative, influenzando la gestione dei documenti, la toponomastica e l'identificazione territoriale per residenti e operatori economici nelle aree coinvolte.",
+      "fonte_testo": "solo titolo",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26G00198/sg"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05380",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 18 settembre 2026 Modifiche ai decreti nn. 635206 e 635212 del 2 dicembre 2024, relativi ad interventi nel settore vitivinicolo investimenti e alla ricostruzione e riconversione dei vigneti.",
+      "sintesi": "Il decreto apporta modifiche a precedenti provvedimenti riguardanti gli investimenti e la ricostruzione e riconversione dei vigneti nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05380/sg"
+    },
+    {
+      "codice_atto": "26A05374",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 1 ottobre 2026 Riconoscimento della organizzazione di produttori della pesca «Organizzazione produttori Vongola del Conero», con sede ad Ancona, ai sensi del regolamento (UE) n. 1379/2013 e del regolamento di esecuzione (UE) n. 1419/2013.",
+      "sintesi": "Riconosciuta l'organizzazione di produttori della pesca «Organizzazione produttori Vongola del Conero» di Ancona, in conformità alla normativa europea.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05374/sg"
+    },
+    {
+      "codice_atto": "26A05405",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 9 ottobre 2026 Emissione delle operazioni di sottoscrizione dei buoni ordinari del tesoro a 365 giorni, prima e seconda tranche.",
+      "sintesi": "Disposta l'emissione delle operazioni di sottoscrizione per i buoni ordinari del tesoro con scadenza a 365 giorni, relative alla prima e seconda tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05405/sg"
+    },
+    {
+      "codice_atto": "26A05328",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa sociale Fano assistenza e servizi a r.l. in liquidazione», in Fano e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della «Cooperativa sociale Fano assistenza e servizi a r.l. in liquidazione» con sede a Fano e nominato il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05328/sg"
+    },
+    {
+      "codice_atto": "26A05329",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «I.M.A.C. soc. coop.», in Asti e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della «I.M.A.C. soc. coop.» con sede ad Asti e nominato il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05329/sg"
+    },
+    {
+      "codice_atto": "26A05330",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «La Ripadoro societa' cooperativa in liquidazione», in Terricciola e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della «La Ripadoro societa' cooperativa in liquidazione» con sede a Terricciola e nominato il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05330/sg"
+    },
+    {
+      "codice_atto": "26A05331",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Sostituzione del commissario liquidatore del «Consorzio agrario provinciale in liquidazione coatta amministrativa», in Nuoro, in liquidazione coatta amministrativa.",
+      "sintesi": "Disposta la sostituzione del commissario liquidatore del «Consorzio agrario provinciale in liquidazione coatta amministrativa» con sede a Nuoro.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05331/sg"
+    },
+    {
+      "codice_atto": "26A05332",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Societa' cooperativa Pescatori San Francesco di Paola», in Vibo Valentia e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della «Societa' cooperativa Pescatori San Francesco di Paola» con sede a Vibo Valentia e nominato il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05332/sg"
+    },
+    {
+      "codice_atto": "26A05280",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 8 settembre 2026 Aggiornamento dell'elenco degli aeroporti doganali nel territorio nazionale.",
+      "sintesi": "Aggiornato l'elenco degli aeroporti doganali presenti sul territorio nazionale, con implicazioni per le operazioni di import/export.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05280/sg"
+    },
+    {
+      "codice_atto": "26A05373",
+      "categoria": "Economico",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 2 ottobre 2026 Ulteriori interventi urgenti di protezione civile in conseguenza degli eccezionali eventi meteorologici che, a partire dal giorno 18 gennaio 2026, hanno colpito il territorio della Regione Calabria, della Regione autonoma della Sardegna e della Regione Siciliana. (Ordinanza n. 1220).",
+      "sintesi": "Disposti ulteriori interventi urgenti di protezione civile per fronteggiare i danni causati dagli eccezionali eventi meteorologici che hanno interessato Calabria, Sardegna e Sicilia a partire dal 18 gennaio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05373/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00198",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 4 agosto 2026, n. 183 Regolamento recante modifiche al decreto del Presidente della Repubblica 16 dicembre 1992, n. 495, per l'introduzione della sigla di individuazione delle province di Sulcis Iglesiente, Medio Campidano, Ogliastra e Gallura nord-est Sardegna.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26G00198/sg"
+    },
+    {
+      "codice": "26A05380",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 18 settembre 2026 Modifiche ai decreti nn. 635206 e 635212 del 2 dicembre 2024, relativi ad interventi nel settore vitivinicolo investimenti e alla ricostruzione e riconversione dei vigneti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05380/sg"
+    },
+    {
+      "codice": "26A05348",
+      "titolo": "DECRETO 30 settembre 2026 Aggiornamento del registro nazionale delle varieta' di specie agrarie ed ortive.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05348/sg"
+    },
+    {
+      "codice": "26A05374",
+      "titolo": "DECRETO 1 ottobre 2026 Riconoscimento della organizzazione di produttori della pesca «Organizzazione produttori Vongola del Conero», con sede ad Ancona, ai sensi del regolamento (UE) n. 1379/2013 e del regolamento di esecuzione (UE) n. 1419/2013.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05374/sg"
+    },
+    {
+      "codice": "26A05405",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 9 ottobre 2026 Emissione delle operazioni di sottoscrizione dei buoni ordinari del tesoro a 365 giorni, prima e seconda tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05405/sg"
+    },
+    {
+      "codice": "26A05328",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa sociale Fano assistenza e servizi a r.l. in liquidazione», in Fano e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05328/sg"
+    },
+    {
+      "codice": "26A05329",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «I.M.A.C. soc. coop.», in Asti e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05329/sg"
+    },
+    {
+      "codice": "26A05330",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «La Ripadoro societa' cooperativa in liquidazione», in Terricciola e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05330/sg"
+    },
+    {
+      "codice": "26A05331",
+      "titolo": "DECRETO 30 settembre 2026 Sostituzione del commissario liquidatore del «Consorzio agrario provinciale in liquidazione coatta amministrativa», in Nuoro, in liquidazione coatta amministrativa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05331/sg"
+    },
+    {
+      "codice": "26A05332",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Societa' cooperativa Pescatori San Francesco di Paola», in Vibo Valentia e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05332/sg"
+    },
+    {
+      "codice": "26A05280",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 8 settembre 2026 Aggiornamento dell'elenco degli aeroporti doganali nel territorio nazionale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05280/sg"
+    },
+    {
+      "codice": "26A05373",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - ORDINANZA 2 ottobre 2026 Ulteriori interventi urgenti di protezione civile in conseguenza degli eccezionali eventi meteorologici che, a partire dal giorno 18 gennaio 2026, hanno colpito il territorio della Regione Calabria, della Regione autonoma della Sardegna e della Regione Siciliana. (Ordinanza n. 1220).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05373/sg"
+    },
+    {
+      "codice": "26A05333",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di memantina, «Memantina Mylan». (Determina n. 1347/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05333/sg"
+    },
+    {
+      "codice": "26A05334",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di alpelisib, «Vijoice». (Determina n. 1348/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05334/sg"
+    },
+    {
+      "codice": "26A05335",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ranibizumab, «Vislyfa». (Determina n. 1349/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05335/sg"
+    },
+    {
+      "codice": "26A05336",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di lomitapide, «Lojuxta». (Determina n. 1346/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05336/sg"
+    },
+    {
+      "codice": "26A05349",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di indacaterolo maleato, glicopirronio bromuro, «Indacaterolo e Glicopirronio Doc».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05349/sg"
+    },
+    {
+      "codice": "26A05350",
+      "titolo": "COMUNICATO Rinnovo dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di tobramicina/desametasone, «Tobradex».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05350/sg"
+    },
+    {
+      "codice": "26A05375",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di irinotecan cloridrato triidrato, «Irinotecan Amarox».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05375/sg"
+    },
+    {
+      "codice": "26A05376",
+      "titolo": "COMUNICATO Comunicato relativo all'avviso di pubblicazione di provvedimenti di classificazione e rimborsabilita', ed atti correlati, di specialita' medicinali sul portale «TrovaNormeFarmaco».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05376/sg"
+    },
+    {
+      "codice": "26A05377",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Rilascio di exequatur",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05377/sg"
+    },
+    {
+      "codice": "26A05406",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto direttoriale 8 ottobre 2026 - Scoperta imprenditoriale II. Sospensione dei termini per la presentazione delle domande di agevolazione.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26A05406/sg"
+    }
+  ],
+  "audio": "audio/2026-10-13.mp3",
+  "duration": 313.5
 }
