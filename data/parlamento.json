@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-13T11:16:15Z",
+ "aggiornato": "2026-10-13T18:22:44Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-13T18:22:44Z",
+   "nuovi": 13
+  },
   {
    "quando": "2026-10-13T11:16:15Z",
    "nuovi": 2
@@ -52,7 +56,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 864
+   "trovati": 866
   },
   {
    "id": "comm5",
@@ -73,17 +77,222 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1558
+   "trovati": 1561
   },
   {
    "id": "comm10",
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1647
+   "trovati": 1648
   }
  ],
  "voci": [
+  {
+   "id": "c-8fd9bf411d7c69",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 - Contributo scritto Procuratore Nazionale Antimafia_ Dott. Melillo",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3121 - \"Conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante misure urgenti in materia di giustizia, di funzionalità del Ministero dell’interno e di impianti di interesse strategico nazionale\" (3121)",
+   "seduta": "",
+   "data": "2026-10-13",
+   "ora": "18:56",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Progettodilegge/leg19.com02.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101486.13-10-2026-18-56-35.515.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "c-b3c7b463931564",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 - Contributo scritto Lucia Musti",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3121 - \"Conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante misure urgenti in materia di giustizia, di funzionalità del Ministero dell’interno e di impianti di interesse strategico nazionale\" (3121)",
+   "seduta": "",
+   "data": "2026-10-13",
+   "ora": "18:51",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Progettodilegge/leg19.com02.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101486.13-10-2026-18-51-32.863.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "c-1e20b55fe2be66",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ARPA Lombardia",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-13",
+   "ora": "15:59",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.13-10-2026-15-59-41.788.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "c-b8cbe061e55a5f",
+   "fonte": "commissione",
+   "organo": "X Attività produttive",
+   "commissioni": [
+    "X"
+   ],
+   "materia": "Economico",
+   "titolo": "Carlo Alberto Giusti (UniLink)",
+   "tipo": "Contributo scritto",
+   "contesto": "Indagine conoscitiva sulla capacità competitiva del sistema Italia, sulle dinamiche del PIL nel periodo 1992–2025 in rapporto alla media UE e sulle leve di intervento sui settori produttivi per sostenere la crescita economica",
+   "seduta": "",
+   "data": "2026-10-13",
+   "ora": "15:23",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Indagine/leg19.com10.Indagine.Contributo%20Scritto.PUBBLICO.ideGes.85364.13-10-2026-15-23-59.027.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
+   "atto": "",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "c-cbc9509a9b78bd",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ISPRA",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell’Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell’Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell’Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell’ambito dell’",
+   "seduta": "Seduta del 13/10/2026",
+   "data": "2026-10-13",
+   "ora": "15:15",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.102638.13-10-2026-15-15-22.882.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "c-759660aa871c60",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Transport & Environment",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell’Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell’Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell’Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell’ambito dell’",
+   "seduta": "Seduta del 13/10/2026",
+   "data": "2026-10-13",
+   "ora": "09:09",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.102638.13-10-2026-09-09-59.954.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23729",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Elementi per la verifica di sussidiarietà - Proposta di regolamento a favore dell'innovazione (European Innovation Act)",
+   "tipo": "",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23729/elementi-verifica-sussidiarieta-proposta-regolamento-favore-innovazione-european-innovation-act.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23725",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Elementi per la verifica di sussidiarietà - Le iniziative legislative dell'UE per migliorare la mobilità dei lavoratori dell'UE",
+   "tipo": "",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23725/elementi-verifica-sussidiarieta-iniziative-legislative-ue-migliorare-mobilita-lavoratori-ue.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23714",
+   "fonte": "dossier",
+   "organo": "Studi - Ambiente",
+   "materia": "Energia e Ambiente",
+   "titolo": "Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23714/disposizioni-urgenti-rafforzamento-istruttorie-ambientali-gestione-problemi-climatici-l-economia-circolare-e-bonifiche.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23728",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Consiglio europeo - Bruxelles, 15-16 ottobre 2026",
+   "tipo": "",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23728/consiglio-europeo-bruxelles-15-16-ottobre-2026.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23731",
+   "fonte": "dossier",
+   "organo": "Studi - Osservatorio legislativo e parlamentare",
+   "materia": "",
+   "titolo": "Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale",
+   "tipo": "Elementi di valutazione sulla qualità del testo e su specificità, omogeneità e limiti di contenuto del decreto-legge",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23731/misure-urgenti-assicurare-continuita-operativa-impianti-interesse-strategico-nazionale.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23727",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Proposta di regolamento relativa all'Agenzia dell'UE per la cooperazione nell'attività di contrasto (Europol) - COM(2026)580",
+   "tipo": "",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23727/proposta-regolamento-relativa-all-agenzia-ue-cooperazione-nell-attivita-contrasto-europol-com-2026-580.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T18:22:44Z"
+  },
+  {
+   "id": "d-OCD18-23703",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Norme in materia di patrocinio a spese dello Stato in favore delle persone offese da reati commessi con violazione delle norme per la prevenzione degli infortuni sul lavoro, da cui consegua totale inabilità o decesso",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-13",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23703/norme-materia-patrocinio-spese-dello-stato-favore-persone-offese-reati-commessi-violazione-norme-prevenzione-degli-infortuni-sul.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T18:22:44Z"
+  },
   {
    "id": "c-7a168c686e8407",
    "fonte": "commissione",
@@ -213,7 +422,7 @@
    "titolo": "Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale",
    "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
    "data": "2026-10-12",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23659/misure-urgenti-assicurare-continuita-operativa-impianti-interesse-strategico-nazionale.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23659/misure-urgenti-assicurare-continuita-operativa-impianti-interesse-strategico-nazionale-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-12T18:17:36Z"
