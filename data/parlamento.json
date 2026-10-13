@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-12T20:12:45Z",
+ "aggiornato": "2026-10-13T11:16:15Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-13T11:16:15Z",
+   "nuovi": 2
+  },
   {
    "quando": "2026-10-12T20:12:45Z",
    "nuovi": 0
@@ -48,7 +52,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 863
+   "trovati": 864
   },
   {
    "id": "comm5",
@@ -81,6 +85,38 @@
  ],
  "voci": [
   {
+   "id": "c-7a168c686e8407",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3068 - Memoria CNI",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti del Consiglio Nazionale degli Ingegneri e di Professioni Italiane, nell'ambito dell'esame del disegno di legge C. 3068, approvato dal Senato, recante «Delega al Governo per la riforma della disciplina degli ordinamenti professionali»",
+   "seduta": "Seduta del 30/09/2026",
+   "data": "2026-10-13",
+   "ora": "09:40",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.101269.13-10-2026-09-40-28.762.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3068",
+   "visto": "2026-10-13T11:16:15Z"
+  },
+  {
+   "id": "d-OCD18-23721",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Schema di decreto legislativo recante recepimento della direttiva (UE) 2025/2 del Parlamento europeo e del Consiglio, del 27 novembre 2024, che modifica la direttiva 2009/138/CE, per quanto concerne la proporzionalità, la qualità della vigilanza, l'informativa, le misure relative alle garanzie a lungo termine, gli strumenti macroprudenziali, i rischi di sostenibilità e la vigilanza transfrontaliera e di gruppo, e le direttive 2002/87/CE e 2013/34/U",
+   "tipo": "",
+   "data": "2026-10-12",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23721/schema-decreto-legislativo-recante-recepimento-della-direttiva-ue-2025-2-del-parlamento-europeo-e-del-consiglio-del-27-novembre.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-13T11:16:15Z"
+  },
+  {
    "id": "c-e4302b645c5481",
    "fonte": "commissione",
    "organo": "V Bilancio",
@@ -90,7 +126,7 @@
    "materia": "Economico",
    "titolo": "Memoria ISTAT",
    "tipo": "Memoria",
-   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti dell'ISTAT",
+   "contesto": "Attività conoscitiva preliminare all'esame del Documento programmatico di finanza pubblica 2026, ai sensi dell'articolo 118-bis, comma 3, del Regolamento della Camera e dell'articolo 125-bis, comma 3, del Regolamento del Senato: Audizione di Francesco Maria Chelli, presidente dell'ISTAT",
    "seduta": "Seduta del 12/10/2026",
    "data": "2026-10-12",
    "ora": "18:46",
@@ -109,7 +145,7 @@
    "materia": "Economico",
    "titolo": "Memoria Ufficio parlamentare di bilancio",
    "tipo": "Memoria",
-   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione della Presidente dell'Ufficio parlamentare di bilancio, Lilia Cavallari",
+   "contesto": "Attività conoscitiva preliminare all'esame del Documento programmatico di finanza pubblica 2026, ai sensi dell'articolo 118-bis, comma 3, del Regolamento della Camera e dell'articolo 125-bis, comma 3, del Regolamento del Senato: Audizione della presidente dell'Ufficio parlamentare di bilancio, Lilia Cavallari",
    "seduta": "Seduta del 12/10/2026",
    "data": "2026-10-12",
    "ora": "17:17",
@@ -128,7 +164,7 @@
    "materia": "Economico",
    "titolo": "Memoria Banca d'Italia",
    "tipo": "Memoria",
-   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti della Banca d'Italia",
+   "contesto": "Attività conoscitiva preliminare all'esame del Documento programmatico di finanza pubblica 2026, ai sensi dell'articolo 118-bis, comma 3, del Regolamento della Camera e dell'articolo 125-bis, comma 3, del Regolamento del Senato: Audizione di Andrea Brandolini, capo del Dipartimento economia e statistica della Banca d'Italia",
    "seduta": "Seduta del 12/10/2026",
    "data": "2026-10-12",
    "ora": "16:39",
@@ -147,7 +183,7 @@
    "materia": "Economico",
    "titolo": "Memoria CNEL",
    "tipo": "Memoria",
-   "contesto": "Attività conoscitiva preliminare all’esame del Documento programmatico di finanza pubblica 2026, ai sensi dell’articolo 118-bis, comma 3, del Regolamento della Camera e dell’articolo 125-bis, comma 3, del Regolamento del Senato: audizione di rappresentanti del CNEL",
+   "contesto": "Attività conoscitiva preliminare all'esame del Documento programmatico di finanza pubblica 2026, ai sensi dell'articolo 118-bis, comma 3, del Regolamento della Camera e dell'articolo 125-bis, comma 3, del Regolamento del Senato: Audizione di Renato Brunetta, presidente del CNEL",
    "seduta": "Seduta del 12/10/2026",
    "data": "2026-10-12",
    "ora": "15:52",
