@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-14T11:26:25Z",
+ "aggiornato": "2026-10-14T18:31:36Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-14T18:31:36Z",
+   "nuovi": 6
+  },
   {
    "quando": "2026-10-14T11:26:25Z",
    "nuovi": 2
@@ -89,7 +93,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1561
+   "trovati": 1564
   },
   {
    "id": "comm10",
@@ -100,6 +104,114 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-38c29599a58776",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria non audito_ARPA Lombardia",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-14",
+   "ora": "17:27",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.14-10-2026-17-27-21.147.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-14T18:31:36Z"
+  },
+  {
+   "id": "c-475e2ce6550317",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria soggetto non audito - ISDE ITALIA",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-14",
+   "ora": "17:22",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.14-10-2026-17-22-25.309.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-14T18:31:36Z"
+  },
+  {
+   "id": "c-91c466c8d3c8ee",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria soggetto non audito - CONFARTIGIANATO, CNA, CASARTIGIANI",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-14",
+   "ora": "17:21",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.14-10-2026-17-21-23.806.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-14T18:31:36Z"
+  },
+  {
+   "id": "d-OCD18-23740",
+   "fonte": "dossier",
+   "organo": "Studi - Attività produttive",
+   "materia": "Economico",
+   "titolo": "Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-14",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23740/disposizioni-urgenti-materia-prezzi-petroliferi-connessi-al-protrarsi-della-nuova-crisi-mercati-internazionali-e-infrastrutture-e.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-14T18:31:36Z"
+  },
+  {
+   "id": "c-fc89302018903c",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ARPA Lombardia",
+   "tipo": "Memoria",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-13",
+   "ora": "15:59",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Memoria.PUBBLICO.ideGes.101438.13-10-2026-15-59-41.788.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-14T18:31:36Z"
+  },
+  {
+   "id": "c-f07af906eae7cf",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ISDE Italia",
+   "tipo": "Memoria",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-12",
+   "ora": "12:37",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Memoria.PUBBLICO.ideGes.101438.12-10-2026-12-37-12.086.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-14T18:31:36Z"
+  },
   {
    "id": "c-e1f99d0c0f2ddf",
    "fonte": "commissione",
