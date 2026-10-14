@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-13T20:22:39Z",
+ "aggiornato": "2026-10-14T11:26:25Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-14T11:26:25Z",
+   "nuovi": 2
+  },
   {
    "quando": "2026-10-13T20:22:39Z",
    "nuovi": 0
@@ -71,7 +75,7 @@
    "nome": "V Commissione Bilancio",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
    "ok": true,
-   "trovati": 673
+   "trovati": 674
   },
   {
    "id": "comm6",
@@ -96,6 +100,38 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-e1f99d0c0f2ddf",
+   "fonte": "commissione",
+   "organo": "V Bilancio",
+   "commissioni": [
+    "V"
+   ],
+   "materia": "Economico",
+   "titolo": "Memoria Corte dei conti",
+   "tipo": "Memoria",
+   "contesto": "Attività conoscitiva preliminare all'esame del Documento programmatico di finanza pubblica 2026, ai sensi dell'articolo 118-bis, comma 3, del Regolamento della Camera e dell'articolo 125-bis, comma 3, del Regolamento del Senato: Audizione di Vincenzo Palomba, presidente della Sezione di coordinamento della Corte dei conti",
+   "seduta": "Seduta del 12/10/2026",
+   "data": "2026-10-14",
+   "ora": "10:37",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Audizioni/leg19.com05.Audizioni.Memoria.PUBBLICO.ideGes.102541.14-10-2026-10-37-55.681.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3505&id_tipografico=05",
+   "atto": "",
+   "visto": "2026-10-14T11:26:25Z"
+  },
+  {
+   "id": "d-OCD18-22990",
+   "fonte": "dossier",
+   "organo": "Studi - Cultura",
+   "materia": "",
+   "titolo": "Norme in materia di sponsorizzazione privata di progetti per la manutenzione, il restauro e il recupero di beni del patrimonio culturale pubblico",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-14",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-22990/norme-materia-sponsorizzazione-privata-progetti-manutenzione-restauro-e-recupero-beni-del-patrimonio-culturale-pubblico.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-14T11:26:25Z"
+  },
   {
    "id": "c-8fd9bf411d7c69",
    "fonte": "commissione",
@@ -182,7 +218,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "ISPRA",
    "tipo": "Memoria",
-   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell’Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell’Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell’Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell’ambito dell’",
+   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell'Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell'Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell'ambito dell'",
    "seduta": "Seduta del 13/10/2026",
    "data": "2026-10-13",
    "ora": "15:15",
@@ -201,7 +237,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Transport & Environment",
    "tipo": "Memoria",
-   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell’Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell’Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell’Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell’ambito dell’",
+   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell'Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell'Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell'ambito dell'",
    "seduta": "Seduta del 13/10/2026",
    "data": "2026-10-13",
    "ora": "09:09",
