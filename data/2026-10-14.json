@@ -1,14 +1,218 @@
 {
   "date": "2026-10-14",
   "giorno": "mercoledì",
-  "updatedAt": "2026-10-14T11:26:22Z",
+  "updatedAt": "2026-10-14T18:31:04Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "nessuna_legge_interesse",
   "numero_gu": "239",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-14&numeroGazzetta=239",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/14/239/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 14 ottobre 2026 si concentra principalmente su atti di natura amministrativa e finanziaria. Sono presenti numerosi decreti di liquidazione coatta amministrativa per diverse cooperative, oltre a un provvedimento per il sostegno abitativo di genitori separati o divorziati. Non sono presenti Leggi, decreti-legge o decreti legislativi nelle materie di interesse.",
   "schede": [],
-  "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "scartate": [
+    {
+      "codice_atto": "26A05378",
+      "materia": "Agricoltura",
+      "titolo": "Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta «Ossolano».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05378/sg"
+    },
+    {
+      "codice_atto": "26A05403",
+      "materia": "Sanità",
+      "titolo": "Linee di indirizzo nazionali per servizio di accesso personalizzato ai farmaci presso le farmacie aperte al pubblico.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05403/sg"
+    },
+    {
+      "codice_atto": "26A05337",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di olanzapina, «Olanzapina Teva». (Determina n. 1350/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05337/sg"
+    },
+    {
+      "codice_atto": "26A05338",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ruxolitinib, «Opzelura». (Determina n. 1351/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05338/sg"
+    },
+    {
+      "codice_atto": "26A05339",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ranibizumab, «Rimmyrah». (Determina n. 1352/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05339/sg"
+    },
+    {
+      "codice_atto": "26A05340",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di naldemedina, «Rizmoic». (Determina n. 1353/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05340/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05351",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - DECRETO 10 settembre 2026 Individuazione del termine per il completamento dei lavori e la rendicontazione finale degli interventi di edilizia scolastica autorizzati con decreto 12 giugno 2025, prot. 116 del 16 giugno 2025.",
+      "sintesi": "Il decreto individua il termine per il completamento dei lavori e la rendicontazione finale degli interventi di edilizia scolastica autorizzati con un precedente decreto.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05351/sg"
+    },
+    {
+      "codice_atto": "26A05353",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cofidi commercianti della Provincia di Brindisi societa' cooperativa», in Brindisi e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «Cofidi commercianti della Provincia di Brindisi societa' cooperativa» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05353/sg"
+    },
+    {
+      "codice_atto": "26A05354",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa Comunita' educante cooperativa sociale», in Reggio Emilia e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «Cooperativa Comunita' educante cooperativa sociale» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05354/sg"
+    },
+    {
+      "codice_atto": "26A05355",
+      "categoria": "Economico",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa di consumo Libertas societa' cooperativa in liquidazione», in Canegrate e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «Cooperativa di consumo Libertas societa' cooperativa in liquidazione» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05355/sg"
+    },
+    {
+      "codice_atto": "26A05356",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Ales - Cooperativa sociale onlus in liquidazione», in Lecco e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «Ales - Cooperativa sociale onlus in liquidazione» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05356/sg"
+    },
+    {
+      "codice_atto": "26A05357",
+      "categoria": "Economico",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «S.W.T. Gestioni societa' cooperativa», in Spoltore e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «S.W.T. Gestioni societa' cooperativa» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05357/sg"
+    },
+    {
+      "codice_atto": "26A05381",
+      "categoria": "Economico",
+      "titolo": "DECRETO 7 ottobre 2026 Liquidazione coatta amministrativa della «Sasso dei lupi societa' cooperativa agricola», in Marsciano e nomina del commissario liquidatore.",
+      "sintesi": "Il decreto dispone la liquidazione coatta amministrativa della «Sasso dei lupi societa' cooperativa agricola» e nomina il relativo commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05381/sg"
+    },
+    {
+      "codice_atto": "26A05352",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 14 settembre 2026 Criteri e modalita' di selezione ed erogazione delle somme del fondo destinato al sostegno abitativo per i genitori separati o divorziati non assegnatari dell'abitazione familiare di proprieta' e con figli a carico, fino al compimento dei 21 anni di eta'.",
+      "sintesi": "Il decreto stabilisce i criteri e le modalità per la selezione e l'erogazione delle somme del fondo destinato al sostegno abitativo per genitori separati o divorziati non assegnatari dell'abitazione familiare e con figli a carico fino a 21 anni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05352/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26A05378",
+      "titolo": "DECRETO 6 ottobre 2026 Modifiche ordinarie al disciplinare di produzione della denominazione di origine protetta «Ossolano».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05378/sg"
+    },
+    {
+      "codice": "26A05351",
+      "titolo": "MINISTERO DELL'ISTRUZIONE E DEL MERITO - DECRETO 10 settembre 2026 Individuazione del termine per il completamento dei lavori e la rendicontazione finale degli interventi di edilizia scolastica autorizzati con decreto 12 giugno 2025, prot. 116 del 16 giugno 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05351/sg"
+    },
+    {
+      "codice": "26A05403",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 11 settembre 2026 Linee di indirizzo nazionali per servizio di accesso personalizzato ai farmaci presso le farmacie aperte al pubblico.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05403/sg"
+    },
+    {
+      "codice": "26A05353",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cofidi commercianti della Provincia di Brindisi societa' cooperativa», in Brindisi e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05353/sg"
+    },
+    {
+      "codice": "26A05354",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa Comunita' educante cooperativa sociale», in Reggio Emilia e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05354/sg"
+    },
+    {
+      "codice": "26A05355",
+      "titolo": "DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa di consumo Libertas societa' cooperativa in liquidazione», in Canegrate e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05355/sg"
+    },
+    {
+      "codice": "26A05356",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Ales - Cooperativa sociale onlus in liquidazione», in Lecco e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05356/sg"
+    },
+    {
+      "codice": "26A05357",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «S.W.T. Gestioni societa' cooperativa», in Spoltore e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05357/sg"
+    },
+    {
+      "codice": "26A05381",
+      "titolo": "DECRETO 7 ottobre 2026 Liquidazione coatta amministrativa della «Sasso dei lupi societa' cooperativa agricola», in Marsciano e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05381/sg"
+    },
+    {
+      "codice": "26A05352",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 14 settembre 2026 Criteri e modalita' di selezione ed erogazione delle somme del fondo destinato al sostegno abitativo per i genitori separati o divorziati non assegnatari dell'abitazione familiare di proprieta' e con figli a carico, fino al compimento dei 21 anni di eta'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05352/sg"
+    },
+    {
+      "codice": "26A05337",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di olanzapina, «Olanzapina Teva». (Determina n. 1350/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05337/sg"
+    },
+    {
+      "codice": "26A05338",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ruxolitinib, «Opzelura». (Determina n. 1351/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05338/sg"
+    },
+    {
+      "codice": "26A05339",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ranibizumab, «Rimmyrah». (Determina n. 1352/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05339/sg"
+    },
+    {
+      "codice": "26A05340",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di naldemedina, «Rizmoic». (Determina n. 1353/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05340/sg"
+    },
+    {
+      "codice": "26A05383",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Pubblicazione della comunicazione relativa all'approvazione della modifica ordinaria del disciplinare di produzione della DOP dei vini «Marsala».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05383/sg"
+    },
+    {
+      "codice": "26A05384",
+      "titolo": "COMUNICATO Domanda di modifica ordinaria del disciplinare di produzione della indicazione geografica protetta «Burrata di Andria».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05384/sg"
+    },
+    {
+      "codice": "26A05385",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Fusione per incorporazione della Parrocchia di S. Martino in Argine, in Molinella, frazione San Martino in Argine, nella Parrocchia di S. Matteo di Molinella, in Molinella.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05385/sg"
+    },
+    {
+      "codice": "26A05386",
+      "titolo": "COMUNICATO Fusione per incorporazione della Parrocchia di S. Pietro Capofiume, in Molinella, frazione San Pietro Capofiume, nella Parrocchia di S. Matteo di Molinella, in Molinella.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05386/sg"
+    },
+    {
+      "codice": "26A05387",
+      "titolo": "COMUNICATO Soppressione della Parrocchia di S. Ignazio di Antiochia, in Bologna.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05387/sg"
+    },
+    {
+      "codice": "26A05388",
+      "titolo": "COMUNICATO Fusione per incorporazione della Parrocchia di S. Croce di Marmorta, in Molinella, frazione Marmorta, nella Parrocchia di S. Matteo di Molinella, in Molinella.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05388/sg"
+    },
+    {
+      "codice": "26A05382",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 6 ottobre 2026 - Investimenti sostenibili 4.0 - Bando 2026. Chiusura dello sportello agevolativo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05382/sg"
+    }
+  ],
+  "audio": "audio/2026-10-14.mp3",
+  "duration": 195.1
 }
