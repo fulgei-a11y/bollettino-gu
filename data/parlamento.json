@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-15T11:25:06Z",
+ "aggiornato": "2026-10-15T18:29:20Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-15T18:29:20Z",
+   "nuovi": 7
+  },
   {
    "quando": "2026-10-15T11:25:06Z",
    "nuovi": 10
@@ -105,7 +109,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1566
+   "trovati": 1571
   },
   {
    "id": "comm10",
@@ -116,6 +120,127 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-6d65eac7481190",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Regione Veneto",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-15",
+   "ora": "18:21",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.15-10-2026-18-21-19.535.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "c-0f11e63aa53bf0",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Confcommercio",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-15",
+   "ora": "18:21",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.15-10-2026-18-21-19.580.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "c-047c20a287dc18",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria Genitori Antismog",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-15",
+   "ora": "14:30",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.102642.15-10-2026-14-30-52.833.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "c-ec572a6ed765c1",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ARPA Piemonte",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-15",
+   "ora": "14:27",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.15-10-2026-14-27-28.975.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "c-908887e16c839b",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Regione Emilia-Romagna",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-15",
+   "ora": "14:27",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.15-10-2026-14-27-29.023.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "d-OCD18-23718",
+   "fonte": "dossier",
+   "organo": "Studi - Affari sociali",
+   "materia": "",
+   "titolo": "Istituzione del Registro unico nazionale dei dispositivi medici impiantabili",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-15",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23718/istituzione-del-registro-unico-nazionale-dispositivi-medici-impiantabili.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-15T18:29:20Z"
+  },
+  {
+   "id": "d-OCD18-23722",
+   "fonte": "dossier",
+   "organo": "Studi - Attività produttive",
+   "materia": "Economico",
+   "titolo": "Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2023/1230 relativo alle macchine",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-15",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23722/adeguamento-della-normativa-nazionale-alle-disposizioni-del-regolamento-ue-2023-1230-relativo-alle-macchine.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-15T18:29:20Z"
+  },
   {
    "id": "c-6a524d7675ef71",
    "fonte": "commissione",

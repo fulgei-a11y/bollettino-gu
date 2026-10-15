@@ -1,14 +1,262 @@
 {
   "date": "2026-10-15",
   "giorno": "giovedì",
-  "updatedAt": "2026-10-15T11:25:03Z",
+  "updatedAt": "2026-10-15T18:28:21Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "240",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-15&numeroGazzetta=240",
-  "schede": [],
-  "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/15/240/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale n. 240 del 15 ottobre 2026 è dominata da un importante decreto legislativo che recepisce direttive e regolamenti europei per l'istituzione del punto di accesso unico europeo (ESAP), con impatti significativi sui servizi finanziari, i mercati dei capitali e la sostenibilità. Completano l'edizione diversi decreti ministeriali e provvedimenti amministrativi di natura economica, tra cui la determinazione dei contributi per i comuni di frontiera e numerose liquidazioni coatte amministrative di società cooperative.",
+  "schede": [
+    {
+      "codice_atto": "26G00202",
+      "titolo": "Recepimento direttive UE per il Punto di Accesso Unico Europeo (ESAP)",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184",
+      "categoria": "Economico",
+      "iter": "In vigore dal 30/10/2026",
+      "contesto": "Il decreto legislativo recepisce la direttiva (UE) 2023/2864 e adegua l'ordinamento nazionale ai regolamenti (UE) 2023/2859 e (UE) 2023/2869, istituendo e regolamentando il funzionamento del Punto di Accesso Unico Europeo (ESAP) per i servizi finanziari, i mercati dei capitali e la sostenibilità.",
+      "misure": [
+        "Art. 1: Definisce 'ESAP' come il punto di accesso unico europeo per informazioni elettroniche centralizzate su servizi finanziari, mercati dei capitali e sostenibilità, e 'soggetto' come qualsiasi persona fisica o giuridica ai sensi del regolamento (UE) 2023/2859.",
+        "Art. 2, comma 1: Modifica il decreto legislativo 30 maggio 2005, n. 142, introducendo la definizione di ESAP e stabilendo che, a decorrere dal 10 gennaio 2030, le imprese regolamentate trasmettono le informazioni pubbliche all'organismo di raccolta (autorità competenti) per renderle accessibili tramite ESAP. Le informazioni devono essere in formato per dati estraibili o leggibile meccanicamente e corredate di metadati specifici (denominazione, identificativo persona giuridica, dimensioni, tipo di informazioni, presenza di dati personali).",
+        "Art. 2, comma 2: Modifica il decreto legislativo 24 febbraio 1998, n. 58 (Testo unico intermediazione finanziaria), introducendo la definizione di ESAP e stabilendo che, a decorrere dal 10 gennaio 2030, le società trasmettono informazioni pubbliche (es. Art. 101-ter, 102, 103) alla Consob (organismo di raccolta) per l'accessibilità tramite ESAP, con formati e metadati analoghi.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 2: A decorrere dal 10 gennaio 2030, le informazioni di cui all'Art. 106, comma 3, lettere c) e d) sono rese accessibili tramite ESAP, con formati e metadati specifici.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 4: A decorrere dal 10 gennaio 2030, investitori istituzionali, gestori di attivi, consulenti in materia di voto e società trasmettono informazioni pubbliche (es. Art. 123-ter, 124-quinquies, 124-sexies, 124-octies, 125-quater e Art. 2391-bis c.c.) agli organismi di raccolta (Consob, IVASS, COVIP o meccanismo ufficiale per informazioni regolamentate) per l'accessibilità tramite ESAP, con formati e metadati specifici.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 6: A decorrere dal 10 gennaio 2028, i gestori di OICVM trasmettono informazioni pubbliche (es. Art. 39-decies, 93-bis, 98-ter, 98-ter.1) agli organismi di raccolta (Consob e Banca d'Italia) per l'accessibilità tramite ESAP, con formati e metadati specifici.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 8: A decorrere dal 10 gennaio 2028, le informazioni di cui agli Art. 35, comma 2, e 35-ter, comma 2, relative ai gestori di OICVM, sono rese accessibili tramite ESAP, con metadati specifici. La Banca d'Italia è l'organismo di raccolta.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 10: A decorrere dal 10 gennaio 2028, le informazioni relative ai provvedimenti sanzionatori per violazioni in materia di OICVM (Art. 195-bis), non oggetto di ricorso, sono rese accessibili tramite ESAP, in formato per dati estraibili e con metadati specifici. Consob e Banca d'Italia sono gli organismi di raccolta.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 12: A decorrere dal 10 gennaio 2030, imprese di investimento, gestori del mercato o emittenti trasmettono informazioni pubbliche (es. Art. 64-bis, 69) agli organismi di raccolta (meccanismo ufficiale per informazioni regolamentate, Consob e Banca d'Italia) per l'accessibilità tramite ESAP, con formati e metadati specifici.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 13: A decorrere dal 10 gennaio 2030, l'emittente può trasmettere la ricerca sponsorizzata (Art. 21-bis, comma 3) all'organismo di raccolta, corredata di metadati che ne attestino la conformità al codice di condotta UE, in formato per dati estraibili o leggibile meccanicamente e con metadati specifici.",
+        "Art. 2, comma 2, Art. 4-septies.3, comma 15: A decorrere dal 10 gennaio 2030, le informazioni relative ai provvedimenti sanzionatori per violazioni in materia di mercati degli strumenti finanziari e distribuzione assicurativa (Art. 66-ter, 66-quater, 195-bis) sono rese accessibili tramite ESAP, in formato per dati estraibili e con metadati specifici."
+      ],
+      "chi_interessato": "Imprese regolamentate, società quotate, investitori istituzionali, gestori di attivi, consulenti in materia di voto, gestori di OICVM, imprese di investimento, gestori del mercato, emittenti, Consob, Banca d'Italia, IVASS, COVIP e il pubblico che accederà alle informazioni finanziarie e di sostenibilità.",
+      "decorrenza": "30/10/2026 (con diverse decorrenze specifiche per l'applicazione delle misure, a partire dal 10 gennaio 2028 e dal 10 gennaio 2030).",
+      "perche_conta": "Questo decreto è fondamentale per la trasparenza e l'accessibilità delle informazioni finanziarie e di sostenibilità a livello europeo. L'istituzione dell'ESAP semplificherà l'accesso ai dati per investitori e cittadini, promuovendo mercati dei capitali più efficienti e una maggiore consapevolezza sulle performance di sostenibilità delle imprese. Le nuove regole impongono oneri di trasmissione e formattazione dei dati per un'ampia gamma di soggetti vigilati.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
+      "vigore": "30/10/2026"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26A05400",
+      "materia": "Amministrativo/Politico",
+      "titolo": "Accertamento della sospensione del sig. Riccardo Antonio Gallo Afflitto dalla carica di deputato dell'Assemblea regionale siciliana.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05400/sg"
+    },
+    {
+      "codice_atto": "26A05341",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di teriparatide, «Sondelbay». (Determina n. 1355/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05341/sg"
+    },
+    {
+      "codice_atto": "26A05342",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di semaglutide, «Wegovy». (Determina n. 1356/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05342/sg"
+    },
+    {
+      "codice_atto": "26A05343",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di denosumab, «Wyost». (Determina n. 1357/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05343/sg"
+    },
+    {
+      "codice_atto": "26A05344",
+      "materia": "Sanità",
+      "titolo": "Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di liraglutide, «Ablymico». (Determina n. 1358/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05344/sg"
+    },
+    {
+      "codice_atto": "26A05415",
+      "materia": "Politico/Amministrativo",
+      "titolo": "Statuto del partito politico «Union Valdôtaine»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05415/sg"
+    },
+    {
+      "codice_atto": "26A05389",
+      "materia": "Amministrativo/Religioso",
+      "titolo": "Modifica delle circoscrizioni territoriali diocesane della Diocesi di Fabriano-Matelica e dell'Arcidiocesi di Camerino-San Severino Marche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05389/sg"
+    },
+    {
+      "codice_atto": "26A05390",
+      "materia": "Amministrativo/Religioso",
+      "titolo": "Mutamento del modo di esistenza della Congregazione delle Suore Oblate Benedettine di Santa Scolastica, in Ostuni",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05390/sg"
+    },
+    {
+      "codice_atto": "26A05391",
+      "materia": "Amministrativo/Religioso",
+      "titolo": "Fusione per incorporazione della Parrocchia di S. Croce di Selva Malvezzi, in Molinella, frazione Malvezzi, nella Parrocchia di S. Matteo di Molinella, in Molinella.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05391/sg"
+    },
+    {
+      "codice_atto": "26A05392",
+      "materia": "Amministrativo/Religioso",
+      "titolo": "Soppressione della Parrocchia di S. Maria Maggiore, in Bologna",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05392/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05407",
+      "categoria": "Economico",
+      "titolo": "Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Piemonte nel mese di agosto 2026.",
+      "sintesi": "Dichiarata l'eccezionalità degli eventi calamitosi in Piemonte ad agosto 2026, presupposto per l'attivazione di misure di sostegno economico.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05407/sg"
+    },
+    {
+      "codice_atto": "26A05401",
+      "categoria": "Economico",
+      "titolo": "Termini e modalita' per la determinazione del contributo dei comuni italiani di frontiera.",
+      "sintesi": "Definiti i termini e le modalità per il calcolo e l'erogazione dei contributi statali destinati ai comuni italiani situati nelle zone di frontiera.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05401/sg"
+    },
+    {
+      "codice_atto": "26A05358",
+      "categoria": "Economico",
+      "titolo": "Liquidazione coatta amministrativa della «Cooperativa ediliza Le Alpi - Societa' cooperativa in liquidazione», in Torino e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della cooperativa edilizia 'Le Alpi' di Torino, con nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05358/sg"
+    },
+    {
+      "codice_atto": "26A05359",
+      "categoria": "Economico",
+      "titolo": "Liquidazione coatta amministrativa della «Terra Viva cooperativa sociale», in Mesagne e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della cooperativa sociale 'Terra Viva' di Mesagne, con nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05359/sg"
+    },
+    {
+      "codice_atto": "26A05360",
+      "categoria": "Economico",
+      "titolo": "Liquidazione coatta amministrativa della «Thermopolar societa' cooperativa in liquidazione», in Foggia e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della cooperativa 'Thermopolar' di Foggia, con nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05360/sg"
+    },
+    {
+      "codice_atto": "26A05361",
+      "categoria": "Economico",
+      "titolo": "Liquidazione coatta amministrativa della «X-Service societa' cooperativa», in Milano e nomina del commissario liquidatore.",
+      "sintesi": "Disposta la liquidazione coatta amministrativa della cooperativa 'X-Service' di Milano, con nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05361/sg"
+    },
+    {
+      "codice_atto": "26A05404",
+      "categoria": "Economico",
+      "titolo": "Feampa 2021/2027 - Approvazione della sub graduatoria delle imprese di pesca che effettuano l'arresto definitivo in attuazione del decreto 17 luglio 2024 nella GSA 9 con il sistema di pesca strascico.",
+      "sintesi": "Approvata la graduatoria delle imprese di pesca ammesse al finanziamento FEAMPA 2021/2027 per l'arresto definitivo dell'attività di pesca a strascico nella GSA 9.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05404/sg"
+    },
+    {
+      "codice_atto": "26A05292",
+      "categoria": "Economico",
+      "titolo": "Accordo, ai sensi dell'articolo 4, comma 1, del decreto legislativo 28 agosto 1997, n. 281, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, sul documento recante «Linee guida per il funzionamento ed il miglioramento delle attivita' ufficiali da parte delle autorita' sanitarie competenti in materia di sicurezza degli alimenti e sanita' pubblica veterinaria». (Repertorio atti n. 13",
+      "sintesi": "Accordo tra Stato, Regioni e Province autonome per l'adozione di linee guida volte a migliorare le attività ufficiali delle autorità sanitarie in materia di sicurezza alimentare e sanità pubblica veterinaria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05292/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00202",
+      "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184 Recepimento della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, e adeguamento dell'ordinamento nazionale alle disposizioni dei regolamenti (UE) 2023/2859 e (UE) 2023/2869 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, per quanto concerne l'istituzione e il funzionamento del punto di accesso unico europeo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "30/10/2026"
+    },
+    {
+      "codice": "26A05400",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 1 ottobre 2026 Accertamento della sospensione del sig. Riccardo Antonio Gallo Afflitto dalla carica di deputato dell'Assemblea regionale siciliana.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05400/sg"
+    },
+    {
+      "codice": "26A05407",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 7 ottobre 2026 Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Piemonte nel mese di agosto 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05407/sg"
+    },
+    {
+      "codice": "26A05401",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 17 settembre 2026 Termini e modalita' per la determinazione del contributo dei comuni italiani di frontiera.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05401/sg"
+    },
+    {
+      "codice": "26A05358",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 29 settembre 2026 Liquidazione coatta amministrativa della «Cooperativa ediliza Le Alpi - Societa' cooperativa in liquidazione», in Torino e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05358/sg"
+    },
+    {
+      "codice": "26A05359",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Terra Viva cooperativa sociale», in Mesagne e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05359/sg"
+    },
+    {
+      "codice": "26A05360",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «Thermopolar societa' cooperativa in liquidazione», in Foggia e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05360/sg"
+    },
+    {
+      "codice": "26A05361",
+      "titolo": "DECRETO 30 settembre 2026 Liquidazione coatta amministrativa della «X-Service societa' cooperativa», in Milano e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05361/sg"
+    },
+    {
+      "codice": "26A05341",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di teriparatide, «Sondelbay». (Determina n. 1355/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05341/sg"
+    },
+    {
+      "codice": "26A05342",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di semaglutide, «Wegovy». (Determina n. 1356/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05342/sg"
+    },
+    {
+      "codice": "26A05343",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di denosumab, «Wyost». (Determina n. 1357/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05343/sg"
+    },
+    {
+      "codice": "26A05344",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di liraglutide, «Ablymico». (Determina n. 1358/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05344/sg"
+    },
+    {
+      "codice": "26A05415",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI COMMISSIONE DI GARANZIA DEGLI STATUTI E PER LA TRASPARENZA E IL CONTROLLO DEI RENDICONTI DEI PARTITI POLITICI - COMUNICATO Statuto del partito politico «Union Valdôtaine»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05415/sg"
+    },
+    {
+      "codice": "26A05404",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO Feampa 2021/2027 - Approvazione della sub graduatoria delle imprese di pesca che effettuano l'arresto definitivo in attuazione del decreto 17 luglio 2024 nella GSA 9 con il sistema di pesca strascico.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05404/sg"
+    },
+    {
+      "codice": "26A05389",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Modifica delle circoscrizioni territoriali diocesane della Diocesi di Fabriano-Matelica e dell'Arcidiocesi di Camerino-San Severino Marche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05389/sg"
+    },
+    {
+      "codice": "26A05390",
+      "titolo": "COMUNICATO Mutamento del modo di esistenza della Congregazione delle Suore Oblate Benedettine di Santa Scolastica, in Ostuni",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05390/sg"
+    },
+    {
+      "codice": "26A05391",
+      "titolo": "COMUNICATO Fusione per incorporazione della Parrocchia di S. Croce di Selva Malvezzi, in Molinella, frazione Malvezzi, nella Parrocchia di S. Matteo di Molinella, in Molinella.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05391/sg"
+    },
+    {
+      "codice": "26A05392",
+      "titolo": "COMUNICATO Soppressione della Parrocchia di S. Maria Maggiore, in Bologna",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05392/sg"
+    },
+    {
+      "codice": "26A05292",
+      "titolo": "SUPPLEMENTI ORDINARI PRESIDENZA DEL CONSIGLIO DEI MINISTRI - CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO, LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E BOLZANO ACCORDO 10 settembre 2026 Accordo, ai sensi dell'articolo 4, comma 1, del decreto legislativo 28 agosto 1997, n. 281, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, sul documento recante «Linee guida per il funzionamento ed il miglioramento delle attivita' ufficiali da parte delle autorita' sanitarie competenti in materia di sicurezza degli alimenti e sanita' pubblica veterinaria». (Repertorio atti n. 13",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26A05292/sg"
+    }
+  ],
+  "audio": "audio/2026-10-15.mp3",
+  "duration": 502.2
 }

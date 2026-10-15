@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-15T11:26:54Z",
+  "generato": "2026-10-15T18:30:54Z",
   "oggi": "2026-10-15",
   "decreti_legge": [
     {
@@ -200,6 +200,15 @@
       "edizione": "2026-10-09",
       "scheda": null,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00196/sg"
+    },
+    {
+      "data": "2026-10-30",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184",
+      "titolo": "Recepimento direttive UE per il Punto di Accesso Unico Europeo (ESAP)",
+      "categoria": "Economico",
+      "edizione": "2026-10-15",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg"
     }
   ]
 }
