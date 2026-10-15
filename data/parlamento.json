@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-14T20:23:09Z",
+ "aggiornato": "2026-10-15T11:25:06Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-15T11:25:06Z",
+   "nuovi": 10
+  },
   {
    "quando": "2026-10-14T20:23:09Z",
    "nuovi": 0
@@ -80,7 +84,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 866
+   "trovati": 869
   },
   {
    "id": "comm5",
@@ -101,7 +105,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1564
+   "trovati": 1566
   },
   {
    "id": "comm10",
@@ -112,6 +116,184 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-6a524d7675ef71",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 - Memoria UCPI",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti dell'Associazione per gli Studi Giuridici sull'Immigrazione (ASGI), in videoconferenza, dell'Unione delle Camere Penali Italiane (UCPI), in videoconferenza, e dell'Associazione Italiana Giovani Avvocati (AIGA), nell'ambito dell'esame del disegno di legge C. 3121, di conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante «Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale»",
+   "seduta": "Seduta del 13/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:48",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.102675.15-10-2026-12-48-59.032.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-05e9bb79aa6f26",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 Memoria - Dott. ssa Pieri",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale, in videoconferenza, di Roberta Pieri, procuratrice della Repubblica presso il tribunale per i minorenni di Firenze, Aldo Policastro, procuratore generale della Repubblica presso la Corte d'appello di Napoli, Emma Avezzù, procuratrice della Repubblica presso il tribunale per i minorenni del Piemonte e Valle d'Aosta e Patrizia Imperato, procuratrice della Repubblica presso il tribunale per i minorenni di Napoli, nell'ambito dell'esame del disegno di legge C. 3121, di conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante «Misure urgenti in materia di giust",
+   "seduta": "Seduta del 14/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:11",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.103071.15-10-2026-12-11-34.578.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-7167f9b3b245db",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Slides Fondazione Umberto Veronesi",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:11",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.15-10-2026-12-11-19.862.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-d4260517f90171",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria Fermerci",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:09",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.15-10-2026-12-09-45.568.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-7a7387b5fa5809",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria Kyoto Club",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:09",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.15-10-2026-12-09-45.694.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-d9f9663588e3ec",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Memoria ANAV, ASSTRA e AGENS",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "seduta": "Seduta del 15/10/2026",
+   "data": "2026-10-15",
+   "ora": "12:09",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Audizioni/leg19.com09.Audizioni.Memoria.PUBBLICO.ideGes.102642.15-10-2026-12-09-45.731.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-3f2ba030eebee0",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Confartigianato, CNA e Casartigiani",
+   "tipo": "Memoria",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-15",
+   "ora": "12:06",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM09/Progettodilegge/leg19.com09.Progettodilegge.Memoria.PUBBLICO.ideGes.101438.15-10-2026-12-06-44.367.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "c-6a28560cb8c61c",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 Memoria - Dott. Aldo Policastro",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale, in videoconferenza, di Roberta Pieri, procuratrice della Repubblica presso il tribunale per i minorenni di Firenze, Aldo Policastro, procuratore generale della Repubblica presso la Corte d'appello di Napoli, Emma Avezzù, procuratrice della Repubblica presso il tribunale per i minorenni del Piemonte e Valle d'Aosta e Patrizia Imperato, procuratrice della Repubblica presso il tribunale per i minorenni di Napoli, nell'ambito dell'esame del disegno di legge C. 3121, di conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante «Misure urgenti in materia di giust",
+   "seduta": "Seduta del 14/10/2026",
+   "data": "2026-10-15",
+   "ora": "11:17",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.103071.15-10-2026-11-17-18.361.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "d-OCD18-23712",
+   "fonte": "dossier",
+   "organo": "Studi - Affari sociali",
+   "materia": "",
+   "titolo": "Delega al Governo per la riforma e il riordino della legislazione farmaceutica in materia di accesso al farmaco, monitoraggio e controllo della spesa farmaceutica, prestazione di servizi sanitari sul territorio da parte delle farmacie e rafforzamento della rete assistenziale farmaceutica",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-15",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23712/delega-al-governo-riforma-e-riordino-della-legislazione-farmaceutica-materia-accesso-al-farmaco-monitoraggio-e-controllo-della.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-15T11:25:06Z"
+  },
+  {
+   "id": "d-OCD18-23720",
+   "fonte": "dossier",
+   "organo": "Studi - Lavoro",
+   "materia": "",
+   "titolo": "Riduzione dei termini per la liquidazione del trattamento di fine servizio dei dipendenti delle amministrazioni pubbliche e rivalutazione dei limiti di importo per l'erogazione rateale del medesimo trattamento",
+   "tipo": "Elementi per l'esame in Assemblea",
+   "data": "2026-10-15",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23720/riduzione-termini-liquidazione-del-trattamento-fine-servizio-dipendenti-amministrazioni-pubbliche-e-rivalutazione-limiti-importo-l.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-15T11:25:06Z"
+  },
   {
    "id": "c-38c29599a58776",
    "fonte": "commissione",
