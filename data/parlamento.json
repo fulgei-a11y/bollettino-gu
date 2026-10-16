@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-16T11:25:30Z",
+ "aggiornato": "2026-10-16T18:28:28Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-16T18:28:28Z",
+   "nuovi": 9
+  },
   {
    "quando": "2026-10-16T11:25:30Z",
    "nuovi": 4
@@ -100,7 +104,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 870
+   "trovati": 873
   },
   {
    "id": "comm5",
@@ -121,7 +125,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1574
+   "trovati": 1576
   },
   {
    "id": "comm10",
@@ -132,6 +136,153 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-9ff32f812ced9c",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ECCO",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-16",
+   "ora": "16:40",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.16-10-2026-16-40-24.643.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "c-166b774d27c5a1",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "CMCC",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3133 - \"Conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche\" (3133)",
+   "seduta": "",
+   "data": "2026-10-16",
+   "ora": "16:08",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.102255.16-10-2026-16-08-38.025.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "c-cfe869a527bbbc",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 2720 - Memoria di ANM",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale, in videoconferenza, di rappresentanti dell'Associazione Nazionale Magistrati (ANM), nell'ambito dell'esame dei progetti di legge C. 2720 Fascina e C. 3080 Governo, recanti «Modifiche in materia di imputabilità del minore»",
+   "seduta": "Seduta del 07/10/2026",
+   "data": "2026-10-16",
+   "ora": "15:49",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.101766.16-10-2026-15-49-46.585.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 2720",
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "c-77e74c56f409a0",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 - Memoria ANM",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale, in videoconferenza, di rappresentanti dell'Associazione Nazionale Magistrati (ANM), nell'ambito dell'esame del disegno di legge C. 3121, di conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante «Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale»",
+   "seduta": "Seduta del 14/10/2026",
+   "data": "2026-10-16",
+   "ora": "15:46",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.103075.16-10-2026-15-46-13.579.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "c-0459e306dfcd7b",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 3121 - Memoria FP CGIL",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale, in videoconferenza, di rappresentanti di CGIL FP, CISL FP e UIL FP, nell'ambito dell'esame del disegno di legge C. 3121, di conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante «Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale»",
+   "seduta": "Seduta del 13/10/2026",
+   "data": "2026-10-16",
+   "ora": "14:00",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.102921.16-10-2026-14-00-50.908.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 3121",
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "d-OCD18-23706",
+   "fonte": "dossier",
+   "organo": "Studi - Giustizia",
+   "materia": "Giustizia",
+   "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
+   "tipo": "Elementi per l'esame in Assemblea",
+   "data": "2026-10-16",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23706/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "d-OCD18-23756",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Riduzione dei termini per la liquidazione del trattamento di fine servizio dei dipendenti delle amministrazioni pubbliche e rivalutazione dei limiti di importo per l'erogazione rateale del medesimo trattamento",
+   "tipo": "",
+   "data": "2026-10-16",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23756/riduzione-termini-liquidazione-del-trattamento-fine-servizio-dipendenti-amministrazioni-pubbliche-e-rivalutazione-limiti-importo-l.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "d-OCD18-23747",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "DL 154-2026: Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale",
+   "tipo": "",
+   "data": "2026-10-16",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23747/dl-154-2026-misure-urgenti-assicurare-continuita-operativa-impianti-interesse-strategico-nazionale.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-16T18:28:28Z"
+  },
+  {
+   "id": "d-OCD18-23732",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Acquisto e revoca della cittadinanza",
+   "tipo": "Elementi per l'esame in Assemblea",
+   "data": "2026-10-16",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23732/acquisto-e-revoca-della-cittadinanza.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-16T18:28:28Z"
+  },
   {
    "id": "c-bc2fafdc068270",
    "fonte": "commissione",
@@ -502,7 +653,7 @@
    "titolo": "Riduzione dei termini per la liquidazione del trattamento di fine servizio dei dipendenti delle amministrazioni pubbliche e rivalutazione dei limiti di importo per l'erogazione rateale del medesimo trattamento",
    "tipo": "Elementi per l'esame in Assemblea",
    "data": "2026-10-15",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23720/riduzione-termini-liquidazione-del-trattamento-fine-servizio-dipendenti-amministrazioni-pubbliche-e-rivalutazione-limiti-importo-l.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23720/riduzione-termini-liquidazione-del-trattamento-fine-servizio-dipendenti-amministrazioni-pubbliche-e-rivalutazione-limiti-importo-l-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-15T11:25:06Z"
@@ -1033,7 +1184,7 @@
    "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
    "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
    "data": "2026-10-12",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23702/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23702/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-12T18:17:36Z"

@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-16T11:27:18Z",
+  "generato": "2026-10-16T18:30:12Z",
   "oggi": "2026-10-16",
   "decreti_legge": [
     {
@@ -33,6 +33,22 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00199/sg",
       "stato": "in_conversione",
       "giorni_mancanti": 52
+    },
+    {
+      "numero": 185,
+      "anno": 2026,
+      "data_dl": "2026-10-16",
+      "riferimento": "Decreto-legge 16 ottobre 2026, n. 185",
+      "titolo": "Misure urgenti a sostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio industriale del territorio",
+      "pubblicazione": "2026-10-16",
+      "numero_gu": "241",
+      "vigore": "2026-10-17",
+      "scadenza": "2026-12-15",
+      "categoria": "Economico",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg",
+      "stato": "in_conversione",
+      "giorni_mancanti": 60
     },
     {
       "numero": 143,
@@ -209,6 +225,15 @@
       "edizione": "2026-10-15",
       "scheda": 0,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg"
+    },
+    {
+      "data": "2026-10-31",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 186",
+      "titolo": "Attuazione della direttiva (UE) 2024/1260 riguardante il recupero e la confisca dei beni",
+      "categoria": "Giustizia",
+      "edizione": "2026-10-16",
+      "scheda": 1,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg"
     }
   ]
 }
