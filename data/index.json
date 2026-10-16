@@ -3,10 +3,10 @@
     "date": "2026-10-16",
     "giorno": "venerdì",
     "numero_gu": "241",
-    "stato": "non_disponibile",
-    "schede": 0,
-    "audio": false,
-    "updatedAt": "2026-10-16T11:25:28Z"
+    "stato": "con_schede",
+    "schede": 2,
+    "audio": true,
+    "updatedAt": "2026-10-16T18:26:34Z"
   },
   {
     "date": "2026-10-15",

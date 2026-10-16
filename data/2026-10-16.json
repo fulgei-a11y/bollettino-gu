@@ -1,14 +1,284 @@
 {
   "date": "2026-10-16",
   "giorno": "venerdì",
-  "updatedAt": "2026-10-16T11:25:28Z",
+  "updatedAt": "2026-10-16T18:26:34Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "241",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-16&numeroGazzetta=241",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/16/241/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 16 ottobre 2026 presenta importanti novità in ambito economico e giudiziario. Un decreto-legge introduce misure urgenti per il sostegno ai lavoratori dell'ex ILVA e dell'indotto, con interventi su ammortizzatori sociali, integrazioni salariali e incentivi all'occupazione. Un decreto legislativo attua una direttiva UE, rafforzando la normativa in materia di recupero e confisca dei beni, con modifiche al codice penale e di procedura penale, estendendo l'applicabilità della confisca e introducendo la confisca di cripto-attività.",
+  "schede": [
+    {
+      "codice_atto": "26G00208",
+      "titolo": "Misure urgenti a sostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio industriale del territorio",
+      "riferimento": "DECRETO-LEGGE 16 ottobre 2026, n. 185",
+      "categoria": "Economico",
+      "iter": "Decreto-legge da convertire entro il 16 dicembre 2026",
+      "contesto": "Il decreto-legge interviene con urgenza per affrontare la crisi occupazionale e favorire il rilancio industriale nelle aree interessate dagli stabilimenti ex ILVA, introducendo misure di sostegno al reddito, incentivi all'occupazione e rifinanziamenti per ammortizzatori sociali.",
+      "misure": [
+        "Art. 1: Riconosce un'integrazione al reddito, con relativa contribuzione figurativa, ai lavoratori subordinati dell'indotto di stabilimenti di interesse strategico nazionale (ex ILVA) e della società Adi Servizi Marittimi S.r.l. in amministrazione straordinaria, dal 1° ottobre 2026 al 30 giugno 2027, nella misura prevista per le integrazioni salariali. Il nesso causale è individuato nella monocommittenza o nell'influsso gestionale prevalente (fatturato >50% nel biennio precedente al 1° settembre 2026). Non si applicano gli articoli 14, 15, 24 e 25 del D.Lgs. n. 148/2015. Le integrazioni sono incompatibili con altri trattamenti di integrazione salariale e non sono conteggiate nelle durate massime complessive. Non è dovuto il contributo addizionale. L'erogazione è diretta dall'INPS. I lavoratori sono iscritti d'ufficio alla piattaforma SIISL e devono sottoscrivere il curriculum vitae, il patto di attivazione digitale e il patto di servizio, pena la decadenza dal trattamento in caso di rifiuto ingiustificato di corsi di formazione/riqualificazione o di un'offerta di lavoro congrua (retribuzione non inferiore del 20% rispetto a mansioni di provenienza, entro 50 km o 80 minuti di trasporto pubblico). Limite di spesa: 27,3 milioni di euro per il 2026 e 56,1 milioni di euro per il 2027, coperti dal Fondo sociale per occupazione e formazione.",
+        "Art. 2: Autorizza una spesa di 15 milioni di euro per il 2026 e 30 milioni di euro per il 2027 per integrare il trattamento economico dei dipendenti di Acciaierie d'Italia S.p.A. in amministrazione straordinaria in cassa integrazione guadagni straordinaria, anche per la formazione professionale per le bonifiche. I lavoratori sono iscritti d'ufficio alla piattaforma SIISL e devono sottoscrivere il curriculum vitae, il patto di attivazione digitale e il patto di servizio, pena la decadenza dal trattamento integrativo in caso di rifiuto ingiustificato di corsi di formazione/riqualificazione o di un'offerta di lavoro congrua. Gli oneri sono coperti dal Fondo sociale per occupazione e formazione. Gli importi sono accreditati alla società con decreto interministeriale. I lavoratori possono essere impiegati in attività di pubblica utilità (Art. 26 D.Lgs. 150/2015) nel limite di 10 milioni di euro per il 2027; le somme percepite riducono l'integrazione salariale. La copertura per la pubblica utilità è di 14,3 milioni di euro per il 2027 dal Fondo sociale per occupazione e formazione.",
+        "Art. 3: Riconosce ai datori di lavoro privati che assumono a tempo indeterminato, dal 1° novembre 2026 al 31 dicembre 2027, lavoratori di Acciaierie d'Italia S.p.A. e ILVA S.p.A. in amministrazione straordinaria, un esonero totale dai contributi previdenziali (escluso INAIL) per un massimo di 24 mesi, nel limite di 8.000 euro su base annua. Condizioni: mantenimento in servizio per almeno 48 mesi; nessun licenziamento nei 6 mesi precedenti; trattamento economico non inferiore a quanto previsto dall'Art. 7 D.L. 62/2026. Non spetta a datori di lavoro con assetti proprietari coincidenti o in rapporto di controllo/collegamento con le società in amministrazione straordinaria, né a chi acquisisce complessi aziendali. Non è cumulabile con altri esoneri/incentivi e non si applica a lavoro domestico e apprendistato. Limite di spesa: 0,13 milioni (2026), 6,4 milioni (2027), 11,83 milioni (2028), 5,6 milioni (2029), 0,03 milioni (2030).",
+        "Art. 3, comma 7: In aggiunta all'esonero, è riconosciuto un contributo di 20.000 euro per ciascun lavoratore assunto (ridotto per part-time >50%), erogato dall'INPS in due quote (dopo 6 e 24 mesi). Il contributo è revocato in caso di cessazione del rapporto prima dei 48 mesi per licenziamento diverso da giusta causa/giustificato motivo soggettivo o risoluzione consensuale, o licenziamento per giustificato motivo oggettivo/collettivo entro 6 mesi di lavoratore con stessa qualifica. Limite di spesa: 9 milioni (2027), 9 milioni (2028), 12 milioni (2029)."
+      ],
+      "chi_interessato": "Lavoratori subordinati dell'indotto di stabilimenti di interesse strategico nazionale (ex ILVA), lavoratori di Adi Servizi Marittimi S.r.l. e Acciaierie d'Italia S.p.A. in amministrazione straordinaria; datori di lavoro privati che assumono questi lavoratori; INPS; Ministero del Lavoro e delle Politiche Sociali; Ministero dell'Economia e delle Finanze.",
+      "decorrenza": "In vigore dal 17/10/2026",
+      "perche_conta": "Il decreto-legge fornisce un pacchetto di misure urgenti e mirate per sostenere l'occupazione e il reddito in un'area di crisi industriale complessa, facilitando la transizione e la ricollocazione dei lavoratori, e incentivando nuove assunzioni. Le disposizioni sono cruciali per la gestione sociale ed economica della crisi ex ILVA.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg",
+      "vigore": "17/10/2026"
+    },
+    {
+      "codice_atto": "26G00203",
+      "titolo": "Attuazione della direttiva (UE) 2024/1260 riguardante il recupero e la confisca dei beni",
+      "riferimento": "DECRETO LEGISLATIVO 25 settembre 2026, n. 186",
+      "categoria": "Giustizia",
+      "iter": "In vigore dal 31/10/2026",
+      "contesto": "Il decreto legislativo recepisce la direttiva europea 2024/1260, rafforzando gli strumenti normativi per il recupero e la confisca dei beni derivanti da attività illecite, con modifiche significative al codice penale, al codice di procedura penale e ad altre leggi speciali.",
+      "misure": [
+        "Art. 1: Attua la direttiva (UE) 2024/1260 del Parlamento europeo e del Consiglio, del 24 aprile 2024, riguardante il recupero e la confisca dei beni.",
+        "Art. 2 (Modifiche al codice penale): Estende l'applicabilità della confisca per sproporzione (Art. 240-bis c.p.) a nuovi reati (es. 414-bis, 635-quater.1, 640-ter comma 2) e introduce il principio della correlazione temporale tra l'epoca di acquisizione dei beni e quella di svolgimento dell'attività delittuosa. Introduce l'Art. 240-ter c.p. per la confisca per equivalente dei beni strumentali per un'ampia gamma di delitti (es. terrorismo, associazione a delinquere, reati ambientali, abuso di mercato, immigrazione clandestina, armi), quando non è possibile confiscare i beni strumentali diretti. Introduce l'Art. 240-quater c.p. per la confisca dei beni trasferiti a terzi estranei al reato, se il terzo era a conoscenza delle finalità dell'imputato. Modifica gli articoli 416, 416-bis, 600-septies e 648-quater c.p. per estendere la confisca del prodotto, prezzo o profitto del reato e dei beni strumentali, anche per equivalente.",
+        "Art. 3 (Modifiche al codice di procedura penale): Estende le attività di indagine del procuratore nazionale antimafia e antiterrorismo (Art. 371-bis c.p.) e del pubblico ministero (Art. 430 c.p.) all'individuazione dei beni da sottoporre a confisca obbligatoria. Introduce l'Art. 536-bis c.p. per la specifica individuazione dei beni o della somma di denaro oggetto di confisca per equivalente nella sentenza di condanna.",
+        "Art. 4 (Modifiche al D.Lgs. 271/1989): Estende le funzioni del procuratore nazionale antimafia e antiterrorismo anche alle finalità di individuazione dei beni confiscabili.",
+        "Art. 5 (Modifiche al codice civile): Introduce l'Art. 2635-quater c.c., prevedendo la confisca anche nelle ipotesi dell'Art. 240, comma 1, c.p. per i delitti di cui agli articoli 2635 e 2635-bis c.c. (infedeltà a seguito di dazione o promessa di utilità, induzione indebita a dare o promettere utilità).",
+        "Art. 6 (Modifiche al D.P.R. 309/1990): Estende l'applicabilità delle disposizioni sulla confisca per equivalente dei beni strumentali e la confisca nei confronti dei terzi (Art. 240-ter e 240-quater c.p.) ai reati in materia di stupefacenti (Art. 73 e 74).",
+        "Art. 7 (Modifiche al D.Lgs. 286/1998): Introduce l'Art. 12, comma 4-quater, prevedendo la confisca del prodotto, prezzo o profitto del reato, anche per equivalente, per i reati in materia di immigrazione clandestina.",
+        "Art. 8 (Modifiche al D.Lgs. 152/2006): Introduce la confisca dei beni strumentali per i reati ambientali di cui agli articoli 255-bis e 255-ter. Per l'Art. 259-bis, introduce la confisca del prodotto, prezzo o profitto del reato, anche per equivalente.",
+        "Art. 9 (Modifiche al D.Lgs. 159/2011): Introduce l'Art. 24-bis, che stabilisce che ai fini della confisca il tribunale verifica la correlazione temporale tra l'epoca di acquisizione dei beni e il periodo di manifestazione della pericolosità sociale del proposto.",
+        "Art. 10 (Modifiche al D.P.R. 115/2002): Introduce l'Art. 151-bis, che disciplina la vendita dei beni sottoposti a sequestro prima della confisca, quando non possono essere custoditi senza pericolo di deterioramento o rilevanti diseconomie. Il vincolo cautelare è trasferito alla somma ricavata. L'ordinanza di vendita è appellabile.",
+        "Art. 11 (Ulteriori modifiche al D.Lgs. 159/2011): Modifica l'Art. 40 e introduce l'Art. 40-bis, disciplinando la vendita dei beni sottoposti a sequestro nell'ambito delle misure di prevenzione prima della confisca, con modalità simili a quelle previste per il processo penale. Il vincolo cautelare è trasferito alla somma ricavata, versata al Fondo unico di giustizia.",
+        "Art. 12 (Ulteriori modifiche al D.Lgs. 271/1989): Introduce disposizioni specifiche per la confisca delle cripto-attività, prevedendo il trasferimento delle stesse (e dei relativi mezzi di accesso) in un fondo dedicato o, in caso di impossibilità tecnica, mediante altre procedure idonee ad assicurare la custodia e il controllo esclusivi da parte dell'autorità procedente."
+      ],
+      "chi_interessato": "Autorità giudiziaria (giudici, pubblici ministeri), forze dell'ordine, INPS, emittenti di cripto-attività, prestatori di servizi di cripto-attività, soggetti indagati o condannati per reati che prevedono la confisca, terzi coinvolti nel trasferimento di beni, Agenzia Nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata (ANBSC).",
+      "decorrenza": "In vigore dal 31/10/2026",
+      "perche_conta": "Questo decreto legislativo potenzia significativamente gli strumenti di contrasto alla criminalità economica e organizzata, rendendo più efficace il recupero dei proventi illeciti. L'estensione della confisca a nuovi reati, la possibilità di confisca per equivalente dei beni strumentali e la disciplina della confisca delle cripto-attività rappresentano passi avanti cruciali per l'applicazione della giustizia e la prevenzione del riciclaggio.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg",
+      "vigore": "31/10/2026"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05409",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 7 ottobre 2026 Conferma dell'incarico all'Istituto marchigiano di tutela vini a svolgere le funzioni di promozione, valorizzazione, vigilanza, tutela, informazione del consumatore e cura generale degli interessi, di cui all'articolo 41, commi 1 e 4, della legge 12 dicembre 2016, n. 238, sulle DOCG «Castelli di Jesi Verdicchio Riserva», «Conero», «Verdicchio di Matelica Riserva» e «Vernaccia di Serrapetrona» e sulle DOC «Bianchello del Metauro», «Colli Maceratesi», «Esino», «Lacrima di Morro d'Alba», «P",
+      "sintesi": "Conferma l'incarico all'Istituto marchigiano di tutela vini per le funzioni di promozione, valorizzazione e vigilanza su diverse DOCG e DOC marchigiane.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05409/sg"
+    },
+    {
+      "codice_atto": "26A05408",
+      "categoria": "Economico",
+      "titolo": "DECRETO 8 ottobre 2026 Conferma dell'incarico al Consorzio per la valorizzazione e la tutela della Cipolla bianca di Margherita IGP a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526, per la IGP «Cipolla bianca di Margherita».",
+      "sintesi": "Conferma l'incarico al Consorzio per la valorizzazione e tutela della Cipolla bianca di Margherita IGP per le relative funzioni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05408/sg"
+    },
+    {
+      "codice_atto": "26A05410",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 luglio 2026 Liquidazione coatta amministrativa della «Lapidea coop. - Societa' cooperativa a responsabilita' limitata», in Spinetoli e nomina del commissario liquidatore.",
+      "sintesi": "Dispone la liquidazione coatta amministrativa della cooperativa «Lapidea coop.» e nomina il commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05410/sg"
+    },
+    {
+      "codice_atto": "26A05417",
+      "categoria": "Economico",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - COMUNICATO Comunicato relativo al regolamento IVASS n. 59/2026, concernente la predisposizione del modello di relazione in tema di repressione delle frodi.",
+      "sintesi": "Comunica l'emanazione del regolamento IVASS n. 59/2026 sul modello di relazione per la repressione delle frodi nel settore assicurativo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05417/sg"
+    },
+    {
+      "codice_atto": "26A05427",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Dimostrazione della copertura del costo dei servizi, per l'anno 2024, per gli enti in condizione di deficitarieta' strutturale ed enti equiparati dalla normativa.",
+      "sintesi": "Comunica la dimostrazione della copertura dei costi dei servizi per il 2024 per gli enti in deficit strutturale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05427/sg"
+    },
+    {
+      "codice_atto": "26A05428",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Criteri e modalita' di riparto del fondo istituito al fine di contribuire alle spese sostenute dai comuni per l'assistenza ai minori per i quali sia stato disposto l'allontanamento dalla casa familiare con provvedimento dell'autorita' giudiziaria, per l'anno 2026.",
+      "sintesi": "Definisce i criteri e le modalità di riparto del fondo per il contributo alle spese comunali per l'assistenza ai minori allontanati dalla casa familiare nel 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05428/sg"
+    },
+    {
+      "codice_atto": "26A05411",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Brevetti+2026",
+      "sintesi": "Comunica il bando per la concessione della misura agevolativa 'Brevetti+2026'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05411/sg"
+    },
+    {
+      "codice_atto": "26A05412",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Disegni+2026",
+      "sintesi": "Comunica il bando per la concessione della misura agevolativa 'Disegni+2026'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05412/sg"
+    },
+    {
+      "codice_atto": "26A05413",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Marchi+2026",
+      "sintesi": "Comunica il bando per la concessione della misura agevolativa 'Marchi+2026'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05413/sg"
+    },
+    {
+      "codice_atto": "26A05414",
+      "categoria": "Economico",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO DI GOVERNO PER LA REALIZZAZIONE DELLA LINEA 2 DELLA METROPOLITANA DELLA CITTA' DI TORINO - COMUNICATO Ordinanza n. 57 del 6 ottobre 2026 - Affidamento diretto del servizio di technical advisoring per le reti di alimentazione relative alle attivita' di progettazione di fattibilita' tecnico economica/esecutiva impianti di sistema e supporto con enti e distributori.",
+      "sintesi": "Dispone l'affidamento diretto del servizio di technical advisoring per le reti di alimentazione della Linea 2 della metropolitana di Torino.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05414/sg"
+    },
+    {
+      "codice_atto": "26A05402",
+      "categoria": "Economico",
+      "titolo": "PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE - COMUNICATO Scioglimento, per atto dell'autorita', della cooperativa «Agenda 2030 societa' cooperativa», in Bolzano, senza nomina del commissario liquidatore.",
+      "sintesi": "Dispone lo scioglimento della cooperativa «Agenda 2030 societa' cooperativa» senza nomina di liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05402/sg"
+    },
+    {
+      "codice_atto": "26A05429",
+      "categoria": "Giustizia",
+      "titolo": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Destituzione dall'esercizio delle funzioni notarili",
+      "sintesi": "Comunica la destituzione di un notaio dall'esercizio delle funzioni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05429/sg"
+    },
+    {
+      "codice_atto": "26A05455",
+      "categoria": "Giustizia",
+      "titolo": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Istituzione della residenza notarile di Vallecrosia al Mare",
+      "sintesi": "Comunica l'istituzione di una nuova residenza notarile a Vallecrosia al Mare.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05455/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00208",
+      "titolo": "DECRETO-LEGGE 16 ottobre 2026, n. 185 Misure urgenti a sostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio industriale del territorio.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg",
+      "tipo": "DECRETO-LEGGE",
+      "vigore": "17/10/2026"
+    },
+    {
+      "codice": "26G00203",
+      "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 186 Attuazione della direttiva (UE) 2024/1260 del Parlamento europeo e del Consiglio, del 24 aprile 2024, riguardante il recupero e la confisca dei beni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "31/10/2026"
+    },
+    {
+      "codice": "26A05409",
+      "titolo": "NISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 7 ottobre 2026 Conferma dell'incarico all'Istituto marchigiano di tutela vini a svolgere le funzioni di promozione, valorizzazione, vigilanza, tutela, informazione del consumatore e cura generale degli interessi, di cui all'articolo 41, commi 1 e 4, della legge 12 dicembre 2016, n. 238, sulle DOCG «Castelli di Jesi Verdicchio Riserva», «Conero», «Verdicchio di Matelica Riserva» e «Vernaccia di Serrapetrona» e sulle DOC «Bianchello del Metauro», «Colli Maceratesi», «Esino», «Lacrima di Morro d'Alba», «P",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05409/sg"
+    },
+    {
+      "codice": "26A05408",
+      "titolo": "DECRETO 8 ottobre 2026 Conferma dell'incarico al Consorzio per la valorizzazione e la tutela della Cipolla bianca di Margherita IGP a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526, per la IGP «Cipolla bianca di Margherita».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05408/sg"
+    },
+    {
+      "codice": "26A05410",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 30 luglio 2026 Liquidazione coatta amministrativa della «Lapidea coop. - Societa' cooperativa a responsabilita' limitata», in Spinetoli e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05410/sg"
+    },
+    {
+      "codice": "26A05362",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di trenibotulinumtoxinE, «Boey». (Determina n. 1359/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05362/sg"
+    },
+    {
+      "codice": "26A05363",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di tolebrutinib, «Cenrifki». (Determina n. 1360/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05363/sg"
+    },
+    {
+      "codice": "26A05364",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di colchicina, «Colchicina Agepha Pharma». (Determina n. 1361/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05364/sg"
+    },
+    {
+      "codice": "26A05365",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di camizestrant, «Etcamah». (Determina n. 1362/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05365/sg"
+    },
+    {
+      "codice": "26A05417",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - COMUNICATO Comunicato relativo al regolamento IVASS n. 59/2026, concernente la predisposizione del modello di relazione in tema di repressione delle frodi.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05417/sg"
+    },
+    {
+      "codice": "26A05393",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Riconoscimento della personalita' giuridica della Casa di Procura dell'Istituto Figlie Minime di Maria Immacolata, in Roma.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05393/sg"
+    },
+    {
+      "codice": "26A05394",
+      "titolo": "COMUNICATO Soppressione della Confraternita del SS. Sacramento in S. Andrea, in Castel del Rio",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05394/sg"
+    },
+    {
+      "codice": "26A05395",
+      "titolo": "COMUNICATO Estinzione dell'Istituto Diocesano per il Sostentamento del Clero della Diocesi di Ancona-Osimo, in Ancona",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05395/sg"
+    },
+    {
+      "codice": "26A05396",
+      "titolo": "COMUNICATO Estinzione dell'Istituto per il Sostentamento del Clero della Diocesi di Loreto, in Loreto",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05396/sg"
+    },
+    {
+      "codice": "26A05397",
+      "titolo": "COMUNICATO Riconoscimento della personalita' giuridica dell'Istituto Interdiocesano per il Sostentamento del Clero di Ancona-Osimo e Loreto, in Ancona.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05397/sg"
+    },
+    {
+      "codice": "26A05427",
+      "titolo": "COMUNICATO Dimostrazione della copertura del costo dei servizi, per l'anno 2024, per gli enti in condizione di deficitarieta' strutturale ed enti equiparati dalla normativa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05427/sg"
+    },
+    {
+      "codice": "26A05428",
+      "titolo": "COMUNICATO Criteri e modalita' di riparto del fondo istituito al fine di contribuire alle spese sostenute dai comuni per l'assistenza ai minori per i quali sia stato disposto l'allontanamento dalla casa familiare con provvedimento dell'autorita' giudiziaria, per l'anno 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05428/sg"
+    },
+    {
+      "codice": "26A05429",
+      "titolo": "MINISTERO DELLA GIUSTIZIA - COMUNICATO Destituzione dall'esercizio delle funzioni notarili",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05429/sg"
+    },
+    {
+      "codice": "26A05455",
+      "titolo": "COMUNICATO Istituzione della residenza notarile di Vallecrosia al Mare",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05455/sg"
+    },
+    {
+      "codice": "26A05411",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Brevetti+2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05411/sg"
+    },
+    {
+      "codice": "26A05412",
+      "titolo": "COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Disegni+2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05412/sg"
+    },
+    {
+      "codice": "26A05413",
+      "titolo": "COMUNICATO Comunicato relativo al decreto 28 settembre 2026 - Bando per la concessione della misura agevolativa Marchi+2026",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05413/sg"
+    },
+    {
+      "codice": "26A05414",
+      "titolo": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO DI GOVERNO PER LA REALIZZAZIONE DELLA LINEA 2 DELLA METROPOLITANA DELLA CITTA' DI TORINO - COMUNICATO Ordinanza n. 57 del 6 ottobre 2026 - Affidamento diretto del servizio di technical advisoring per le reti di alimentazione relative alle attivita' di progettazione di fattibilita' tecnico economica/esecutiva impianti di sistema e supporto con enti e distributori.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05414/sg"
+    },
+    {
+      "codice": "26A05402",
+      "titolo": "PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE - COMUNICATO Scioglimento, per atto dell'autorita', della cooperativa «Agenda 2030 societa' cooperativa», in Bolzano, senza nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26A05402/sg"
+    }
+  ],
+  "audio": "audio/2026-10-16.mp3",
+  "duration": 923.5
 }

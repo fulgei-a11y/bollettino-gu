@@ -1,17 +1,17 @@
 {
-  "ultimoControllo": "2026-10-16T11:27:18Z",
-  "ultimoSuccesso": "2026-10-16T11:27:18Z",
+  "ultimoControllo": "2026-10-16T18:30:12Z",
+  "ultimoSuccesso": "2026-10-16T18:30:12Z",
   "ok": true,
   "problemi": [],
   "avvisi": [],
-  "ultimaEdizione": "2026-10-15",
+  "ultimaEdizione": "2026-10-16",
   "elaborate": [
     {
       "date": "2026-10-16",
-      "stato": "non_disponibile",
-      "schede": 0
+      "stato": "con_schede",
+      "schede": 2
     }
   ],
-  "audioMB": 29.6,
-  "esecuzione": "https://github.com/fulgei-a11y/bollettino-gu/actions/runs/38893546810"
+  "audioMB": 34.0,
+  "esecuzione": "https://github.com/fulgei-a11y/bollettino-gu/actions/runs/38947248633"
 }
