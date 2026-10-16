@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-15T20:20:51Z",
+ "aggiornato": "2026-10-16T11:25:30Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-16T11:25:30Z",
+   "nuovi": 4
+  },
   {
    "quando": "2026-10-15T20:20:51Z",
    "nuovi": 0
@@ -96,7 +100,7 @@
    "nome": "II Commissione Giustizia",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
    "ok": true,
-   "trovati": 869
+   "trovati": 870
   },
   {
    "id": "comm5",
@@ -117,7 +121,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1571
+   "trovati": 1574
   },
   {
    "id": "comm10",
@@ -128,6 +132,82 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-bc2fafdc068270",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANCI",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di Legambiente, in videoconferenza, di rappresentanti dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti dell'Associazione nazionale comuni italiani (ANCI), in videoconferenza, di rappresentanti della Federazione europea per il trasporto e l'ambiente (Transport and environment Italia), di rappresentanti di Ecco Climate, di rappresentanti dell'Associazione italiana di epidemiologia (AIE), in videoconferenza, di rappresentanti della Società italiana di medicina Ambientale (SIMA), in videoconferenza, nell'ambito dell'",
+   "seduta": "Seduta del 13/10/2026",
+   "data": "2026-10-16",
+   "ora": "12:00",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.102638.16-10-2026-12-00-03.110.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-16T11:25:30Z"
+  },
+  {
+   "id": "c-801ad392a0c5e5",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ISS",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-16",
+   "ora": "11:19",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.16-10-2026-11-19-23.061.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-16T11:25:30Z"
+  },
+  {
+   "id": "c-6de6c8ffc80301",
+   "fonte": "commissione",
+   "organo": "II Giustizia",
+   "commissioni": [
+    "II"
+   ],
+   "materia": "Giustizia",
+   "titolo": "C. 2880 - Allegato FNO TSRM PSTR",
+   "tipo": "Allegato",
+   "contesto": "Audizione informale di rappresentanti della Federazione Nazionale degli Ordini della Professione di Ostetrica (FNOPO), in videoconferenza, della Federazione Nazionale Ordini Professioni Infermieristiche (FNOPI), in videoconferenza, della Federazione Ordini Farmacisti Italiani (FOFI), in videoconferenza, e della Federazione nazionale Collegi professionali Tecnici sanitari di radiologia medica e delle professioni sanitarie tecniche, della riabilitazione e della prevenzione (FNO TSRM e PSTRP), nell'ambito dell'esame del disegno di legge C. 2880, recante «Disposizioni in materia di organizzazione ",
+   "seduta": "Seduta del 29/09/2026",
+   "data": "2026-10-16",
+   "ora": "09:07",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Allegato.PUBBLICO.ideGes.101195.16-10-2026-09-07-55.550.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3502&id_tipografico=02",
+   "atto": "C. 2880",
+   "visto": "2026-10-16T11:25:30Z"
+  },
+  {
+   "id": "c-f0d28a3047a0d0",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ENEA",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3119 - \"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale “EURO 5”\" (3119)",
+   "seduta": "",
+   "data": "2026-10-16",
+   "ora": "09:06",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.101438.16-10-2026-09-06-33.147.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3119",
+   "visto": "2026-10-16T11:25:30Z"
+  },
   {
    "id": "c-6d65eac7481190",
    "fonte": "commissione",
@@ -176,7 +256,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Memoria Genitori Antismog",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "contesto": "Audizione informale di rappresentanti dell'Agenzia confederale dei trasporti e servizi (AGENS), dell'Associazione nazionale autotrasporto viaggiatori (ANAV), dell'Associazione Trasporti (ASSTRA), in videoconferenza, di Fermerci, in videoconferenza, della Fondazione Umberto Veronesi, in videoconferenza, di Cittadini per l'aria, in videoconferenza, di Genitori Antismog, in videoconferenza, e di Kyoto Club, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la ",
    "seduta": "Seduta del 15/10/2026",
    "data": "2026-10-15",
    "ora": "14:30",
@@ -297,7 +377,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Slides Fondazione Umberto Veronesi",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "contesto": "Audizione informale di rappresentanti dell'Agenzia confederale dei trasporti e servizi (AGENS), dell'Associazione nazionale autotrasporto viaggiatori (ANAV), dell'Associazione Trasporti (ASSTRA), in videoconferenza, di Fermerci, in videoconferenza, della Fondazione Umberto Veronesi, in videoconferenza, di Cittadini per l'aria, in videoconferenza, di Genitori Antismog, in videoconferenza, e di Kyoto Club, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la ",
    "seduta": "Seduta del 15/10/2026",
    "data": "2026-10-15",
    "ora": "12:11",
@@ -316,7 +396,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Memoria Fermerci",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "contesto": "Audizione informale di rappresentanti dell'Agenzia confederale dei trasporti e servizi (AGENS), dell'Associazione nazionale autotrasporto viaggiatori (ANAV), dell'Associazione Trasporti (ASSTRA), in videoconferenza, di Fermerci, in videoconferenza, della Fondazione Umberto Veronesi, in videoconferenza, di Cittadini per l'aria, in videoconferenza, di Genitori Antismog, in videoconferenza, e di Kyoto Club, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la ",
    "seduta": "Seduta del 15/10/2026",
    "data": "2026-10-15",
    "ora": "12:09",
@@ -335,7 +415,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Memoria Kyoto Club",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "contesto": "Audizione informale di rappresentanti dell'Agenzia confederale dei trasporti e servizi (AGENS), dell'Associazione nazionale autotrasporto viaggiatori (ANAV), dell'Associazione Trasporti (ASSTRA), in videoconferenza, di Fermerci, in videoconferenza, della Fondazione Umberto Veronesi, in videoconferenza, di Cittadini per l'aria, in videoconferenza, di Genitori Antismog, in videoconferenza, e di Kyoto Club, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la ",
    "seduta": "Seduta del 15/10/2026",
    "data": "2026-10-15",
    "ora": "12:09",
@@ -354,7 +434,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Memoria ANAV, ASSTRA e AGENS",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «Euro 5», di rappresentanti di: - Agenzia confederale dei trasporti e dei servizi (AGENS), Associazione nazionale autotrasporto viaggiatori (ANAV) e Associazione Trasporti (ASSTRA) - Fermerci - Fondazione Umberto Veronesi - Cittadini per l’aria e Genitori Antismog - Kyoto Club",
+   "contesto": "Audizione informale di rappresentanti dell'Agenzia confederale dei trasporti e servizi (AGENS), dell'Associazione nazionale autotrasporto viaggiatori (ANAV), dell'Associazione Trasporti (ASSTRA), in videoconferenza, di Fermerci, in videoconferenza, della Fondazione Umberto Veronesi, in videoconferenza, di Cittadini per l'aria, in videoconferenza, di Genitori Antismog, in videoconferenza, e di Kyoto Club, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3119, di conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la ",
    "seduta": "Seduta del 15/10/2026",
    "data": "2026-10-15",
    "ora": "12:09",
