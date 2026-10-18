@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
   <channel>
     <title>Bollettino GU</title>
     <link>https://fulgei-a11y.github.io/bollettino-gu/</link>
@@ -14,6 +14,9 @@
     <itunes:category text="News"><itunes:category text="Politics"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <!-- non elencato nelle directory (Apple Podcasts, Google ecc.): resta ascoltabile con l'indirizzo -->
+    <itunes:block>Yes</itunes:block>
+    <googleplay:block>yes</googleplay:block>
     <item>
       <title>GU n. 242 – Sabato 17 ottobre 2026</title>
       <description>L'edizione della Gazzetta Ufficiale del 17 ottobre 2026 si concentra principalmente su provvedimenti di natura economica e amministrativa, con particolare enfasi su stanziamenti per la ricostruzione post-calamità naturali e sostegni finanziari per settori specifici. Sono presenti anche comunicazioni relative a rifinanziamenti di misure agevolative e aggiornamenti di piani di gestione del rischio alluvioni.
