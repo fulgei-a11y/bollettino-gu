@@ -384,7 +384,7 @@ def build_podcast(eds):
       <itunes:explicit>false</itunes:explicit>
     </item>""")
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
   <channel>
     <title>Bollettino GU</title>
     <link>{SITE}</link>
@@ -399,6 +399,9 @@ def build_podcast(eds):
     <itunes:category text="News"><itunes:category text="Politics"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <!-- non elencato nelle directory (Apple Podcasts, Google ecc.): resta ascoltabile con l'indirizzo -->
+    <itunes:block>Yes</itunes:block>
+    <googleplay:block>yes</googleplay:block>
 {chr(10).join(items)}
   </channel>
 </rss>
