@@ -2,12 +2,14 @@ name: Aggiornamento Automatico Bollettino GU
 
 on:
   schedule:
-    # La Serie Generale viene pubblicata in serata. Orari in UTC: con l'ora legale sono le 13, 20, 21 e 22
-    # italiane; con l'ora solare (dal 25 ottobre) le 12, 19, 20 e 21. L'ultimo controllo copre la sera d'inverno.
-    - cron: '0 11 * * 1-6'
-    - cron: '0 18 * * 1-6'
-    - cron: '0 19 * * 1-6'
-    - cron: '0 20 * * 1-6'
+    # Tutti i giorni, sabato e domenica compresi. La Serie Generale esce dal lunedì al sabato, in serata;
+    # la domenica il controllo legge le novità dal Parlamento e recupera un'edizione eventualmente mancata.
+    # Orari in UTC: con l'ora legale sono le 13, 20, 21 e 22 italiane; con l'ora solare (dal 25 ottobre)
+    # le 12, 19, 20 e 21. L'ultimo controllo copre la sera d'inverno.
+    - cron: '0 11 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
     inputs:
       gu_date:
@@ -80,12 +82,12 @@ jobs:
         continue-on-error: true
         run: python3 tools/parlamento.py
 
-      - name: Archivio, ricerca, scadenzario e podcast (audio solo ultimi 60 giorni)
+      - name: Archivio, ricerca, scadenzario e podcast (audio solo ultimi 10 giorni)
         id: extras
         if: ${{ !cancelled() }}
         continue-on-error: true
         env:
-          AUDIO_DAYS: '60'
+          AUDIO_DAYS: '10'
         run: python3 tools/build_extras.py
 
       - name: Stato dell'aggiornamento
