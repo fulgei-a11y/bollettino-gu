@@ -239,6 +239,5 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/09/30/26A05090/sg"
     }
   ],
-  "audio": "audio/2026-09-30.mp3",
-  "duration": 461.3
+  "audio_scaduto": true
 }

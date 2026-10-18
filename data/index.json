@@ -86,7 +86,7 @@
     "numero_gu": "233",
     "stato": "con_schede",
     "schede": 1,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-09T11:14:22Z"
   },
   {
@@ -95,7 +95,7 @@
     "numero_gu": "232",
     "stato": "con_schede",
     "schede": 2,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-09T11:15:27Z"
   },
   {
@@ -104,7 +104,7 @@
     "numero_gu": "231",
     "stato": "con_schede",
     "schede": 1,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-08T21:27:22Z"
   },
   {
@@ -113,7 +113,7 @@
     "numero_gu": "230",
     "stato": "nessuna_legge_interesse",
     "schede": 0,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-08T21:39:52Z"
   },
   {
@@ -122,7 +122,7 @@
     "numero_gu": "229",
     "stato": "con_schede",
     "schede": 1,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-09T11:16:55Z"
   },
   {
@@ -131,7 +131,7 @@
     "numero_gu": "228",
     "stato": "con_schede",
     "schede": 1,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-09T18:17:24Z"
   },
   {
@@ -140,7 +140,7 @@
     "numero_gu": "227",
     "stato": "con_schede",
     "schede": 1,
-    "audio": true,
+    "audio": false,
     "updatedAt": "2026-10-09T18:18:27Z"
   }
 ]

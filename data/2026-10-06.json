@@ -248,6 +248,5 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/06/26A05157/sg"
     }
   ],
-  "audio": "audio/2026-10-06.mp3",
-  "duration": 810.7
+  "audio_scaduto": true
 }

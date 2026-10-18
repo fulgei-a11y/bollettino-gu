@@ -296,6 +296,5 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26A05264/sg"
     }
   ],
-  "audio": "audio/2026-10-07.mp3",
-  "duration": 577.3
+  "audio_scaduto": true
 }
