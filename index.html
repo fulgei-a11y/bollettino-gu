@@ -483,7 +483,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
         <span class="ico" aria-hidden="true">▦</span><span><b>Scadenze nel tuo calendario</b><span>Decreti-legge e entrate in vigore, sempre aggiornate.</span></span>
       </a>
     </div>
-    <p style="margin:0;">I controlli girano dal lunedì al sabato, a metà giornata e in serata. Leggi, decreti-legge e decreti legislativi delle materie seguite hanno una scheda completa; gli altri atti rilevanti sono segnalati in breve e l'elenco completo dell'edizione è sempre consultabile. La lettura audio resta disponibile per gli ultimi 60 giorni; le schede restano tutte.</p>
+    <p style="margin:0;">I controlli girano tutti i giorni, a metà giornata e in serata (la Gazzetta esce dal lunedì al sabato). Leggi, decreti-legge e decreti legislativi delle materie seguite hanno una scheda completa; gli altri atti rilevanti sono segnalati in breve e l'elenco completo dell'edizione è sempre consultabile. La lettura audio resta disponibile per gli ultimi 10 giorni; le schede restano tutte.</p>
   </footer>
 </div>
 
@@ -572,7 +572,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     var rows = '<dl>';
     if (st && st.ultimoControllo) rows += '<dt>Ultimo controllo</dt><dd>'+escapeHtml(whenLabel(st.ultimoControllo))+(st.ok===false?' — non riuscito':' — riuscito')+'</dd>';
     rows += '<dt>Ultimo aggiornamento riuscito</dt><dd>'+escapeHtml(whenLabel(lastOk))+'</dd>';
-    if (st && st.audioMB != null) rows += '<dt>Audio online</dt><dd>'+escapeHtml(String(st.audioMB).replace('.',','))+' MB, ultimi 60 giorni</dd>';
+    if (st && st.audioMB != null) rows += '<dt>Audio online</dt><dd>'+escapeHtml(String(st.audioMB).replace('.',','))+' MB, ultimi 10 giorni</dd>';
     rows += '</dl>';
     if (failed && st.problemi && st.problemi.length){
       rows += '<ul>' + st.problemi.map(function(p){ return '<li>'+escapeHtml(p)+'</li>'; }).join('') + '</ul>';
@@ -680,7 +680,7 @@ footer{border-top:1px solid var(--line); padding-block:16px calc(24px + env(safe
     html += '</div>';
     if (doc.sintesi) html += '<p class="sintesi">'+escapeHtml(doc.sintesi)+'</p>';
     if (doc.note && doc.stato !== 'con_schede') html += '<p class="note">'+escapeHtml(doc.note)+'</p>';
-    if (doc.audio_scaduto) html += '<p class="note">La lettura audio di questa edizione non è più online: si conservano gli audio degli ultimi 60 giorni.</p>';
+    if (doc.audio_scaduto) html += '<p class="note">La lettura audio di questa edizione non è più online: si conservano gli audio degli ultimi 10 giorni.</p>';
     (doc.schede||[]).forEach(function(s, i){ html += renderCard(s, i, doc); });
     html += renderAltri(doc.altri_atti);
     html += renderDiscardList(doc.scartate);

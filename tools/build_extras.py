@@ -1,7 +1,7 @@
 """
 Prepara i file "di servizio" del sito, a partire dalle edizioni salvate in data/:
 
-1. Audio: tiene online solo gli MP3 degli ultimi AUDIO_DAYS giorni (default 60), per restare
+1. Audio: tiene online solo gli MP3 degli ultimi AUDIO_DAYS giorni (default 10), per restare
    nei limiti di spazio di GitHub Pages. Le schede restano tutte: sparisce solo la lettura audio.
 2. data/index.json      elenco delle edizioni (per il menu del sito)
 3. data/search.json     indice compatto per la ricerca nell'archivio
@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 ROME = ZoneInfo("Europe/Rome")
 DATA = "data"
 AUDIO = "audio"
-AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "60"))
+AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "10"))
 SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/bollettino-gu/").rstrip("/") + "/"
 TODAY = dt.date.fromisoformat(os.environ["TODAY"]) if os.environ.get("TODAY") else dt.datetime.now(ROME).date()
 RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_extras.json")
@@ -80,7 +80,7 @@ def write_json(name, obj, compact=False):
 
 
 # ---------------------------------------------------------------------------
-# 1. Audio degli ultimi 60 giorni
+# 1. Audio degli ultimi AUDIO_DAYS giorni
 # ---------------------------------------------------------------------------
 def prune_audio(eds):
     cutoff = TODAY - dt.timedelta(days=AUDIO_DAYS)

@@ -2,7 +2,7 @@
 Crea la lettura audio (voce Paola) delle edizioni che non ce l'hanno ancora.
 Per ogni data/AAAA-MM-GG.json senza "audio": scrive il testo da leggere, chiama build_audio.py
 e salva nel JSON il percorso dell'MP3 e la durata.
-Solo per le edizioni degli ultimi AUDIO_DAYS giorni (default 60): quelle più vecchie vengono
+Solo per le edizioni degli ultimi AUDIO_DAYS giorni (default 10): quelle più vecchie vengono
 tolte da tools/build_extras.py per restare nei limiti di spazio di GitHub Pages.
 """
 import os
@@ -15,7 +15,7 @@ import datetime as dt
 
 DATA = "data"
 MAX_AUDIO = int(os.environ.get("MAX_AUDIO", "4"))
-AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "60"))
+AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "10"))
 RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_audio.json")
 MESI = ["", "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
