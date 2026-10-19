@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-18T20:16:43Z",
+ "aggiornato": "2026-10-19T11:25:38Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-19T11:25:38Z",
+   "nuovi": 3
+  },
   {
    "quando": "2026-10-18T20:16:43Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-10T19:13:17Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-10T18:15:39Z",
-   "nuovi": 0
   }
  ],
  "fonti": [
@@ -164,10 +164,55 @@
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1648
+   "trovati": 1649
   }
  ],
  "voci": [
+  {
+   "id": "c-88b489787f4fac",
+   "fonte": "commissione",
+   "organo": "X Attività produttive",
+   "commissioni": [
+    "X"
+   ],
+   "materia": "Economico",
+   "titolo": "Gianni & Orrigoni",
+   "tipo": "Contributo scritto",
+   "contesto": "Indagine conoscitiva sulla capacità competitiva del sistema Italia, sulle dinamiche del PIL nel periodo 1992–2025 in rapporto alla media UE e sulle leve di intervento sui settori produttivi per sostenere la crescita economica",
+   "seduta": "",
+   "data": "2026-10-19",
+   "ora": "12:38",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Indagine/leg19.com10.Indagine.Contributo%20Scritto.PUBBLICO.ideGes.85364.19-10-2026-12-38-08.284.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
+   "atto": "",
+   "visto": "2026-10-19T11:25:38Z"
+  },
+  {
+   "id": "d-OCD18-23736",
+   "fonte": "dossier",
+   "organo": "Studi - Cultura",
+   "materia": "",
+   "titolo": "Dichiarazione di monumento nazionale del memoriale di Portella della Ginestra nonché disposizioni per il restauro, la tutela e la valorizzazione di esso",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23736/dichiarazione-monumento-nazionale-del-memoriale-portella-della-ginestra-nonche-disposizioni-restauro-tutela-e-valorizzazione-esso.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T11:25:38Z"
+  },
+  {
+   "id": "d-OCD18-23662",
+   "fonte": "dossier",
+   "organo": "Studi - Affari sociali",
+   "materia": "",
+   "titolo": "Carta europea della disabilità e contrassegno europeo di parcheggio per le persone con disabilità",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23662/carta-europea-della-disabilita-e-contrassegno-europeo-parcheggio-persone-disabilita.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T11:25:38Z"
+  },
   {
    "id": "c-9ff32f812ced9c",
    "fonte": "commissione",
