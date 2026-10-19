@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-19T11:27:22Z",
+  "generato": "2026-10-19T18:34:27Z",
   "oggi": "2026-10-19",
   "decreti_legge": [
     {
@@ -234,6 +234,15 @@
       "edizione": "2026-10-16",
       "scheda": 1,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg"
+    },
+    {
+      "data": "2026-11-03",
+      "riferimento": "LEGGE 16 ottobre 2026, n. 187",
+      "titolo": "Delega al Governo per il riordino della polizia locale",
+      "categoria": "Economico",
+      "edizione": "2026-10-19",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26G00204/sg"
     }
   ]
 }

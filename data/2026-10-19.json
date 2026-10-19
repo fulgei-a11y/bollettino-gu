@@ -1,14 +1,228 @@
 {
   "date": "2026-10-19",
   "giorno": "lunedì",
-  "updatedAt": "2026-10-19T11:25:35Z",
+  "updatedAt": "2026-10-19T18:31:48Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "243",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-19&numeroGazzetta=243",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/19/243/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 19 ottobre 2026 è dominata dalla Legge n. 187/2026, che delega il Governo per un ampio riordino delle funzioni e dell'ordinamento della polizia locale, introducendo significative novità su qualifiche, formazione, armamento e tutela del personale. Completano l'edizione diversi decreti ministeriali e delibere, prevalentemente di natura economico-finanziaria e amministrativa, oltre ad atti di interesse agricolo e sanitario.",
+  "schede": [
+    {
+      "codice_atto": "26G00204",
+      "titolo": "Delega al Governo per il riordino della polizia locale",
+      "riferimento": "LEGGE 16 ottobre 2026, n. 187",
+      "categoria": "Economico",
+      "iter": "In vigore dal 03/11/2026",
+      "contesto": "La legge delega il Governo ad adottare, entro dodici mesi dall'entrata in vigore, uno o più decreti legislativi per il riordino delle funzioni e dell'ordinamento della polizia locale, tramite revisione della legge 7 marzo 1986, n. 65, al fine di aggiornare, riordinare e coordinare la disciplina statale vigente in materia, introducendo le necessarie disposizioni innovative.",
+      "misure": [
+        "Art. 1: Delega al Governo per adottare, entro dodici mesi dall'entrata in vigore, decreti legislativi per il riordino delle funzioni e dell'ordinamento della polizia locale, nel rispetto dei principi e criteri direttivi generali (Art. 2) e specifici (Art. 3 e 5). Prevista la possibilità di disposizioni integrative e correttive entro dodici mesi dall'ultimo decreto legislativo.",
+        "Art. 2: Stabilisce principi e criteri direttivi generali, tra cui l'individuazione delle funzioni di polizia locale di comuni, province e città metropolitane (rispetto art. 118 Cost.), dei compiti peculiari e della professionalità del personale, e il mantenimento della distinzione con le Forze di polizia dello Stato.",
+        "Art. 3: Definisce principi e criteri direttivi specifici, tra cui: a) individuazione e disciplina delle funzioni per le quali è attribuita la qualità di agente o di ufficiale di polizia giudiziaria e di agente di pubblica sicurezza (competenza del prefetto per quest'ultima); b) previsione di casi di non conferimento o perdita della qualifica di agente di pubblica sicurezza (es. condanna per delitto non colposo, misure di prevenzione, destituzione, elementi ostativi riferiti alla condotta); c) esercizio delle funzioni di polizia giudiziaria, ausiliarie di pubblica sicurezza e polizia stradale nell'ambito territoriale dell'ente; d) disciplina delle funzioni del comandante del corpo di polizia locale, requisiti di accesso (valorizzazione esperienza, procedura pubblica di selezione, incarico a tempo determinato, responsabilità verso il sindaco/presidente); e) attribuzione alla contrattazione collettiva (sezioni per polizia locale) di risorse per trattamento accessorio e valorizzazione professionale; f) riconoscimento dei criteri generali di rappresentatività sindacale; g) introduzione di disposizioni (non prima del 2027) in materia assistenziale, assicurativa e infortunistica (accertamento dipendenza infermità da causa di servizio, rimborsi, equo indennizzo, classi di rischio, applicazione disciplina vittime del dovere); h) ricognizione disciplina documento valutazione rischi, con capitoli specifici per rischi da aggressione fisica, colluttazione, minaccia a mano armata; i) facoltà per il personale (agente di pubblica sicurezza o ufficiale/agente di polizia giudiziaria) di avvalersi di patrocinio legale per fatti compiuti in servizio relativi all'uso delle armi o mezzi di coazione fisica, con diritto di rivalsa dell'ente in caso di dolo; l) disciplina delle forme di collaborazione con le Forze di polizia dello Stato (collegamento 112-sale operative, accesso al Centro elaborazione dati ex L. 121/1981, trasmissione dati, principi di onerosità, necessità, selettività, sicurezza informatica); m) rinvio alla contrattazione collettiva nazionale per la definizione delle qualifiche (agente, sovrintendente, ispettore, commissario) e progressione di carriera; n) previsione dell'accesso dei corpi di polizia locale ai sistemi informativi automatizzati del PRA e della Motorizzazione; o) disciplina dell'armamento individuale e di reparto (armi comuni da sparo, armi a impulsi elettrici, strumenti di autodifesa); p) disciplina addestramento, uso e porto delle armi (anche fuori servizio per ragioni specifiche), tenuta e custodia, revoca/sospensione.",
+        "Art. 4: Prevede il coordinamento tra Stato, regioni ed enti locali, stabilendo principi generali sulla formazione e aggiornamento professionale del personale, salva la potestà legislativa regionale in materia di formazione e finanziamento/cofinanziamento di convenzioni per sicurezza integrata.",
+        "Art. 5: Dispone la revisione della disciplina dei regolamenti del servizio di polizia locale, con principi specifici su: a) individuazione dispositivi di tutela dell'incolumità del personale (es. dispositivi di contenzione, giubbotti, caschi, scudi, videosorveglianza indossabile); b) casi di operazioni fuori ambito territoriale (es. flagranza di reato, missioni di collegamento/rappresentanza, soccorso, ausilio ad altri corpi); c) requisiti minimi di ammissione ai concorsi pubblici; d) determinazione della dotazione organica complessiva e delle singole qualifiche, secondo criteri di funzionalità, efficienza, economicità, tenendo conto di abitanti, flussi, territorio, caratteristiche socio-economiche, nel rispetto dei parametri regionali e limiti di spesa.",
+        "Art. 6: Stabilisce le disposizioni finanziarie, prevedendo che gli oneri per l'Art. 3, comma 1, lettera g) siano coperti da risorse ex Art. 1, comma 995, L. 30 dicembre 2020, n. 178. I decreti legislativi devono essere corredati da relazione tecnica sulla neutralità finanziaria o mezzi di copertura, senza nuovi o maggiori oneri a carico della finanza pubblica, salvo quanto previsto per la lettera g).",
+        "Art. 7: Contiene una clausola di salvaguardia per le regioni a statuto speciale e le province autonome."
+      ],
+      "chi_interessato": "Personale della polizia locale (agenti, ufficiali, comandanti), comuni, province, città metropolitane, Ministero dell'Interno, Ministero per la Pubblica Amministrazione, Ministero per gli Affari Regionali e le Autonomie, Ministero della Giustizia, Ministero dell'Economia e delle Finanze, Forze di polizia dello Stato, regioni, sindacati.",
+      "decorrenza": "03/11/2026",
+      "perche_conta": "La legge rappresenta un riordino organico e atteso della disciplina della polizia locale, aggiornando la normativa del 1986. Introduce importanti novità su qualifiche, funzioni, formazione, armamento, tutela del personale, accesso a banche dati e coordinamento con le Forze di polizia statali, con impatti significativi sull'operatività e lo status del personale, nonché sulla sicurezza urbana e la gestione del territorio da parte degli enti locali.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26G00204/sg",
+      "vigore": "03/11/2026"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05457",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 30 settembre 2026 Definizione delle modalita' di inserimento dei dati nella piattaforma informatizzata denominata «Registro unico delle movimentazioni del latte di bufala e dei suoi derivati».",
+      "sintesi": "Definisce le modalità operative per l'inserimento dei dati nel Registro unico delle movimentazioni del latte di bufala e dei suoi derivati, al fine di tracciare e monitorare la filiera.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05457/sg"
+    },
+    {
+      "codice_atto": "26A05458",
+      "categoria": "Economico",
+      "titolo": "DECRETO 12 ottobre 2026 Designazione del laboratorio Biochem Service S.r.l., in Castelvetrano, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "sintesi": "Designa il laboratorio Biochem Service S.r.l. di Castelvetrano come soggetto autorizzato al rilascio di certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05458/sg"
+    },
+    {
+      "codice_atto": "26A05459",
+      "categoria": "Economico",
+      "titolo": "DECRETO 12 ottobre 2026 Modifica al decreto 8 maggio 2026, con il quale il laboratorio Olivolab S.r.l., in Greve di Chianti, e' stato designato al rilascio dei certificati di analisi nel settore oleicolo.",
+      "sintesi": "Modifica un precedente decreto relativo alla designazione del laboratorio Olivolab S.r.l. di Greve di Chianti per il rilascio di certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05459/sg"
+    },
+    {
+      "codice_atto": "26A05463",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 17 settembre 2026 Riparto del fondo di cui all'articolo 1, comma 455, della legge 30 dicembre 2023, n. 213, come modificato dall'articolo 1, comma 651, della legge 30 dicembre 2025, n. 199, in materia di contributi riconosciuti, per gli anni 2026-2034, alle regioni con elevato disavanzo di amministrazione pro capite al 31 dicembre 2021.",
+      "sintesi": "Definisce il riparto del fondo destinato a contributi per le regioni con elevato disavanzo di amministrazione pro capite al 31 dicembre 2021, per gli anni dal 2026 al 2034.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05463/sg"
+    },
+    {
+      "codice_atto": "26A05460",
+      "categoria": "Economico",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,00%, con godimento 15 giugno 2026 e scadenza 15 settembre 2029, settima e ottava tranche.",
+      "sintesi": "Riapre le operazioni di sottoscrizione per la settima e ottava tranche dei Buoni del Tesoro Poliennali con tasso del 3,00%, godimento 15 giugno 2026 e scadenza 15 settembre 2029.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05460/sg"
+    },
+    {
+      "codice_atto": "26A05461",
+      "categoria": "Economico",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,35%, con godimento 15 luglio 2026 e scadenza 15 settembre 2033, quinta e sesta tranche.",
+      "sintesi": "Riapre le operazioni di sottoscrizione per la quinta e sesta tranche dei Buoni del Tesoro Poliennali con tasso del 3,35%, godimento 15 luglio 2026 e scadenza 15 settembre 2033.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05461/sg"
+    },
+    {
+      "codice_atto": "26A05462",
+      "categoria": "Economico",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,95%, con godimento 10 febbraio 2026 e scadenza 1° ottobre 2041, sesta e settima tranche.",
+      "sintesi": "Riapre le operazioni di sottoscrizione per la sesta e settima tranche dei Buoni del Tesoro Poliennali con tasso del 3,95%, godimento 10 febbraio 2026 e scadenza 1° ottobre 2041.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05462/sg"
+    },
+    {
+      "codice_atto": "26A05446",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 11 settembre 2026 Disposizioni per l'impiego su strada di dispositivi di sicurezza stradale per i motociclisti (DSM). Modifica e sostituzione del decreto 1° aprile 2019.",
+      "sintesi": "Modifica e sostituisce il precedente decreto del 1° aprile 2019, introducendo nuove disposizioni per l'impiego su strada di dispositivi di sicurezza stradale specifici per i motociclisti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05446/sg"
+    },
+    {
+      "codice_atto": "26A05464",
+      "categoria": "Economico",
+      "titolo": "COMMISSIONE NAZIONALE PER LE SOCIETA' E LA BORSA - DELIBERA 8 ottobre 2026 Modifiche alle disposizioni di attuazione dell'articolo 4-septies.2 del decreto legislativo 24 febbraio 1998, n. 58. (Delibera n. 24155).",
+      "sintesi": "Introduce modifiche alle disposizioni di attuazione dell'articolo 4-septies.2 del Testo Unico della Finanza (TUF), relative alle società e alla borsa.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05464/sg"
+    },
+    {
+      "codice_atto": "26A05449",
+      "categoria": "Economico",
+      "titolo": "CAMERA DI COMMERCIO MONTE ROSA LAGHI ALTO PIEMONTE - COMUNICATO Provvedimento concernente i marchi di identificazione dei metalli preziosi",
+      "sintesi": "Comunicato relativo a un provvedimento concernente i marchi di identificazione dei metalli preziosi, con implicazioni per gli operatori del settore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05449/sg"
+    },
+    {
+      "codice_atto": "26A05450",
+      "categoria": "Economico",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - COMUNICATO Avvio del provvedimento di cancellazione d'ufficio dal Registro unico degli intermediari di assicurazione e riassicurazione, per mancato esercizio dell'attivita' senza giustificato motivo per oltre tre anni.",
+      "sintesi": "Comunica l'avvio di procedure di cancellazione d'ufficio dal Registro unico degli intermediari di assicurazione e riassicurazione per coloro che non hanno esercitato l'attività per oltre tre anni senza giustificato motivo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05450/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00204",
+      "titolo": "LEGGE 16 ottobre 2026, n. 187 Delega al Governo per il riordino delle funzioni e dell'ordinamento della polizia locale.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26G00204/sg",
+      "tipo": "LEGGE",
+      "vigore": "03/11/2026"
+    },
+    {
+      "codice": "26A05457",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 30 settembre 2026 Definizione delle modalita' di inserimento dei dati nella piattaforma informatizzata denominata «Registro unico delle movimentazioni del latte di bufala e dei suoi derivati».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05457/sg"
+    },
+    {
+      "codice": "26A05458",
+      "titolo": "DECRETO 12 ottobre 2026 Designazione del laboratorio Biochem Service S.r.l., in Castelvetrano, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05458/sg"
+    },
+    {
+      "codice": "26A05459",
+      "titolo": "DECRETO 12 ottobre 2026 Modifica al decreto 8 maggio 2026, con il quale il laboratorio Olivolab S.r.l., in Greve di Chianti, e' stato designato al rilascio dei certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05459/sg"
+    },
+    {
+      "codice": "26A05463",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 17 settembre 2026 Riparto del fondo di cui all'articolo 1, comma 455, della legge 30 dicembre 2023, n. 213, come modificato dall'articolo 1, comma 651, della legge 30 dicembre 2025, n. 199, in materia di contributi riconosciuti, per gli anni 2026-2034, alle regioni con elevato disavanzo di amministrazione pro capite al 31 dicembre 2021.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05463/sg"
+    },
+    {
+      "codice": "26A05460",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,00%, con godimento 15 giugno 2026 e scadenza 15 settembre 2029, settima e ottava tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05460/sg"
+    },
+    {
+      "codice": "26A05461",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,35%, con godimento 15 luglio 2026 e scadenza 15 settembre 2033, quinta e sesta tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05461/sg"
+    },
+    {
+      "codice": "26A05462",
+      "titolo": "DECRETO 13 ottobre 2026 Riapertura delle operazioni di sottoscrizione dei buoni del Tesoro poliennali 3,95%, con godimento 10 febbraio 2026 e scadenza 1° ottobre 2041, sesta e settima tranche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05462/sg"
+    },
+    {
+      "codice": "26A05446",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 11 settembre 2026 Disposizioni per l'impiego su strada di dispositivi di sicurezza stradale per i motociclisti (DSM). Modifica e sostituzione del decreto 1° aprile 2019.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05446/sg"
+    },
+    {
+      "codice": "26A05369",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di palbociclib, «Palbociclib Viatris». (Determina n. 1366/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05369/sg"
+    },
+    {
+      "codice": "26A05370",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di plozasiran, «Redemplo». (Determina n. 1367/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05370/sg"
+    },
+    {
+      "codice": "26A05371",
+      "titolo": "DETERMINA 1 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di ranibizumab, «Rexatilux». (Determina n. 1368/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05371/sg"
+    },
+    {
+      "codice": "26A05372",
+      "titolo": "DETERMINA 5 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di risankizumab, «Skyrizi». (Determina n. 1369/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05372/sg"
+    },
+    {
+      "codice": "26A05464",
+      "titolo": "COMMISSIONE NAZIONALE PER LE SOCIETA' E LA BORSA - DELIBERA 8 ottobre 2026 Modifiche alle disposizioni di attuazione dell'articolo 4-septies.2 del decreto legislativo 24 febbraio 1998, n. 58. (Delibera n. 24155).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05464/sg"
+    },
+    {
+      "codice": "26A05435",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Cerazette».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05435/sg"
+    },
+    {
+      "codice": "26A05436",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Cialis».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05436/sg"
+    },
+    {
+      "codice": "26A05447",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di rosuvastatina ed ezetimibe, «Cholecomb».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05447/sg"
+    },
+    {
+      "codice": "26A05448",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di escina, «Essaven».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05448/sg"
+    },
+    {
+      "codice": "26A05449",
+      "titolo": "CAMERA DI COMMERCIO MONTE ROSA LAGHI ALTO PIEMONTE - COMUNICATO Provvedimento concernente i marchi di identificazione dei metalli preziosi",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05449/sg"
+    },
+    {
+      "codice": "26A05450",
+      "titolo": "ISTITUTO PER LA VIGILANZA SULLE ASSICURAZIONI - COMUNICATO Avvio del provvedimento di cancellazione d'ufficio dal Registro unico degli intermediari di assicurazione e riassicurazione, per mancato esercizio dell'attivita' senza giustificato motivo per oltre tre anni.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05450/sg"
+    },
+    {
+      "codice": "26A05379",
+      "titolo": "SUPPLEMENTI ORDINARI MINISTERO DELLA DIFESA - COMUNICATO Ruoli del personale militare collocato in ausiliaria",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05379/sg"
+    }
+  ],
+  "audio": "audio/2026-10-19.mp3",
+  "duration": 631.2
 }

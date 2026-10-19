@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-19T11:25:38Z",
+ "aggiornato": "2026-10-19T18:32:44Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-19T18:32:44Z",
+   "nuovi": 8
+  },
   {
    "quando": "2026-10-19T11:25:38Z",
    "nuovi": 3
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-10T20:10:01Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-10T19:13:17Z",
-   "nuovi": 0
   }
  ],
  "fonti": [
@@ -168,6 +168,110 @@
   }
  ],
  "voci": [
+  {
+   "id": "d-OCD18-23757",
+   "fonte": "dossier",
+   "organo": "Studi - Attività produttive",
+   "materia": "Economico",
+   "titolo": "Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23757/disposizioni-urgenti-materia-prezzi-petroliferi-connessi-al-protrarsi-della-nuova-crisi-mercati-internazionali-e-infrastrutture-e.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23760",
+   "fonte": "dossier",
+   "organo": "Studi - Bilancio",
+   "materia": "Economico",
+   "titolo": "Indicatori economici e finanziari",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23760/indicatori-economici-e-finanziari.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23723",
+   "fonte": "dossier",
+   "organo": "Studi - Ambiente",
+   "materia": "Energia e Ambiente",
+   "titolo": "Misure per rafforzare l'ecosistema europeo di produzione delle tecnologie a zero emissioni nette, in adeguamento al regolamento (UE) 2024/1735",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23723/misure-rafforzare-l-ecosistema-europeo-produzione-tecnologie-zero-emissioni-nette-adeguamento-al-regolamento-ue-2024-1735.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23754",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Schema di decreto legislativo recante disciplina in materia di funzioni, compiti e rapporto di impiego del personale del Corpo nazionale dei vigili del fuoco",
+   "tipo": "",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23754/schema-decreto-legislativo-recante-disciplina-materia-funzioni-compiti-e-rapporto-impiego-del-personale-del-corpo-nazionale-vigili.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23710",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23710/disposizioni-urgenti-rafforzamento-istruttorie-ambientali-gestione-problemi-climatici-l-economia-circolare-e-bonifiche.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23733",
+   "fonte": "dossier",
+   "organo": "Studi - Istituzioni",
+   "materia": "",
+   "titolo": "Istituzione del Premio \"Dottor Geppino Micheletti\"",
+   "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23733/istituzione-del-premio-dottor-geppino-micheletti.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23748",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Modifica all'articolo 76 del testo unico di cui al decreto del Presidente della Repubblica 30 maggio 2002, n. 115, in materia di patrocinio a spese dello Stato in favore delle persone offese da reati commessi con violazione delle norme per la prevenzione degli infortuni sul lavoro, da cui consegua totale inabilità o decesso",
+   "tipo": "",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23748/modifica-all-articolo-76-del-testo-unico-cui-al-decreto-del-presidente-della-repubblica-30-maggio-2002-n-115-materia-patrocinio.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
+  {
+   "id": "d-OCD18-23753",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "DL 167-2026: Misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale \"EURO 5\"",
+   "tipo": "",
+   "data": "2026-10-19",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23753/dl-167-2026-misure-urgenti-circolazione-veicoli-ad-alimentazione-diesel-appartenenti-alla-categoria-ambientale-euro-5.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-19T18:32:44Z"
+  },
   {
    "id": "c-88b489787f4fac",
    "fonte": "commissione",
@@ -800,7 +904,7 @@
    "titolo": "Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche",
    "tipo": "Schede di lettura",
    "data": "2026-10-14",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23740/disposizioni-urgenti-materia-prezzi-petroliferi-connessi-al-protrarsi-della-nuova-crisi-mercati-internazionali-e-infrastrutture-e.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23740/disposizioni-urgenti-materia-prezzi-petroliferi-connessi-al-protrarsi-della-nuova-crisi-mercati-internazionali-e-infrastrutture-e-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-14T18:31:36Z"
@@ -1023,7 +1127,7 @@
    "titolo": "Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "tipo": "Schede di lettura",
    "data": "2026-10-13",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23714/disposizioni-urgenti-rafforzamento-istruttorie-ambientali-gestione-problemi-climatici-l-economia-circolare-e-bonifiche.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23714/disposizioni-urgenti-rafforzamento-istruttorie-ambientali-gestione-problemi-climatici-l-economia-circolare-e-bonifiche-1.html",
    "atto": "",
    "senato": true,
    "visto": "2026-10-13T18:22:44Z"
