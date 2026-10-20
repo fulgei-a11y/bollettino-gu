@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-20T19:23:53Z",
+ "aggiornato": "2026-10-20T20:23:22Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-20T20:23:22Z",
+   "nuovi": 0
+  },
   {
    "quando": "2026-10-20T19:23:53Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-13T18:22:44Z",
    "nuovi": 13
-  },
-  {
-   "quando": "2026-10-13T11:16:15Z",
-   "nuovi": 2
   }
  ],
  "fonti": [
@@ -223,7 +223,7 @@
    "id": "d-OCD18-23749",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Modifiche alla legge 5 febbraio 1992, n. 91, in materia di acquisto e di revoca della cittadinanza",
    "tipo": "",
    "data": "2026-10-20",
@@ -236,7 +236,7 @@
    "id": "d-OCD18-23751",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
    "tipo": "",
    "data": "2026-10-20",
@@ -441,7 +441,7 @@
    "id": "d-OCD18-23754",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Schema di decreto legislativo recante disciplina in materia di funzioni, compiti e rapporto di impiego del personale del Corpo nazionale dei vigili del fuoco",
    "tipo": "",
    "data": "2026-10-19",
@@ -480,7 +480,7 @@
    "id": "d-OCD18-23748",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Modifica all'articolo 76 del testo unico di cui al decreto del Presidente della Repubblica 30 maggio 2002, n. 115, in materia di patrocinio a spese dello Stato in favore delle persone offese da reati commessi con violazione delle norme per la prevenzione degli infortuni sul lavoro, da cui consegua totale inabilità o decesso",
    "tipo": "",
    "data": "2026-10-19",
@@ -493,7 +493,7 @@
    "id": "d-OCD18-23753",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "DL 167-2026: Misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale \"EURO 5\"",
    "tipo": "",
    "data": "2026-10-19",
@@ -659,7 +659,7 @@
    "id": "d-OCD18-23756",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Riduzione dei termini per la liquidazione del trattamento di fine servizio dei dipendenti delle amministrazioni pubbliche e rivalutazione dei limiti di importo per l'erogazione rateale del medesimo trattamento",
    "tipo": "",
    "data": "2026-10-16",
@@ -672,7 +672,7 @@
    "id": "d-OCD18-23747",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "DL 154-2026: Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale",
    "tipo": "",
    "data": "2026-10-16",
@@ -1437,7 +1437,7 @@
    "id": "d-OCD18-23721",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Schema di decreto legislativo recante recepimento della direttiva (UE) 2025/2 del Parlamento europeo e del Consiglio, del 27 novembre 2024, che modifica la direttiva 2009/138/CE, per quanto concerne la proporzionalità, la qualità della vigilanza, l'informativa, le misure relative alle garanzie a lungo termine, gli strumenti macroprudenziali, i rischi di sostenibilità e la vigilanza transfrontaliera e di gruppo, e le direttive 2002/87/CE e 2013/34/U",
    "tipo": "",
    "data": "2026-10-12",
@@ -1604,7 +1604,7 @@
    "id": "d-OCD18-23709",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "DL 162-2026: Disposizioni urgenti per il sostegno economico e il contenimento degli effetti derivanti dal perdurante aumento del costo dei carburanti, nonché in materia fiscale",
    "tipo": "",
    "data": "2026-10-12",
@@ -1775,7 +1775,7 @@
    "id": "d-OCD18-23708",
    "fonte": "dossier",
    "organo": "Bilancio dello Stato",
-   "materia": "Economico",
+   "materia": "",
    "titolo": "Disposizioni in materia di protezione civile",
    "tipo": "",
    "data": "2026-10-09",
