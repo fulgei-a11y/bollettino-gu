@@ -1,14 +1,302 @@
 {
   "date": "2026-10-20",
   "giorno": "martedì",
-  "updatedAt": "2026-10-20T11:25:03Z",
+  "updatedAt": "2026-10-20T18:33:00Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "244",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-20&numeroGazzetta=244",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/20/244/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 20 ottobre 2026 è dominata da un importante Decreto Legislativo che completa l'adeguamento della normativa italiana agli ordini europei di produzione e conservazione di prove elettroniche nei procedimenti penali. Sono inoltre presenti numerosi atti relativi alla pubblica amministrazione locale e al settore economico-finanziario, oltre a provvedimenti in materia di farmaci e ambiente.",
+  "schede": [
+    {
+      "codice_atto": "26G00205",
+      "titolo": "Adeguamento nazionale agli ordini europei su prove elettroniche penali",
+      "riferimento": "DECRETO LEGISLATIVO 8 ottobre 2026, n. 188",
+      "categoria": "Giustizia",
+      "iter": "In vigore dal 04/11/2026",
+      "contesto": "Il decreto legislativo completa l'adeguamento dell'ordinamento giuridico nazionale al regolamento (UE) 2023/1543, che disciplina gli ordini europei di produzione e conservazione di prove elettroniche nei procedimenti penali e per l'esecuzione di pene detentive. Integra il decreto legislativo 30 dicembre 2025, n. 215.",
+      "misure": [
+        "Art. 1: Il decreto stabilisce norme integrative per l'adeguamento al regolamento (UE) 2023/1543, relativo agli ordini europei di produzione e conservazione di prove elettroniche nei procedimenti penali.",
+        "Art. 2: L'informazione all'interessato, prevista dall'articolo 13 del regolamento, è effettuata in conformità all'articolo 14 del decreto legislativo 18 maggio 2018, n. 51, e include l'avviso della facoltà di presentare ricorso ai sensi dell'articolo 4 del presente decreto.",
+        "Art. 3, comma 1: Sono introdotte sanzioni amministrative pecuniarie per le violazioni delle disposizioni del regolamento, con importi che variano da 10.000 a 1.200.000 euro a seconda della violazione (es. obblighi di trasmissione, informazione, comunicazione, conservazione, inottemperanza).",
+        "Art. 3, comma 2: Nella determinazione della sanzione si tiene conto di circostanze quali natura, gravità, durata, carattere doloso o colposo della violazione, precedenti, condizioni patrimoniali, cooperazione con le autorità, attività per attenuare le conseguenze, natura e dimensioni del prestatore di servizi e grado di colpa.",
+        "Art. 3, comma 3: Se concorrono due o più circostanze gravi o il fatto è di particolare gravità e ha impedito definitivamente l'acquisizione o comportato la perdita dei dati, può essere applicata una sanzione pecuniaria fino al 2% del fatturato mondiale del prestatore di servizi nell'ultimo esercizio, se superiore all'importo massimo previsto.",
+        "Art. 3, comma 4: Le sanzioni sono applicate dal giudice per le indagini preliminari (GIP) d'ufficio o su richiesta del procuratore della Repubblica.",
+        "Art. 3, comma 5: Il GIP notifica una contestazione del fatto, concedendo 30 giorni per scritti difensivi e documenti. La notifica è disposta entro 90 giorni dalla scadenza del termine fissato dall'autorità di esecuzione o dalla data di notizia della violazione. Il GIP decide con ordinanza motivata di pagamento o archiviazione.",
+        "Art. 3, comma 6: Il pagamento avviene entro 30 giorni dalla notifica dell'ordinanza, con versamento a un apposito conto corrente. In caso di mancato pagamento, si procede alla riscossione secondo le norme sul recupero delle spese processuali.",
+        "Art. 3, comma 7: Contro il provvedimento sanzionatorio è ammessa opposizione al tribunale del capoluogo del distretto entro 30 giorni dalla notifica. La decisione del tribunale è impugnabile solo con ricorso per cassazione per violazione di legge.",
+        "Art. 4, comma 1: La persona i cui dati sono stati acquisiti tramite un ordine europeo di produzione può proporre ricorso contro l'ordine per contestarne legittimità, necessità e proporzionalità.",
+        "Art. 4, comma 2: Il ricorso contro l'ordine emesso o convalidato dal giudice è presentato ai sensi dell'articolo 324 del codice di procedura penale. Contro l'ordine emesso o convalidato dal pubblico ministero, il ricorso è proposto al GIP entro 10 giorni dalla conoscenza dell'acquisizione, che decide a norma dell'articolo 127 del codice di procedura penale. Il ricorso per cassazione è ammesso solo per violazione di legge.",
+        "Art. 5: È autorizzata una spesa di 1.865.412 euro per il 2026 e di 45.840 euro annui a decorrere dal 2027 per l'implementazione e l'adattamento del sistema informatico nazionale e la creazione dei punti di accesso, in attuazione del capo V del regolamento (UE) 2023/1543. La copertura finanziaria è garantita da riduzioni di fondi esistenti.",
+        "Art. 6: Le amministrazioni interessate provvedono all'attuazione del decreto con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri per la finanza pubblica, fatto salvo quanto previsto dall'articolo 5."
+      ],
+      "chi_interessato": "Prestatori di servizi di comunicazione elettronica, stabilimenti designati, rappresentanti legali, persone i cui dati sono oggetto di ordini europei di produzione o conservazione, autorità giudiziarie (Giudici per le indagini preliminari, Procuratori della Repubblica, Tribunali, Corte di Cassazione), Ministero della Giustizia e altre amministrazioni coinvolte nell'implementazione dei sistemi informatici.",
+      "decorrenza": "04/11/2026",
+      "perche_conta": "Questo decreto è fondamentale per l'efficace cooperazione giudiziaria internazionale in materia penale, consentendo alle autorità italiane di gestire e rispondere agli ordini europei di produzione e conservazione di prove elettroniche. Introduce un quadro sanzionatorio chiaro per le violazioni e garantisce meccanismi di ricorso per gli interessati, rafforzando la tutela dei diritti e la certezza del diritto nell'era digitale.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26G00205/sg",
+      "vigore": "04/11/2026"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05465",
+      "categoria": "Economico",
+      "titolo": "Scioglimento del consiglio comunale di Cellino San Marco e nomina del commissario straordinario.",
+      "sintesi": "Dispone lo scioglimento del consiglio comunale di Cellino San Marco e la nomina di un commissario straordinario per la gestione dell'ente.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05465/sg"
+    },
+    {
+      "codice_atto": "26A05466",
+      "categoria": "Economico",
+      "titolo": "Scioglimento del consiglio comunale di Capaccio Paestum e nomina del commissario straordinario.",
+      "sintesi": "Dispone lo scioglimento del consiglio comunale di Capaccio Paestum e la nomina di un commissario straordinario per la gestione dell'ente.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05466/sg"
+    },
+    {
+      "codice_atto": "26A05467",
+      "categoria": "Economico",
+      "titolo": "Scioglimento del consiglio comunale di Grumo Nevano e nomina del commissario straordinario.",
+      "sintesi": "Dispone lo scioglimento del consiglio comunale di Grumo Nevano e la nomina di un commissario straordinario per la gestione dell'ente.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05467/sg"
+    },
+    {
+      "codice_atto": "26A05468",
+      "categoria": "Economico",
+      "titolo": "Designazione del laboratorio Agenzia delle dogane e dei monopoli - Direzione territoriale Toscana e Umbria - Ufficio Laboratorio - Livorno, in Livorno, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "sintesi": "Designa il laboratorio dell'Agenzia delle dogane e dei monopoli di Livorno per il rilascio di certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05468/sg"
+    },
+    {
+      "codice_atto": "26A05470",
+      "categoria": "Economico",
+      "titolo": "Rinnovo della designazione del laboratorio Sialab S.r.l., in Avola, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "sintesi": "Rinnova la designazione del laboratorio Sialab S.r.l. di Avola per il rilascio di certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05470/sg"
+    },
+    {
+      "codice_atto": "26A05471",
+      "categoria": "Economico",
+      "titolo": "Rinnovo della designazione del Laboratorio di analisi San Carlo S.r.l., in Grottaminarda, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "sintesi": "Rinnova la designazione del Laboratorio di analisi San Carlo S.r.l. di Grottaminarda per il rilascio di certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05471/sg"
+    },
+    {
+      "codice_atto": "26A05510",
+      "categoria": "Economico",
+      "titolo": "Emissione decreto operativita' REPO ottobre 2026, contenente l'emissione dei buoni del Tesoro poliennali.",
+      "sintesi": "Dispone l'emissione di buoni del Tesoro poliennali nell'ambito del decreto operatività REPO per ottobre 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05510/sg"
+    },
+    {
+      "codice_atto": "26A05508",
+      "categoria": "Energia e Ambiente",
+      "titolo": "Piano di gestione del rischio di alluvioni - PGRA. Aggiornamento delle norme tecniche di attuazione del piano di gestione del rischio di alluvioni nel Comune di Cortina d'Ampezzo.",
+      "sintesi": "Aggiorna le norme tecniche di attuazione del Piano di Gestione del Rischio di Alluvioni (PGRA) per il Comune di Cortina d'Ampezzo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05508/sg"
+    },
+    {
+      "codice_atto": "26A05489",
+      "categoria": "Economico",
+      "titolo": "Nomina di un nuovo componente della commissione straordinaria di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Sant'Agata De' Goti.",
+      "sintesi": "Nomina un nuovo componente della commissione straordinaria di liquidazione per la gestione del dissesto finanziario del Comune di Sant'Agata De' Goti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05489/sg"
+    },
+    {
+      "codice_atto": "26A05490",
+      "categoria": "Economico",
+      "titolo": "Nomina dell'organo straordinario di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Contigliano.",
+      "sintesi": "Nomina l'organo straordinario di liquidazione per la gestione del dissesto finanziario del Comune di Contigliano.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05490/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00205",
+      "titolo": "DECRETO LEGISLATIVO 8 ottobre 2026, n. 188 Completo adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2023/1543 del Parlamento europeo e del Consiglio, del 12 luglio 2023, relativo agli ordini europei di produzione e agli ordini europei di conservazione di prove elettroniche nei procedimenti penali e per l'esecuzione di pene detentive a seguito di procedimenti penali.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26G00205/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "04/11/2026"
+    },
+    {
+      "codice": "26A05465",
+      "titolo": "DECRETI PRESIDENZIALI - DECRETO DEL PRESIDENTE DELLA REPUBBLICA 17 settembre 2026 Scioglimento del consiglio comunale di Cellino San Marco e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05465/sg"
+    },
+    {
+      "codice": "26A05466",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 17 settembre 2026 Scioglimento del consiglio comunale di Capaccio Paestum e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05466/sg"
+    },
+    {
+      "codice": "26A05467",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 30 settembre 2026 Scioglimento del consiglio comunale di Grumo Nevano e nomina del commissario straordinario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05467/sg"
+    },
+    {
+      "codice": "26A05468",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 12 ottobre 2026 Designazione del laboratorio Agenzia delle dogane e dei monopoli - Direzione territoriale Toscana e Umbria - Ufficio Laboratorio - Livorno, in Livorno, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05468/sg"
+    },
+    {
+      "codice": "26A05470",
+      "titolo": "DECRETO 12 ottobre 2026 Rinnovo della designazione del laboratorio Sialab S.r.l., in Avola, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05470/sg"
+    },
+    {
+      "codice": "26A05471",
+      "titolo": "DECRETO 12 ottobre 2026 Rinnovo della designazione del Laboratorio di analisi San Carlo S.r.l., in Grottaminarda, al rilascio dei certificati di analisi nel settore oleicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05471/sg"
+    },
+    {
+      "codice": "26A05510",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 13 ottobre 2026 Emissione decreto operativita' REPO ottobre 2026, contenente l'emissione dei buoni del Tesoro poliennali.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05510/sg"
+    },
+    {
+      "codice": "26A05472",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Imfinzi». (Determina n. 46/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05472/sg"
+    },
+    {
+      "codice": "26A05473",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Keytruda». (Determina n. 47/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05473/sg"
+    },
+    {
+      "codice": "26A05474",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Libtayo». (Determina n. 48/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05474/sg"
+    },
+    {
+      "codice": "26A05475",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Opdivo». (Determina n. 49/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05475/sg"
+    },
+    {
+      "codice": "26A05476",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Tecentriq». (Determina n. 50/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05476/sg"
+    },
+    {
+      "codice": "26A05477",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Yervoy». (Determina n. 51/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05477/sg"
+    },
+    {
+      "codice": "26A05423",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Cinacalcet DOC».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05423/sg"
+    },
+    {
+      "codice": "26A05424",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Fosavance»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05424/sg"
+    },
+    {
+      "codice": "26A05425",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Remeron»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05425/sg"
+    },
+    {
+      "codice": "26A05426",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di paracetamolo, «Paracetamolo Eurospital».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05426/sg"
+    },
+    {
+      "codice": "26A05451",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di atorvastatina, «Atorvastatina Aurobindo».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05451/sg"
+    },
+    {
+      "codice": "26A05452",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di acido clavulanico e amoxicillina, «Neoduplamox».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05452/sg"
+    },
+    {
+      "codice": "26A05453",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano, a base di ramipril e idroclorotiazide, «Ramipril Mylan Generics» e «Ramipril e Idroclorotiazide Mylan Generics».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05453/sg"
+    },
+    {
+      "codice": "26A05454",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di triamcinolone acetonide, «Kenacort».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05454/sg"
+    },
+    {
+      "codice": "26A05478",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di dapagliflozin, metformina cloridrato, «Dapagliflozin e Metformina KRKA».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05478/sg"
+    },
+    {
+      "codice": "26A05479",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di mesalazina, «Salcrozine»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05479/sg"
+    },
+    {
+      "codice": "26A05508",
+      "titolo": "AUTORITA' DI BACINO DISTRETTUALE DELLE ALPI ORIENTALI - COMUNICATO Piano di gestione del rischio di alluvioni - PGRA. Aggiornamento delle norme tecniche di attuazione del piano di gestione del rischio di alluvioni nel Comune di Cortina d'Ampezzo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05508/sg"
+    },
+    {
+      "codice": "26A05488",
+      "titolo": "MINISTERO DELL'INTERNO - COMUNICATO Comunicato relativo all'estratto del decreto 28 luglio 2026 di riconoscimento e classificazione di un prodotto esplosivo",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05488/sg"
+    },
+    {
+      "codice": "26A05489",
+      "titolo": "COMUNICATO Nomina di un nuovo componente della commissione straordinaria di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Sant'Agata De' Goti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05489/sg"
+    },
+    {
+      "codice": "26A05490",
+      "titolo": "COMUNICATO Nomina dell'organo straordinario di liquidazione cui affidare la gestione del dissesto finanziario del Comune di Contigliano.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05490/sg"
+    },
+    {
+      "codice": "26A05480",
+      "titolo": "MINISTERO DELLA DIFESA - COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05480/sg"
+    },
+    {
+      "codice": "26A05481",
+      "titolo": "COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05481/sg"
+    },
+    {
+      "codice": "26A05482",
+      "titolo": "COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05482/sg"
+    },
+    {
+      "codice": "26A05483",
+      "titolo": "COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05483/sg"
+    },
+    {
+      "codice": "26A05484",
+      "titolo": "COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05484/sg"
+    },
+    {
+      "codice": "26A05485",
+      "titolo": "COMUNICATO Concessione della medaglia d'argento al valore Aeronautico",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05485/sg"
+    },
+    {
+      "codice": "26A05486",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - COMUNICATO Modifica dell'autorizzazione della societa' CR Inspection S.r.l., in Agliana, quale organismo notificato per la certificazione dei recipienti a pressione trasportabili.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05486/sg"
+    },
+    {
+      "codice": "26A05487",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione della societa' Verificatori associati italiani S.r.l. societa' benefit, in Rivanazzano Terme, quale organismo notificato per la certificazione dei recipienti a pressione trasportabili.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26A05487/sg"
+    }
+  ],
+  "audio": "audio/2026-10-20.mp3",
+  "duration": 439.5
 }

@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-20T11:25:05Z",
+ "aggiornato": "2026-10-20T18:34:01Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-20T18:34:01Z",
+   "nuovi": 8
+  },
   {
    "quando": "2026-10-20T11:25:05Z",
    "nuovi": 6
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-12T20:12:45Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-12T19:15:02Z",
-   "nuovi": 0
   }
  ],
  "fonti": [
@@ -157,7 +157,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1581
+   "trovati": 1583
   },
   {
    "id": "comm10",
@@ -168,6 +168,122 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-4ade5e2335c006",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "COREPLA",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "18:58",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.20-10-2026-18-58-52.496.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "c-47aac9f838512c",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ASviS",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "16:13",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.20-10-2026-16-13-51.037.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23762",
+   "fonte": "dossier",
+   "organo": "Studi - Attività produttive",
+   "materia": "Economico",
+   "titolo": "Misure urgenti a sostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio industriale del territorio",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23762/misure-urgenti-sostegno-lavoratori-ex-ilva-e-indotto-e-rilancio-industriale-del-territorio.html",
+   "atto": "",
+   "senato": true,
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23749",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Modifiche alla legge 5 febbraio 1992, n. 91, in materia di acquisto e di revoca della cittadinanza",
+   "tipo": "",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23749/modifiche-alla-legge-5-febbraio-1992-n-91-materia-acquisto-e-revoca-della-cittadinanza.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23751",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "Economico",
+   "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
+   "tipo": "",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23751/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23761",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Incontro della I Commissione con una delegazione della Commissione per l'asilo e le migrazioni della Camera dei deputati dei Paesi Bassi - Profili relativi alle politiche sulla migrazione, l'asilo e i rimpatri dell'UE",
+   "tipo": "",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23761/incontro-della-i-commissione-delegazione-della-commissione-l-asilo-e-migrazioni-della-camera-deputati-paesi-bassi-profili-relativi.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23759",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Elementi per la verifica di sussidiarietà - EU Kids Act - L'UE per spazi digitali responsabili e affidabili in Internet",
+   "tipo": "",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23759/elementi-verifica-sussidiarieta-eu-kids-act-l-ue-spazi-digitali-responsabili-e-affidabili-internet.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-20T18:34:01Z"
+  },
+  {
+   "id": "d-OCD18-23763",
+   "fonte": "dossier",
+   "organo": "Rapporti con l'Unione europea",
+   "materia": "",
+   "titolo": "Elementi per la verifica di sussidiarietà - Proposta di regolamento sull'inclusione dell'idrogeno come carburante di riferimento per le prove del tipo di motore o della famiglia di motori",
+   "tipo": "",
+   "data": "2026-10-20",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23763/elementi-verifica-sussidiarieta-proposta-regolamento-sull-inclusione-idrogeno-come-carburante-riferimento-prove-del-tipo-motore-o.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-20T18:34:01Z"
+  },
   {
    "id": "c-686af289dcfbdf",
    "fonte": "commissione",
@@ -534,7 +650,7 @@
    "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
    "tipo": "Elementi per l'esame in Assemblea",
    "data": "2026-10-16",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23706/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23706/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-16T18:28:28Z"
@@ -1479,7 +1595,7 @@
    "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
    "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
    "data": "2026-10-12",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23702/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici-1.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23702/istituzione-del-registro-nazionale-degli-orfani-crimini-domestici-2.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-12T18:17:36Z"
