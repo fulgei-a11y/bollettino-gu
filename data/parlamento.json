@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-19T20:26:31Z",
+ "aggiornato": "2026-10-20T11:25:05Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-20T11:25:05Z",
+   "nuovi": 6
+  },
   {
    "quando": "2026-10-19T20:26:31Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-12T19:15:02Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-12T18:17:36Z",
-   "nuovi": 13
   }
  ],
  "fonti": [
@@ -157,17 +157,131 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1576
+   "trovati": 1581
   },
   {
    "id": "comm10",
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1649
+   "trovati": 1650
   }
  ],
  "voci": [
+  {
+   "id": "c-686af289dcfbdf",
+   "fonte": "commissione",
+   "organo": "X Attività produttive",
+   "commissioni": [
+    "X"
+   ],
+   "materia": "Economico",
+   "titolo": "SLC CGIL",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di SLC CGIL, FISTEL CISL, UILFPC e UGL Telecomunicazioni sull’organizzazione e il funzionamento dei call center",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "13:17",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Audizioni/leg19.com10.Audizioni.Memoria.PUBBLICO.ideGes.103327.20-10-2026-13-17-15.622.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
+   "atto": "",
+   "visto": "2026-10-20T11:25:05Z"
+  },
+  {
+   "id": "c-5148976276c135",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Confindustria",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "12:45",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.20-10-2026-12-45-29.149.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T11:25:05Z"
+  },
+  {
+   "id": "c-43a16209f8177f",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Remtech Expo",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "10:10",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.20-10-2026-10-10-56.246.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T11:25:05Z"
+  },
+  {
+   "id": "c-b0ac878611709f",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANBI",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-20",
+   "ora": "09:48",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.20-10-2026-09-48-05.345.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T11:25:05Z"
+  },
+  {
+   "id": "c-13c1cf06b71184",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "CORIPET (slides)",
+   "tipo": "",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-19",
+   "ora": "19:01",
+   "link": "Ncs03-pool40-server/vol40/DATI/COM/Produzione/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.RISERVATO_AL_PRESIDENTE.ideGes.103321.19-10-2026-19-01-29.436.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T11:25:05Z"
+  },
+  {
+   "id": "c-0e38341e0d575f",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANPCI",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-19",
+   "ora": "19:00",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.19-10-2026-19-00-36.130.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-20T11:25:05Z"
+  },
   {
    "id": "d-OCD18-23757",
    "fonte": "dossier",

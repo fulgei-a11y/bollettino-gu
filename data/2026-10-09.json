@@ -148,6 +148,5 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26A05220/sg"
     }
   ],
-  "audio": "audio/2026-10-09.mp3",
-  "duration": 58.8
+  "audio_scaduto": true
 }
