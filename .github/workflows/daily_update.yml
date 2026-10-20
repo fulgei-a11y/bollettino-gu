@@ -16,6 +16,11 @@ on:
         description: 'Data da rifare (AAAA-MM-GG). Vuoto = automatico'
         required: false
         default: ''
+      prova_notifica:
+        description: 'Manda una notifica di prova al telefono'
+        type: boolean
+        required: false
+        default: false
 
 concurrency:
   group: bollettino-gu
@@ -48,7 +53,7 @@ jobs:
       - name: Controlla che gli script siano completi
         id: check
         run: |
-          for f in generate.py tools/make_audio.py tools/build_audio.py tools/parlamento.py tools/build_extras.py tools/report_status.py; do
+          for f in generate.py tools/make_audio.py tools/build_audio.py tools/parlamento.py tools/build_extras.py tools/report_status.py tools/notify.py; do
             python -m py_compile "$f" || { echo "❌ $f non è valido: ricaricalo per intero."; exit 1; }
             tail -3 "$f" | grep -q "main()" || { echo "❌ $f è incompleto: ricaricalo per intero."; exit 1; }
           done
@@ -100,6 +105,16 @@ jobs:
           PARL_OUTCOME: ${{ steps.parl.outcome }}
           EXTRAS_OUTCOME: ${{ steps.extras.outcome }}
         run: python3 tools/report_status.py
+
+      # Notifiche sul telefono con ntfy: il nome del canale è nel segreto NTFY_TOPIC
+      # (Settings → Secrets and variables → Actions). Senza segreto il passaggio non fa nulla.
+      - name: Notifiche sul telefono
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TEST: ${{ github.event.inputs.prova_notifica }}
+        run: python3 tools/notify.py
 
       - name: Commit e push
         if: ${{ !cancelled() }}

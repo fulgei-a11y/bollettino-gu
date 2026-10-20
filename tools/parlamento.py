@@ -87,6 +87,8 @@ def key(s):
 
 def materia_da_servizio(dep):
     d = dep.lower()
+    if "bilancio dello stato" in d:
+        return ""   # verifica delle coperture finanziarie: riguarda leggi di ogni materia
     if "giustizia" in d:
         return "Giustizia"
     if "ambiente" in d or "territorio" in d:
