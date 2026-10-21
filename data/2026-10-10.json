@@ -154,6 +154,5 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/10/26A05303/sg"
     }
   ],
-  "audio": "audio/2026-10-10.mp3",
-  "duration": 150.9
+  "audio_scaduto": true
 }

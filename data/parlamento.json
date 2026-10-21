@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-20T20:23:22Z",
+ "aggiornato": "2026-10-21T11:25:24Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-21T11:25:24Z",
+   "nuovi": 2
+  },
   {
    "quando": "2026-10-20T20:23:22Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-13T19:27:59Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-13T18:22:44Z",
-   "nuovi": 13
   }
  ],
  "fonti": [
@@ -157,7 +157,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1583
+   "trovati": 1585
   },
   {
    "id": "comm10",
@@ -169,6 +169,44 @@
  ],
  "voci": [
   {
+   "id": "c-fc7e6cc073a0c6",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANCE",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
+   "seduta": "Seduta del 20/10/2026",
+   "data": "2026-10-21",
+   "ora": "10:38",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103321.21-10-2026-10-38-04.117.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-21T11:25:24Z"
+  },
+  {
+   "id": "c-a3cd85e35718f4",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Commissario unico Gen. D. Giuseppe Vadalà",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di: - Commissario unico per la realizzazione degli interventi necessari all’adeguamento alla normativa vigente per le discariche abusive presenti sul territorio nazionale, Gen. D. Giuseppe Vadalà - rappresentanti di Confcooperative - rappresentanti di Erion - rappresentanti di Utilitali",
+   "seduta": "Seduta del 21/10/2026",
+   "data": "2026-10-21",
+   "ora": "10:32",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103339.21-10-2026-10-32-26.680.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-21T11:25:24Z"
+  },
+  {
    "id": "c-4ade5e2335c006",
    "fonte": "commissione",
    "organo": "VIII Ambiente",
@@ -178,7 +216,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "COREPLA",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "18:58",
@@ -197,7 +235,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "ASviS",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "16:13",
@@ -294,7 +332,7 @@
    "materia": "Economico",
    "titolo": "SLC CGIL",
    "tipo": "Memoria",
-   "contesto": "Audizione informale di rappresentanti di SLC CGIL, FISTEL CISL, UILFPC e UGL Telecomunicazioni sull’organizzazione e il funzionamento dei call center",
+   "contesto": "Audizione informale di rappresentanti di SLC CGIL, in videoconferenza, FISTEL CISL, in videoconferenza, UIL FPC, in videoconferenza, e UGL Telecomunicazioni, sull'organizzazione e il funzionamento dei call center",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "13:17",
@@ -313,7 +351,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Confindustria",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "12:45",
@@ -332,7 +370,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Remtech Expo",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "10:10",
@@ -351,7 +389,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "ANBI",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-20",
    "ora": "09:48",
@@ -370,7 +408,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "CORIPET (slides)",
    "tipo": "",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-19",
    "ora": "19:01",
@@ -389,7 +427,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "ANPCI",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth; Associazione nazionale piccoli comuni d'Italia (ANPCI); Associazione Rete Italiana LCA; RemTech Expo; Alleanza italiana per lo sviluppo sostenibile (AsviS); Rete professioni tecniche (R",
+   "contesto": "Audizione informale di rappresentanti di SPRING - Sustainable Processes and Resources for Innovation and National Growth, in videoconferenza, di rappresentanti dell'Associazione nazionale piccoli comuni d'Italia (ANPCI), in videoconferenza, di rappresentanti dell'Associazione Rete Italiana LCA, in videoconferenza, di rappresentanti di RemTech Expo, di rappresentanti dell'Alleanza italiana per lo sviluppo sostenibile (AsviS), in videoconferenza, di rappresentanti della Rete professioni tecniche (RPT), in videoconferenza, di rappresentanti del Consorzio nazionale per la raccolta, il riciclo e il",
    "seduta": "Seduta del 20/10/2026",
    "data": "2026-10-19",
    "ora": "19:00",
