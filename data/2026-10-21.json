@@ -1,14 +1,408 @@
 {
   "date": "2026-10-21",
   "giorno": "mercoledì",
-  "updatedAt": "2026-10-21T11:25:21Z",
+  "updatedAt": "2026-10-21T18:32:09Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "245",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-21&numeroGazzetta=245",
-  "schede": [],
-  "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/21/245/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 21 ottobre 2026 è dominata da un importante Decreto Legislativo che riforma il Testo Unico della Finanza, recependo direttive europee sulle azioni a voto plurimo e adeguando il quadro sanzionatorio per gli abusi di mercato. Sono presenti anche diversi atti minori di natura economica, tra cui integrazioni a strumenti finanziari per l'internazionalizzazione delle imprese e la definizione delle quote per l'autotrasporto.",
+  "schede": [
+    {
+      "codice_atto": "26G00206",
+      "titolo": "Recepimento direttiva UE su azioni a voto plurimo e adeguamento regolamento UE su mercati dei capitali",
+      "riferimento": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 189",
+      "categoria": "Economico",
+      "iter": "In vigore dal 22/10/2026",
+      "contesto": "Il decreto legislativo recepisce la direttiva (UE) 2024/2810 sulle strutture con azioni a voto plurimo e adegua l'ordinamento nazionale al regolamento (UE) 2024/2809. L'obiettivo è rendere i mercati pubblici dei capitali nell'Unione più attraenti per le società e facilitare l'accesso delle piccole e medie imprese ai capitali, modificando il Testo Unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998).",
+      "misure": [
+        "Art. 1, comma 1: Il regolamento di un sistema multilaterale di negoziazione non può impedire l'ammissione alle negoziazioni di una società, italiana o europea, in ragione dell'emissione di azioni con diritto di voto plurimo, conformemente alla direttiva (UE) 2024/2810.",
+        "Art. 1, comma 2: Le società che chiedono l'ammissione o le cui azioni sono ammesse a negoziazione in un sistema multilaterale di negoziazione o in un mercato di crescita per le PMI devono pubblicare specifiche informazioni nel prospetto di offerta/documento di ammissione o nella relazione finanziaria annuale (in caso di modifiche).",
+        "Art. 1, comma 3: Le informazioni da pubblicare riguardano: la struttura del capitale sociale (categorie di azioni, diritti, obblighi, percentuale del capitale/azioni, numero totale di voti), eventuali restrizioni al trasferimento o ai diritti di voto delle azioni (inclusi accordi tra azionisti noti alla società), e l'identità degli azionisti che detengono azioni a voto plurimo che rappresentano più del 5% del totale dei diritti, se nota alla società.",
+        "Art. 1, comma 4: Il sistema multilaterale di negoziazione deve assicurare che le azioni con diritto di voto plurimo siano chiaramente identificate. Le società devono informare i gestori del mercato dell'esistenza di tali strutture.",
+        "Art. 1, comma 5: La Consob può dettare disposizioni di attuazione del presente articolo.",
+        "Art. 2, comma 1, lettera a): Modifica l'Art. 114, comma 3, del D.Lgs. 58/1998, sostituendo le parole 'su successiva richiesta della Consob' con ', su successiva richiesta della Consob o con le diverse modalità stabilite dalla Consob con proprio regolamento,'.",
+        "Art. 2, comma 1, lettera b): Sostituisce l'Art. 187-ter.1 del D.Lgs. 58/1998, introducendo nuove sanzioni amministrative pecuniarie per enti o società e per persone fisiche in caso di inosservanza degli obblighi previsti dal regolamento (UE) n. 596/2014 (Market Abuse Regulation).",
+        "Art. 2, comma 1, lettera b), Art. 187-ter.1, comma 1: Le sanzioni per enti/società variano da 5.000 euro fino a 2.500.000 euro o al 2% del fatturato per violazioni degli articoli 16 e 17 del Regolamento (UE) n. 596/2014, e da 5.000 euro fino a 1.000.000 euro o allo 0,8% del fatturato per violazioni degli articoli 18, 19 e 20. Sono previsti importi specifici per le PMI in caso di fatturato sproporzionatamente basso.",
+        "Art. 2, comma 1, lettera b), Art. 187-ter.1, comma 3: Per le persone fisiche, le sanzioni pecuniarie vanno da 5.000 euro fino a 1.000.000 euro per violazioni degli articoli 16 e 17, e da 5.000 euro fino a 500.000 euro per violazioni degli articoli 18, 19 e 20.",
+        "Art. 2, comma 1, lettera b), Art. 187-ter.1, comma 5: Se il vantaggio ottenuto dalla violazione è superiore ai limiti massimi, la sanzione pecuniaria è elevata fino al triplo dell'ammontare del vantaggio, se determinabile.",
+        "Art. 2, comma 1, lettera b), Art. 187-ter.1, comma 6: La Consob può applicare anche misure amministrative previste dall'articolo 30, paragrafo 2, del regolamento (UE) n. 596/2014, e la confisca.",
+        "Art. 2, comma 1, lettere c), d), e): Apporta modifiche agli articoli 187-quater, 187-octies e 191-bis del D.Lgs. 58/1998, estendendo l'ambito dei soggetti interessati (es. società di consulenza finanziaria, amministratori di indici di riferimento, consulenti finanziari autonomi) e aggiornando i poteri della Consob in materia di indagini e richieste di dati.",
+        "Art. 2, comma 1, lettera f): Inserisce la lettera g-ter) all'Art. 194-bis, comma 1, del D.Lgs. 58/1998, includendo tra i criteri per la determinazione delle sanzioni l'onere per l'autore della violazione derivante dalla duplicazione dei procedimenti e delle sanzioni di natura penale e amministrativa per la stessa condotta.",
+        "Art. 3, comma 1: Prevede che le amministrazioni interessate provvedano all'attuazione del decreto con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica.",
+        "Art. 4, comma 1: Il decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale."
+      ],
+      "chi_interessato": "Società che chiedono l'ammissione o le cui azioni sono ammesse a negoziazione in sistemi multilaterali o mercati di crescita per PMI; gestori di tali mercati; la Consob; enti, società e persone fisiche soggette alle sanzioni del regolamento (UE) n. 596/2014; fondi pensione, società di consulenza finanziaria, amministratori di indici di riferimento, consulenti finanziari autonomi.",
+      "decorrenza": "22/10/2026",
+      "perche_conta": "Questo decreto è cruciale per la modernizzazione del quadro normativo italiano sui mercati dei capitali, allineandolo alle più recenti normative europee. Favorisce l'accesso delle imprese, in particolare delle PMI, ai finanziamenti tramite la borsa, anche attraverso l'introduzione di azioni a voto plurimo. Inoltre, aggiorna e rafforza significativamente il regime sanzionatorio per le violazioni del regolamento sugli abusi di mercato, potenziando i poteri di vigilanza della Consob.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26G00206/sg",
+      "vigore": "22/10/2026"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26A05509",
+      "materia": "Istituzionale/Amministrativo",
+      "titolo": "DECRETO DEL PRESIDENTE DELLA CAMERA DEI DEPUTATI 8 ottobre 2026 Regolamento sull'utilizzo del logo istituzionale della Camera dei deputati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05509/sg"
+    },
+    {
+      "codice_atto": "26A05491",
+      "materia": "Agricoltura/Alimentare",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 12 ottobre 2026 Rinnovo della designazione al Laboratorio di analisi San Carlo s.r.l., in Grottaminarda, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05491/sg"
+    },
+    {
+      "codice_atto": "26A05492",
+      "materia": "Agricoltura/Alimentare",
+      "titolo": "DECRETO 12 ottobre 2026 Rinnovo della designazione al laboratorio IMAVI s.r.l., in Maiolati Spontini fraz. Moie, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05492/sg"
+    },
+    {
+      "codice_atto": "26A05493",
+      "materia": "Agricoltura/Alimentare",
+      "titolo": "DECRETO 13 ottobre 2026 Riconoscimento del Consorzio di tutela e valorizzazione dell'olio extra vergine DOP Valle del Belice e attribuzione dell'incarico di svolgere le funzioni di cui all'articolo 53, comma 15, della legge 24 aprile 1998, n. 128 come modificato dall'articolo 14, della legge 21 dicembre 1999, n. 526, di promozione, valorizzazione, vigilanza, tutela, informazione del consumatore e cura generale degli interessi della DOP «Valle del Belice».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05493/sg"
+    },
+    {
+      "codice_atto": "26A05495",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "AGENZIA ITALIANA DEL FARMACO - DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Cometriq». (Determina n. 52/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05495/sg"
+    },
+    {
+      "codice_atto": "26A05496",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Farydak». (Determina n. 53/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05496/sg"
+    },
+    {
+      "codice_atto": "26A05497",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Raxone». (Determina n. 54/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05497/sg"
+    },
+    {
+      "codice_atto": "26A05498",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Xalkori». (Determina n. 55/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05498/sg"
+    },
+    {
+      "codice_atto": "26A05499",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Zydelig». (Determina n. 56/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05499/sg"
+    },
+    {
+      "codice_atto": "26A05500",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Hetronifly». (Determina n. 57/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05500/sg"
+    },
+    {
+      "codice_atto": "26A05437",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Lacrilube».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05437/sg"
+    },
+    {
+      "codice_atto": "26A05438",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Carbamazepina Zentiva».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05438/sg"
+    },
+    {
+      "codice_atto": "26A05439",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Paracetamolo Zentiva Italia».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05439/sg"
+    },
+    {
+      "codice_atto": "26A05440",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Paracetamolo Zentiva Generics».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05440/sg"
+    },
+    {
+      "codice_atto": "26A05441",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di levofloxacina, «Klektica».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05441/sg"
+    },
+    {
+      "codice_atto": "26A05442",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di metilprednisolone sodio succinato, «Lisamethyle».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05442/sg"
+    },
+    {
+      "codice_atto": "26A05501",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Risperdal»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05501/sg"
+    },
+    {
+      "codice_atto": "26A05502",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Elrevolan»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05502/sg"
+    },
+    {
+      "codice_atto": "26A05503",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Tazopenil»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05503/sg"
+    },
+    {
+      "codice_atto": "26A05504",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Buscopan»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05504/sg"
+    },
+    {
+      "codice_atto": "26A05571",
+      "materia": "Sanità/Farmaceutico",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di acido ursodesossicolico, «Proursan».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05571/sg"
+    },
+    {
+      "codice_atto": "26A05533",
+      "materia": "Ambiente/Territorio",
+      "titolo": "AUTORITA' DI BACINO DISTRETTUALE DELLE ALPI ORIENTALI - COMUNICATO Aggiornamento del piano di gestione del rischio di alluvioni nel Comune di Santo Stefano di Cadore",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05533/sg"
+    },
+    {
+      "codice_atto": "26A05507",
+      "materia": "Affari Esteri",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Limitazione delle funzioni del titolare dell'Agenzia consolare onoraria in Kelowna (Canada)",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05507/sg"
+    },
+    {
+      "codice_atto": "26A05506",
+      "materia": "Difesa",
+      "titolo": "MINISTERO DELLA DIFESA - COMUNICATO Concessione della croce d'oro al merito dell'Arma dei carabinieri",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05506/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05494",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - DECRETO 28 agosto 2026 Integrazioni al decreto 1° giugno 2023, recante «Disciplina degli strumenti finanziari a sostegno dell'internazionalizzazione delle imprese, a valere sul Fondo rotativo 394/81».",
+      "sintesi": "Il decreto integra la disciplina degli strumenti finanziari a sostegno dell'internazionalizzazione delle imprese, erogati tramite il Fondo rotativo 394/81.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05494/sg"
+    },
+    {
+      "codice_atto": "26A05570",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DELIBERA 15 ottobre 2026 Misura delle quote dovute dalle imprese di autotrasporto per l'anno 2027. (Delibera n. 8).",
+      "sintesi": "La delibera stabilisce l'ammontare delle quote che le imprese di autotrasporto dovranno versare per l'anno 2027.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05570/sg"
+    },
+    {
+      "codice_atto": "26A04956",
+      "categoria": "Economico",
+      "titolo": "COMMISSIONE INDIPENDENTE PER LA VERIFICA DELL'EQUILIBRIO ECONOMICO E FINANZIARIO DELLE SOCIETA' SPORTIVE PROFESSIONISTICHE - DELIBERA 27 aprile 2026 Approvazione del rendiconto consuntivo finanziario per l'esercizio 2025. (Delibera n. 3/2026).",
+      "sintesi": "La delibera approva il rendiconto consuntivo finanziario relativo all'esercizio 2025 per le società sportive professionistiche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A04956/sg"
+    },
+    {
+      "codice_atto": "26A04957",
+      "categoria": "Economico",
+      "titolo": "COMMISSIONE INDIPENDENTE PER LA VERIFICA DELL'EQUILIBRIO ECONOMICO E FINANZIARIO DELLE SOCIETA' SPORTIVE PROFESSIONISTICHE - DELIBERA 27 aprile 2026 Approvazione del bilancio di previsione per l'esercizio 2026 e pluriennale 2026-2028. (Delibera n. 4/2026).",
+      "sintesi": "La delibera approva il bilancio di previsione per l'esercizio 2026 e il bilancio pluriennale 2026-2028 per le società sportive professionistiche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A04957/sg"
+    },
+    {
+      "codice_atto": "26A05505",
+      "categoria": "Economico",
+      "titolo": "AUTORITA' NAZIONALE ANTICORRUZIONE - COMUNICATO Intestazioni fiduciarie e trust: riconducibilita' alle dichiarazioni patrimoniali all'articolo 14, comma 1, lettera f), del decreto legislativo n. 33/2013.",
+      "sintesi": "Il comunicato chiarisce la riconducibilità delle intestazioni fiduciarie e dei trust alle dichiarazioni patrimoniali richieste dall'articolo 14, comma 1, lettera f), del D.Lgs. n. 33/2013.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05505/sg"
+    },
+    {
+      "codice_atto": "26A05511",
+      "categoria": "Economico",
+      "titolo": "CAMERA DI COMMERCIO, INDUSTRIA, ARTIGIANATO E AGRICOLTURA DI VENEZIA ROVIGO - COMUNICATO Comunicato concernente i marchi di identificazione dei metalli preziosi",
+      "sintesi": "Il comunicato fornisce informazioni relative ai marchi di identificazione dei metalli preziosi.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05511/sg"
+    },
+    {
+      "codice_atto": "26A05572",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 7 settembre 2026 - Disposizioni in materia di assicurazione dei rischi catastrofali da applicare al Fondo di sostegno al venture capital.",
+      "sintesi": "Il comunicato informa sulle disposizioni in materia di assicurazione dei rischi catastrofali applicabili al Fondo di sostegno al venture capital, come stabilito dal decreto del 7 settembre 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05572/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00206",
+      "titolo": "RMATIVI - DECRETO LEGISLATIVO 7 ottobre 2026, n. 189 Recepimento della direttiva (UE) 2024/2810 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, sulle strutture con azioni a voto plurimo nelle societa' che chiedono l'ammissione alla negoziazione delle loro azioni in un sistema multilaterale di negoziazione e adeguamento dell'ordinamento nazionale alle disposizioni del regolamento (UE) 2024/2809 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, che modifica i regolamenti (UE) 2017/1129, (UE) n. 596/2014 e (UE) n. 600/2014 per rendere i mercati pubblici dei capitali nell'U",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26G00206/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "22/10/2026"
+    },
+    {
+      "codice": "26A05509",
+      "titolo": "ATTI DEGLI ORGANI COSTITUZIONALI - DECRETO DEL PRESIDENTE DELLA CAMERA DEI DEPUTATI 8 ottobre 2026 Regolamento sull'utilizzo del logo istituzionale della Camera dei deputati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05509/sg"
+    },
+    {
+      "codice": "26A05494",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - DECRETO 28 agosto 2026 Integrazioni al decreto 1° giugno 2023, recante «Disciplina degli strumenti finanziari a sostegno dell'internazionalizzazione delle imprese, a valere sul Fondo rotativo 394/81».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05494/sg"
+    },
+    {
+      "codice": "26A05491",
+      "titolo": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 12 ottobre 2026 Rinnovo della designazione al Laboratorio di analisi San Carlo s.r.l., in Grottaminarda, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05491/sg"
+    },
+    {
+      "codice": "26A05492",
+      "titolo": "DECRETO 12 ottobre 2026 Rinnovo della designazione al laboratorio IMAVI s.r.l., in Maiolati Spontini fraz. Moie, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05492/sg"
+    },
+    {
+      "codice": "26A05493",
+      "titolo": "DECRETO 13 ottobre 2026 Riconoscimento del Consorzio di tutela e valorizzazione dell'olio extra vergine DOP Valle del Belice e attribuzione dell'incarico di svolgere le funzioni di cui all'articolo 53, comma 15, della legge 24 aprile 1998, n. 128 come modificato dall'articolo 14, della legge 21 dicembre 1999, n. 526, di promozione, valorizzazione, vigilanza, tutela, informazione del consumatore e cura generale degli interessi della DOP «Valle del Belice».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05493/sg"
+    },
+    {
+      "codice": "26A05570",
+      "titolo": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DELIBERA 15 ottobre 2026 Misura delle quote dovute dalle imprese di autotrasporto per l'anno 2027. (Delibera n. 8).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05570/sg"
+    },
+    {
+      "codice": "26A05495",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Cometriq». (Determina n. 52/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05495/sg"
+    },
+    {
+      "codice": "26A05496",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Farydak». (Determina n. 53/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05496/sg"
+    },
+    {
+      "codice": "26A05497",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Raxone». (Determina n. 54/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05497/sg"
+    },
+    {
+      "codice": "26A05498",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Xalkori». (Determina n. 55/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05498/sg"
+    },
+    {
+      "codice": "26A05499",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Zydelig». (Determina n. 56/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05499/sg"
+    },
+    {
+      "codice": "26A05500",
+      "titolo": "DETERMINA 6 ottobre 2026 Modifica delle condizioni e modalita' di monitoraggio nell'ambito dei registri AIFA del medicinale per uso umano «Hetronifly». (Determina n. 57/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05500/sg"
+    },
+    {
+      "codice": "26A04956",
+      "titolo": "COMMISSIONE INDIPENDENTE PER LA VERIFICA DELL'EQUILIBRIO ECONOMICO E FINANZIARIO DELLE SOCIETA' SPORTIVE PROFESSIONISTICHE - DELIBERA 27 aprile 2026 Approvazione del rendiconto consuntivo finanziario per l'esercizio 2025. (Delibera n. 3/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A04956/sg"
+    },
+    {
+      "codice": "26A04957",
+      "titolo": "DELIBERA 27 aprile 2026 Approvazione del bilancio di previsione per l'esercizio 2026 e pluriennale 2026-2028. (Delibera n. 4/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A04957/sg"
+    },
+    {
+      "codice": "26A05437",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Lacrilube».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05437/sg"
+    },
+    {
+      "codice": "26A05438",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Carbamazepina Zentiva».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05438/sg"
+    },
+    {
+      "codice": "26A05439",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Paracetamolo Zentiva Italia».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05439/sg"
+    },
+    {
+      "codice": "26A05440",
+      "titolo": "COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Paracetamolo Zentiva Generics».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05440/sg"
+    },
+    {
+      "codice": "26A05441",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di levofloxacina, «Klektica».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05441/sg"
+    },
+    {
+      "codice": "26A05442",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di metilprednisolone sodio succinato, «Lisamethyle».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05442/sg"
+    },
+    {
+      "codice": "26A05501",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Risperdal»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05501/sg"
+    },
+    {
+      "codice": "26A05502",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Elrevolan»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05502/sg"
+    },
+    {
+      "codice": "26A05503",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Tazopenil»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05503/sg"
+    },
+    {
+      "codice": "26A05504",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Buscopan»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05504/sg"
+    },
+    {
+      "codice": "26A05571",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di acido ursodesossicolico, «Proursan».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05571/sg"
+    },
+    {
+      "codice": "26A05533",
+      "titolo": "AUTORITA' DI BACINO DISTRETTUALE DELLE ALPI ORIENTALI - COMUNICATO Aggiornamento del piano di gestione del rischio di alluvioni nel Comune di Santo Stefano di Cadore",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05533/sg"
+    },
+    {
+      "codice": "26A05505",
+      "titolo": "AUTORITA' NAZIONALE ANTICORRUZIONE - COMUNICATO Intestazioni fiduciarie e trust: riconducibilita' alle dichiarazioni patrimoniali all'articolo 14, comma 1, lettera f), del decreto legislativo n. 33/2013.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05505/sg"
+    },
+    {
+      "codice": "26A05511",
+      "titolo": "CAMERA DI COMMERCIO, INDUSTRIA, ARTIGIANATO E AGRICOLTURA DI VENEZIA ROVIGO - COMUNICATO Comunicato concernente i marchi di identificazione dei metalli preziosi",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05511/sg"
+    },
+    {
+      "codice": "26A05507",
+      "titolo": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO Limitazione delle funzioni del titolare dell'Agenzia consolare onoraria in Kelowna (Canada)",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05507/sg"
+    },
+    {
+      "codice": "26A05506",
+      "titolo": "MINISTERO DELLA DIFESA - COMUNICATO Concessione della croce d'oro al merito dell'Arma dei carabinieri",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05506/sg"
+    },
+    {
+      "codice": "26A05572",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - COMUNICATO Comunicato relativo al decreto 7 settembre 2026 - Disposizioni in materia di assicurazione dei rischi catastrofali da applicare al Fondo di sostegno al venture capital.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26A05572/sg"
+    }
+  ],
+  "audio": "audio/2026-10-21.mp3",
+  "duration": 519.2
 }
