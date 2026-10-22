@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-21T20:23:33Z",
+ "aggiornato": "2026-10-22T11:25:57Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-22T11:25:57Z",
+   "nuovi": 1
+  },
   {
    "quando": "2026-10-21T20:23:33Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-14T19:31:05Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-14T18:31:36Z",
-   "nuovi": 6
   }
  ],
  "fonti": [
@@ -157,7 +157,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1589
+   "trovati": 1590
   },
   {
    "id": "comm10",
@@ -169,6 +169,25 @@
  ],
  "voci": [
   {
+   "id": "c-71c7a785fb0c7a",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "UNIRIMA",
+   "tipo": "Memoria",
+   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di: - WWF Italia - Unirima - Consorzio italiano compostatori (CIC) - Autorità nazionale anticorruzione (ANAC) - Riqualta - Consorzio per il riuso e riciclo di qualità nel sistema arredo",
+   "seduta": "Seduta del 22/10/2026",
+   "data": "2026-10-22",
+   "ora": "08:39",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103346.22-10-2026-08-39-09.993.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-22T11:25:57Z"
+  },
+  {
    "id": "c-398940fb9f3d20",
    "fonte": "commissione",
    "organo": "VIII Ambiente",
@@ -178,7 +197,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Memoria intervento PNRR-PNIEC",
    "tipo": "Memoria",
-   "contesto": "Audizione informale, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti della Commissione tecnica PNRR-PNIEC",
+   "contesto": "Audizione informale di rappresentanti della Commissione tecnica PNRR-PNIEC, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "16:52",
@@ -197,7 +216,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "ISPRA",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di: - Federazione nazionale degli ordini dei chimici e dei fisici -Dipartimento della protezione civile - Istituto superiore per la protezione e la ricerca ambientale (ISPRA)",
+   "contesto": "Audizione informale di rappresentanti dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti della Federazione nazionale degli ordini dei chimici e dei fisici, in videoconferenza, di rappresentanti del Dipartimento della protezione civile, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "16:21",
@@ -216,7 +235,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Federazione nazionale degli ordini dei chimici e dei fisici",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di: - Federazione nazionale degli ordini dei chimici e dei fisici -Dipartimento della protezione civile - Istituto superiore per la protezione e la ricerca ambientale (ISPRA)",
+   "contesto": "Audizione informale di rappresentanti dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA), di rappresentanti della Federazione nazionale degli ordini dei chimici e dei fisici, in videoconferenza, di rappresentanti del Dipartimento della protezione civile, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "16:21",
@@ -235,7 +254,7 @@
    "materia": "Economico",
    "titolo": "ANCI",
    "tipo": "Memoria",
-   "contesto": "Audizione informale di rappresentanti dell’Associazione Nazionale Comuni Italiani (ANCI), nell’ambito dell’esame della proposta di legge C. 2410 Andreuzza, recante Istituzione della qualifica di comunità marina o lacuale e disposizioni per il sostegno dell’erogazione dei servizi pubblici nei comuni soggetti a rilevanti variazioni della popolazione conseguenti alla pressione turistica",
+   "contesto": "Audizione informale, in videoconferenza, di rappresentanti dell'Associazione Nazionale Comuni Italiani (ANCI), nell'ambito dell'esame, in sede referente, della proposta di legge C. 2410 Andreuzza, recante «Istituzione della qualifica di comunità marina o lacuale e disposizioni per il sostegno dell'erogazione dei servizi pubblici nei comuni»",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "15:56",
@@ -254,7 +273,7 @@
    "materia": "Economico",
    "titolo": "Carta di Amalfi",
    "tipo": "Memoria",
-   "contesto": "Audizione informale di rappresentanti dell’Associazione Nazionale Comuni Italiani (ANCI), nell’ambito dell’esame della proposta di legge C. 2410 Andreuzza, recante Istituzione della qualifica di comunità marina o lacuale e disposizioni per il sostegno dell’erogazione dei servizi pubblici nei comuni soggetti a rilevanti variazioni della popolazione conseguenti alla pressione turistica",
+   "contesto": "Audizione informale, in videoconferenza, di rappresentanti dell'Associazione Nazionale Comuni Italiani (ANCI), nell'ambito dell'esame, in sede referente, della proposta di legge C. 2410 Andreuzza, recante «Istituzione della qualifica di comunità marina o lacuale e disposizioni per il sostegno dell'erogazione dei servizi pubblici nei comuni»",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "15:56",
@@ -273,7 +292,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "CT PNRR-PNIEC",
    "tipo": "Memoria",
-   "contesto": "Audizione informale, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti della Commissione tecnica PNRR-PNIEC",
+   "contesto": "Audizione informale di rappresentanti della Commissione tecnica PNRR-PNIEC, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "12:58",
@@ -337,7 +356,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "Commissario unico Gen. D. Giuseppe Vadalà",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di: - Commissario unico per la realizzazione degli interventi necessari all’adeguamento alla normativa vigente per le discariche abusive presenti sul territorio nazionale, Gen. D. Giuseppe Vadalà - rappresentanti di Confcooperative - rappresentanti di Erion - rappresentanti di Utilitali",
+   "contesto": "Audizione informale del Commissario unico per la realizzazione degli interventi necessari all'adeguamento alla normativa vigente per le discariche abusive presenti sul territorio nazionale, Gen. D. Giuseppe Vadalà, di rappresentanti di Confcooperative, di rappresentanti di Erion, in videoconferenza, di rappresentanti di Utilitalia, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia ",
    "seduta": "Seduta del 21/10/2026",
    "data": "2026-10-21",
    "ora": "10:32",

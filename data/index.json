@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-22",
+    "giorno": "giovedì",
+    "numero_gu": "246",
+    "stato": "non_disponibile",
+    "schede": 0,
+    "audio": false,
+    "updatedAt": "2026-10-22T11:25:55Z"
+  },
+  {
     "date": "2026-10-21",
     "giorno": "mercoledì",
     "numero_gu": "245",
