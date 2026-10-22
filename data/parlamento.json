@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-22T11:25:57Z",
+ "aggiornato": "2026-10-22T19:08:06Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-22T19:08:06Z",
+   "nuovi": 2
+  },
   {
    "quando": "2026-10-22T11:25:57Z",
    "nuovi": 1
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-14T20:23:09Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-14T19:31:05Z",
-   "nuovi": 0
   }
  ],
  "fonti": [
@@ -157,17 +157,56 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1590
+   "trovati": 1592
   },
   {
    "id": "comm10",
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1652
+   "trovati": 1653
   }
  ],
  "voci": [
+  {
+   "id": "c-16bfd2f53e4606",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Utilitalia",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale del Commissario unico per la realizzazione degli interventi necessari all'adeguamento alla normativa vigente per le discariche abusive presenti sul territorio nazionale, Gen. D. Giuseppe Vadalà, di rappresentanti di Confcooperative, di rappresentanti di Erion, in videoconferenza, di rappresentanti di Utilitalia, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia ",
+   "seduta": "Seduta del 21/10/2026",
+   "data": "2026-10-22",
+   "ora": "16:47",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103339.22-10-2026-16-47-08.236.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-22T19:08:06Z"
+  },
+  {
+   "id": "c-cca74ab54ffd2d",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII",
+    "X"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ECCO Climate",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3148 - S. 2029. - \"Conversione in legge, con modificazioni, del decreto-legge 10 settembre 2026, n. 157, recante disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche\" (approvato dal Senato) (3148)",
+   "seduta": "",
+   "data": "2026-10-22",
+   "ora": "15:22",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.103144.22-10-2026-15-22-36.398.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3148",
+   "visto": "2026-10-22T19:08:06Z"
+  },
   {
    "id": "c-71c7a785fb0c7a",
    "fonte": "commissione",

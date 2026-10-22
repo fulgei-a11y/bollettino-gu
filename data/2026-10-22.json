@@ -1,14 +1,275 @@
 {
   "date": "2026-10-22",
   "giorno": "giovedì",
-  "updatedAt": "2026-10-22T11:25:55Z",
+  "updatedAt": "2026-10-22T19:06:28Z",
   "version": 2,
-  "stato": "non_disponibile",
+  "stato": "con_schede",
   "numero_gu": "246",
+  "verificato": true,
   "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-22&numeroGazzetta=246",
-  "schede": [],
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/22/246/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 22 ottobre 2026 è dominata da due importanti atti normativi: un decreto-legge che introduce misure urgenti per la sicurezza pubblica e il contrasto alla criminalità minorile, con nuove fattispecie di reato e sanzioni, e un decreto legislativo che adegua la normativa nazionale ai regolamenti europei in materia di cybersicurezza, in particolare sui servizi di sicurezza gestiti. Sono presenti anche diversi atti di natura amministrativa, principalmente in ambito agricolo, sanitario e previdenziale.",
+  "schede": [
+    {
+      "codice_atto": "26G00214",
+      "titolo": "Misure urgenti per la sicurezza pubblica e il contrasto alla criminalità minorile",
+      "riferimento": "DECRETO-LEGGE 22 ottobre 2026, n. 190",
+      "categoria": "Giustizia",
+      "iter": "Decreto-legge da convertire in legge.",
+      "contesto": "Il decreto-legge è stato adottato per introdurre disposizioni urgenti volte al potenziamento delle iniziative in materia di sicurezza urbana, tutela dell'ordine e della sicurezza pubblica, gestione delle pubbliche manifestazioni e contrasto alla criminalità minorile.",
+      "misure": [
+        "Art. 1 (Modifiche al codice penale):",
+        "- Art. 98, comma 1: Aggiunto periodo 'Nei casi di cui al primo periodo la capacità di intendere e di volere del minore si presume fino a prova contraria.'.",
+        "- Art. 419: Pena aumentata da un terzo alla metà se il danneggiamento è commesso durante manifestazioni in luogo pubblico o aperto al pubblico su beni in luogo di vendita o deposito.",
+        "- Art. 420: Pena aumentata da un terzo alla metà se la devastazione e saccheggio è commessa durante manifestazioni in luogo pubblico o aperto al pubblico.",
+        "- Art. 420-bis (nuovo): Introduce il reato di 'Violenza organizzata nelle manifestazioni pubbliche' (reclusione da 2 a 5 anni, multa da euro 10.000 a euro 20.000) per chi, in gruppo di almeno cinque persone, utilizza illegittimamente oggetti atti a offendere o lancia oggetti pericolosi, causando pericolo per l'incolumità e danni alle cose. Pene aumentate se commesso da travisati o contro infrastrutture pubbliche. Reclusione da 4 a 12 anni per chi organizza o promuove tali gruppi o incita. Aumento di pena da un terzo alla metà per lesioni personali cagionate.",
+        "- Art. 635.1 (nuovo): Introduce il reato di 'Danneggiamento commesso da un gruppo organizzato' (pena aumentata da un terzo alla metà) se le condotte di danneggiamento sono poste in essere da un gruppo organizzato di almeno cinque persone.",
+        "Art. 2 (Modifiche al codice di procedura penale):",
+        "- Art. 382-bis, comma 1.1: Estende l'applicazione delle disposizioni agli articoli 419, 420, 420-bis, 635.1 del codice penale.",
+        "Art. 3 (Modifiche al decreto del Presidente della Repubblica 22 settembre 1988, n. 448 - processo penale minorile):",
+        "- Art. 9: Sopprime 'l’imputabilità e' dal comma 1; introduce comma 1-bis per acquisire elementi ai fini del giudizio sull'imputabilità del minore; modifica comma 2.",
+        "- Art. 16, comma 1-bis: Applica le disposizioni dell'Art. 382-bis del codice di procedura penale.",
+        "- Art. 19, comma 2: Aggiunto periodo che esclude la sospensione del processo con messa alla prova se l'imputato ha compiuto sedici anni.",
+        "- Art. 23, comma 1: Estende l'applicazione delle disposizioni agli articoli 420-bis e 635.1 del codice penale.",
+        "Art. 4 (Modifiche al regio decreto 30 gennaio 1941, n. 12 - ordinamento giudiziario):",
+        "- Art. 110, comma 2-bis: In caso di eventi incidenti sull'ordine pubblico con rilevante numero di arresti in flagranza, l'applicazione di magistrati per la convalida è disposta entro ventiquattro ore dalla richiesta del dirigente dell'ufficio giudiziario, senza attendere il parere del consiglio giudiziario.",
+        "Art. 5 (Sanzione amministrativa e ingiunzione di pagamento per danni da condotte illecite):",
+        "- Comma 1: Sanzione amministrativa da 500 a 1.000 euro per l'esercente la responsabilità genitoriale se il minore (anche non imputabile) partecipa a fatti costituenti reati specifici (Art. 10, comma 6-quater D.L. 14/2017; Art. 419, 420, 420-bis, 635.1 c.p.), salvo prova di non aver potuto impedire il fatto.",
+        "- Comma 2: Sanzione da 1.000 a 2.000 euro in caso di reiterazione della condotta.",
+        "- Comma 3: Il prefetto può segnalare al tribunale per i minorenni l'opportunità di attivare progetti personalizzati di sostegno alla funzione educativa.",
+        "- Comma 5: Il prefetto può ordinare il pagamento di una somma a titolo di risarcimento dei danni cagionati a beni dello Stato, Regioni o enti locali.",
+        "- Comma 7: Il soggetto privato danneggiato può presentare ricorso per decreto ingiuntivo.",
+        "Art. 6 (Modifiche al decreto legislativo 6 settembre 2011, n. 159 - codice antimafia e misure di prevenzione):",
+        "- Art. 3, comma 5-bis (nuovo): Il questore può disporre l'avviso orale con divieto di radunarsi (per durata non superiore a un anno) per chi, in gruppo di almeno cinque persone, tiene comportamenti intimidatori, di grave molestia o violenti, se già destinatario di provvedimenti specifici o condannato per delitti contro la persona o il patrimonio. Applicabile anche a soggetti minori di diciotto anni che hanno compiuto il quattordicesimo anno di età.",
+        "Art. 7 (Modifica all’articolo 11-bis del decreto-legge 21 marzo 1978, n. 59):",
+        "- Art. 11-bis, comma 3-ter (nuovo): L'accompagnamento e il trattenimento presso gli uffici di polizia può essere effettuato anche nel corso di specifiche operazioni di polizia destinate alla prevenzione di reati che turbino l'ordine e la sicurezza pubblica in luoghi con consistente afflusso di persone, in presenza di fondato motivo di ritenere che i soggetti pongano in essere condotte di concreto pericolo per la sicurezza.",
+        "Art. 8 (Disposizioni urgenti per il potenziamento delle misure di sicurezza connesse ai gravi incidenti occorsi nella città di Milano):",
+        "- Incremento di 500 unità del contingente di personale delle Forze armate a Milano fino al 31 dicembre 2026 per rafforzare il controllo del territorio.",
+        "- Autorizzazione al Ministero della difesa ad acquisire servizi e forniture mediante procedure di somma urgenza.",
+        "- Autorizzazione di spesa di euro 4.933.831 per l'anno 2026.",
+        "Art. 9 (Clausola di invarianza finanziaria): Le amministrazioni provvedono con risorse disponibili, salvo quanto previsto dall'Art. 8."
+      ],
+      "chi_interessato": "Minori e i loro genitori, persone che partecipano a manifestazioni pubbliche, forze dell'ordine, magistratura, prefetti, enti locali, Ministero della Difesa, cittadini della città di Milano.",
+      "decorrenza": "23/10/2026",
+      "perche_conta": "Il decreto introduce un pacchetto di misure significative per rafforzare la sicurezza pubblica e contrastare la criminalità minorile, inasprendo le pene per reati specifici, introducendo nuove fattispecie di reato legate alla violenza organizzata nelle manifestazioni, e prevedendo sanzioni amministrative per i genitori di minori coinvolti in condotte illecite. Inoltre, potenzia le misure di prevenzione e il controllo del territorio, con un focus specifico sulla città di Milano.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg",
+      "vigore": "23/10/2026"
+    },
+    {
+      "codice_atto": "26G00207",
+      "titolo": "Adeguamento normativo sui servizi di sicurezza gestiti in cybersicurezza",
+      "riferimento": "DECRETO LEGISLATIVO 1 ottobre 2026, n. 191",
+      "categoria": "Economico",
+      "iter": "In vigore dal 06/11/2026.",
+      "contesto": "Il decreto legislativo recepisce il regolamento (UE) 2025/37 che modifica il regolamento (UE) 2019/881, adeguando la normativa nazionale in materia di cybersicurezza, con particolare riferimento ai servizi di sicurezza gestiti.",
+      "misure": [
+        "Art. 1 (Modifiche al decreto legislativo 3 agosto 2022, n. 123):",
+        "- Art. 3, comma 1: Introduce la definizione di 'servizio di sicurezza gestito' e adegua le definizioni esistenti per includere tale servizio.",
+        "- Art. 5: Modifica le disposizioni relative alla certificazione, vigilanza e revoca dei certificati, estendendole ai servizi di sicurezza gestiti e aggiornando i riferimenti normativi.",
+        "- Art. 6, comma 1: Modifica i livelli di affidabilità della certificazione ('sostanziale e di base') e il termine 'vigilanza nazionale' con 'certificazione'.",
+        "- Art. 7: Estende gli obblighi di disponibilità della documentazione tecnica e delle informazioni all'Agenzia anche per i fornitori di servizi di sicurezza gestiti.",
+        "- Art. 9, comma 3: Estende le disposizioni ai servizi di sicurezza gestiti.",
+        "- Art. 10: Modifica le disposizioni sulle sanzioni amministrative, estendendole ai servizi di sicurezza gestiti e aggiornando i riferimenti normativi.",
+        "- Art. 13: Modifica i riferimenti per l'incremento della dotazione dei capitoli dell'Agenzia e include i servizi di sicurezza gestiti.",
+        "Art. 2 (Modifiche all’articolo 35 del codice dell’amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82):",
+        "- Art. 35, comma 4: Sostituisce il riferimento allo schema nazionale con 'l’articolo 30 del regolamento eIDAS'.",
+        "- Art. 35, comma 5: Sostituisce il riferimento allo schema nazionale con 'OCSI' e sopprime il secondo e terzo periodo.",
+        "Art. 3 (Modifiche all’articolo 7 del decreto-legge 14 giugno 2021, n. 82):",
+        "- Art. 7, comma 1, lettera e): Modifica le disposizioni relative all'autorizzazione delle strutture specializzate del Ministero della difesa e del Ministero dell'interno quali organismi di valutazione della conformità per i sistemi europei di certificazione della cybersicurezza.",
+        "Art. 4 (Clausola di invarianza finanziaria): Le amministrazioni provvedono con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica."
+      ],
+      "chi_interessato": "Fornitori di prodotti, servizi e processi TIC, fornitori di servizi di sicurezza gestiti, Agenzia per la cybersicurezza nazionale, Ministero della difesa, Ministero dell'interno, soggetti essenziali e fornitori di servizi digitali.",
+      "decorrenza": "06/11/2026",
+      "perche_conta": "Il decreto è fondamentale per l'adeguamento della normativa italiana al quadro europeo di cybersicurezza, estendendo le regole di certificazione e vigilanza anche ai 'servizi di sicurezza gestiti'. Questo rafforza la sicurezza delle tecnologie dell'informazione e della comunicazione e la resilienza cibernetica, con impatti significativi per le imprese del settore e per la protezione delle infrastrutture critiche.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg",
+      "vigore": "06/11/2026"
+    }
+  ],
   "scartate": [],
-  "altri_atti": [],
-  "atti": [],
-  "note": "L'edizione risulta pubblicata ma il suo indice non è ancora consultabile: verrà ricontrollata automaticamente."
+  "altri_atti": [
+    {
+      "codice_atto": "26A05527",
+      "categoria": "Energia e Ambiente",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - DECRETO 11 ottobre 2026 Designazione del sito di importanza comunitaria Costa del Piceno - San Nicola a mare, quale Zona speciale di conservazione (ZSC) ricadente nel territorio della Regione Marche.",
+      "sintesi": "Designa il sito 'Costa del Piceno - San Nicola a mare' nelle Marche come Zona Speciale di Conservazione (ZSC).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05527/sg"
+    },
+    {
+      "codice_atto": "26A05534",
+      "categoria": "Economico",
+      "titolo": "AGENZIA PER LA RAPPRESENTANZA NEGOZIALE DELLE PUBBLICHE AMMINISTRAZIONI - COMUNICATO Contratto collettivo nazionale quadro di ripartizione dei distacchi e permessi tra le associazioni sindacali rappresentative nei comparti e nelle aree di contrattazione nel triennio 2025-2027.",
+      "sintesi": "Comunicato relativo al CCNQ per la ripartizione di distacchi e permessi sindacali nel triennio 2025-2027.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05534/sg"
+    },
+    {
+      "codice_atto": "26A05535",
+      "categoria": "Economico",
+      "titolo": "AGENZIA PER LA RAPPRESENTANZA NEGOZIALE DELLE PUBBLICHE AMMINISTRAZIONI - COMUNICATO Verbale di sottoscrizione successiva del Contratto collettivo nazionale di lavoro del comparto funzioni centrali - triennio 2025-2027.",
+      "sintesi": "Comunicato relativo alla sottoscrizione successiva del CCNL per il comparto Funzioni Centrali per il triennio 2025-2027.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05535/sg"
+    },
+    {
+      "codice_atto": "26A05528",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione delle modifiche al regolamento unitario in materia di previdenza e assistenza adottate con delibera n. 7/25 dall'assemblea dei delegati della Cassa dei dottori commercialisti, in data 10 luglio 2025.",
+      "sintesi": "Approvazione delle modifiche al regolamento di previdenza e assistenza della Cassa dei dottori commercialisti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05528/sg"
+    },
+    {
+      "codice_atto": "26A05529",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 253 adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza forense, in data 22 maggio 2026.",
+      "sintesi": "Approvazione della delibera della Cassa nazionale di previdenza ed assistenza forense.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05529/sg"
+    },
+    {
+      "codice_atto": "26A05530",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 554/2026 adottata dal consiglio di amministrazione dell'Ente di previdenza dei periti industriali e dei periti industriali laureati, in data 12 maggio 2026.",
+      "sintesi": "Approvazione della delibera dell'Ente di previdenza dei periti industriali e dei periti industriali laureati.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05530/sg"
+    },
+    {
+      "codice_atto": "26A05531",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione della delibera n. 29370/26 adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza per gli ingegneri ed architetti liberi professionisti, in data 29 gennaio 2026.",
+      "sintesi": "Approvazione della delibera della Cassa nazionale di previdenza ed assistenza per ingegneri ed architetti liberi professionisti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05531/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00214",
+      "titolo": "DECRETO-LEGGE 22 ottobre 2026, n. 190 Disposizioni urgenti in materia di sicurezza pubblica e contrasto alla criminalita' minorile.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg",
+      "tipo": "DECRETO-LEGGE",
+      "vigore": "23/10/2026"
+    },
+    {
+      "codice": "26G00207",
+      "titolo": "DECRETO LEGISLATIVO 1 ottobre 2026, n. 191 Norme di adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2025/37 del Parlamento europeo e del Consiglio, del 19 dicembre 2024, che modifica il regolamento (UE) 2019/881 per quanto riguarda i servizi di sicurezza gestiti.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "06/11/2026"
+    },
+    {
+      "codice": "26A05524",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 13 ottobre 2026 Conferma dell'incarico al Consorzio di tutela del Peperone di Senise IGP a svolgere le funzioni di cui all'articolo 53 della legge 24 aprile 1998, n. 128, come modificato dall'articolo 14, comma 15, della legge 21 dicembre 1999, n. 526, per la IGP «Peperone di Senise».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05524/sg"
+    },
+    {
+      "codice": "26A05525",
+      "titolo": "DECRETO 13 ottobre 2026 Rinnovo della designazione del laboratorio Eno Tecno Chimica - Laboratorio chimico enologico di Anselmo Paternoster, in Francavilla al Mare, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05525/sg"
+    },
+    {
+      "codice": "26A05526",
+      "titolo": "DECRETO 13 ottobre 2026 Rinnovo della designazione del laboratorio Fondazione Edmund Mach, in San Michele all'Adige, al rilascio dei certificati di analisi nel settore vitivinicolo.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05526/sg"
+    },
+    {
+      "codice": "26A05527",
+      "titolo": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - DECRETO 11 ottobre 2026 Designazione del sito di importanza comunitaria Costa del Piceno - San Nicola a mare, quale Zona speciale di conservazione (ZSC) ricadente nel territorio della Regione Marche.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05527/sg"
+    },
+    {
+      "codice": "26A05532",
+      "titolo": "MINISTERO DELLA SALUTE - DECRETO 17 settembre 2026 Caratteristiche e contenuti delle prescrizioni transfrontaliere - ID Monitor 96.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05532/sg"
+    },
+    {
+      "codice": "26A05512",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' AGENZIA ITALIANA DEL FARMACO - DETERMINA 13 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di aficamten, «Myqorzo». (Determina n. 1390/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05512/sg"
+    },
+    {
+      "codice": "26A05513",
+      "titolo": "DETERMINA 13 ottobre 2026 Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di insulina icodec / semaglutide, «Kyinsu». (Determina n. 1391/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05513/sg"
+    },
+    {
+      "codice": "26A05514",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Dolzan».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05514/sg"
+    },
+    {
+      "codice": "26A05515",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Utrogestan».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05515/sg"
+    },
+    {
+      "codice": "26A05516",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Nurofenkid febbre e dolore».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05516/sg"
+    },
+    {
+      "codice": "26A05517",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Buscopan Compositum».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05517/sg"
+    },
+    {
+      "codice": "26A05518",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Slinda»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05518/sg"
+    },
+    {
+      "codice": "26A05519",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Enterogermina»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05519/sg"
+    },
+    {
+      "codice": "26A05520",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Kyleena»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05520/sg"
+    },
+    {
+      "codice": "26A05521",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Emla»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05521/sg"
+    },
+    {
+      "codice": "26A05522",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Diflucan»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05522/sg"
+    },
+    {
+      "codice": "26A05523",
+      "titolo": "COMUNICATO Autorizzazione all'importazione parallela del medicinale per uso umano «Maalox»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05523/sg"
+    },
+    {
+      "codice": "26A05534",
+      "titolo": "AGENZIA PER LA RAPPRESENTANZA NEGOZIALE DELLE PUBBLICHE AMMINISTRAZIONI - COMUNICATO Contratto collettivo nazionale quadro di ripartizione dei distacchi e permessi tra le associazioni sindacali rappresentative nei comparti e nelle aree di contrattazione nel triennio 2025-2027.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05534/sg"
+    },
+    {
+      "codice": "26A05535",
+      "titolo": "COMUNICATO Verbale di sottoscrizione successiva del Contratto collettivo nazionale di lavoro del comparto funzioni centrali - triennio 2025-2027.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05535/sg"
+    },
+    {
+      "codice": "26A05528",
+      "titolo": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI - COMUNICATO Approvazione delle modifiche al regolamento unitario in materia di previdenza e assistenza adottate con delibera n. 7/25 dall'assemblea dei delegati della Cassa dei dottori commercialisti, in data 10 luglio 2025.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05528/sg"
+    },
+    {
+      "codice": "26A05529",
+      "titolo": "COMUNICATO Approvazione della delibera n. 253 adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza forense, in data 22 maggio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05529/sg"
+    },
+    {
+      "codice": "26A05530",
+      "titolo": "COMUNICATO Approvazione della delibera n. 554/2026 adottata dal consiglio di amministrazione dell'Ente di previdenza dei periti industriali e dei periti industriali laureati, in data 12 maggio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05530/sg"
+    },
+    {
+      "codice": "26A05531",
+      "titolo": "COMUNICATO Approvazione della delibera n. 29370/26 adottata dal consiglio di amministrazione della Cassa nazionale di previdenza ed assistenza per gli ingegneri ed architetti liberi professionisti, in data 29 gennaio 2026.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05531/sg"
+    }
+  ],
+  "audio": "audio/2026-10-22.mp3",
+  "duration": 709.6
 }

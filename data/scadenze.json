@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-22T11:27:42Z",
+  "generato": "2026-10-22T19:09:56Z",
   "oggi": "2026-10-22",
   "decreti_legge": [
     {
@@ -49,6 +49,22 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg",
       "stato": "in_conversione",
       "giorni_mancanti": 54
+    },
+    {
+      "numero": 190,
+      "anno": 2026,
+      "data_dl": "2026-10-22",
+      "riferimento": "Decreto-legge 22 ottobre 2026, n. 190",
+      "titolo": "Misure urgenti per la sicurezza pubblica e il contrasto alla criminalità minorile",
+      "pubblicazione": "2026-10-22",
+      "numero_gu": "246",
+      "vigore": "2026-10-23",
+      "scadenza": "2026-12-21",
+      "categoria": "Giustizia",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg",
+      "stato": "in_conversione",
+      "giorni_mancanti": 60
     },
     {
       "numero": 143,
@@ -261,6 +277,15 @@
       "edizione": "2026-10-20",
       "scheda": 0,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/20/26G00205/sg"
+    },
+    {
+      "data": "2026-11-06",
+      "riferimento": "DECRETO LEGISLATIVO 1 ottobre 2026, n. 191",
+      "titolo": "Adeguamento normativo sui servizi di sicurezza gestiti in cybersicurezza",
+      "categoria": "Economico",
+      "edizione": "2026-10-22",
+      "scheda": 1,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg"
     }
   ]
 }
