@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-23T11:25:44Z",
+ "aggiornato": "2026-10-23T18:31:05Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-23T18:31:05Z",
+   "nuovi": 7
+  },
   {
    "quando": "2026-10-23T11:25:44Z",
    "nuovi": 5
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-15T20:20:51Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-15T19:28:05Z",
-   "nuovi": 0
   }
  ],
  "fonti": [
@@ -157,7 +157,7 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1596
+   "trovati": 1598
   },
   {
    "id": "comm10",
@@ -168,6 +168,109 @@
   }
  ],
  "voci": [
+  {
+   "id": "c-2efc9c92104552",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Federazione carta e grafica",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3133 - \"Conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche\" (3133)",
+   "seduta": "",
+   "data": "2026-10-23",
+   "ora": "16:43",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.102255.23-10-2026-16-43-09.195.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "c-78dd81b699cfe9",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANEV",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3133 - \"Conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche\" (3133)",
+   "seduta": "",
+   "data": "2026-10-23",
+   "ora": "13:54",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Progettodilegge/leg19.com08.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.102255.23-10-2026-13-54-07.318.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "d-OCD18-23646",
+   "fonte": "dossier",
+   "organo": "Studi - Attività produttive",
+   "materia": "Economico",
+   "titolo": "Disegno di legge annuale per il mercato e la concorrenza per il 2026",
+   "tipo": "Schede di lettura",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23646/disegno-legge-annuale-mercato-e-concorrenza-2026.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "d-OCD18-23780",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "",
+   "titolo": "Modifica dell'intesa tra il Governo della Repubblica italiana e l'Unione Buddhista Italiana, in attuazione dell'articolo 8, terzo comma, della Costituzione",
+   "tipo": "",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23780/modifica-intesa-governo-della-repubblica-italiana-e-l-unione-buddhista-italiana-attuazione-articolo-8-terzo-comma-della-costituzione.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "d-OCD18-23781",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "",
+   "titolo": "Modifica all'articolo 36 della legge 6 dicembre 1991, n. 394, in materia di istituzione dell'area marina protetta del Golfo di Capo Zafferano",
+   "tipo": "",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23781/modifica-all-articolo-36-della-legge-6-dicembre-1991-n-394-materia-istituzione-area-marina-protetta-del-golfo-capo-zafferano.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "d-OCD18-23778",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "",
+   "titolo": "Norme per la tutela degli equidi e loro riconoscimento come animali di affezione",
+   "tipo": "",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23778/norme-tutela-degli-equidi-e-loro-riconoscimento-come-animali-affezione-1.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T18:31:05Z"
+  },
+  {
+   "id": "d-OCD18-23782",
+   "fonte": "dossier",
+   "organo": "Bilancio dello Stato",
+   "materia": "",
+   "titolo": "Istituzione del Premio « Dottor Geppino Micheletti »",
+   "tipo": "",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23782/istituzione-del-premio-dottor-geppino-micheletti.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T18:31:05Z"
+  },
   {
    "id": "c-f9cdc72217a4f8",
    "fonte": "commissione",
@@ -798,7 +901,7 @@
    "titolo": "Istituzione del Premio \"Dottor Geppino Micheletti\"",
    "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
    "data": "2026-10-19",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23733/istituzione-del-premio-dottor-geppino-micheletti.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23733/istituzione-del-premio-dottor-geppino-micheletti-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-19T18:32:44Z"
@@ -2284,7 +2387,7 @@
    "titolo": "Modifica all'articolo 36 della legge 6 dicembre 1991, n. 394, in materia di istituzione dell'area marina protetta del golfo di Capo Zafferano",
    "tipo": "Elementi per la valutazione degli aspetti di legittimità costituzionale",
    "data": "2026-10-06",
-   "link": "https://temi.camera.it/leg19/dossier/OCD18-23587/modifica-all-articolo-36-della-legge-6-dicembre-1991-n-394-materia-istituzione-area-marina-protetta-del-golfo-capo-zafferano.html",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23587/modifica-all-articolo-36-della-legge-6-dicembre-1991-n-394-materia-istituzione-area-marina-protetta-del-golfo-capo-zafferano-1.html",
    "atto": "",
    "senato": false,
    "visto": "2026-10-10T14:59:48Z",
