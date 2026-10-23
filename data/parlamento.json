@@ -1,7 +1,11 @@
 {
- "aggiornato": "2026-10-22T20:24:17Z",
+ "aggiornato": "2026-10-23T11:25:44Z",
  "iniziato": "2026-10-10T14:59:48Z",
  "controlli": [
+  {
+   "quando": "2026-10-23T11:25:44Z",
+   "nuovi": 5
+  },
   {
    "quando": "2026-10-22T20:24:17Z",
    "nuovi": 0
@@ -117,10 +121,6 @@
   {
    "quando": "2026-10-15T19:28:05Z",
    "nuovi": 0
-  },
-  {
-   "quando": "2026-10-15T18:29:20Z",
-   "nuovi": 7
   }
  ],
  "fonti": [
@@ -157,17 +157,108 @@
    "nome": "VIII Commissione Ambiente",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
    "ok": true,
-   "trovati": 1592
+   "trovati": 1596
   },
   {
    "id": "comm10",
    "nome": "X Commissione Attività produttive",
    "url": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3510&id_tipografico=10",
    "ok": true,
-   "trovati": 1653
+   "trovati": 1655
   }
  ],
  "voci": [
+  {
+   "id": "c-f9cdc72217a4f8",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII",
+    "X"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Faib-Fegica (Memoria)",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3148 - S. 2029. - \"Conversione in legge, con modificazioni, del decreto-legge 10 settembre 2026, n. 157, recante disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche\" (approvato dal Senato) (3148)",
+   "seduta": "",
+   "data": "2026-10-23",
+   "ora": "12:25",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Progettodilegge/leg19.com10.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.103144.23-10-2026-12-25-03.328.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3148",
+   "visto": "2026-10-23T11:25:44Z"
+  },
+  {
+   "id": "c-150d19dde20672",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII",
+    "X"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "Faib-Fegica (Slide)",
+   "tipo": "Contributo scritto",
+   "contesto": "A.C. 3148 - S. 2029. - \"Conversione in legge, con modificazioni, del decreto-legge 10 settembre 2026, n. 157, recante disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche\" (approvato dal Senato) (3148)",
+   "seduta": "",
+   "data": "2026-10-23",
+   "ora": "12:25",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM10/Progettodilegge/leg19.com10.Progettodilegge.Contributo%20Scritto.PUBBLICO.ideGes.103144.23-10-2026-12-25-03.410.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3148",
+   "visto": "2026-10-23T11:25:44Z"
+  },
+  {
+   "id": "c-f29c30e1aa2b56",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "ANAC",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti del WWF Italia, in videoconferenza, di rappresentanti di Unirima, di rappresentanti dell'Autorità Nazionale Anticorruzione (ANAC), in videoconferenza, e di rappresentanti di Riqualta - Consorzio per il riuso e riciclo di qualità nel sistema arredo, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
+   "seduta": "Seduta del 22/10/2026",
+   "data": "2026-10-23",
+   "ora": "12:03",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103346.23-10-2026-12-03-34.486.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-23T11:25:44Z"
+  },
+  {
+   "id": "c-07a4b2fcf8c11e",
+   "fonte": "commissione",
+   "organo": "VIII Ambiente",
+   "commissioni": [
+    "VIII"
+   ],
+   "materia": "Energia e Ambiente",
+   "titolo": "WWF Italia",
+   "tipo": "Memoria",
+   "contesto": "Audizione informale di rappresentanti del WWF Italia, in videoconferenza, di rappresentanti di Unirima, di rappresentanti dell'Autorità Nazionale Anticorruzione (ANAC), in videoconferenza, e di rappresentanti di Riqualta - Consorzio per il riuso e riciclo di qualità nel sistema arredo, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
+   "seduta": "Seduta del 22/10/2026",
+   "data": "2026-10-23",
+   "ora": "10:38",
+   "link": "https://documenti.camera.it/leg19/documentiAcquisiti/COM08/Audizioni/leg19.com08.Audizioni.Memoria.PUBBLICO.ideGes.103346.23-10-2026-10-38-10.085.pdf",
+   "pagina": "https://www.camera.it/leg19/1347?shadow_organo_parlamentare=3508&id_tipografico=08",
+   "atto": "C. 3133",
+   "visto": "2026-10-23T11:25:44Z"
+  },
+  {
+   "id": "d-OCD18-23697",
+   "fonte": "dossier",
+   "organo": "Studi - Agricoltura",
+   "materia": "",
+   "titolo": "Norme per la tutela degli equidi e loro riconoscimento come animali di affezione",
+   "tipo": "Elementi per l'esame in Assemblea",
+   "data": "2026-10-23",
+   "link": "https://temi.camera.it/leg19/dossier/OCD18-23697/norme-tutela-degli-equidi-e-loro-riconoscimento-come-animali-affezione.html",
+   "atto": "",
+   "senato": false,
+   "visto": "2026-10-23T11:25:44Z"
+  },
   {
    "id": "c-16bfd2f53e4606",
    "fonte": "commissione",
@@ -217,7 +308,7 @@
    "materia": "Energia e Ambiente",
    "titolo": "UNIRIMA",
    "tipo": "Memoria",
-   "contesto": "Audizioni informali, nell’ambito dell’esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l’economia circolare e le bonifiche, di rappresentanti di: - WWF Italia - Unirima - Consorzio italiano compostatori (CIC) - Autorità nazionale anticorruzione (ANAC) - Riqualta - Consorzio per il riuso e riciclo di qualità nel sistema arredo",
+   "contesto": "Audizione informale di rappresentanti del WWF Italia, in videoconferenza, di rappresentanti di Unirima, di rappresentanti dell'Autorità Nazionale Anticorruzione (ANAC), in videoconferenza, e di rappresentanti di Riqualta - Consorzio per il riuso e riciclo di qualità nel sistema arredo, in videoconferenza, nell'ambito dell'esame, in sede referente, del disegno di legge C. 3133, di conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
    "seduta": "Seduta del 22/10/2026",
    "data": "2026-10-22",
    "ora": "08:39",
