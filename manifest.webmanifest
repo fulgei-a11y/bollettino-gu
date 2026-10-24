@@ -3,7 +3,7 @@
   "short_name": "Bollettino GU",
   "description": "Le leggi del giorno dalla Gazzetta Ufficiale, spiegate sul testo ufficiale: schede, scadenze dei decreti-legge e novità dal Parlamento.",
   "lang": "it",
-  "id": "./",
+  "id": "./?app=gu2",
   "start_url": "./?app=1",
   "scope": "./",
   "display": "standalone",
