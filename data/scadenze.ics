@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dl-2026-170-scadenza@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Scade il DL n. 170/2026 (60 giorni)
@@ -19,9 +19,9 @@ DESCRIPTION:Decreto-legge 30 settembre 2026\, n. 170 – Misure urgenti p
  PNRR) di competenza del Ministero dell'istruzione e del merito\, per la 
  promozione dell'integrazione…\nUltimo giorno utile per la conversione 
  in legge (pubblicato in GU il 30 settembre 2026).\nhttps://fulgei-a11y.g
- ithub.io/bollettino-gu/#2026-09-30
+ ithub.io/gu/#2026-09-30
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+URL:https://fulgei-a11y.github.io/gu/#2026-09-30
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Scade il DL n. 170/2026 (60 giorni)
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-177-scadenza@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Scade il DL n. 177/2026 (60 giorni)
@@ -38,9 +38,9 @@ DESCRIPTION:Decreto-legge 8 ottobre 2026\, n. 177 – Disposizioni urgent
  i per il rafforzamento delle istruttorie ambientali\, la gestione dei pr
  oblemi climatici\, l'economia circolare e le bonifiche.\nUltimo giorno u
  tile per la conversione in legge (pubblicato in GU il 8 ottobre 2026).\n
- https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+ https://fulgei-a11y.github.io/gu/#2026-10-08
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+URL:https://fulgei-a11y.github.io/gu/#2026-10-08
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Scade il DL n. 177/2026 (60 giorni)
@@ -49,30 +49,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-177-vigore@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:In vigore il DL n. 177/2026
 DESCRIPTION:Decreto-legge 8 ottobre 2026\, n. 177 – Disposizioni urgent
  i per il rafforzamento delle istruttorie ambientali\, la gestione dei pr
  oblemi climatici\, l'economia circolare e le bonifiche.\nhttps://fulgei-
- a11y.github.io/bollettino-gu/#2026-10-08
+ a11y.github.io/gu/#2026-10-08
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+URL:https://fulgei-a11y.github.io/gu/#2026-10-08
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-185-scadenza@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Scade il DL n. 185/2026 (60 giorni)
 DESCRIPTION:Decreto-legge 16 ottobre 2026\, n. 185 – Misure urgenti a s
  ostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio ind
  ustriale del territorio\nUltimo giorno utile per la conversione in legge
-  (pubblicato in GU il 16 ottobre 2026).\nhttps://fulgei-a11y.github.io/b
- ollettino-gu/#2026-10-16
+  (pubblicato in GU il 16 ottobre 2026).\nhttps://fulgei-a11y.github.io/g
+ u/#2026-10-16
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-16
+URL:https://fulgei-a11y.github.io/gu/#2026-10-16
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Scade il DL n. 185/2026 (60 giorni)
@@ -81,29 +81,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-185-vigore@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:In vigore il DL n. 185/2026
 DESCRIPTION:Decreto-legge 16 ottobre 2026\, n. 185 – Misure urgenti a s
  ostegno dei lavoratori dell'ex ILVA e dell'indotto e per il rilancio ind
- ustriale del territorio\nhttps://fulgei-a11y.github.io/bollettino-gu/#20
- 26-10-16
+ ustriale del territorio\nhttps://fulgei-a11y.github.io/gu/#2026-10-16
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-16
+URL:https://fulgei-a11y.github.io/gu/#2026-10-16
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-190-scadenza@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Scade il DL n. 190/2026 (60 giorni)
 DESCRIPTION:Decreto-legge 22 ottobre 2026\, n. 190 – Misure urgenti per
   la sicurezza pubblica e il contrasto alla criminalità minorile\nUltimo
   giorno utile per la conversione in legge (pubblicato in GU il 22 ottobr
- e 2026).\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+ e 2026).\nhttps://fulgei-a11y.github.io/gu/#2026-10-22
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+URL:https://fulgei-a11y.github.io/gu/#2026-10-22
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Scade il DL n. 190/2026 (60 giorni)
@@ -112,28 +111,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-190-vigore@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:In vigore il DL n. 190/2026
 DESCRIPTION:Decreto-legge 22 ottobre 2026\, n. 190 – Misure urgenti per
   la sicurezza pubblica e il contrasto alla criminalità minorile\nhttps:
- //fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+ //fulgei-a11y.github.io/gu/#2026-10-22
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+URL:https://fulgei-a11y.github.io/gu/#2026-10-22
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-193-scadenza@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Scade il DL n. 193/2026 (60 giorni)
 DESCRIPTION:Decreto-legge 23 ottobre 2026\, n. 193 – Misure urgenti per
   autotrasporto\, agricoltura e pesca e per la sicurezza pubblica\nUltimo
   giorno utile per la conversione in legge (pubblicato in GU il 23 ottobr
- e 2026).\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-23
+ e 2026).\nhttps://fulgei-a11y.github.io/gu/#2026-10-23
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-23
+URL:https://fulgei-a11y.github.io/gu/#2026-10-23
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Scade il DL n. 193/2026 (60 giorni)
@@ -142,26 +141,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dl-2026-193-vigore@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:In vigore il DL n. 193/2026
 DESCRIPTION:Decreto-legge 23 ottobre 2026\, n. 193 – Misure urgenti per
   autotrasporto\, agricoltura e pesca e per la sicurezza pubblica\nhttps:
- //fulgei-a11y.github.io/bollettino-gu/#2026-10-23
+ //fulgei-a11y.github.io/gu/#2026-10-23
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-23
+URL:https://fulgei-a11y.github.io/gu/#2026-10-23
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-23-settembre-2026-n-171@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:In vigore: LEGGE 23 settembre 2026\, n. 171
 DESCRIPTION:Proroga delega per la revisione del Codice della Strada\nhttp
- s://fulgei-a11y.github.io/bollettino-gu/#2026-10-01
+ s://fulgei-a11y.github.io/gu/#2026-10-01
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-01
+URL:https://fulgei-a11y.github.io/gu/#2026-10-01
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 23 settembre 2026\, n. 171
@@ -170,14 +169,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-5-ottobre-2026-n-173@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:In vigore: LEGGE 5 ottobre 2026\, n. 173
 DESCRIPTION:Obbligo di compostabilità per imballaggi monouso e sanzioni\
- nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+ nhttps://fulgei-a11y.github.io/gu/#2026-10-06
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+URL:https://fulgei-a11y.github.io/gu/#2026-10-06
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 5 ottobre 2026\, n. 173
@@ -186,15 +185,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-5-ottobre-2026-n-174@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:In vigore: LEGGE 5 ottobre 2026\, n. 174
 DESCRIPTION:Disposizioni urgenti per la funzionalità della PA\, enti ter
- ritoriali e protezione civile\nhttps://fulgei-a11y.github.io/bollettino-
- gu/#2026-10-06
+ ritoriali e protezione civile\nhttps://fulgei-a11y.github.io/gu/#2026-10
+ -06
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-06
+URL:https://fulgei-a11y.github.io/gu/#2026-10-06
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 5 ottobre 2026\, n. 174
@@ -203,14 +202,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-1-ottobre-2026-n-182@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:In vigore: LEGGE 1 ottobre 2026\, n. 182
 DESCRIPTION:Ratifica Accordo Italia-Albania per cooperazione strategica i
- n vari settori\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-12
+ n vari settori\nhttps://fulgei-a11y.github.io/gu/#2026-10-12
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-12
+URL:https://fulgei-a11y.github.io/gu/#2026-10-12
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 1 ottobre 2026\, n. 182
@@ -219,14 +218,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-29-settembre-2026-n-169@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:In vigore: LEGGE 29 settembre 2026\, n. 169
 DESCRIPTION:Delega al Governo in materia di energia nucleare sostenibile\
- nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+ nhttps://fulgei-a11y.github.io/gu/#2026-09-30
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-09-30
+URL:https://fulgei-a11y.github.io/gu/#2026-09-30
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 29 settembre 2026\, n. 169
@@ -235,15 +234,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-11-settembre-2026-n-172@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:In vigore: DECRETO LEGISLATIVO 11 settembre 2026\, n. 172
 DESCRIPTION:Norme di attuazione dello Statuto della Valle d'Aosta sulle c
- oncessioni di derivazione d'acqua\nhttps://fulgei-a11y.github.io/bollett
- ino-gu/#2026-10-02
+ oncessioni di derivazione d'acqua\nhttps://fulgei-a11y.github.io/gu/#202
+ 6-10-02
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-02
+URL:https://fulgei-a11y.github.io/gu/#2026-10-02
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 11 settembre 2026\, n. 172
@@ -252,15 +251,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-7-ottobre-2026-n-189@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 189
 DESCRIPTION:Recepimento direttiva UE su azioni a voto plurimo e adeguamen
  to regolamento UE su mercati dei capitali\nhttps://fulgei-a11y.github.io
- /bollettino-gu/#2026-10-21
+ /gu/#2026-10-21
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-21
+URL:https://fulgei-a11y.github.io/gu/#2026-10-21
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 189
@@ -269,14 +268,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-25-settembre-2026-n-176@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 176
 DESCRIPTION:Norme comuni per la promozione della riparazione dei beni\nht
- tps://fulgei-a11y.github.io/bollettino-gu/#2026-10-07
+ tps://fulgei-a11y.github.io/gu/#2026-10-07
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-07
+URL:https://fulgei-a11y.github.io/gu/#2026-10-07
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 176
@@ -285,16 +284,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-25-settembre-2026-n-178@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 178
 DESCRIPTION:Adeguamento della normativa nazionale ai regolamenti UE sui c
  ontrolli delle sostanze farmacologicamente attive negli animali e prodot
- ti di origine animale.\nhttps://fulgei-a11y.github.io/bollettino-gu/#202
- 6-10-08
+ ti di origine animale.\nhttps://fulgei-a11y.github.io/gu/#2026-10-08
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+URL:https://fulgei-a11y.github.io/gu/#2026-10-08
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 178
@@ -303,16 +301,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-7-ottobre-2026-n-179@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 179
 DESCRIPTION:Adeguamento della normativa nazionale al regolamento UE sull'
  intelligenza artificiale\, in materia di poteri delle Autorità nazional
  i e di utilizzo dell'intelligenza artificiale nella formazione.\nhttps:/
- /fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+ /fulgei-a11y.github.io/gu/#2026-10-08
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-08
+URL:https://fulgei-a11y.github.io/gu/#2026-10-08
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 7 ottobre 2026\, n. 179
@@ -321,15 +319,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-9-ottobre-2026-n-180@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:In vigore: LEGGE 9 ottobre 2026\, n. 180
 DESCRIPTION:Disposizioni in materia di elezioni della Camera dei deputati
-  e del Senato della Repubblica.\nhttps://fulgei-a11y.github.io/bollettin
- o-gu/#2026-10-09
+  e del Senato della Repubblica.\nhttps://fulgei-a11y.github.io/gu/#2026-
+ 10-09
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-09
+URL:https://fulgei-a11y.github.io/gu/#2026-10-09
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 9 ottobre 2026\, n. 180
@@ -338,17 +336,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-25-settembre-2026-n-181@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 181
 DESCRIPTION:Attuazione della direttiva (UE) 2024/2839 del Parlamento euro
  peo e del Consiglio\, del 23 ottobre 2024\, in materia di comunicazione 
  nei settori degli alimenti e dei loro ingredienti\, dell'emissione acust
- ica ambientale\,…\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-1
- 0-09
+ ica ambientale\,…\nhttps://fulgei-a11y.github.io/gu/#2026-10-09
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-09
+URL:https://fulgei-a11y.github.io/gu/#2026-10-09
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 181
@@ -357,14 +354,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-25-settembre-2026-n-184@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 184
 DESCRIPTION:Recepimento direttive UE per il Punto di Accesso Unico Europe
- o (ESAP)\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-15
+ o (ESAP)\nhttps://fulgei-a11y.github.io/gu/#2026-10-15
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-15
+URL:https://fulgei-a11y.github.io/gu/#2026-10-15
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 184
@@ -373,15 +370,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-25-settembre-2026-n-186@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 186
 DESCRIPTION:Attuazione della direttiva (UE) 2024/1260 riguardante il recu
- pero e la confisca dei beni\nhttps://fulgei-a11y.github.io/bollettino-gu
- /#2026-10-16
+ pero e la confisca dei beni\nhttps://fulgei-a11y.github.io/gu/#2026-10-1
+ 6
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-16
+URL:https://fulgei-a11y.github.io/gu/#2026-10-16
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 25 settembre 2026\, n. 186
@@ -390,14 +387,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-16-ottobre-2026-n-187@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:In vigore: LEGGE 16 ottobre 2026\, n. 187
 DESCRIPTION:Delega al Governo per il riordino della polizia locale\nhttps
- ://fulgei-a11y.github.io/bollettino-gu/#2026-10-19
+ ://fulgei-a11y.github.io/gu/#2026-10-19
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-19
+URL:https://fulgei-a11y.github.io/gu/#2026-10-19
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 16 ottobre 2026\, n. 187
@@ -406,14 +403,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-8-ottobre-2026-n-188@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:In vigore: DECRETO LEGISLATIVO 8 ottobre 2026\, n. 188
 DESCRIPTION:Adeguamento nazionale agli ordini europei su prove elettronic
- he penali\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-20
+ he penali\nhttps://fulgei-a11y.github.io/gu/#2026-10-20
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-20
+URL:https://fulgei-a11y.github.io/gu/#2026-10-20
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 8 ottobre 2026\, n. 188
@@ -422,14 +419,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-1-ottobre-2026-n-191@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:In vigore: DECRETO LEGISLATIVO 1 ottobre 2026\, n. 191
 DESCRIPTION:Adeguamento normativo sui servizi di sicurezza gestiti in cyb
- ersicurezza\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+ ersicurezza\nhttps://fulgei-a11y.github.io/gu/#2026-10-22
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-22
+URL:https://fulgei-a11y.github.io/gu/#2026-10-22
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 1 ottobre 2026\, n. 191
@@ -438,15 +435,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-legge-13-ottobre-2026-n-192@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:In vigore: LEGGE 13 ottobre 2026\, n. 192
 DESCRIPTION:Dichiarazione di monumento nazionale del Palazzo Fortunato in
-  Rionero in Vulture.\nhttps://fulgei-a11y.github.io/bollettino-gu/#2026-
- 10-23
+  Rionero in Vulture.\nhttps://fulgei-a11y.github.io/gu/#2026-10-23
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-23
+URL:https://fulgei-a11y.github.io/gu/#2026-10-23
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: LEGGE 13 ottobre 2026\, n. 192
@@ -455,14 +451,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vigore-decreto-legislativo-8-ottobre-2026-n-194@bollettino-gu
-DTSTAMP:20261024T112407Z
+DTSTAMP:20261024T182806Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:In vigore: DECRETO LEGISLATIVO 8 ottobre 2026\, n. 194
 DESCRIPTION:Protezione da azioni legali strategiche abusive (SLAPP)\nhttp
- s://fulgei-a11y.github.io/bollettino-gu/#2026-10-24
+ s://fulgei-a11y.github.io/gu/#2026-10-24
 TRANSP:TRANSPARENT
-URL:https://fulgei-a11y.github.io/bollettino-gu/#2026-10-24
+URL:https://fulgei-a11y.github.io/gu/#2026-10-24
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:In vigore: DECRETO LEGISLATIVO 8 ottobre 2026\, n. 194
