@@ -35,7 +35,7 @@ KEEP_DAYS = int(os.environ.get("PARL_KEEP_DAYS", "90"))       # quanto tenere le
 BASELINE_DAYS = int(os.environ.get("PARL_BASELINE_DAYS", "30"))  # al primo avvio: voci recenti da mostrare
 MAX_ITEMS = 700
 PAUSE = float(os.environ.get("PARL_PAUSE", "2"))
-UA = ("Mozilla/5.0 (compatible; BollettinoGU/1.0; +https://fulgei-a11y.github.io/bollettino-gu/) "
+UA = ("Mozilla/5.0 (compatible; BollettinoGU/1.0; +https://fulgei-a11y.github.io/gu/) "
       "Python-urllib")
 
 DOSSIER_URL = "https://temi.camera.it/leg19/dossier.html"

@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 ROME = ZoneInfo("Europe/Rome")
 DATA = "data"
 STATE = os.path.join(DATA, "notifiche.json")
-SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/bollettino-gu/").rstrip("/") + "/"
+SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/gu/").rstrip("/") + "/"
 SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 DRY = os.environ.get("NTFY_DRY_RUN") == "1"          # stampa invece di inviare (per le prove)

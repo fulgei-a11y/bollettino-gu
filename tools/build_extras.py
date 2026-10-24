@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 ROME = ZoneInfo("Europe/Rome")
 DATA = "data"
 AUDIO = "audio"
-SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/bollettino-gu/").rstrip("/") + "/"
+SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/gu/").rstrip("/") + "/"
 TODAY = dt.date.fromisoformat(os.environ["TODAY"]) if os.environ.get("TODAY") else dt.datetime.now(ROME).date()
 RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_extras.json")
 
