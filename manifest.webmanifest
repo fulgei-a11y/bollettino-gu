@@ -1,7 +1,7 @@
 {
   "name": "Bollettino GU",
   "short_name": "Bollettino GU",
-  "description": "Le leggi del giorno dalla Gazzetta Ufficiale, spiegate sul testo ufficiale: schede, audio e scadenze dei decreti-legge.",
+  "description": "Le leggi del giorno dalla Gazzetta Ufficiale, spiegate sul testo ufficiale: schede, scadenze dei decreti-legge e novità dal Parlamento.",
   "lang": "it",
   "id": "./",
   "start_url": "./?app=1",

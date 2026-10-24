@@ -419,13 +419,6 @@ def needs_work(date, today):
 
 
 def save(data):
-    old = load(dt.date.fromisoformat(data["date"])) or {}
-    # conserva l'audio se il contenuto non è cambiato
-    if old.get("audio") and old.get("schede") == data.get("schede") and old.get("altri_atti") == data.get("altri_atti"):
-        data["audio"], data["duration"] = old["audio"], old.get("duration")
-    for k in ("audio_scaduto",):
-        if old.get(k) and k not in data:
-            data[k] = old[k]
     with open(os.path.join(DATA_DIR, f"{data['date']}.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -438,7 +431,7 @@ def update_index():
             if d:
                 idx.append({"date": d["date"], "giorno": d.get("giorno", ""), "numero_gu": str(d.get("numero_gu", "")),
                             "stato": d.get("stato", ""), "schede": len(d.get("schede") or []),
-                            "audio": bool(d.get("audio")), "updatedAt": d.get("updatedAt", "")})
+                            "updatedAt": d.get("updatedAt", "")})
     with open(os.path.join(DATA_DIR, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=2)
 

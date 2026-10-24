@@ -104,8 +104,6 @@ def gu_notifications(state, today, baseline):
         n = f"GU n. {d.get('numero_gu')} – " if d.get("numero_gu") else "GU – "
         link = f"{SITE}#{d['date']}"
         actions = []
-        if d.get("audio"):
-            actions.append(("Ascolta", f"{SITE}{d['audio']}"))
         if d.get("pdf_gu"):
             actions.append(("PDF della Gazzetta", d["pdf_gu"]))
         if schede:

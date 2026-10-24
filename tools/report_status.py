@@ -16,10 +16,9 @@ ROME = ZoneInfo("Europe/Rome")
 DATA = "data"
 STEPS = [("SETUP_OUTCOME", "Preparazione (Python e dipendenze)"),
          ("GEN_OUTCOME", "Analisi della Gazzetta"),
-         ("AUDIO_OUTCOME", "Lettura audio"),
          ("PARL_OUTCOME", "Novità dal Parlamento"),
          ("EXTRAS_OUTCOME", "Archivio, ricerca e scadenzario")]
-REPORTS = ["run_report_generate.json", "run_report_audio.json", "run_report_parlamento.json",
+REPORTS = ["run_report_generate.json", "run_report_parlamento.json",
            "run_report_extras.json"]
 FIXED_HOLIDAYS = {(1, 1), (1, 6), (4, 25), (5, 1), (6, 2), (8, 15), (11, 1), (12, 8), (12, 25), (12, 26)}
 
@@ -82,7 +81,6 @@ def main():
         "avvisi": warnings,
         "ultimaEdizione": next((e["date"] for e in index if e.get("stato") not in ("non_disponibile",)), ""),
         "elaborate": gen.get("elaborate", []),
-        "audioMB": reports.get("run_report_extras.json", {}).get("audio_mb"),
         "esecuzione": (f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/"
                        f"{os.environ['GITHUB_RUN_ID']}") if os.environ.get("GITHUB_RUN_ID") else "",
     }

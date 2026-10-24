@@ -1,5 +1,5 @@
 /* Bollettino GU — service worker: il sito si apre anche senza rete con l'ultima versione vista. */
-const VERSION = 'bgu-v4';
+const VERSION = 'bgu-v6';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
 
@@ -39,7 +39,7 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  // l'audio va sempre in rete (richieste a intervalli, file grandi)
+  // file grandi o richieste a intervalli: sempre dalla rete
   if (url.pathname.endsWith('.mp3') || req.headers.has('range')) return;
   if (url.origin === location.origin) {
     if (url.pathname.includes('/icons/')) { e.respondWith(staleWhileRevalidate(req)); return; }

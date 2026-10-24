@@ -1,14 +1,12 @@
 """
 Prepara i file "di servizio" del sito, a partire dalle edizioni salvate in data/:
 
-1. Audio: tiene online solo gli MP3 degli ultimi AUDIO_DAYS giorni (default 10), per restare
-   nei limiti di spazio di GitHub Pages. Le schede restano tutte: sparisce solo la lettura audio.
+1. Pulizia: cancella gli audio rimasti (la lettura audio è stata tolta)
 2. data/index.json      elenco delle edizioni (per il menu del sito)
 3. data/search.json     indice compatto per la ricerca nell'archivio
 4. data/scadenze.json   scadenzario: decreti-legge (entrata in vigore e 60 giorni per la conversione)
                         ed entrate in vigore di leggi e decreti legislativi
 5. data/scadenze.ics    lo stesso scadenzario come calendario a cui iscriversi
-6. data/podcast.xml     feed podcast con le letture audio (Apple Podcasts, Pocket Casts, ecc.)
 
 Usa solo la libreria standard: si può lanciare anche in locale con  python tools/build_extras.py
 """
@@ -23,7 +21,6 @@ from zoneinfo import ZoneInfo
 ROME = ZoneInfo("Europe/Rome")
 DATA = "data"
 AUDIO = "audio"
-AUDIO_DAYS = int(os.environ.get("AUDIO_DAYS", "10"))
 SITE = os.environ.get("SITE_URL", "https://fulgei-a11y.github.io/bollettino-gu/").rstrip("/") + "/"
 TODAY = dt.date.fromisoformat(os.environ["TODAY"]) if os.environ.get("TODAY") else dt.datetime.now(ROME).date()
 RUN_REPORT = os.environ.get("RUN_REPORT", "run_report_extras.json")
@@ -80,32 +77,26 @@ def write_json(name, obj, compact=False):
 
 
 # ---------------------------------------------------------------------------
-# 1. Audio degli ultimi AUDIO_DAYS giorni
+# 1. Pulizia: la lettura audio è stata tolta; si cancellano gli ultimi MP3 e i riferimenti
 # ---------------------------------------------------------------------------
-def prune_audio(eds):
-    cutoff = TODAY - dt.timedelta(days=AUDIO_DAYS)
-    removed, freed = [], 0
+def remove_audio(eds):
+    removed = 0
     if os.path.isdir(AUDIO):
         for name in os.listdir(AUDIO):
-            m = re.match(r"(\d{4}-\d{2}-\d{2})\.(mp3|json)$", name)
-            if m and dt.date.fromisoformat(m[1]) < cutoff:
-                p = os.path.join(AUDIO, name)
-                freed += os.path.getsize(p)
-                os.remove(p)
-                if name.endswith(".mp3"):
-                    removed.append(m[1])
+            os.remove(os.path.join(AUDIO, name))
+            removed += 1
+        os.rmdir(AUDIO)
     for d in eds:
-        if d.get("audio") and dt.date.fromisoformat(d["date"]) < cutoff:
-            d.pop("audio", None)
-            d.pop("duration", None)
-            d["audio_scaduto"] = True
+        if any(k in d for k in ("audio", "duration", "audio_scaduto")):
+            for k in ("audio", "duration", "audio_scaduto"):
+                d.pop(k, None)
             write_json(f"{d['date']}.json", d)
+    for old in ("podcast.xml",):
+        p = os.path.join(DATA, old)
+        if os.path.exists(p):
+            os.remove(p)
     if removed:
-        print(f"🧹 Audio tolti (più vecchi di {AUDIO_DAYS} giorni): {', '.join(sorted(removed))} — "
-              f"{freed / 1048576:.1f} MB liberati.")
-    total = sum(os.path.getsize(os.path.join(AUDIO, n)) for n in os.listdir(AUDIO)) if os.path.isdir(AUDIO) else 0
-    print(f"🎧 Audio online: {total / 1048576:.1f} MB.")
-    return removed, total
+        print(f"🧹 Audio cancellati: {removed} file.")
 
 
 # ---------------------------------------------------------------------------
@@ -114,7 +105,7 @@ def prune_audio(eds):
 def build_index(eds):
     idx = [{"date": d["date"], "giorno": d.get("giorno", ""), "numero_gu": str(d.get("numero_gu", "")),
             "stato": d.get("stato", ""), "schede": len(d.get("schede") or []),
-            "audio": bool(d.get("audio")), "updatedAt": d.get("updatedAt", "")} for d in eds]
+            "updatedAt": d.get("updatedAt", "")} for d in eds]
     write_json("index.json", idx)
     return idx
 
@@ -355,73 +346,15 @@ def build_ics(sc):
         f.write("\r\n".join(ics_fold(x) for x in lines) + "\r\n")
 
 
-# ---------------------------------------------------------------------------
-# 6. Feed podcast
-# ---------------------------------------------------------------------------
-def build_podcast(eds):
-    items = []
-    for d in eds:
-        if not d.get("audio") or not os.path.exists(d["audio"]):
-            continue
-        day = dt.date.fromisoformat(d["date"])
-        pub = dt.datetime(day.year, day.month, day.day, 21, 0, tzinfo=ROME)
-        titles = [s.get("titolo", "") for s in d.get("schede") or []]
-        desc = d.get("sintesi") or "Nessuna legge di interesse per le materie seguite in questa edizione."
-        if titles:
-            desc += "\n\nSchede:\n" + "\n".join(f"• {t}" for t in titles)
-        desc += f"\n\nLeggi le schede: {SITE}#{d['date']}"
-        n = f"n. {d['numero_gu']} – " if d.get("numero_gu") else ""
-        dur = int(d.get("duration") or 0)
-        items.append(f"""    <item>
-      <title>{escape(f"GU {n}{d.get('giorno', '').capitalize()} {fmt_it(day)}")}</title>
-      <description>{escape(desc)}</description>
-      <itunes:summary>{escape(desc)}</itunes:summary>
-      <link>{SITE}#{d['date']}</link>
-      <guid isPermaLink="false">bollettino-gu-{d['date']}</guid>
-      <pubDate>{format_datetime(pub)}</pubDate>
-      <enclosure url="{SITE}{d['audio']}" length="{os.path.getsize(d['audio'])}" type="audio/mpeg"/>
-      <itunes:duration>{dur // 3600:02d}:{dur % 3600 // 60:02d}:{dur % 60:02d}</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>""")
-    feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
-  <channel>
-    <title>Bollettino GU</title>
-    <link>{SITE}</link>
-    <atom:link href="{SITE}data/podcast.xml" rel="self" type="application/rss+xml"/>
-    <language>it-it</language>
-    <description>La Gazzetta Ufficiale (Serie Generale) letta ogni giorno: leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente. Sono disponibili le edizioni degli ultimi {AUDIO_DAYS} giorni.</description>
-    <itunes:author>Bollettino GU</itunes:author>
-    <itunes:summary>La Gazzetta Ufficiale (Serie Generale) letta ogni giorno: leggi, decreti-legge e decreti legislativi in materia economica, di giustizia, energia e ambiente.</itunes:summary>
-    <itunes:image href="{SITE}icons/podcast-1400.png"/>
-    <image><url>{SITE}icons/podcast-1400.png</url><title>Bollettino GU</title><link>{SITE}</link></image>
-    <itunes:category text="Government"/>
-    <itunes:category text="News"><itunes:category text="Politics"/></itunes:category>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
-    <!-- non elencato nelle directory (Apple Podcasts, Google ecc.): resta ascoltabile con l'indirizzo -->
-    <itunes:block>Yes</itunes:block>
-    <googleplay:block>yes</googleplay:block>
-{chr(10).join(items)}
-  </channel>
-</rss>
-"""
-    with open(os.path.join(DATA, "podcast.xml"), "w", encoding="utf-8") as f:
-        f.write(feed)
-    print(f"🎙️ Feed podcast: {len(items)} puntate.")
-
-
 def main():
     eds = load_editions()
-    removed, total = prune_audio(eds)
-    eds = load_editions()
+    remove_audio(eds)
     build_index(eds)
     build_search(eds)
     sc = build_deadlines(eds)
     build_ics(sc)
-    build_podcast(eds)
     with open(RUN_REPORT, "w", encoding="utf-8") as f:
-        json.dump({"audio_tolti": removed, "audio_mb": round(total / 1048576, 1), "errori": []}, f, ensure_ascii=False)
+        json.dump({"errori": []}, f, ensure_ascii=False)
 
 
 if __name__ == "__main__":
