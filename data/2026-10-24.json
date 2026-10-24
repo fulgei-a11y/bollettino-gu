@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-24",
+  "giorno": "sabato",
+  "updatedAt": "2026-10-24T11:20:04Z",
+  "version": 2,
+  "stato": "con_schede",
+  "numero_gu": "248",
+  "verificato": true,
+  "link_gu": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-24&numeroGazzetta=248",
+  "pdf_gu": "https://www.gazzettaufficiale.it/eli/gu/2026/10/24/248/sg/pdf",
+  "sintesi": "L'edizione della Gazzetta Ufficiale del 24 ottobre 2026 si concentra principalmente sull'introduzione di nuove tutele legali. Il Decreto Legislativo n. 194 del 2026 recepisce una direttiva europea per contrastare le azioni legali strategiche abusive (SLAPP), rafforzando la protezione della partecipazione pubblica. Sono presenti anche atti di natura finanziaria e amministrativa, tra cui l'emissione di nuovi BTP e provvedimenti di liquidazione coatta amministrativa.",
+  "schede": [
+    {
+      "codice_atto": "26G00210",
+      "titolo": "Protezione da azioni legali strategiche abusive (SLAPP)",
+      "riferimento": "DECRETO LEGISLATIVO 8 ottobre 2026, n. 194",
+      "categoria": "Giustizia",
+      "iter": "In vigore dall'8 novembre 2026",
+      "contesto": "Attuazione della direttiva (UE) 2024/1069 del Parlamento europeo e del Consiglio, dell'11 aprile 2024, sulla protezione delle persone attive nella partecipazione pubblica da domande manifestamente infondate o procedimenti giudiziari abusivi («azioni legali strategiche tese a bloccare la partecipazione pubblica»).",
+      "misure": [
+        "Art. 1: Stabilisce garanzie e rimedi a tutela delle persone, fisiche e giuridiche, contro domande manifestamente infondate e procedimenti giudiziari abusivi in materia civile con implicazioni transfrontaliere, introdotti nei loro confronti in ragione della loro partecipazione pubblica e tese a bloccare tale partecipazione.",
+        "Art. 2: Definisce 'partecipazione pubblica' (dichiarazioni o attività su questioni di interesse pubblico), 'questione di interesse pubblico' (es. diritti fondamentali, salute, sicurezza, ambiente, clima, attività di figure di rilievo pubblico, accuse di corruzione/frode/illecito) e 'procedimenti giudiziari abusivi' (domande infondate con finalità principale di prevenire, restringere o penalizzare la partecipazione pubblica). Indica indici di abusività come la sproporzione della domanda, la pluralità di procedimenti, condotte di intimidazione/molestia/minaccia e l'uso in mala fede di tattiche processuali.",
+        "Art. 3: Si applica alle questioni in materia civile e commerciale con implicazioni transfrontaliere (se attore e convenuto non sono domiciliati in Italia). Non si applica alla materia penale, fiscale, doganale, amministrativa, responsabilità dello Stato, arbitrato o azione civile nel processo penale.",
+        "Art. 4: La modifica o il ritiro della domanda non precludono al convenuto la facoltà di proporre domande per il rimborso delle spese e il risarcimento del danno.",
+        "Art. 5: Consente l'intervento di associazioni, sindacati e altri enti collettivi a sostegno del convenuto, previa prestazione del consenso da parte di quest'ultimo.",
+        "Art. 6: Introduce l'istanza di rigetto anticipato per domande manifestamente infondate, da depositare entro i termini di costituzione o entro trenta giorni dalla notificazione della domanda riconvenzionale.",
+        "Art. 7: Prevede la trattazione dell'istanza di rigetto anticipato con memoria difensiva entro trenta giorni e udienza di discussione entro i successivi trenta giorni.",
+        "Art. 9: Nei procedimenti cautelari, l'istanza di rigetto anticipato si propone nella prima difesa ed è decisa con l'ordinanza che definisce il procedimento.",
+        "Art. 10: Il giudice può imporre alla controparte una cauzione a copertura delle spese e dell'eventuale condanna ai sensi dell'articolo 96 del codice di procedura civile.",
+        "Art. 11: In caso di impugnazione della sentenza sul rigetto anticipato, il giudice può sospendere il procedimento principale per le domande ritenute dipendenti dalla definizione del procedimento incidentale.",
+        "Art. 13: La condanna alle spese è disciplinata dal codice di procedura civile. In caso di accertamento del carattere abusivo del procedimento, il giudice condanna la parte soccombente al risarcimento del danno (Art. 96, comma 3 c.p.c.) e può ordinare la pubblicazione della sentenza.",
+        "Art. 14: Prevede un'azione risarcitoria in Italia per danni patrimoniali e non patrimoniali subiti da persone residenti/domiciliate/con sede nello Stato, a seguito di procedimenti giudiziari abusivi avviati da soggetti domiciliati fuori dall'Unione europea e dinanzi a giurisdizioni di paesi terzi.",
+        "Art. 16: Il Ministero della giustizia pubblica biennalmente le sentenze definitive e trasmette annualmente alla Commissione europea dati aggregati sui procedimenti.",
+        "Art. 17: Le disposizioni si applicano ai procedimenti instaurati successivamente alla data di entrata in vigore del decreto.",
+        "Art. 18: Clausola di invarianza finanziaria."
+      ],
+      "chi_interessato": "Persone fisiche e giuridiche attive nella partecipazione pubblica, associazioni, sindacati e enti collettivi che tutelano tali diritti, avvocati, giudici, Ministero della Giustizia.",
+      "decorrenza": "8 novembre 2026",
+      "perche_conta": "Questo decreto introduce un quadro normativo specifico per contrastare le SLAPP (Strategic Lawsuits Against Public Participation), rafforzando la tutela della libertà di espressione e informazione. Garantisce rimedi processuali e risarcitori contro azioni legali abusive, con particolare attenzione alle implicazioni transfrontaliere e ai procedimenti avviati da paesi terzi, promuovendo un ambiente più sicuro per la partecipazione civica.",
+      "fonte_testo": "testo integrale",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26G00210/sg",
+      "vigore": "08/11/2026"
+    }
+  ],
+  "scartate": [
+    {
+      "codice_atto": "26A05602",
+      "materia": "Protezione Civile",
+      "titolo": "Proroga dello stato di emergenza in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 10 al 13 settembre 2025 nel territorio della Provincia di Como e dal 22 al 27 settembre 2025 nel territorio della Provincia di Como e del Comune di Barlassina, di Bovisio Masciago, di Cesano Maderno, di Giussano, di Lentate sul Seveso, di Limbiate, di Meda, di Seveso e di Varedo della Provincia di Monza e della Brianza.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05602/sg"
+    }
+  ],
+  "altri_atti": [
+    {
+      "codice_atto": "26A05576",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 16 ottobre 2026 Emissione dei buoni del Tesoro poliennali «Insieme» («BTP Valore Insieme») con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031, nona emissione BTP Valore.",
+      "sintesi": "Decreto che dispone l'emissione della nona serie di BTP Valore, denominati 'Insieme', con godimento dal 27 ottobre 2026 e scadenza al 27 ottobre 2031.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05576/sg"
+    },
+    {
+      "codice_atto": "26A05577",
+      "categoria": "Economico",
+      "titolo": "DECRETO 16 ottobre 2026 Ottava emissione dei buoni del Tesoro poliennali «Valore» con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031.",
+      "sintesi": "Decreto che dispone l'emissione dell'ottava serie di BTP Valore, con godimento dal 27 ottobre 2026 e scadenza al 27 ottobre 2031.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05577/sg"
+    },
+    {
+      "codice_atto": "26A05578",
+      "categoria": "Economico",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 15 ottobre 2026 Assoggettamento alla liquidazione coatta amministrativa della «C.R.F. S.r.l. in liquidazione», in Torino e nomina del commissario liquidatore.",
+      "sintesi": "Decreto che dispone la liquidazione coatta amministrativa della società 'C.R.F. S.r.l. in liquidazione' di Torino e nomina il relativo commissario.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05578/sg"
+    },
+    {
+      "codice_atto": "26A05579",
+      "categoria": "Economico",
+      "titolo": "DECRETO 15 ottobre 2026 Sostituzione del commissario straordinario della Fondazione Santa Lucia IRCCS, in amministrazione straordinaria.",
+      "sintesi": "Decreto che provvede alla sostituzione del commissario straordinario della Fondazione Santa Lucia IRCCS, attualmente in amministrazione straordinaria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05579/sg"
+    },
+    {
+      "codice_atto": "26A05580",
+      "categoria": "Economico",
+      "titolo": "COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 4 agosto 2026 Parere sullo schema di decreto del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze, di programmazione e ripartizione delle risorse del «Fondo per le infrastrutture portuali», di cui all'articolo 4, comma 6, del decreto-legge n. 40 del 2010. (Delibera n. 28/2026).",
+      "sintesi": "Delibera del CIPE che esprime parere sullo schema di decreto per la programmazione e ripartizione delle risorse del 'Fondo per le infrastrutture portuali'.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05580/sg"
+    },
+    {
+      "codice_atto": "26A05582",
+      "categoria": "Economico",
+      "titolo": "ISTITUTO NAZIONALE DI STATISTICA - COMUNICATO Indici dei prezzi al consumo per le famiglie di operai e impiegati, relativi al mese di settembre 2026, che si pubblicano ai sensi dell'articolo 81 della legge 27 luglio 1978, n. 392 (Disciplina delle locazioni di immobili urbani), ed ai sensi dell'articolo 54 della legge del 27 dicembre 1997, n. 449 (Misure per la stabilizzazione della finanza pubblica).",
+      "sintesi": "Comunicato ISTAT che pubblica gli indici dei prezzi al consumo per le famiglie di operai e impiegati relativi a settembre 2026, rilevanti per adeguamenti monetari.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05582/sg"
+    }
+  ],
+  "atti": [
+    {
+      "codice": "26G00210",
+      "titolo": "DECRETO LEGISLATIVO 8 ottobre 2026, n. 194 Attuazione della direttiva (UE) 2024/1069 del Parlamento europeo e del Consiglio, dell'11 aprile 2024, sulla protezione delle persone attive nella partecipazione pubblica da domande manifestamente infondate o procedimenti giudiziari abusivi («azioni legali strategiche tese a bloccare la partecipazione pubblica»).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26G00210/sg",
+      "tipo": "DECRETO LEGISLATIVO",
+      "vigore": "08/11/2026"
+    },
+    {
+      "codice": "26A05602",
+      "titolo": "DECRETI PRESIDENZIALI - DELIBERA DEL CONSIGLIO DEI MINISTRI 13 ottobre 2026 Proroga dello stato di emergenza in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 10 al 13 settembre 2025 nel territorio della Provincia di Como e dal 22 al 27 settembre 2025 nel territorio della Provincia di Como e del Comune di Barlassina, di Bovisio Masciago, di Cesano Maderno, di Giussano, di Lentate sul Seveso, di Limbiate, di Meda, di Seveso e di Varedo della Provincia di Monza e della Brianza.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05602/sg"
+    },
+    {
+      "codice": "26A05576",
+      "titolo": "DECRETI, DELIBERE E ORDINANZE MINISTERIALI MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 16 ottobre 2026 Emissione dei buoni del Tesoro poliennali «Insieme» («BTP Valore Insieme») con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031, nona emissione BTP Valore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05576/sg"
+    },
+    {
+      "codice": "26A05577",
+      "titolo": "DECRETO 16 ottobre 2026 Ottava emissione dei buoni del Tesoro poliennali «Valore» con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05577/sg"
+    },
+    {
+      "codice": "26A05578",
+      "titolo": "MINISTERO DELLE IMPRESE E DEL MADE IN ITALY - DECRETO 15 ottobre 2026 Assoggettamento alla liquidazione coatta amministrativa della «C.R.F. S.r.l. in liquidazione», in Torino e nomina del commissario liquidatore.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05578/sg"
+    },
+    {
+      "codice": "26A05579",
+      "titolo": "DECRETO 15 ottobre 2026 Sostituzione del commissario straordinario della Fondazione Santa Lucia IRCCS, in amministrazione straordinaria.",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05579/sg"
+    },
+    {
+      "codice": "26A05580",
+      "titolo": "DECRETI E DELIBERE DI ALTRE AUTORITA' COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 4 agosto 2026 Parere sullo schema di decreto del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze, di programmazione e ripartizione delle risorse del «Fondo per le infrastrutture portuali», di cui all'articolo 4, comma 6, del decreto-legge n. 40 del 2010. (Delibera n. 28/2026).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05580/sg"
+    },
+    {
+      "codice": "26A05554",
+      "titolo": "ESTRATTI, SUNTI E COMUNICATI AGENZIA ITALIANA DEL FARMACO - COMUNICATO Revoca, su rinuncia, dell'autorizzazione all'importazione parallela di taluni medicinali per uso umano",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05554/sg"
+    },
+    {
+      "codice": "26A05555",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di liraglutide, «Liraglutide Medical Valley».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05555/sg"
+    },
+    {
+      "codice": "26A05556",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di liraglutide, «Glanux»",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05556/sg"
+    },
+    {
+      "codice": "26A05557",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di glicopirronio bromuro, indacaterolo maleato, «Dilabro».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05557/sg"
+    },
+    {
+      "codice": "26A05558",
+      "titolo": "COMUNICATO Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di vancomicina, «Vancomicina Noridem».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05558/sg"
+    },
+    {
+      "codice": "26A05559",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di terbinafina, «Terbinafina Mylan Generics».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05559/sg"
+    },
+    {
+      "codice": "26A05560",
+      "titolo": "COMUNICATO Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di sertralina, «Sertralina KRKA».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05560/sg"
+    },
+    {
+      "codice": "26A05581",
+      "titolo": "COMUNICATO Decadenza, per mancato rinnovo, dell'autorizzazione all'importazione parallela del medicinale per uso umano «Prazene».",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05581/sg"
+    },
+    {
+      "codice": "26A05582",
+      "titolo": "ISTITUTO NAZIONALE DI STATISTICA - COMUNICATO Indici dei prezzi al consumo per le famiglie di operai e impiegati, relativi al mese di settembre 2026, che si pubblicano ai sensi dell'articolo 81 della legge 27 luglio 1978, n. 392 (Disciplina delle locazioni di immobili urbani), ed ai sensi dell'articolo 54 della legge del 27 dicembre 1997, n. 449 (Misure per la stabilizzazione della finanza pubblica).",
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05582/sg"
+    }
+  ]
+}

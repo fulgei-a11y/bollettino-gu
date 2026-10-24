@@ -1,5 +1,5 @@
 {
-  "generato": "2026-10-24T07:36:55Z",
+  "generato": "2026-10-24T11:24:07Z",
   "oggi": "2026-10-24",
   "decreti_legge": [
     {
@@ -65,6 +65,22 @@
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg",
       "stato": "in_conversione",
       "giorni_mancanti": 58
+    },
+    {
+      "numero": 193,
+      "anno": 2026,
+      "data_dl": "2026-10-23",
+      "riferimento": "Decreto-legge 23 ottobre 2026, n. 193",
+      "titolo": "Misure urgenti per autotrasporto, agricoltura e pesca e per la sicurezza pubblica",
+      "pubblicazione": "2026-10-23",
+      "numero_gu": "247",
+      "vigore": "2026-10-24",
+      "scadenza": "2026-12-22",
+      "categoria": "Economico",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg",
+      "stato": "in_conversione",
+      "giorni_mancanti": 59
     },
     {
       "numero": 143,
@@ -286,6 +302,24 @@
       "edizione": "2026-10-22",
       "scheda": 1,
       "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg"
+    },
+    {
+      "data": "2026-11-07",
+      "riferimento": "LEGGE 13 ottobre 2026, n. 192",
+      "titolo": "Dichiarazione di monumento nazionale del Palazzo Fortunato in Rionero in Vulture.",
+      "categoria": "",
+      "edizione": "2026-10-23",
+      "scheda": null,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00209/sg"
+    },
+    {
+      "data": "2026-11-08",
+      "riferimento": "DECRETO LEGISLATIVO 8 ottobre 2026, n. 194",
+      "titolo": "Protezione da azioni legali strategiche abusive (SLAPP)",
+      "categoria": "Giustizia",
+      "edizione": "2026-10-24",
+      "scheda": 0,
+      "link": "https://www.gazzettaufficiale.it/eli/id/2026/10/24/26G00210/sg"
     }
   ]
 }
